@@ -3,14 +3,12 @@ arquivos do chat disponíveis
 
 ## Slots de equipamento
 
-Versão atual para teste: [Slots_separados_v5.zip](Slots_separados_v5.zip). Ajusta as três cópias de textura encontradas no L2UI_CH3.u original: Inventory_EquipSlot, MileniumEquipSlot e o fundo com slots incorporados InventoryEquipBg. Não altera posições dos itens nem o interface.u.
+Versão atual para teste: [Slots_separados_v6.zip](Slots_separados_v6.zip). Corrige a faixa dos slots em Inventory_BG_Bot, a imagem completa referenciada no fundo da janela do inventário. Essa imagem ainda continha os slots antigos e não tinha sido alterada nas versões anteriores.
 
-Use os dois arquivos de system do ZIP após fazer backup. Consulte [as instruções da V5](Slots_separados_v5_INSTALAR.txt). O XDAT volta à referência do pacote original e dispensa os arquivos SlotFix. As versões anteriores não produziram o resultado esperado no cliente. A V5 ainda precisa de teste no jogo.
+O pacote enviado após o teste foi comparado byte a byte e era idêntico à V5; o XDAT de diagnóstico também permaneceu instalado. A V6 muda apenas uma faixa de 150 × 36 pixels da imagem Inventory_BG_Bot, mantendo os demais bytes do pacote iguais à V5. O XDAT incluído desfaz o teste da lixeira. As posições dos itens permanecem iguais.
 
-Prévia da textura recomposta sobre um fundo opaco para conferência visual (não é uma captura do jogo):
+Consulte [as instruções da V6](Slots_separados_v6_INSTALAR.txt). Ainda é necessária a confirmação no jogo.
 
-![Prévia dos slots separados](Slots_separados_v5_previa.png)
+Prévia extraída da textura modificada no pacote (não é captura do jogo):
 
-### Diagnóstico após o teste da V5
-
-A cópia de L2UI_CH3.u enviada após o teste é idêntica à V5, mas o jogo ainda exibe os desenhos antigos. A origem da textura exibida ainda não foi confirmada. [Teste_XDAT_fundo.zip](Teste_XDAT_fundo.zip) troca temporariamente apenas a referência do fundo pela textura da lixeira. Leia [as instruções de teste e restauração](Teste_XDAT_fundo_LEIA-ME.txt). Não é uma nova correção dos slots.
+![Prévia da textura Inventory_BG_Bot corrigida](Slots_separados_v6_previa.png)

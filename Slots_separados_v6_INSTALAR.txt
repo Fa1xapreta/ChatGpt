@@ -1,0 +1,19 @@
+V6 - CORRECAO DA TEXTURA PRINCIPAL INVENTORY_BG_BOT
+
+Diagnostico: o L2UI_CH3.u instalado enviado pelo usuario era identico a V5; o XDAT de teste tambem estava instalado. A textura Inventory_BG_Bot, referenciada pelo fundo da janela InventoryWnd, ainda continha os slots antigos incorporados a imagem inteira. Essa textura nao tinha sido alterada nas versoes anteriores.
+
+Nesta versao, somente a faixa de pixels dos slots de arma/capa/escudo de Inventory_BG_Bot foi recomposta. Todos os demais bytes do L2UI_CH3.u da V5 permanecem identicos. Os demais controles e posicoes dos itens nao foram alterados.
+
+INSTALACAO
+1. Feche o jogo e o launcher.
+2. Faca backup de system/L2UI_CH3.u e system/interface.xdat.
+3. Copie os DOIS arquivos da pasta system deste ZIP para a pasta system do cliente.
+4. O interface.xdat incluido remove o teste da lixeira, voltando a referencia original.
+5. Mantenha L2UI_CH3.utx original em systextures. Nao use SlotFix2.utx nem SlotFix3.utx.
+6. Abra o jogo e o inventario para conferir.
+
+A previa mostra a textura real extraida do pacote, recortada no painel de equipamentos e renderizada em fundo opaco. Nao e captura do jogo.
+
+Validado: pacote mantem tamanho e tabelas; alteracoes na V6 limitadas a 150x36 pixels de Inventory_BG_Bot. Demais pixels e bytes identicos a V5 enviada pelo usuario. Confirmacao no jogo ainda necessaria.
+
+Para desfazer: restaure os dois arquivos do backup.
