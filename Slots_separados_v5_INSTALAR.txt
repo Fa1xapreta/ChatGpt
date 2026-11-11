@@ -1,0 +1,19 @@
+AJUSTE V5 - TEXTURAS NO PACOTE ORIGINAL
+
+Itens e suas posicoes NAO foram alterados. Esta versao modifica as imagens Inventory_EquipSlot, MileniumEquipSlot e InventoryEquipBg dentro do L2UI_CH3.u enviado anteriormente. A copia InventoryEquipBg continha os slots antigos incorporados ao fundo; foi recomposta com o fundo limpo e o atlas corrigido.
+
+INSTALACAO
+1. Feche o jogo e o launcher.
+2. Faca backup de system/L2UI_CH3.u e system/interface.xdat.
+3. Copie os DOIS arquivos da pasta system deste ZIP para system do cliente que voce abre.
+4. Remova SlotFix2.utx e SlotFix3.utx de systextures, caso ainda existam.
+5. Mantenha o L2UI_CH3.utx original em systextures.
+6. Abra o jogo para testar.
+
+O XDAT e o original do system_v1.rar: nao tem referencias a SlotFix. O interface.u e as classes nao precisam ser substituidos.
+
+Validado: tamanho e estrutura do pacote original preservados; alteracoes limitadas aos dados das tres texturas e ao grupo da exportacao Inventory_EquipSlot, corrigido para InventoryWnd. Demais bytes do pacote preservados. O XDAT e identico ao original enviado.
+
+Este ajuste cobre as copias de textura antigas encontradas no pacote, mas ainda precisa de confirmacao dentro do jogo. A inspecao dos arquivos nao prova qual copia o cliente efetivamente desenha.
+
+Para desfazer: restaure os dois arquivos do backup.
