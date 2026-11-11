@@ -1,0 +1,20 @@
+V7 EXPERIMENTAL - MARGEM DO ICONE DA CAPA
+
+A V6 foi confirmada no jogo e permanece disponivel sem alteracoes. Esta versao e separada para testar o acabamento da capa.
+
+MUDANCAS
+- Retira o desenho da capa das copias de fundo/atlas, preservando a moldura do slot.
+- O botao usa apenas o miolo do icone, reduzido e centralizado em 26x26, com margem transparente de 3 pixels dentro do controle de 32x32.
+- A textura MileniumCloakSlot passa ao grupo InventoryWnd, que e o caminho pedido pelo InventoryWnd.uc enviado.
+- Nenhuma posicao de controle foi alterada. Os pixels da arma e escudo em Inventory_BG_Bot sao identicos aos da V6.
+
+INSTALACAO
+1. Feche o jogo e o launcher.
+2. Guarde seu L2UI_CH3.u da V6.
+3. Substitua somente system/L2UI_CH3.u pelo deste ZIP.
+4. Mantenha o interface.xdat da V6 e o interface.u atuais.
+5. Abra o inventario e confira a capa vazia e depois equipada.
+
+Se a capa vazia desaparecer ou o acabamento nao agradar, restaure apenas o L2UI_CH3.u da V6. O pacote da V6 nao foi modificado.
+
+Validado: mesma estrutura/tamanho do pacote; demais bytes fora dos quadrados da capa e do campo do grupo preservados; margens transparentes verificadas; arma e escudo preservados. Ainda sem teste dentro do jogo. A previa e uma composicao dos assets, nao captura do cliente.

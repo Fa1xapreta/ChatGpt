@@ -3,12 +3,14 @@ arquivos do chat disponíveis
 
 ## Slots de equipamento
 
-Versão atual para teste: [Slots_separados_v6.zip](Slots_separados_v6.zip). Corrige a faixa dos slots em Inventory_BG_Bot, a imagem completa referenciada no fundo da janela do inventário. Essa imagem ainda continha os slots antigos e não tinha sido alterada nas versões anteriores.
+**V6 confirmada no jogo e preservada:** [Slots_separados_v6.zip](Slots_separados_v6.zip). Mantém arma, capa e escudo nas três colunas. [Instruções da V6](Slots_separados_v6_INSTALAR.txt).
 
-O pacote enviado após o teste foi comparado byte a byte e era idêntico à V5; o XDAT de diagnóstico também permaneceu instalado. A V6 muda apenas uma faixa de 150 × 36 pixels da imagem Inventory_BG_Bot, mantendo os demais bytes do pacote iguais à V5. O XDAT incluído desfaz o teste da lixeira. As posições dos itens permanecem iguais.
+### Ajuste da capa para teste — V7
 
-Consulte [as instruções da V6](Slots_separados_v6_INSTALAR.txt). Ainda é necessária a confirmação no jogo.
+[Capa_ajustada_v7.zip](Capa_ajustada_v7.zip) altera apenas os quadrados da capa e sua textura de botão: remove o desenho duplicado do fundo, preserva a moldura e centraliza o ícone com margem transparente de 3 pixels. A textura do botão fica no grupo InventoryWnd, conforme o caminho usado pelo InventoryWnd.uc enviado. Não altera posições dos controles, pixels da arma/escudo, interface.u ou XDAT.
 
-Prévia extraída da textura modificada no pacote (não é captura do jogo):
+Substitua apenas system/L2UI_CH3.u, guardando a cópia da V6 para voltar se necessário. Mantenha o XDAT da V6. [Instruções da V7](Capa_ajustada_v7_INSTALAR.txt). A V7 ainda precisa de teste no jogo, com a capa vazia e equipada.
 
-![Prévia da textura Inventory_BG_Bot corrigida](Slots_separados_v6_previa.png)
+Prévia composta com os assets da V7 (não é captura do jogo):
+
+![Prévia da capa com margem](Capa_ajustada_v7_previa.png)
