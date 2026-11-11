@@ -1,0 +1,16 @@
+CORRECAO V3
+
+Feche o jogo e o launcher. Faca backup do seu system/interface.xdat.
+
+1. Copie system/interface.xdat deste ZIP para system do cliente.
+2. Copie systextures/SlotFix3.utx para a mesma pasta em que esta seu L2UI_CH3.utx original.
+3. Remova o SlotFix2.utx da tentativa anterior.
+4. Teste abrindo o jogo.
+
+Nao substitua L2UI_CH3.utx por este arquivo. Este pacote e independente e contem apenas a textura dos slots.
+
+Formato Unreal 117, igual ao UTX original enviado; textura RGBA8 256x512; arma e escudo separados nas colunas externas. O XDAT foi baseado no system_v1.rar enviado nesta conversa, com somente a referencia da textura alterada.
+
+Validado em arquivo: tabelas do pacote, offsets, tamanho da textura, transparencia, dimensoes e referencia no XDAT. Sem teste no cliente do jogo.
+
+Para desfazer: restaure o interface.xdat do backup e remova SlotFix3.utx.
