@@ -1,0 +1,5 @@
+Feche o jogo. Faca backup do L2UI_CH3.u original. Substitua pelo L2UI_CH3.u deste ZIP na mesma pasta do cliente. Mantenha seu interface.xdat e InventoryWnd.uc atuais.
+
+Arma e escudo alinhados com as colunas externas dos slots superiores. Textura registrada em InventoryWnd, conforme a referencia do XDAT enviado.
+
+Validado: estrutura e tamanho do pacote preservados; alteracoes limitadas aos pixels da textura e ao seu grupo. Nao testado dentro do jogo.
