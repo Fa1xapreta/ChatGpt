@@ -1,0 +1,15 @@
+TESTE DE CARREGAMENTO DO XDAT - NAO E UMA CORRECAO DOS SLOTS
+
+Objetivo: verificar se a referencia EquipBg deste XDAT altera a imagem exibida pelo jogo.
+
+1. Feche o jogo e o launcher.
+2. Faca backup do interface.xdat atual da pasta system.
+3. Copie TESTAR/interface.xdat deste ZIP para system/interface.xdat do cliente que voce abre.
+4. Abra o jogo e o inventario. Envie uma captura do resultado.
+5. Feche o jogo e restaure seu backup (ou RESTAURAR/interface.xdat, que e o XDAT da V5).
+
+Resultado esperado: a imagem da lixeira substitui o fundo do painel de equipamentos. O aspecto e intencional e apenas temporario.
+
+Se a lixeira aparecer, a referencia EquipBg deste XDAT esta sendo aplicada. Se nao aparecer, ainda nao e possivel concluir que o arquivo inteiro e ignorado: o cliente pode usar outra origem para esse desenho ou substituir a referencia. O resultado serve para escolher a proxima verificacao.
+
+Nao substitua pacotes U/UTX, classes ou interface.u neste teste. Nenhuma posicao de item foi alterada.

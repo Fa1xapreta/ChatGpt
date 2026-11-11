@@ -10,3 +10,7 @@ Use os dois arquivos de system do ZIP após fazer backup. Consulte [as instruç�
 Prévia da textura recomposta sobre um fundo opaco para conferência visual (não é uma captura do jogo):
 
 ![Prévia dos slots separados](Slots_separados_v5_previa.png)
+
+### Diagnóstico após o teste da V5
+
+A cópia de L2UI_CH3.u enviada após o teste é idêntica à V5, mas o jogo ainda exibe os desenhos antigos. A origem da textura exibida ainda não foi confirmada. [Teste_XDAT_fundo.zip](Teste_XDAT_fundo.zip) troca temporariamente apenas a referência do fundo pela textura da lixeira. Leia [as instruções de teste e restauração](Teste_XDAT_fundo_LEIA-ME.txt). Não é uma nova correção dos slots.
