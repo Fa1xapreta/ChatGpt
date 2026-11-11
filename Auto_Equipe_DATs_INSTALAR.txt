@@ -1,0 +1,25 @@
+AUTO EQUIPE - NOME E CADASTRO DOS TITANIUM
+
+Inclui apenas dois DATs. Nao modifica as texturas V7, interface.xdat ou interface.u.
+
+MUDANCAS
+sysstring-e.dat: entrada 1907, de Auto Equip Set para Auto Equipe.
+itemname-e.dat: set_ids dos peitorais Titanium Heavy 9301, Light 9306 e Robe 9311, que estavam vazios. Usa exatamente a correcao Titanium_cadastro_sets.zip ja enviada.
+
+INSTALACAO
+1. Feche o jogo e o launcher.
+2. Faca backup de system/sysstring-e.dat e system/itemname-e.dat.
+3. Substitua somente esses dois arquivos pelos da pasta system deste ZIP.
+4. Mantenha os demais arquivos da V7 confirmada.
+5. Confira o nome Auto Equipe e teste o Titanium pelo peitoral, com todas as pecas da mesma variante no inventario.
+
+ESCOPO
+Esta versao nao altera o filtro de classe nem o acionamento por qualquer peca. A rotina compilada atual continua acionando pelo peitoral/corpo inteiro. Essas mudancas precisam de alteracao e compilacao do interface.u.
+
+VALIDACAO
+Os dois arquivos foram codificados em Lineage2 413, com checksum e decodificacao conferidos. Os 2.055 registros de sysstring foram relidos: somente o texto 1907 mudou. Os 10.255 registros de itemname foram relidos: somente set_ids dos tres peitorais Titanium mudou. Demais campos, registros e marcadores SafePackage foram preservados. Sem teste no cliente.
+
+COMPILACAO PENDENTE
+O RAR novo recebido contem Core.u e Englne.u (letra l). O Core foi lido; o Englne recebido e um pacote de efeitos de armas, nao o Engine referenciado pela interface. As dependencias raiz do interface.u enviado incluem NWindow, Core e Engine. O compilador/SDK correspondente, com UCC.exe e os pacotes de API adequados, ainda nao foi fornecido.
+
+Para desfazer, restaure os dois DATs do backup.
