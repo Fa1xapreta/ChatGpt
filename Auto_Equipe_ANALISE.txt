@@ -1,0 +1,35 @@
+AUTO EQUIPE - PROPOSTA DE FONTE PARA COMPILAR E VALIDAR
+
+ESTE ZIP NAO CONTEM interface.u COMPILADO. Copiar o UC para a pasta do cliente nao muda o jogo. A V7 e a V6 confirmadas permanecem intactas.
+
+CAUSAS CONFIRMADAS NO FONTE ATUAL
+1. EquipItemUpdate so chama o automatico para SlotBitType 1024 (peitoral) e 32768 (corpo inteiro). Outros slots nao acionam a rotina.
+2. GetSetItemIDList e consultado apenas no indice 0; o proprio ToolTip.uc consulta indices 0, 1 e 2.
+3. Nao existe filtro de classe/tipo de armadura nessa rotina.
+4. Nao testa bEquipped antes de RequestUseItem. Essa chamada em uma peca ja equipada pode retira-la.
+5. Todas as requisicoes sao feitas juntas, sem aguardar confirmacao. Se houver limite de acoes no servidor, parte pode ser rejeitada; esse ponto exige teste, nao foi confirmado.
+6. O gatilho esta em atualizacoes recebidas, nao no clique inicial, de modo que atualizacoes/carregamento podem aciona-lo.
+
+MUDANCAS PROPOSTAS
+- Nome Auto Equipe no InitHandle e no OnShow.
+- Iniciar pelo clique em qualquer peca de armadura nao equipada.
+- Buscar a familia tambem a partir dos peitorais no inventario/equipados, permitindo encontrar o set ao clicar em luvas/botas/capacete/pernas.
+- Consultar variantes 0..2 e validar familia completa sem misturar pecas.
+- Regra assumida, a confirmar pelo usuario: familias misticas Interlude (incluindo suportes e orcs misticos) -> robe (ArmorType 3); demais -> light/heavy (1/2).
+- Pecas ja equipadas sao preservadas.
+- Fila com uma requisicao por vez, verificando confirmacao e interrompendo em caso de timeout, troca de classe ou opcao desativada.
+
+LIMITACOES QUE PRECISAM SER RESOLVIDAS ANTES DE PUBLICAR UM BINARIO
+- Falta o SDK/compilador compativel com esta interface, incluindo Engine.u/Core.u da ferramenta usada. Este fonte ainda nao foi compilado.
+- Faltam os exemplos/IDs dos sets customizados para verificar se GetSetItemIDList informa todas as pecas. O fonte nao inventa uma familia pelo nome.
+- A proposta exige cabeca, luvas, botas e corpo/pernas (ou corpo inteiro). Sets oficiais com bonus parcial ou sets custom sem cadastro completo necessitam de mapeamento explicito.
+- Uma peca compartilhada por dois conjuntos completos compativeis e ambigua. A proposta solicita clique no peitoral para escolher em vez de vestir um conjunto arbitrario. E preciso confirmar a prioridade desejada caso deva selecionar automaticamente entre heavy/light.
+- Ao nao encontrar familia completa ou permitida, avisa e preserva o uso manual normal da peca clicada; nao bloqueia equipar manualmente uma armadura.
+- A fila nao tem como verificar politicas de equipamento do servidor sem teste; aguarda os eventos normais da interface.
+
+VALIDACAO REALIZADA
+Verificacoes estaticas da integracao e diff do fonte. Nenhum teste de compilacao ou dentro do jogo foi realizado. Nao ha garantia de compilacao sem o SDK compativel.
+
+ARQUIVOS
+Classes/InventoryWnd.uc - proposta completa da classe, com demais funcoes preservadas.
+InventoryWnd.diff - mudancas para revisao.

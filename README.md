@@ -14,3 +14,11 @@ Substitua apenas system/L2UI_CH3.u, guardando a cópia da V6 para voltar se nece
 Prévia composta com os assets da V7 (não é captura do jogo):
 
 ![Prévia da capa com margem](Capa_ajustada_v7_previa.png)
+
+## Auto Equipe — análise e proposta de fonte
+
+[Análise e limitações](Auto_Equipe_ANALISE.txt) · [Fonte proposto e diff](Auto_Equipe_fonte_para_compilar.zip).
+
+O fonte atual só aciona o conjunto por peitoral/corpo inteiro, usa apenas a lista 0 e não filtra classe nem ignora peças já equipadas. A proposta muda o acionamento para o clique, altera o nome para Auto Equipe e acrescenta seleção de família e fila com confirmação.
+
+**Não é um interface.u pronto para instalar.** Falta compilar com o SDK compatível e validar os IDs/metadados dos conjuntos customizados, além de confirmar a classificação mago/fighter desejada. O ZIP contém fonte e diff, com as regras e limitações documentadas. Não altera os pacotes de textura V6/V7, que foram confirmados pelo usuário no jogo.
