@@ -1,0 +1,27 @@
+TITANIUM - CADASTRO DOS CONJUNTOS NO CLIENTE
+
+DIAGNOSTICO CONFIRMADO
+O itemname-e.dat enviado tem set_ids preenchido no peitoral Draconic (6379), mas vazio nos peitorais Titanium Heavy (9301), Light (9306) e Robe (9311). O InventoryWnd.uc usa UIDATA_ITEM.GetSetItemIDList para encontrar as pecas: o tipo da armadura nao substitui esse cadastro.
+
+CAMPOS ALTERADOS
+9301 Heavy: 9301,9300,9302,9303,9304
+9306 Light: 9306,9305,9307,9308,9309
+9311 Robe: 9311,9310,9312,9313,9314
+
+Somente o campo set_ids desses tres registros foi alterado. Os demais campos e registros foram preservados, assim como o marcador SafePackage do arquivo. O ID 7577 e Draconic Bow Focus, nao uma peca da armadura, e nao foi incluido nos conjuntos Titanium.
+
+INSTALACAO E TESTE
+1. Feche o jogo e o launcher.
+2. Faca backup do itemname-e.dat atual da pasta system.
+3. Substitua somente system/itemname-e.dat pelo arquivo deste ZIP.
+4. Mantenha interface.u, XDAT e texturas da sua versao V7 confirmada.
+5. Abra o jogo, ative o automatico e clique no peitoral Titanium, com todas as pecas da mesma variante no inventario.
+6. Teste Heavy, Light e Robe separadamente, sem pecas que faltem.
+
+ESCOPO DESTA CORRECAO
+Corrige o cadastro dos Titanium para a rotina atual, que e acionada pelo peitoral/corpo inteiro. Nao muda o texto da caixa nem implementa o clique em qualquer peca ou um novo filtro de classe. Essas partes continuam pendentes. Nao modifica atributos, bonus ou restricoes do servidor.
+
+VALIDACAO
+Arquivo codificado pelo open-l2encdec usando protocolo 413. Checksum e decodificacao conferidos. Todos os 10.255 registros foram relidos: apenas os tres campos set_ids listados acima diferem do arquivo enviado. Sem teste no cliente do jogo; precisa de confirmacao do usuario.
+
+Para desfazer, restaure apenas o itemname-e.dat do backup.
