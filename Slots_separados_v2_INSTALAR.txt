@@ -1,0 +1,15 @@
+CORRECAO V2 - SLOTS SEPARADOS
+
+1. Feche o jogo e o launcher.
+2. Faca backup do interface.xdat atual da pasta system.
+3. Copie system/interface.xdat deste ZIP para a pasta system do cliente que voce abre.
+4. Copie systextures/SlotFix2.utx para a pasta systextures do mesmo cliente (a pasta em que esta seu L2UI_CH3.utx).
+5. Abra o jogo diretamente para testar. Se o launcher restaurar arquivos, o XDAT modificado precisara ser mantido durante o teste.
+
+Esta versao usa um nome de pacote exclusivo. O XDAT aponta para SlotFix2.InventoryWnd.Inventory_EquipSlot. Nao e necessario renomear nem substituir L2UI_CH3.utx para esta correcao.
+
+O interface.xdat foi feito a partir do system_v1.rar enviado nesta conversa. Somente a referencia da textura dos slots foi alterada. Se voce editou o XDAT depois desse envio, envie a versao atual antes de substitui-lo.
+
+Arma e escudo alinhados com as colunas superiores; capa permanece central. Pacote e referencia validados em arquivo, sem teste dentro do jogo.
+
+Para desfazer: restaure o interface.xdat do backup e remova SlotFix2.utx.
