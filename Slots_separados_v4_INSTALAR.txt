@@ -1,0 +1,24 @@
+CORRECAO V4 - CODIFICACAO LINEAGE2 121
+
+O erro de arquivo corrompido das tentativas anteriores ocorreu com pacotes UTX sem a codificacao Lineage2. Esta versao aplica o protocolo 121 com o l2encdec ao pacote da V3. O nome SlotFix3.utx e intencional: mantem a mesma referencia no XDAT.
+
+INSTALACAO
+1. Feche o jogo e o launcher.
+2. Substitua systextures/SlotFix3.utx pelo arquivo de mesmo nome deste ZIP. Nao renomeie o arquivo: o protocolo 121 usa o nome na codificacao.
+3. Se voce ainda esta com o interface.xdat da V3, mantenha-o. Se restaurou o backup, copie system/interface.xdat deste ZIP para system, mantendo um backup do seu atual.
+4. Remova o SlotFix2.utx, se ainda existir.
+5. Mantenha o L2UI_CH3.utx original e abra o jogo para testar.
+
+O XDAT foi baseado no system_v1.rar enviado nesta conversa, alterando somente a referencia da textura dos slots.
+
+VALIDACAO
+- Cabecalho Lineage2Ver121 presente.
+- Nome da codificacao: SlotFix3.utx.
+- Verificacao do checksum pelo l2encdec.
+- Decodificacao recupera exatamente todos os bytes do pacote V3.
+- Verificacao independente do XOR do protocolo 121.
+- Nao testado no cliente do jogo.
+
+Ferramenta utilizada: open-l2encdec 1.5.1, https://github.com/ritsuwastaken/open-l2encdec
+
+Para desfazer: restaure o interface.xdat do backup e remova SlotFix3.utx.
