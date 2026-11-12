@@ -51,9 +51,9 @@ Corrige a chamada a `StoneMinerInstance.beginMiningFromInterface`, que não exis
 
 ## PvP — anúncios de sequência de kills
 
-[L2PcInstance-kill-streak.zip](L2PcInstance-kill-streak.zip) · [Classe completa](correcoes/pvp/L2PcInstance.java) · [Patch](correcoes/pvp/kill-streak.patch) · [Instruções](correcoes/pvp/LEIA-ME.md).
+Versão atual: [L2PcInstance-kill-streak-sem-SYS.zip](L2PcInstance-kill-streak-sem-SYS.zip) · [Classe completa](correcoes/pvp/L2PcInstance.java) · [Patch incremental](correcoes/pvp/remover-SYS.patch) · [Instruções](correcoes/pvp/LEIA-ME.md).
 
-Integra Monster (10), Legendary (15) e WTF (20) ao QuakeSystem existente, no canal crítico do Interlude. Preserva recompensas e outros marcos; os três novos anúncios substituem os anúncios Quake antigos nos mesmos marcos. Corrige o reset da sequência em toda morte confirmada, mesmo antes da flag de kill streak. Requer ALLOW_QUAKE_SYSTEM habilitado e segue as regras de elegibilidade já existentes. Testes isolados dos métodos editados passaram; exige compilar com o core e testar no GameServer.
+Mantém os anúncios novos em 10, 15 e 20 kills e remove do QuakeSystem os anúncios antigos SYS (Dominating, Rampage etc.). Preserva contagem, reset na morte e recompensas configuradas. Mantenha AllowQuakeSystem=True. A L2Playable/SELF não precisa de alteração. Os testes isolados passaram; ainda exige recompilar e validar com o core. A primeira entrega continua disponível como L2PcInstance-kill-streak.zip.
 
 ## SELF — avisos na tela para jogadores e clãs
 

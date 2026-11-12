@@ -5358,9 +5358,7 @@ public class L2PcInstance extends L2Playable
 			if (quakeSystem == i)
 			{
 				setKillStreak(true);
-				// The new critical message replaces only these three legacy announcements.
-				if (quakeSystem != 10 && quakeSystem != 15 && quakeSystem != 20)
-					Broadcast.QuakeAnnounce(getName()+ " " + Config.QUAKE_VALUES.get(i) + ".");
+				// Milestones still control rewards; only quake() sends kill-streak announcements.
 
 				if (Config.ALLOW_QUAKE_REWARD)
 				{
