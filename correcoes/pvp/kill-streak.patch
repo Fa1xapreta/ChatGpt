@@ -1,0 +1,82 @@
+--- a/java/net/sf/l2j/gameserver/model/actor/instance/L2PcInstance.java
++++ b/java/net/sf/l2j/gameserver/model/actor/instance/L2PcInstance.java
+@@ -822,6 +822,8 @@
+ 	private int _requesterId = 0;
+ 
+ 	/**Quake System*/
++	// Interlude chat channel: CRITICAL_ANNOUNCE.
++	private static final int KILL_STREAK_ANNOUNCE_CHANNEL = 18;
+ 	private int quakeSystem = 0;
+ 	private int quakeSoundSystem = 0;
+ 
+@@ -4766,6 +4768,9 @@
+ 		if (!super.doDie(killer))
+ 			return false;
+ 
++		// Every confirmed death ends the consecutive PvP sequence.
++		quakeSystem = 0;
++
+ 		if (isMounted())
+ 			stopFeed();
+ 
+@@ -4899,10 +4904,7 @@
+ 
+ 		// Stop Annonce Quake On Die
+ 		if (isKillStreak())
+-		{
+ 			setKillStreak(false);
+-			quakeSystem = 0;
+-		}
+ 
+ 		// Leave war legend aura if enabled
+ 		heroConsecutiveKillCount = 0;
+@@ -5317,15 +5319,48 @@
+ 		}
+ 	}
+ 
++	/** Critical announcements for the existing consecutive-PvP counter. */
++	public static void quake(int kills, L2PcInstance killer)
++	{
++		if (killer == null)
++			return;
++
++		final String title;
++		switch (kills)
++		{
++			case 10:
++				title = "Monster!";
++				break;
++			case 15:
++				title = "Legendary!";
++				break;
++			case 20:
++				title = "WTF !";
++				break;
++			default:
++				return;
++		}
++
++		final String text = title + " " + killer.getName() + " Killed " + kills + " consecutive players";
++		for (L2PcInstance player : L2World.getInstance().getL2Players())
++		{
++			if (player != null && player.isOnline())
++				player.sendChatMessage(0, KILL_STREAK_ANNOUNCE_CHANNEL, "", text);
++		}
++	}
++
+ 	public void QuakeSystem()
+ 	{
+ 		quakeSystem++;
++		quake(quakeSystem, this);
+ 		for (int i : Config.QUAKE_VALUES.keySet())
+ 		{
+ 			if (quakeSystem == i)
+ 			{
+ 				setKillStreak(true);
+-				Broadcast.QuakeAnnounce(getName()+ " " + Config.QUAKE_VALUES.get(i) + ".");
++				// The new critical message replaces only these three legacy announcements.
++				if (quakeSystem != 10 && quakeSystem != 15 && quakeSystem != 20)
++					Broadcast.QuakeAnnounce(getName()+ " " + Config.QUAKE_VALUES.get(i) + ".");
+ 
+ 				if (Config.ALLOW_QUAKE_REWARD)
+ 				{

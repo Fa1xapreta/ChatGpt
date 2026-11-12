@@ -48,3 +48,9 @@ Compilação com nível Java 8 e testes isolados com as classes reais do mod e s
 [MiningInteractionManager-corrigido.zip](MiningInteractionManager-corrigido.zip) · [Classe corrigida](correcoes/mineracao/MiningInteractionManager.java) · [Instruções](correcoes/mineracao/LEIA-ME.md).
 
 Corrige a chamada a `StoneMinerInstance.beginMiningFromInterface`, que não existe nessa versão. O controlador passa a iniciar pela sessão existente (`getTreasureHuntSession().begin(stone)`) e somente após sucesso solicita o ataque. Substitui apenas MiningInteractionManager.java e exige recompilar o GameServer. Não modifica a limpeza das pedras no restart. Compilação e testes isolados passaram; ainda é necessário validar com o core de produção.
+
+## PvP — anúncios de sequência de kills
+
+[L2PcInstance-kill-streak.zip](L2PcInstance-kill-streak.zip) · [Classe completa](correcoes/pvp/L2PcInstance.java) · [Patch](correcoes/pvp/kill-streak.patch) · [Instruções](correcoes/pvp/LEIA-ME.md).
+
+Integra Monster (10), Legendary (15) e WTF (20) ao QuakeSystem existente, no canal crítico do Interlude. Preserva recompensas e outros marcos; os três novos anúncios substituem os anúncios Quake antigos nos mesmos marcos. Corrige o reset da sequência em toda morte confirmada, mesmo antes da flag de kill streak. Requer ALLOW_QUAKE_SYSTEM habilitado e segue as regras de elegibilidade já existentes. Testes isolados dos métodos editados passaram; exige compilar com o core e testar no GameServer.
