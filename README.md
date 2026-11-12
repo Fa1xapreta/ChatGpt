@@ -60,3 +60,8 @@ Mantém os anúncios novos em 10, 15 e 20 kills e remove do QuakeSystem os anún
 Versão atual: [L2Playable-SELF-sem-SYS.zip](L2Playable-SELF-sem-SYS.zip) · [Classe](correcoes/self/L2Playable.java) · [Patch incremental](correcoes/self/remover-SELF-SYS.patch) · [Instruções](correcoes/self/LEIA-ME.md).
 
 Remove somente o anúncio vermelho SYS de SELF no chat. Mantém os avisos de tela de seis segundos para os mesmos destinatários, condições de área e regras de buffs. Mantenha AllowSelfAnnounce=True para os avisos de tela. Não altera anúncios de kills. Compilação e testes isolados passaram; requer recompilar o GameServer e validar integrado. A versão anterior permanece em L2Playable-SELF.zip.
+
+
+## Auditoria das capas do cliente de referência
+
+[Relatório técnico](Auditoria_capas_referencia/RELATORIO.md), inventário completo, mapa de itens, separador PowerShell, texturas extraídas e evidências em [Auditoria_capas_referencia](Auditoria_capas_referencia/). Análise estática; os binários originais não foram executados ou republicados.
