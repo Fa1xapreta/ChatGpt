@@ -41,3 +41,18 @@ Sem esses elementos não há uma troca pronta que cumpra simultaneamente a prese
 ## Evidências desta pasta
 
 conferencia_42_itens.csv cruza os nomes XML e cliente. current-server-items.json preserva a estrutura dos 42 itens. current-selected-inventory.json registra tamanho, CRC e SHA-256 dos 51 arquivos selecionados. Não foram publicados configurações de login nem binários do cliente.
+
+## Atualização: pacote-fonte enviado em seguida
+
+Recebidos L2Feel_Cloak_GitHub_v2.2_FINAL.rar e CloakSystemManager.java adaptado ao servidor net.sf.l2j. O RAR contém fontes C++ do motor antigo (cloakhook.cpp, cloth.h, essence.h, fx.h e auxiliares) e o patch Java com ExCloakSystem. Embora o nome externo diga v2.2, VERSION informa 2.3.21; isso não prova correspondência exata com a DLL instalada, cujas strings identificam 2.3.20.
+
+Evidências novas:
+
+- O C++ fixa LineShieldCloaks, visuais 31000–31066 e slot 13. O gerenciador Java enviado aceita IDs por capa em 31007–31073 ou 9400–9466; chaves específicas para 31100–31140 seriam rejeitadas nesse parser. Ajustes globais e por corpo continuam sendo outra categoria.
+- ExCloakSystem utiliza 0x81 e controles D0–D3. O gerenciador enviado chama disable() quando EnableCloakSystem ou SendClientConfig está falso. No C++, BEGIN com versão zero apenas coloca g_srvActive=-1, restaurando fallback local; não descarrega o motor. Portanto, mudar a configuração para False não é uma remoção das capas.
+- O projeto também contém efeitos de drop: InitThread/Install chama InstallDropFxHooks e LoadConfig habilita dropFx. É preciso separar essas funções antes de retirar o motor antigo. O pacote fornecido pode ser uma revisão diferente da instalada; não presumimos equivalência integral.
+- O projeto compila uma DLL chamada dsetup, que no cliente atual foi incorporada como dsetup_base.dll atrás de outro carregador. O fonte desse carregador externo e do proxy MileniumFX não foi identificado neste RAR.
+- CMakeLists.txt referencia third_party/minhook, mas esse diretório não apareceu entre os arquivos extraídos; há avisos de licença do MinHook. A dependência de build precisa ser completada e a compilação verificada antes de prometer uma DLL pronta. Os scripts BAT recebidos não foram executados.
+- O RAR é fonte do motor antigo, não o fonte de CapasClassic ou dos pacotes LucDev protegidos. A integração do motor de referência e a retirada de nomes internos continuam sem solução comprovada.
+
+Isso permite estudar a separação do motor antigo de outras funções, mas não conclui a instalação do sistema de referência. Nenhuma DLL modificada foi produzida nesta etapa.
