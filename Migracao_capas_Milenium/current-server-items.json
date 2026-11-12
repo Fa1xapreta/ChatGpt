@@ -1,0 +1,1064 @@
+[
+  {
+    "id": 31100,
+    "name": "Light Dragon's Cloak",
+    "settings": {
+      "bodypart": "back",
+      "crystal_type": "NONE",
+      "armor_type": "NONE",
+      "weight": "100",
+      "price": "10000",
+      "is_enchantable": "false",
+      "is_oly_restricted": "true"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31101,
+    "name": "Golden Mantle",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31102,
+    "name": "Gran Kain's Shroud",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31103,
+    "name": "Shadow Mantle",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31104,
+    "name": "Fafurion Mantle",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31105,
+    "name": "Lindvior Mantle",
+    "settings": {
+      "bodypart": "back",
+      "crystal_type": "NONE",
+      "armor_type": "NONE",
+      "weight": "100",
+      "price": "10000",
+      "is_enchantable": "false",
+      "is_oly_restricted": "true"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31106,
+    "name": "Valakas Mantle",
+    "settings": {
+      "bodypart": "back",
+      "crystal_type": "NONE",
+      "armor_type": "NONE",
+      "weight": "100",
+      "price": "10000",
+      "is_enchantable": "false",
+      "is_oly_restricted": "true"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31107,
+    "name": "Dark Dragon's Radiant Cloak",
+    "settings": {
+      "bodypart": "back",
+      "crystal_type": "NONE",
+      "armor_type": "NONE",
+      "weight": "100",
+      "price": "10000",
+      "is_enchantable": "false",
+      "is_oly_restricted": "true"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31108,
+    "name": "Dark Star - Heavenly Cloak",
+    "settings": {
+      "bodypart": "back",
+      "crystal_type": "NONE",
+      "armor_type": "NONE",
+      "weight": "100",
+      "price": "10000",
+      "is_enchantable": "false",
+      "is_oly_restricted": "true"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31109,
+    "name": "Crimson Noblesse Mantle",
+    "settings": {
+      "bodypart": "back",
+      "crystal_type": "NONE",
+      "armor_type": "NONE",
+      "weight": "100",
+      "price": "10000",
+      "is_enchantable": "false",
+      "is_oly_restricted": "true"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31110,
+    "name": "Festival's Cloak - Pitch Black",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31111,
+    "name": "Festival's Cloak - Blood Red",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31112,
+    "name": "Festival's Cloak - Pearl White",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31113,
+    "name": "Zaken's Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31114,
+    "name": "Freya's Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31115,
+    "name": "Frintezza's Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31116,
+    "name": "Halloween Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31117,
+    "name": "Santa Girl's Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31118,
+    "name": "Russian Commemorative Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31119,
+    "name": "Polish Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31120,
+    "name": "Cloak of Light for the Chosen",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31121,
+    "name": "Cloak of Darkness for the Chosen",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31122,
+    "name": "Elmoreden Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31123,
+    "name": "Aden Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31124,
+    "name": "Legendary Ferios Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31125,
+    "name": "Abelius' Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31126,
+    "name": "Sapyros' Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31127,
+    "name": "Ashagen's Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31128,
+    "name": "Cranigg's Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31129,
+    "name": "Soltkreig's Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31130,
+    "name": "Naviarope's Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31131,
+    "name": "Leister's Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31132,
+    "name": "Lakcis' Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31133,
+    "name": "Hero's Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31134,
+    "name": "Cloak of Glory",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31135,
+    "name": "Cloak of Conquest",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31136,
+    "name": "Valakas' Wings",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31137,
+    "name": "Death Knight's Cloak R99",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31138,
+    "name": "Death Knight's Cloak R110",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31139,
+    "name": "Death Knight's Ranker Mantle",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31140,
+    "name": "Woeful Sword Eigis's Cloak",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  },
+  {
+    "id": 31073,
+    "name": "Light Dragon's Cloak Imbued With Dwarven Magic",
+    "settings": {
+      "default_action": "equip",
+      "armor_type": "NONE",
+      "bodypart": "back",
+      "is_oly_restricted": "true",
+      "material": "DYESTUFF"
+    },
+    "stats": [
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxHp",
+        "operation": "mul"
+      },
+      {
+        "val": "1.05",
+        "order": "0x30",
+        "stat": "maxCp",
+        "operation": "mul"
+      }
+    ]
+  }
+]
