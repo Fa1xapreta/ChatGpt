@@ -54,3 +54,9 @@ Corrige a chamada a `StoneMinerInstance.beginMiningFromInterface`, que não exis
 [L2PcInstance-kill-streak.zip](L2PcInstance-kill-streak.zip) · [Classe completa](correcoes/pvp/L2PcInstance.java) · [Patch](correcoes/pvp/kill-streak.patch) · [Instruções](correcoes/pvp/LEIA-ME.md).
 
 Integra Monster (10), Legendary (15) e WTF (20) ao QuakeSystem existente, no canal crítico do Interlude. Preserva recompensas e outros marcos; os três novos anúncios substituem os anúncios Quake antigos nos mesmos marcos. Corrige o reset da sequência em toda morte confirmada, mesmo antes da flag de kill streak. Requer ALLOW_QUAKE_SYSTEM habilitado e segue as regras de elegibilidade já existentes. Testes isolados dos métodos editados passaram; exige compilar com o core e testar no GameServer.
+
+## SELF — avisos na tela para jogadores e clãs
+
+[L2Playable-SELF.zip](L2Playable-SELF.zip) · [Classe completa](correcoes/self/L2Playable.java) · [Patch](correcoes/self/self-screen.patch) · [Instruções](correcoes/self/LEIA-ME.md).
+
+Adapta os avisos de seis segundos para vítima, atacante e os respectivos clãs, nos mesmos caminhos de SELF e sob GET_SELF_ANNOUNCE. Mantém o chat existente e as regras de buffs; identifica o atacante pela sua instância de jogador, sem cast inseguro de NPC. Evita duplicação entre clãs/participantes e envia SELF depois do callback de abate para preservar o aviso após o popup de HP. A classe completa compilou e passou nos testes isolados com APIs do core simuladas; requer recompilação e validação no GameServer.

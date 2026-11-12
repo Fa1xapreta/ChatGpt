@@ -1,0 +1,219 @@
+--- a/java/net/sf/l2j/gameserver/model/actor/L2Playable.java
++++ b/java/net/sf/l2j/gameserver/model/actor/L2Playable.java
+@@ -14,8 +14,13 @@
+  */
+ package net.sf.l2j.gameserver.model.actor;
+ 
++import java.util.HashSet;
++import java.util.Set;
++
+ import net.sf.l2j.Config;
+ import net.sf.l2j.gameserver.ai.CtrlEvent;
++import net.sf.l2j.gameserver.model.L2Clan;
++import net.sf.l2j.gameserver.model.L2ClanMember;
+ import net.sf.l2j.gameserver.model.L2Effect;
+ import net.sf.l2j.gameserver.model.L2Skill;
+ import net.sf.l2j.gameserver.model.L2WorldRegion;
+@@ -34,9 +39,12 @@
+ import net.sf.l2j.gameserver.model.zone.ZoneId;
+ import net.sf.l2j.gameserver.network.SystemMessageId;
+ import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
++import net.sf.l2j.gameserver.network.serverpackets.ExShowScreenMessage;
+ import net.sf.l2j.gameserver.templates.skills.L2EffectFlag;
+ import net.sf.l2j.gameserver.templates.skills.L2EffectType;
+ import net.sf.l2j.gameserver.util.Broadcast;
++
++import phantom.FakePlayer;
+ 
+ /**
+  * This class represents all Playable characters in the world.<BR>
+@@ -135,6 +143,8 @@
+ 		// Stop HP/MP/CP Regeneration task
+ 		getStatus().stopHpMpRegeneration();
+ 
++		boolean selfNotification = false;
++
+ 		// Stop all active skills effects in progress
+ 		if (isPhoenixBlessed())
+ 		{
+@@ -158,101 +168,41 @@
+ 			if (ArenaConfig.LOST_BUFFS_ONDIE_5X5)
+ 				stopAllEffectsExceptThoseThatLastThroughDeath();
+ 
+-			if (Config.GET_SELF_ANNOUNCE)
+-				{
+-					if (getActingPlayer().getClan() != null)
+-					{
+-						Broadcast.SelfAnnounce(getName() + " of the clan [" + getActingPlayer().getClan().getName() + "] " + Config.GET_SELF_MSG + "!");
+-					}
+-					else
+-					{
+-						Broadcast.SelfAnnounce(getName() + " " + Config.GET_SELF_MSG + "!");
+-					}
+-				}
++			selfNotification = true;
+ 		}
+ 		else if (isArena9x9())
+ 		{
+ 			if (ArenaConfig.LOST_BUFFS_ONDIE_9X9)
+ 				stopAllEffectsExceptThoseThatLastThroughDeath();
+ 
+-			if (Config.GET_SELF_ANNOUNCE)
+-			{
+-				if (getActingPlayer().getClan() != null)
+-				{
+-					Broadcast.SelfAnnounce(getName() + " of the clan [" + getActingPlayer().getClan().getName() + "] " + Config.GET_SELF_MSG + "!");
+-				}
+-				else
+-				{
+-					Broadcast.SelfAnnounce(getName() + " " + Config.GET_SELF_MSG + "!");
+-				}
+-			}
++			selfNotification = true;
+ 		}
+ 		else if (isInsideZone(ZoneId.FLAG_AREA_SELF))
+ 		{
+ 				stopAllEffectsExceptThoseThatLastThroughDeath();
+ 
+-			if (Config.GET_SELF_ANNOUNCE)
+-			{
+-				if (getActingPlayer().getClan() != null)
+-				{
+-					Broadcast.SelfAnnounce(getName() + " of the clan [" + getActingPlayer().getClan().getName() + "] " + Config.GET_SELF_MSG + "!");
+-				}
+-				else
+-				{
+-					Broadcast.SelfAnnounce(getName() + " " + Config.GET_SELF_MSG + "!");
+-				}
+-			}
++			selfNotification = true;
+ 		}
+ 		
+ 		else if (isInsideZone(ZoneId.LSZONE))
+ 		{
+ 				stopAllEffectsExceptThoseThatLastThroughDeath();
+ 
+-			if (Config.GET_SELF_ANNOUNCE)
+-			{
+-				if (getActingPlayer().getClan() != null)
+-				{
+-					Broadcast.SelfAnnounce(getName() + " of the clan [" + getActingPlayer().getClan().getName() + "] " + Config.GET_SELF_MSG + "!");
+-				}
+-				else
+-				{
+-					Broadcast.SelfAnnounce(getName() + " " + Config.GET_SELF_MSG + "!");
+-				}
+-			}
++			selfNotification = true;
+ 		}
+ 		
+ 		else if (isInsideZone(ZoneId.PARTY_FARM))
+ 		{
+ 				stopAllEffectsExceptThoseThatLastThroughDeath();
+ 
+-			if (Config.GET_SELF_ANNOUNCE)
+-			{
+-				if (getActingPlayer().getClan() != null)
+-				{
+-					Broadcast.SelfAnnounce(getName() + " of the clan [" + getActingPlayer().getClan().getName() + "] " + Config.GET_SELF_MSG + "!");
+-				}
+-				else
+-				{
+-					Broadcast.SelfAnnounce(getName() + " " + Config.GET_SELF_MSG + "!");
+-				}
+-			}
++			selfNotification = true;
+ 		}
+ 		
+ 		else if (Config.LEAVE_BUFFS_ON_DIE)
+ 		{
+ 			stopAllEffectsExceptThoseThatLastThroughDeath();
+ 			
+-			if (Config.GET_SELF_ANNOUNCE)
+-			{
+-				if (getActingPlayer().getClan() != null)
+-				{
+-					Broadcast.SelfAnnounce(getName() + " of the clan [" + getActingPlayer().getClan().getName() + "] " + Config.GET_SELF_MSG + "!");
+-				}
+-				else
+-				{
+-					Broadcast.SelfAnnounce(getName() + " " + Config.GET_SELF_MSG + "!");
+-				}
+-			}
++			selfNotification = true;
+ 		}
+ 		
+ 		// Send the Server->Client packet StatusUpdate with current HP and MP to all other L2PcInstance to inform
+@@ -277,9 +227,72 @@
+ 				player.onKillUpdatePvPKarma(this);
+ 		}
+ 		
++		if (selfNotification)
++			announceSelf(killer);
++
+ 		return true;
+ 	}
+ 	
++	/** Preserve the current chat announcement and add recipient-specific screen notices. */
++	private void announceSelf(L2Character killer)
++	{
++		if (!Config.GET_SELF_ANNOUNCE)
++			return;
++
++		final L2PcInstance target = getActingPlayer();
++		if (target == null)
++			return;
++
++		// Existing chat behavior is retained, including GET_SELF_MSG.
++		final L2Clan targetClan = target.getClan();
++		if (targetClan != null)
++			Broadcast.SelfAnnounce(getName() + " of the clan [" + targetClan.getName() + "] " + Config.GET_SELF_MSG + "!");
++		else
++			Broadcast.SelfAnnounce(getName() + " " + Config.GET_SELF_MSG + "!");
++
++		// A pet's death must not tell its owner that the owner was SELF.
++		if (!(this instanceof L2PcInstance) || target instanceof FakePlayer)
++			return;
++
++		final L2PcInstance attacker = killer == null ? null : killer.getActingPlayer();
++		final Set<Integer> notified = new HashSet<>();
++		final ExShowScreenMessage victimMessage = new ExShowScreenMessage("You was SELF !", 6000);
++		final ExShowScreenMessage killedMessage = new ExShowScreenMessage(target.getName() + " was SELF !", 6000);
++		final ExShowScreenMessage victimClanMessage = new ExShowScreenMessage("A Clan member " + target.getName() + " was SELF !", 6000);
++
++		// Personal messages take precedence over clan messages.
++		sendSelfScreen(target, victimMessage, notified);
++		if (attacker != null && attacker != target)
++			sendSelfScreen(attacker, killedMessage, notified);
++
++		// If both clans are the same, use the victim-clan message only once.
++		sendSelfToClan(targetClan, victimClanMessage, notified);
++		if (attacker != null && attacker != target)
++		{
++			final ExShowScreenMessage killerClanMessage = new ExShowScreenMessage(
++				"A Clan member " + attacker.getName() + " left " + target.getName() + " was SELF !", 6000);
++			sendSelfToClan(attacker.getClan(), killerClanMessage, notified);
++		}
++	}
++
++	private static void sendSelfToClan(L2Clan clan, ExShowScreenMessage message, Set<Integer> notified)
++	{
++		if (clan == null)
++			return;
++
++		for (L2ClanMember member : clan.getMembers())
++		{
++			if (member != null)
++				sendSelfScreen(member.getPlayerInstance(), message, notified);
++		}
++	}
++
++	private static void sendSelfScreen(L2PcInstance player, ExShowScreenMessage message, Set<Integer> notified)
++	{
++		if (player != null && !(player instanceof FakePlayer) && player.isOnline() && notified.add(player.getObjectId()))
++			player.sendPacket(message);
++	}
++
+ 	public boolean checkIfPvP(L2Playable target)
+ 	{
+ 		if (target == null || target == this)
