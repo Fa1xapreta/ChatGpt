@@ -34,3 +34,11 @@ Nos DATs enviados, os peitorais Titanium Heavy (9301), Light (9306) e Robe (9311
 [Auto_Equipe_DATs.zip](Auto_Equipe_DATs.zip) inclui o sysstring-e.dat com a entrada 1907 renomeada para **Auto Equipe** e o itemname-e.dat com o cadastro dos três conjuntos Titanium. [Instruções e escopo](Auto_Equipe_DATs_INSTALAR.txt).
 
 Substitui apenas esses dois DATs, após backup. Mantém texturas V7, XDAT e interface.u. O nome e os cadastros foram validados por releitura e codificação/decodificação 413. Precisam de confirmação no jogo. O clique em qualquer peça e o filtro de classe continuam pendentes da compilação da lógica; a rotina atual ainda aciona pelo peitoral/corpo inteiro.
+
+## TreasureHunt — limpar pedras ao reiniciar o GameServer
+
+[TreasureHunt-limpeza-no-restart.zip](TreasureHunt-limpeza-no-restart.zip) · [Instalação e validação](TreasureHunt-limpeza-no-restart_LEIA-ME.md).
+
+Altera apenas TreasureHuntActiveStore.java e TreasureHuntManager.java: o journal de pedras da execução anterior é limpo na inicialização, sob lock exclusivo. A primeira rodada nova espera o intervalo configurado. Reload preserva as pedras atuais. Histórico de locais e recuperação de equipamentos dos jogadores são mantidos. É necessário substituir as duas classes no projeto e recompilar o GameServer; não contém um JAR pronto.
+
+Compilação com nível Java 8 e testes isolados com as classes reais do mod e simulações do core passaram, incluindo encerramento abrupto de JVM, nova inicialização sem restauração, geração posterior, reload, preservação de histórico/recuperação e lock concorrente. Ainda precisa de validação integrada no GameServer do usuário.
