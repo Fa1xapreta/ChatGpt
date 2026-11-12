@@ -55,8 +55,8 @@ Versão atual: [L2PcInstance-kill-streak-sem-SYS.zip](L2PcInstance-kill-streak-s
 
 Mantém os anúncios novos em 10, 15 e 20 kills e remove do QuakeSystem os anúncios antigos SYS (Dominating, Rampage etc.). Preserva contagem, reset na morte e recompensas configuradas. Mantenha AllowQuakeSystem=True. A L2Playable/SELF não precisa de alteração. Os testes isolados passaram; ainda exige recompilar e validar com o core. A primeira entrega continua disponível como L2PcInstance-kill-streak.zip.
 
-## SELF — avisos na tela para jogadores e clãs
+## SELF — somente os avisos de tela
 
-[L2Playable-SELF.zip](L2Playable-SELF.zip) · [Classe completa](correcoes/self/L2Playable.java) · [Patch](correcoes/self/self-screen.patch) · [Instruções](correcoes/self/LEIA-ME.md).
+Versão atual: [L2Playable-SELF-sem-SYS.zip](L2Playable-SELF-sem-SYS.zip) · [Classe](correcoes/self/L2Playable.java) · [Patch incremental](correcoes/self/remover-SELF-SYS.patch) · [Instruções](correcoes/self/LEIA-ME.md).
 
-Adapta os avisos de seis segundos para vítima, atacante e os respectivos clãs, nos mesmos caminhos de SELF e sob GET_SELF_ANNOUNCE. Mantém o chat existente e as regras de buffs; identifica o atacante pela sua instância de jogador, sem cast inseguro de NPC. Evita duplicação entre clãs/participantes e envia SELF depois do callback de abate para preservar o aviso após o popup de HP. A classe completa compilou e passou nos testes isolados com APIs do core simuladas; requer recompilação e validação no GameServer.
+Remove somente o anúncio vermelho SYS de SELF no chat. Mantém os avisos de tela de seis segundos para os mesmos destinatários, condições de área e regras de buffs. Mantenha AllowSelfAnnounce=True para os avisos de tela. Não altera anúncios de kills. Compilação e testes isolados passaram; requer recompilar o GameServer e validar integrado. A versão anterior permanece em L2Playable-SELF.zip.

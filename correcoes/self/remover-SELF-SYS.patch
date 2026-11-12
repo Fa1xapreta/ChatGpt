@@ -1,0 +1,32 @@
+--- a/java/net/sf/l2j/gameserver/model/actor/L2Playable.java
++++ b/java/net/sf/l2j/gameserver/model/actor/L2Playable.java
+@@ -42,7 +42,6 @@
+ import net.sf.l2j.gameserver.network.serverpackets.ExShowScreenMessage;
+ import net.sf.l2j.gameserver.templates.skills.L2EffectFlag;
+ import net.sf.l2j.gameserver.templates.skills.L2EffectType;
+-import net.sf.l2j.gameserver.util.Broadcast;
+ 
+ import phantom.FakePlayer;
+ 
+@@ -233,7 +232,7 @@
+ 		return true;
+ 	}
+ 	
+-	/** Preserve the current chat announcement and add recipient-specific screen notices. */
++	/** Recipient-specific screen notices only; no global SELF chat announcement. */
+ 	private void announceSelf(L2Character killer)
+ 	{
+ 		if (!Config.GET_SELF_ANNOUNCE)
+@@ -243,12 +242,7 @@
+ 		if (target == null)
+ 			return;
+ 
+-		// Existing chat behavior is retained, including GET_SELF_MSG.
+ 		final L2Clan targetClan = target.getClan();
+-		if (targetClan != null)
+-			Broadcast.SelfAnnounce(getName() + " of the clan [" + targetClan.getName() + "] " + Config.GET_SELF_MSG + "!");
+-		else
+-			Broadcast.SelfAnnounce(getName() + " " + Config.GET_SELF_MSG + "!");
+ 
+ 		// A pet's death must not tell its owner that the owner was SELF.
+ 		if (!(this instanceof L2PcInstance) || target instanceof FakePlayer)
