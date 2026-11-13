@@ -1,0 +1,92 @@
+﻿ID,Nome,Estado,Corpos,Origem
+31300,Rogue Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malha Festival original com alias de nome reconhecido pelo motor
+31301,Sword Mantle,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malha Festival original com alias de nome reconhecido pelo motor
+31302,Sword Mantle (Dark),universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malha Festival original com alias de nome reconhecido pelo motor
+31303,Archer Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malha Festival original com alias de nome reconhecido pelo motor
+31304,Enchanter Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malha Festival original com alias de nome reconhecido pelo motor
+31305,Knight Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malha Festival original com alias de nome reconhecido pelo motor
+31306,Olympiad Cloak (Green),universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malha Festival original com alias de nome reconhecido pelo motor
+31307,Olympiad's Red Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31308,Olympiad's Blue Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31309,Aurora Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malha Festival original com alias de nome reconhecido pelo motor
+31310,Cloak of Darkness,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31311,Cloak of Light,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31312,Warrior Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malha Festival original com alias de nome reconhecido pelo motor
+31324,Dragon Cloak - Fafurion,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31325,Heavenly Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31326,Essence Mantle 01,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31327,Essence Mantle 03,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31328,Dragon Cloak - Lindvior,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31329,Dragon Cloak - Valakas,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31330,Dragon Cloak - Antharas,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31331,Dark Star - Heavenly Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31332,Heavenly Cloak (Assassin),corpos_especificos,MFighter FDarkElf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31333,Assassin Mantle 01,corpos_especificos,MFighter FDarkElf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31334,Assassin Mantle 02,corpos_especificos,MFighter FDarkElf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31335,Assassin Mantle 03,corpos_especificos,MFighter FDarkElf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31336,Assassin's Cloak - Fafurion,corpos_especificos,MFighter FDarkElf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31337,Assassin's Cloak - Lindvior,corpos_especificos,MFighter FDarkElf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31338,Assassin's Cloak - Valakas,corpos_especificos,MFighter FDarkElf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31339,Assassin's Cloak - Antharas,corpos_especificos,MFighter FDarkElf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31340,Dark Star - Heavenly Cloak (Assassin),corpos_especificos,MFighter FDarkElf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31341,Heavenly Cloak (Warg),corpos_especificos,MFighter,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31342,New Cloak 2,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31343,Heavenly Cloak (Red),universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31344,"Heavenly Cloak (Assassin, Red)",corpos_especificos,MFighter FDarkElf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31346,Santa's Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31347,Halloween Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31349,New Cloak - Death Knight,corpos_especificos,MFighter,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31350,Death Knight Mantle 01,corpos_especificos,MFighter,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31351,New Cloak 2 - Death Knight,corpos_especificos,MFighter,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31352,Death Knight Mantle 03,corpos_especificos,MFighter,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31353,Death Knight's Cloak - Fafurion,corpos_especificos,MFighter,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31354,Death Knight's Cloak - Lindvior,corpos_especificos,MFighter,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31355,Death Knight's Cloak - Valakas,corpos_especificos,MFighter,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31356,Death Knight's Cloak - Antharas,corpos_especificos,MFighter,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31357,Dark Star - Heavenly Cloak (Death Knight),corpos_especificos,MFighter,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31358,Heavenly Cloak of Worthy Death Knight,corpos_especificos,MFighter,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31362,Maestro Cloak 00,corpos_especificos,FDwarf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31363,Maestro Cloak 01,corpos_especificos,FDwarf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31364,Maestro Cloak 07,corpos_especificos,FDwarf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31365,Maestro Cloak (Dark Star),corpos_especificos,FDwarf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31366,Maestro Ranker Cloak,corpos_especificos,FDwarf,malhas existentes e seletor da tabela interna do motor; icone generico do modelo
+31380,Crimson Wings Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31381,Festival's Cloak - Pearl White,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31382,Draconic Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31383,Vesper Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31384,Elegia Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31385,Vesper's Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31386,Moirai Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31387,Blackbird Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31388,Cloak of Protection,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31389,Alien Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31390,Royal Guard Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31391,Slayer's Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31392,Festival's Cloak - Pitch Black,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31393,Zaken's Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31394,Cloak of Freya,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31395,Frintezza's Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31396,Blue Dynasty Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31397,Festival's Cloak - Blood Red,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31398,Vesper Black Cloak,universal,MFighter FFighter MDarkElf FDarkElf MDwarf FDwarf MElf FElf MMagic FMagic MOrc FOrc MShaman FShaman,registro original do DAT de referencia
+31345,Anniversary Cloak,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31378,Great Merchant's Cloak,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31377,Cloak of Growth,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31375,Cloak of War,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31376,Cloak of Attack,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31368,Aden Cloak (Kingdom),NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31372,Aden Cloak (Kingdom) - Legendary,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31367,Elmoreden Cloak,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31371,Elmoreden Cloak - Legendary,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31369,Elmore Cloak,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31373,Elmore Cloak - Legendary,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31370,Ferios Cloak,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31374,Ferios Cloak - Legendary,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31348,PL Cape,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31359,Black Sayha's Cloak,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31361,Red Sayha's Cloak,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31360,White Sayha's Cloak,NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31321,Dragon Cloak - Antharas (Interlude),NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31322,Dragon Cloak - Fafurion (Interlude),NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31323,Dragon Cloak - Lindvior (Interlude),NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto
+31320,Dragon Cloak - Valakas (Interlude),NAO_HABILITADA,,dependencias incompletas; entrada de diagnostico nao e um item pronto

@@ -1,4 +1,14 @@
-## Kit completo de capas — download atual
+## Capas — catálogo 70 e integração gráfica TESTE 5
+
+[**Baixar o kit em um ZIP**](https://github.com/Fa1xapreta/ChatGpt/archive/refs/heads/kit-capas-integrado-70.zip) · [Instruções](Milenium_Capas_Integrado_70/README.md) · [DATs e XML separados](Milenium_Capas_Integrado_70/DAT_XML_Capas_70.zip)
+
+Extraia fora do jogo, execute **INSTALAR.bat** e depois **INSTALAR_XML.bat**, escolhendo a pasta items do gameserver. O Java anterior permanece igual. Há backup e restauração.
+
+70 itens: **44 com malhas para 14 corpos e 26 de corpos específicos**; 21 entradas sem dependências suficientes não estão habilitadas. A nova ponte procura manter MileniumFX e o contorno original junto das capas; compilação e testes simulados passaram, mas a recuperação visual ainda precisa de confirmação no cliente Windows. O efeito de abrir/cair ao equipar permanece pendente. Os DATs separados dependem do kit completo.
+
+---
+
+## Kit anterior — TESTE 2 (histórico)
 
 [**Baixar o kit completo TESTE 2**](https://github.com/Fa1xapreta/ChatGpt/archive/refs/heads/kit-capas-completo-teste2.zip) · [Instrucoes simples](Milenium_Capas_Kit_Completo_TESTE_2/README.md)
 

@@ -1,0 +1,22 @@
+MILENIUM - CAPAS 70 - TESTE 5
+
+1. FECHE O JOGO.
+2. Extraia TODO o ZIP na Area de Trabalho, FORA do jogo.
+3. De dois cliques em INSTALAR.bat. Nao copie arquivos manualmente.
+4. De dois cliques em INSTALAR_XML.bat e escolha a pasta items do servidor.
+5. Reinicie seu gameserver normalmente. O Java do kit anterior nao mudou.
+
+Teste primeiro 31382 (Draconic), a capa que voce ja estava usando.
+Ha 44 capas para 14 corpos e 26 para corpos especificos: veja CATALOGO_CAPAS.csv.
+21 entradas sem recursos suficientes NAO foram habilitadas.
+
+A ponte nova procura recuperar MileniumFX e o contorno original junto das capas.
+Ela ainda precisa de confirmacao no jogo. Seus INIs existentes sao mantidos.
+O efeito de abrir/cair ao equipar AINDA NAO foi implementado.
+
+Se o jogo nao abrir: na pasta do jogo, abra o novo backup
+Milenium_Integrado_Backup_DATA_HORA e execute MODO_COMPATIVEL.bat.
+Para desfazer todo o cliente: execute RESTAURAR.bat nesse backup.
+Para desfazer XML: servidor\DESFAZER_XML.bat na pasta deste kit.
+
+Leia README.md para limites e detalhes. Guarde o kit e os backups.
