@@ -1,18 +1,19 @@
-MULTISELL MILENIUM - 70 CAPAS EM DUAS LISTAS DE 35
+MULTISELL MILENIUM - 70 CAPAS EM TRES LISTAS
 
-1. Guarde backup do seu Cloaks.xml e do HTML atual da loja, fora das pastas
-   carregadas pelo servidor.
-2. Na pasta de multisells, substitua Cloaks.xml e acrescente Cloack2.xml.
-   Cloaks.xml = primeiras 35 capas; Cloack2.xml = outras 35 capas.
+1. Guarde backup dos XMLs de multisell e do HTML atual da loja, fora das
+   pastas carregadas pelo servidor.
+2. Na pasta de multisells, SUBSTITUA Cloaks.xml e Cloack2.xml pelas novas
+   versoes deste ZIP e ACRESCENTE Cloack3.xml.
+   Cloaks.xml: 24 capas; Cloack2.xml: 23 capas; Cloack3.xml: 23 capas.
 3. Use o conteudo de CustomShop.htm no HTML da loja que voce enviou,
    mantendo o nome/caminho original desse HTML no servidor.
 4. Recarregue multisells e HTML pelo seu procedimento habitual, ou reinicie.
 
-O botao original New Cloaks continua chamando Cloaks.
-O novo botao CLOACK 2 chama exatamente Cloack2.
-Usamos o mesmo bypass voiced_multisell e o mesmo estilo do botao original.
-Nao e necessario alterar os DATs nem o XML de definicao dos 70 itens.
-Estes dois XMLs sao de multisell, NAO devem ir na pasta items.
+O botao original New Cloaks chama Cloaks.
+CLOACK 2 chama Cloack2; CLOACK 3 chama Cloack3.
+O bypass e o estilo dos botoes existentes foram mantidos.
+Nao e necessario alterar DATs nem o XML de definicao dos 70 itens.
+Estes tres XMLs sao multisells: NAO coloque na pasta items.
 
 Preco de CADA capa preservado:
 20453 x 300000
@@ -20,6 +21,7 @@ Preco de CADA capa preservado:
 3470  x 200
 Entrega: 1 capa.
 
-Todos os 70 IDs habilitados aparecem uma vez, 35 em cada lista.
+Os mesmos 70 IDs aparecem uma unica vez, sem capas perdidas ou duplicadas.
 44 capas possuem malhas para 14 corpos; 26 apenas para corpos especificos,
 identificados nos comentarios. A multisell nao filtra a compra por corpo.
+Divisao verificada nos arquivos; carregamento no jogo precisa ser testado.

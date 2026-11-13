@@ -1,6 +1,6 @@
 ## Multisell das 70 capas novas
 
-[**Baixar duas multisells de 35 + HTML da loja**](Milenium_Capas_Integrado_70/Multisell_Capas_70.zip). Cloaks.xml contém 35 capas e Cloack2.xml contém as outras 35; o HTML inclui o botão CLOACK 2. Mantém o preço original (20453 × 300000, 20454 × 200, 3470 × 200) e entrega uma capa. Use o HTML no arquivo original da loja. As 26 capas de corpos específicos estão identificadas nos comentários, mas a multisell não restringe a compra por corpo.
+[**Baixar três multisells (24 + 23 + 23) + HTML da loja**](Milenium_Capas_Integrado_70/Multisell_Capas_70_3_Botoes.zip). Cloaks.xml contém 24 capas, Cloack2.xml contém 23 e Cloack3.xml contém 23; o HTML inclui os botões CLOACK 2 e CLOACK 3. Mantém o preço original (20453 × 300000, 20454 × 200, 3470 × 200) e entrega uma capa. Use o HTML no arquivo original da loja. As 26 capas de corpos específicos estão identificadas nos comentários, mas a multisell não restringe a compra por corpo.
 
 ## Capas — catálogo 70 e integração gráfica TESTE 5
 
