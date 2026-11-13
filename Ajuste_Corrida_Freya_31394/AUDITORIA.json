@@ -21,5 +21,7 @@
     "profile_reader": "0x10004450: interpolation thresholds 70,120; entries +0x250,+0x270,+0x290; mounted mix +0x2b0; outputs +0x80..+0x98",
     "read_run_component": "0x1000452f: movsd xmm5, qword ptr [eax + 0x298]",
     "body_name": "UTF16 MFighter_ via profile pointer table entry 1"
-  }
+  },
+  "status": "withdrawn_after_user_report_capes_invisible",
+  "visual_issue_fixed": false
 }

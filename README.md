@@ -1,8 +1,10 @@
-## Freya 31394 — teste de corrida no humano fighter masculino
+## TESTE 6 retirado — restauração das capas
 
-[**Baixar ajuste reversível TESTE 6**](Ajuste_Corrida_Freya_31394/Milenium_Corrida_Freya_TESTE6.zip) · [Escopo e limites](Ajuste_Corrida_Freya_31394/README.md)
+As capas deixaram de aparecer no cliente após o TESTE 6. **Feche o jogo e execute DESFAZER.bat** da pasta desse teste. A aplicação foi bloqueada na versão publicada.
 
-O vídeo confirma a bota atravessando o tecido. Este teste altera um parâmetro de movimento do corpo MFighter para avaliar o afastamento na passada. Afeta outras capas desse corpo e ainda precisa de confirmação visual no jogo; não acrescenta colisão com as pernas. Feche o jogo, execute APLICAR.bat; DESFAZER.bat restaura o original. Efeitos visuais, INIs e dados do servidor não mudam.
+[**Baixar ferramenta de restauração**](Ajuste_Corrida_Freya_31394/Milenium_Corrida_Freya_TESTE6.zip) · [Instruções](Ajuste_Corrida_Freya_31394/README.md)
+
+A ferramenta usa a DLL original de `Milenium_Corrida_Backup_TESTE6`, dentro do cliente. A correção dos pés continua pendente.
 
 ---
 

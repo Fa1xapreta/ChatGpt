@@ -1,9 +1,10 @@
-﻿param([ValidateSet('Aplicar','Desfazer')][string]$Acao='Aplicar',[string]$Cliente)
+﻿param([ValidateSet('Aplicar','Desfazer')][string]$Acao='Desfazer',[string]$Cliente)
 $ErrorActionPreference='Stop'
 $originalSha='20250ed27749bc3e5efee5f307dce3590c982d21d14b3bbbae1e4c747919f3d0'
 $patchedSha='80478436ae8811f67436c82d16c17dc89968f2b2a714045ea0da423ebbc5ec25'
 function Hash-Bytes([byte[]]$bytes){$s=[Security.Cryptography.SHA256]::Create();try{return ([BitConverter]::ToString($s.ComputeHash($bytes))).Replace('-','').ToLowerInvariant()}finally{$s.Dispose()}}
 try{
+ if($Acao -eq 'Aplicar'){throw 'TESTE 6 RETIRADO: o cliente apresentou capas invisiveis. Execute DESFAZER.bat para restaurar.'}
  $identity=[Security.Principal.WindowsIdentity]::GetCurrent();$principal=New-Object Security.Principal.WindowsPrincipal($identity)
  if(!$principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)){
   $arguments='-NoProfile -ExecutionPolicy Bypass -File "'+$PSCommandPath+'" -Acao '+$Acao;if($Cliente){$arguments+=' -Cliente "'+$Cliente+'"'}
