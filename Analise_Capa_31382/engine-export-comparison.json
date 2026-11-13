@@ -1,0 +1,244 @@
+[
+  {
+    "module": "Engine.dll",
+    "native_referenced_exports": [
+      {
+        "symbol": "??_7FActorSceneNode@@6B@",
+        "in_current": true,
+        "reference_rva": 5606988,
+        "current_rva": 5606988,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "??_7FCameraSceneNode@@6B@",
+        "in_current": true,
+        "reference_rva": 5606812,
+        "current_rva": 5606812,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "??_7FLevelSceneNode@@6B@",
+        "in_current": true,
+        "reference_rva": 5606732,
+        "current_rva": 5606732,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "??_7FPlayerSceneNode@@6B@",
+        "in_current": true,
+        "reference_rva": 5606900,
+        "current_rva": 5606900,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "??_7FShadowSceneNode@@6B@",
+        "in_current": true,
+        "reference_rva": 6168524,
+        "current_rva": 6168524,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "??_7USubSkeletalMeshInstance@@6B@",
+        "in_current": true,
+        "reference_rva": 5623268,
+        "current_rva": 5623268,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?DestroyActor@ULevel@@UAEHPAVAActor@@H@Z",
+        "in_current": true,
+        "reference_rva": 83401,
+        "current_rva": 83401,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?DetachFromBone@AActor@@QAEHPAV1@@Z",
+        "in_current": true,
+        "reference_rva": 73576,
+        "current_rva": 73576,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?IsLocallyControlled@APawn@@QAEHXZ",
+        "in_current": true,
+        "reference_rva": 74161,
+        "current_rva": 74161,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?LoadMap@UGameEngine@@UAEPAVULevel@@ABVFURL@@PAVUPendingLevel@@PBV?$TMap@VFString@@V1@@@AAVFString@@@Z",
+        "in_current": true,
+        "reference_rva": 66586,
+        "current_rva": 66586,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?LoadMapThread@UGameEngine@@QAEPAVULevel@@HH@Z",
+        "in_current": true,
+        "reference_rva": 67386,
+        "current_rva": 67386,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?PrivateStaticClass@AActor@@0VUClass@@A",
+        "in_current": true,
+        "reference_rva": 9553112,
+        "current_rva": 9553112,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?PrivateStaticClass@AEmitter@@0VUClass@@A",
+        "in_current": true,
+        "reference_rva": 11198208,
+        "current_rva": 11198208,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?PrivateStaticClass@UMeshAnimation@@0VUClass@@A",
+        "in_current": true,
+        "reference_rva": 11346704,
+        "current_rva": 11346704,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?PrivateStaticClass@USkeletalMesh@@0VUClass@@A",
+        "in_current": true,
+        "reference_rva": 11349360,
+        "current_rva": 11349360,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?PrivateStaticClass@UTexture@@0VUClass@@A",
+        "in_current": true,
+        "reference_rva": 27771392,
+        "current_rva": 27771392,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?Render@FCameraSceneNode@@UAEXPAVFRenderInterface@@@Z",
+        "in_current": true,
+        "reference_rva": 58871,
+        "current_rva": 58871,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?Render@FLevelSceneNode@@UAEXPAVFRenderInterface@@@Z",
+        "in_current": true,
+        "reference_rva": 86586,
+        "current_rva": 86586,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?Render@FPlayerSceneNode@@UAEXPAVFRenderInterface@@@Z",
+        "in_current": true,
+        "reference_rva": 74486,
+        "current_rva": 74486,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?SpawnActor@ULevel@@UAEPAVAActor@@PAVUClass@@VFName@@VFVector@@VFRotator@@PAV2@HH4PAVAPawn@@@Z",
+        "in_current": true,
+        "reference_rva": 21756,
+        "current_rva": 21756,
+        "first_64_code_bytes_equal": true
+      }
+    ]
+  },
+  {
+    "module": "Core.dll",
+    "native_referenced_exports": [
+      {
+        "symbol": "??DFName@@QBEPBGXZ",
+        "in_current": true,
+        "reference_rva": 4801,
+        "current_rva": 4801,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?AddToRoot@UObject@@QAEXXZ",
+        "in_current": true,
+        "reference_rva": 18846,
+        "current_rva": 18846,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?GErrorHist@@3PAGA",
+        "in_current": true,
+        "reference_rva": 1296048,
+        "current_rva": 1296048,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?GIsCriticalError@@3HA",
+        "in_current": true,
+        "reference_rva": 1304796,
+        "current_rva": 1304796,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?GL2GPUSkinning@@3HA",
+        "in_current": true,
+        "reference_rva": 1309204,
+        "current_rva": 1309204,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?GL2Shader@@3HA",
+        "in_current": true,
+        "reference_rva": 1309224,
+        "current_rva": 1309224,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?GL2UseReducePawnLOD@@3HA",
+        "in_current": true,
+        "reference_rva": 1309104,
+        "current_rva": 1309104,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?GObjObjects@UObject@@1V?$TArray@PAVUObject@@@@A",
+        "in_current": true,
+        "reference_rva": 2295944,
+        "current_rva": 2295944,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?GetFullName@UObject@@QBEPBGPAG@Z",
+        "in_current": true,
+        "reference_rva": 15531,
+        "current_rva": 15531,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?RemoveFromRoot@UObject@@QAEXXZ",
+        "in_current": true,
+        "reference_rva": 14526,
+        "current_rva": 14526,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?StaticLoadClass@UObject@@SAPAVUClass@@PAV2@PAV1@PBG2KPAVUPackageMap@@@Z",
+        "in_current": true,
+        "reference_rva": 5471,
+        "current_rva": 5471,
+        "first_64_code_bytes_equal": true
+      },
+      {
+        "symbol": "?StaticLoadObject@UObject@@SAPAV1@PAVUClass@@PAV1@PBG2KPAVUPackageMap@@@Z",
+        "in_current": true,
+        "reference_rva": 9126,
+        "current_rva": 9126,
+        "first_64_code_bytes_equal": true
+      }
+    ]
+  },
+  {
+    "module": "D3DDrv.dll",
+    "native_referenced_exports": []
+  },
+  {
+    "module": "NWindow.dll",
+    "native_referenced_exports": []
+  }
+]
