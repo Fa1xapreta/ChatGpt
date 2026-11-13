@@ -65,3 +65,8 @@ Remove somente o anúncio vermelho SYS de SELF no chat. Mantém os avisos de tel
 ## Auditoria das capas do cliente de referência
 
 [Relatório técnico](Auditoria_capas_referencia/RELATORIO.md), inventário completo, mapa de itens, separador PowerShell, texturas extraídas e evidências em [Auditoria_capas_referencia](Auditoria_capas_referencia/). Análise estática; os binários originais não foram executados ou republicados.
+
+
+## Milenium — capas, versao de teste 1
+
+[Baixar kit](Milenium_Capas_TESTE_1.zip) e [instrucoes](Milenium_Capas_TESTE_1_LEIA-ME.md). Inclui DATs com 25 capas, XML, fonte Java, instalador e restauracao. Usa os recursos originais da system do modelo como entrada local. Candidato sem teste no jogo; nao e substituicao final validada.
