@@ -1,0 +1,149 @@
+[
+  {
+    "id": 31345,
+    "native_label": "Anniversary Cloak",
+    "pattern": "fxanniv_m_ad00",
+    "offset": 497544,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31378,
+    "native_label": "Great Merchant's Cloak",
+    "pattern": "fxgdeco_m_ad00",
+    "offset": 497616,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31377,
+    "native_label": "Cloak of Growth",
+    "pattern": "fxgdgrow_m_ad00",
+    "offset": 497624,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31375,
+    "native_label": "Cloak of War",
+    "pattern": "fxgdpvp_m_ad00",
+    "offset": 497632,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31376,
+    "native_label": "Cloak of Attack",
+    "pattern": "fxgdraid_m_ad00",
+    "offset": 497640,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31368,
+    "native_label": "Aden Cloak (Kingdom)",
+    "pattern": "fxkgaden1_m_ad00",
+    "offset": 497664,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31372,
+    "native_label": "Aden Cloak (Kingdom) - Legendary",
+    "pattern": "fxkgaden4_m_ad00",
+    "offset": 497672,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31367,
+    "native_label": "Elmoreden Cloak",
+    "pattern": "fxkgelmd1_m_ad00",
+    "offset": 497680,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31371,
+    "native_label": "Elmoreden Cloak - Legendary",
+    "pattern": "fxkgelmd4_m_ad00",
+    "offset": 497688,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31369,
+    "native_label": "Elmore Cloak",
+    "pattern": "fxkgelmo1_m_ad00",
+    "offset": 497696,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31373,
+    "native_label": "Elmore Cloak - Legendary",
+    "pattern": "fxkgelmo4_m_ad00",
+    "offset": 497704,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31370,
+    "native_label": "Ferios Cloak",
+    "pattern": "fxkgperi1_m_ad00",
+    "offset": 497712,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31374,
+    "native_label": "Ferios Cloak - Legendary",
+    "pattern": "fxkgperi4_m_ad00",
+    "offset": 497720,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31348,
+    "native_label": "PL Cape",
+    "pattern": "fxplcape_m_ad00",
+    "offset": 497760,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31359,
+    "native_label": "Black Sayha's Cloak",
+    "pattern": "fxsayblk_m_ad00",
+    "offset": 497784,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31361,
+    "native_label": "Red Sayha's Cloak",
+    "pattern": "fxsayred_m_ad00",
+    "offset": 497792,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31360,
+    "native_label": "White Sayha's Cloak",
+    "pattern": "fxsaywht_m_ad00",
+    "offset": 497800,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31321,
+    "native_label": "Dragon Cloak - Antharas (Interlude)",
+    "pattern": "newmantle02_ant_m_ad00",
+    "offset": 498000,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31322,
+    "native_label": "Dragon Cloak - Fafurion (Interlude)",
+    "pattern": "newmantle02_fafu_m_ad00",
+    "offset": 498008,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31323,
+    "native_label": "Dragon Cloak - Lindvior (Interlude)",
+    "pattern": "newmantle02_lind_m_ad00",
+    "offset": 498016,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  },
+  {
+    "id": 31320,
+    "native_label": "Dragon Cloak - Valakas (Interlude)",
+    "pattern": "newmantle02_val_m_ad00",
+    "offset": 498024,
+    "reason": "recurso por corpo nao localizado nos pacotes enviados ou dependencia de animacao externa ausente"
+  }
+]

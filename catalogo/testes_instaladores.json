@@ -1,0 +1,16 @@
+{
+  "passed": [
+    "original",
+    "existing_assets",
+    "modified_asset",
+    "missing_asset",
+    "tamper",
+    "alias_failure",
+    "compatibility",
+    "xml_new",
+    "xml_old25",
+    "xml_mixed",
+    "xml_collision"
+  ],
+  "platform": "PowerShell 7 Linux fixtures; Windows elevation/UI mocked; game execution not tested"
+}

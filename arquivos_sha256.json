@@ -5,14 +5,14 @@
     "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
   },
   {
-    "file": "CAPAS_IDS.csv",
-    "bytes": 639,
-    "sha256": "3de238699859cbab22317c6bf3a9b6d5f8f8fec9ad26e0bfde65387f64fbdf6c"
+    "file": "CATALOGO_CAPAS.csv",
+    "bytes": 14554,
+    "sha256": "cad2b2b1f1abcaa504ef1222ac51b672bb1a72bc30e608d51f8a5b96d0a0415c"
   },
   {
     "file": "COMECE_AQUI.txt",
-    "bytes": 2133,
-    "sha256": "ee08af2514302e67be9dcfec08405d5b74b4bad3295a0ca2a21dc08d1825f49e"
+    "bytes": 1079,
+    "sha256": "740f0858e0082f60677a43b2db5ac1b07aed6db16a84fcecc4d9f640229658d3"
   },
   {
     "file": "INSTALAR.bat",
@@ -20,19 +20,179 @@
     "sha256": "e2f4c8776d073f147018c46b6e75954bc8dac38826fd96b84ad23a1959666bb3"
   },
   {
+    "file": "INSTALAR_XML.bat",
+    "bytes": 164,
+    "sha256": "b07846e46a031d7e60d5a707617800600959e806431354efdfb62372ae46aa02"
+  },
+  {
     "file": "Instalar.ps1",
-    "bytes": 7476,
-    "sha256": "e14f41627a7d061ab56927fcc3921fb37c940d71aa01839bc563a20a033e7c5d"
+    "bytes": 9535,
+    "sha256": "e3a95dc08b88c56dd34c8710d48549c209b987e45cacc181c480bf81aabaab91"
   },
   {
     "file": "README.md",
-    "bytes": 1624,
-    "sha256": "d6d4ee4b11c16378c64e362687d5595cb36c9d1cc87b0884683e6aeb903d8593"
+    "bytes": 5441,
+    "sha256": "bb154dc1eec5435c8add078974dd377c636f493e7defdbd903bc84772b778274"
   },
   {
     "file": "VERIFICACOES.json",
-    "bytes": 913,
-    "sha256": "94c2bdf0bc25b5fac73d221559fde7d289131c70a641ecc74cec20e6bd09dcfc"
+    "bytes": 570,
+    "sha256": "e30a70a461e0b6f90fde517d12825e5c5c37bef889a4b0bf8bc0ad67bd44d62d"
+  },
+  {
+    "file": "alias-patches/CCFDarkElfFestival.u.append",
+    "bytes": 5539,
+    "sha256": "20000e15b166fa55a102404943b224541ce77f5c86d0b4ccc54505d4113ce1e3"
+  },
+  {
+    "file": "alias-patches/CCFDarkElfFestival.u.head",
+    "bytes": 64,
+    "sha256": "d86d31237d92de7d7a27782e99fbe1d82c483e53ba0441995cd6cf2f5775e9e0"
+  },
+  {
+    "file": "alias-patches/CCFDwarfFestival.u.append",
+    "bytes": 5183,
+    "sha256": "aba6ef2c72d04816c4ce1b9c1bd6320b60c2db66bf38cd526e55c0f36a2e98e1"
+  },
+  {
+    "file": "alias-patches/CCFDwarfFestival.u.head",
+    "bytes": 64,
+    "sha256": "e8b4137c831117c17ede58d3ccc906ee26b4621a05250247eac2bb693847ecbd"
+  },
+  {
+    "file": "alias-patches/CCFElfFestival.u.append",
+    "bytes": 4973,
+    "sha256": "9306af5ab49f7ede72dd29efa8d2a177f35debd330007a3ee5b28091dfba5c25"
+  },
+  {
+    "file": "alias-patches/CCFElfFestival.u.head",
+    "bytes": 64,
+    "sha256": "3df51883c7ceda146dbde55dcf7c53e5d1e20054cc999e2cb55f42f58276da73"
+  },
+  {
+    "file": "alias-patches/CCFFighterFestival.u.append",
+    "bytes": 5594,
+    "sha256": "b33ecde9e51ed17ebd6e88b0f78cc9348e340f6a0ff52620ec8cbf31317d72ec"
+  },
+  {
+    "file": "alias-patches/CCFFighterFestival.u.head",
+    "bytes": 64,
+    "sha256": "fd16082ac6913d0ec62beeebea8b677f98173b35d23068e6bed9cb179bb766d3"
+  },
+  {
+    "file": "alias-patches/CCFMagicFestival.u.append",
+    "bytes": 5329,
+    "sha256": "1e922b10690ab45be5c385f3c3f9a8c73f7391964c7bda0b8ecf93d4f7aed90e"
+  },
+  {
+    "file": "alias-patches/CCFMagicFestival.u.head",
+    "bytes": 64,
+    "sha256": "5ad1bf80ff0b18efdda054450c8831f73e4e07b685dcdd130397bde2ff99e001"
+  },
+  {
+    "file": "alias-patches/CCFOrcFestival.u.append",
+    "bytes": 5049,
+    "sha256": "57f620966471fe61a4809e6e3027aee1759959436e9b36ffd8ce30d490972a43"
+  },
+  {
+    "file": "alias-patches/CCFOrcFestival.u.head",
+    "bytes": 64,
+    "sha256": "e6d3e27dfea348a0cdb22765b0522a8f84314714f2d9e4b22f582b88699da083"
+  },
+  {
+    "file": "alias-patches/CCFShamanFestival.u.append",
+    "bytes": 5678,
+    "sha256": "30521fe8c52e76f48260f87eae79a435f3dea81a5ef45b862ef9c79b4da29920"
+  },
+  {
+    "file": "alias-patches/CCFShamanFestival.u.head",
+    "bytes": 64,
+    "sha256": "22e98d5a560dce781f8a4aa0481482b23031b3c556950b5b64df54fc34ae60e4"
+  },
+  {
+    "file": "alias-patches/CCMDarkElfFestival.u.append",
+    "bytes": 5253,
+    "sha256": "2259a84e65e2f876083b41364795ec0c2f39a7c49ffeb397a2eb5fd791d751e9"
+  },
+  {
+    "file": "alias-patches/CCMDarkElfFestival.u.head",
+    "bytes": 64,
+    "sha256": "a57f973caa6b39e6b645916a6f8547212902a033c924d71b55ec4ab31824eccd"
+  },
+  {
+    "file": "alias-patches/CCMDwarfFestival.u.append",
+    "bytes": 5065,
+    "sha256": "04c2aecd371ca58c66b8d1a0fad019c746ac25897f1341769ae0189a1958dd33"
+  },
+  {
+    "file": "alias-patches/CCMDwarfFestival.u.head",
+    "bytes": 64,
+    "sha256": "183b95fa28b1dbe7df12186b7dda1f3bf58a0d1afba70e87a6c6bb7c6de4b5f9"
+  },
+  {
+    "file": "alias-patches/CCMElfFestival.u.append",
+    "bytes": 4861,
+    "sha256": "e8887624739abe42a7be8c16ac9b024f798ad790761ec851edef936e2076f452"
+  },
+  {
+    "file": "alias-patches/CCMElfFestival.u.head",
+    "bytes": 64,
+    "sha256": "ca0529052ab662f732118c6202f0d16c5123ac062cc9f8df72e9c2850cdb9788"
+  },
+  {
+    "file": "alias-patches/CCMFighterFestival.u.append",
+    "bytes": 5073,
+    "sha256": "e3121031c504bf2322017bab5633850d8c6d2b0260619c5506ea8c3a213a27c0"
+  },
+  {
+    "file": "alias-patches/CCMFighterFestival.u.head",
+    "bytes": 64,
+    "sha256": "e7d49bccd4ae53704b165947eed832ec41e63972f89e5bc44a28a909a3ad6d62"
+  },
+  {
+    "file": "alias-patches/CCMMagicFestival.u.append",
+    "bytes": 5269,
+    "sha256": "612195f0318afe6b26c71088055f0e8712ebcf67afb25a2312a07da38df33980"
+  },
+  {
+    "file": "alias-patches/CCMMagicFestival.u.head",
+    "bytes": 64,
+    "sha256": "2a706204b81985f117278596941df3f7976eee1b3458e4840b0e1cc55be86267"
+  },
+  {
+    "file": "alias-patches/CCMOrcFestival.u.append",
+    "bytes": 4988,
+    "sha256": "f1944b07950451204ff0c323c98e59195586dd57adf650be7e5fe82f43f09303"
+  },
+  {
+    "file": "alias-patches/CCMOrcFestival.u.head",
+    "bytes": 64,
+    "sha256": "66f8083d3f8a8859e4c0801a75e1325105952b5f21854d00786b579fc0bc1f17"
+  },
+  {
+    "file": "alias-patches/CCMShamanFestival.u.append",
+    "bytes": 5371,
+    "sha256": "c7aeaa781873c5d45db3a74731f77d7e0b8e6c0b8fe1b124dd741866f8c0920e"
+  },
+  {
+    "file": "alias-patches/CCMShamanFestival.u.head",
+    "bytes": 64,
+    "sha256": "49c70a7c9664bdc76b2692ee6827cdc73de8e88d1d45f7a21620e4c37474b1a6"
+  },
+  {
+    "file": "alias-patches/patches.json",
+    "bytes": 12602,
+    "sha256": "b5d8784c34f4bf4f271346398b4bd5bc2a096c9093e75a9f18b572564e140225"
+  },
+  {
+    "file": "catalogo/pendentes.json",
+    "bytes": 5084,
+    "sha256": "b6d0eaaa5d01ee941526e224615a7019b5529dbff2752b10b6fe63cbac996fab"
+  },
+  {
+    "file": "catalogo/testes_instaladores.json",
+    "bytes": 329,
+    "sha256": "cc5dab423c63b7ec6b8b1ea5bb425715c0a1c6ea20d931c0568cb7a546f58207"
   },
   {
     "file": "cliente/SysTextures/CapasClassicIcons.utx",
@@ -532,7 +692,7 @@
   {
     "file": "cliente/system/CapasClassic.ini",
     "bytes": 765,
-    "sha256": "bab66d8b6ee1e638eaad6a623e654a3522e8961c2362b1e802480a1343b1d6e6"
+    "sha256": "1a3fdf68f038f0b3e347ad4e0dc1ee265fa9062301752de7c4ac1902ad666585"
   },
   {
     "file": "cliente/system/CapasClassic.sha256",
@@ -570,19 +730,49 @@
     "sha256": "0688909a9275e8cddc4152a4fec785aa119417964fe2a7edb9087451a6dddf2c"
   },
   {
+    "file": "cliente/system/CliExt.dll",
+    "bytes": 9216,
+    "sha256": "eeb724569d69b175191265fc6ea6e1c88868614c087777b7cdcb286c4ca834af"
+  },
+  {
+    "file": "cliente/system/D3DDrv.dll",
+    "bytes": 1277972,
+    "sha256": "2b496d235cca529b6180588a987ca0059600a2323193d96e87b90014105be0c2"
+  },
+  {
     "file": "cliente/system/DynastyCloak.u",
     "bytes": 2891991,
     "sha256": "268f6672af646aa8ebd0fbf94ab5423fbe0c216c3eef24240a17834f63e85705"
   },
   {
+    "file": "cliente/system/L2modExCore.dll",
+    "bytes": 36352,
+    "sha256": "0b50347c9fa583c2c99412cc84bf38225a7671d379b678267d336f826e738400"
+  },
+  {
+    "file": "cliente/system/MilAuraWait.dll",
+    "bytes": 197632,
+    "sha256": "33bd2b713e22021618fb476eb7dfd7ceee5839b0a8cbd57b285aa908ef180ead"
+  },
+  {
+    "file": "cliente/system/MileniumFX.ini",
+    "bytes": 662,
+    "sha256": "31943fc8ea49fcc4e57943ba6f6133a3a045bd62b4009c6a4d88832a8e3f5dc8"
+  },
+  {
+    "file": "cliente/system/MileniumGraphics.dll",
+    "bytes": 39424,
+    "sha256": "1b0f76881886afb016564cfaa2d1bae1ac419c3d83ab445cb54cae926cb97c7a"
+  },
+  {
     "file": "cliente/system/armorgrp.dat",
-    "bytes": 144432,
-    "sha256": "94859ab23a0e715daee796ef36015f3b2b22a4512afe653bfd7854dd8255487c"
+    "bytes": 146864,
+    "sha256": "28faf68c420e1c5e021b6c75ed4b5ccaadbbb5128d39a3883df12094b86d944f"
   },
   {
     "file": "cliente/system/d3d9.dll",
-    "bytes": 136192,
-    "sha256": "4e6bf78f1228311ed81e829c1efd9b683ddef86ba4540c32c1de167a283c8b17"
+    "bytes": 199168,
+    "sha256": "85ab4204e1abd8323f1fbf891dc8b50c687234af96aece862bc7367cc54746e4"
   },
   {
     "file": "cliente/system/dsetup.dll",
@@ -591,13 +781,78 @@
   },
   {
     "file": "cliente/system/itemname-e.dat",
-    "bytes": 256432,
-    "sha256": "330b89ba3487459df042a941f959158c29aa19d4be3b4c0a7714802514c0f13b"
+    "bytes": 257200,
+    "sha256": "a7ee3208d3aee14bc2de5bad1a8f9609aefb9a1d3194d50c1fc5fd099e1d0522"
   },
   {
     "file": "cliente_aceito.json",
-    "bytes": 956,
-    "sha256": "c3b557ab5dcb5cd63be19802d25515f8b9fc9907c9ecbff3aa322f63b2d8c73f"
+    "bytes": 1603,
+    "sha256": "819abae6a0217caa4151bfdb2b836c16e91150459e4219176175e14318bdff7e"
+  },
+  {
+    "file": "fonte_integracao/LICENSE.txt",
+    "bytes": 1039,
+    "sha256": "60ad9ee0c3d2833afea3b511ee2c0fde26e81fa266197502020cccec748f157b"
+  },
+  {
+    "file": "fonte_integracao/README.md",
+    "bytes": 844,
+    "sha256": "2a0cee374bcb2b2bd20a0089626321b7aa5a805c6eb0469f288a64a5e8ce067e"
+  },
+  {
+    "file": "fonte_integracao/alias_packages.py",
+    "bytes": 3422,
+    "sha256": "0d16c427ad457a3636ecd12725a14e13627cf0043f3202c41a0d65927d098bf3"
+  },
+  {
+    "file": "fonte_integracao/armor_codec.py",
+    "bytes": 2002,
+    "sha256": "96a243d6802b6641673e8b16ca3fae0e77d1847a195d20286b038e3d22178a46"
+  },
+  {
+    "file": "fonte_integracao/aura_wait.c",
+    "bytes": 2368,
+    "sha256": "2e43a2a687815a752bb6ce2440ad46b3fa2eba4b42534d81db5aa43952879b61"
+  },
+  {
+    "file": "fonte_integracao/build_catalog.py",
+    "bytes": 7671,
+    "sha256": "933cd801c0739ee2f8ad44cb06e2bdbd6915b01c1ac3cefaf062c3de3a47221b"
+  },
+  {
+    "file": "fonte_integracao/chain_core.h",
+    "bytes": 4228,
+    "sha256": "71c59df6a25b741d312770fff6cc027dab48c24b811c53bcf65713c16b68b8fe"
+  },
+  {
+    "file": "fonte_integracao/d3d9_chain.c",
+    "bytes": 4583,
+    "sha256": "2fe386f18a5734a8ff9dfa12f5efa6fefef9bd758b60c71f1bcac4216dcbd0fc"
+  },
+  {
+    "file": "fonte_integracao/exports.def",
+    "bytes": 138,
+    "sha256": "9bf81569b873f210cd6de7716f31e543a3b213aa7e74203108a5e95e1bba4955"
+  },
+  {
+    "file": "fonte_integracao/sync_guard.c",
+    "bytes": 237,
+    "sha256": "e27b20a7737498c07886da8364d2d95f52a203128299d785e4d4be183b21dea7"
+  },
+  {
+    "file": "fonte_integracao/test_chain.c",
+    "bytes": 2153,
+    "sha256": "fc44000d2dc79f2c9d63e543f7f7a6531ef08594e989d51778a88b3863f51c22"
+  },
+  {
+    "file": "fonte_integracao/test_installers.py",
+    "bytes": 6545,
+    "sha256": "042e42b31298a7ccaaf8d8f6ab7f3d7a8d5b64232e28dfabdf50fe514ccff543"
+  },
+  {
+    "file": "fonte_integracao/verify_delivery.py",
+    "bytes": 2271,
+    "sha256": "bea7156c2578058cb470fb5c2c17f5f3324814d4a7b5bd6d6488d8ce2f45d7b0"
   },
   {
     "file": "originais/servidor/Cloak.xml",
@@ -610,9 +865,34 @@
     "sha256": "b14fd075f51011ad1d6e7ca7cb50d6ae46c9e5c434bafb282e5a39f04b1bad84"
   },
   {
+    "file": "originais/system/CliExt.dll",
+    "bytes": 9216,
+    "sha256": "c63c0a674e7384b8b80821a8822f37f9f7797a7c731332bcf9e26b4e21981a0c"
+  },
+  {
+    "file": "originais/system/D3DDrv.dll",
+    "bytes": 1277972,
+    "sha256": "f670f30ce22973a36e8fec49c3536c9ed05a49fe47b9205a778230a1c17e79e2"
+  },
+  {
+    "file": "originais/system/L2modExCore.dll",
+    "bytes": 36352,
+    "sha256": "0b50347c9fa583c2c99412cc84bf38225a7671d379b678267d336f826e738400"
+  },
+  {
+    "file": "originais/system/MileniumFX.ini",
+    "bytes": 662,
+    "sha256": "31943fc8ea49fcc4e57943ba6f6133a3a045bd62b4009c6a4d88832a8e3f5dc8"
+  },
+  {
     "file": "originais/system/armorgrp.dat",
     "bytes": 158128,
     "sha256": "4d04df0bc842fd8b10ac2d7cb5b416267f6b10f87fe48a1948e868e627af3252"
+  },
+  {
+    "file": "originais/system/d3d9.dll",
+    "bytes": 39424,
+    "sha256": "1b0f76881886afb016564cfaa2d1bae1ac419c3d83ab445cb54cae926cb97c7a"
   },
   {
     "file": "originais/system/dsetup.dll",
@@ -625,19 +905,44 @@
     "sha256": "08774a9f266f557b9ba165d77e919e340af30a12a2649908788bf81b10f0d062"
   },
   {
-    "file": "servidor/LEIA-ME.txt",
-    "bytes": 1221,
-    "sha256": "663a87dd9a93d1da93875cdc5ac1cd62daff31fc22d6f3da525c267e314ffca1"
+    "file": "servidor/DESFAZER_XML.bat",
+    "bytes": 156,
+    "sha256": "54ef01bd272ecc77f7ce287f1f1860d728cc072452b784e307bb4a6aa3d2c269"
   },
   {
-    "file": "servidor/MileniumCloaks_313xx.xml",
-    "bytes": 12530,
-    "sha256": "c182f9db2d31aa08a940bef6fbfe181d42a4f871a5c21bfa8aa33f1a7a6e98a3"
+    "file": "servidor/LEIA-ME.txt",
+    "bytes": 1220,
+    "sha256": "dcc2f000c5f56a2fb47250ff5653d0c0118789ec838b57ead4acd1d0384ba043"
+  },
+  {
+    "file": "servidor/Xml.ps1",
+    "bytes": 8951,
+    "sha256": "11a2ab76393179dbe7b9aeb3193af01cd9cba6991d38f9c9628561d5ec989043"
+  },
+  {
+    "file": "servidor/itens/Milenium_Capas_70.xml",
+    "bytes": 35206,
+    "sha256": "45e34dd7c2100724b9b61f5b280038375d7b52ead78c5f818fdf4734bfed3a69"
   },
   {
     "file": "servidor/java/net/sf/l2j/gameserver/model/cloak/CloakSystemManager.java",
     "bytes": 763,
     "sha256": "9326da4967eb8ce98210bcdeae05bdac71ecd00cf8eb675aecb60d81578ea0bc"
+  },
+  {
+    "file": "suporte/CliExt_modo_capas.dll",
+    "bytes": 9216,
+    "sha256": "c63c0a674e7384b8b80821a8822f37f9f7797a7c731332bcf9e26b4e21981a0c"
+  },
+  {
+    "file": "suporte/MODO_COMPATIVEL.bat",
+    "bytes": 152,
+    "sha256": "6baa7507a6a3a12cbd94b1b82ffb53ce2d5f93ce4ed36e3a8d1b818c7cb9d861"
+  },
+  {
+    "file": "suporte/ModoCompativel.ps1",
+    "bytes": 2930,
+    "sha256": "0e398dcf8cd1ec9601d0349d30ccbae279f2ec97693bc89e58873bc07691b9ee"
   },
   {
     "file": "suporte/RESTAURAR.bat",
@@ -646,7 +951,12 @@
   },
   {
     "file": "suporte/Restaurar.ps1",
-    "bytes": 2233,
-    "sha256": "d68f4002bb74a111ba88fda2b257acae330c2acf7b06558f7afbcb724b10f633"
+    "bytes": 3206,
+    "sha256": "60a81e8273f78999746cdb362f8d93621acd37dc4730b103cba3642d5173f6ed"
+  },
+  {
+    "file": "suporte/d3d9_modo_capas.dll",
+    "bytes": 136192,
+    "sha256": "4e6bf78f1228311ed81e829c1efd9b683ddef86ba4540c32c1de167a283c8b17"
   }
 ]

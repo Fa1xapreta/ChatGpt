@@ -1,0 +1,5 @@
+LIBRARY d3d9
+EXPORTS
+ Direct3DCreate9=Direct3DCreate9@4
+ Direct3DCreate9Ex=Direct3DCreate9Ex@8
+ HangGetPresentAgeMs=HangGetPresentAgeMs@0
