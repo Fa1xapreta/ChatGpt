@@ -1,25 +1,25 @@
-MULTISELL MILENIUM - 70 CAPAS NOVAS
+MULTISELL MILENIUM - 70 CAPAS EM DUAS LISTAS DE 35
 
-Guarde uma copia da sua multisell Cloaks.xml atual fora da pasta multisell.
-Substitua somente o Cloaks.xml da loja por este arquivo, mantendo o nome
-que o NPC/HTML ja utiliza. Recarregue as multisells pelo seu procedimento
-habitual ou reinicie o gameserver.
+1. Guarde backup do seu Cloaks.xml e do HTML atual da loja, fora das pastas
+   carregadas pelo servidor.
+2. Na pasta de multisells, substitua Cloaks.xml e acrescente Cloack2.xml.
+   Cloaks.xml = primeiras 35 capas; Cloack2.xml = outras 35 capas.
+3. Use o conteudo de CustomShop.htm no HTML da loja que voce enviou,
+   mantendo o nome/caminho original desse HTML no servidor.
+4. Recarregue multisells e HTML pelo seu procedimento habitual, ou reinicie.
 
-Esta e uma multisell de loja, NAO e XML de definicao de itens.
-Use na pasta de multisells; nao coloque na pasta items.
-Depende dos DATs, recursos e cadastro de itens do kit de 70 capas.
+O botao original New Cloaks continua chamando Cloaks.
+O novo botao CLOACK 2 chama exatamente Cloack2.
+Usamos o mesmo bypass voiced_multisell e o mesmo estilo do botao original.
+Nao e necessario alterar os DATs nem o XML de definicao dos 70 itens.
+Estes dois XMLs sao de multisell, NAO devem ir na pasta items.
 
-Preco de CADA capa preservado do arquivo enviado:
+Preco de CADA capa preservado:
 20453 x 300000
 20454 x 200
 3470  x 200
 Entrega: 1 capa.
 
-Contem somente os 70 IDs habilitados do novo kit. Nao contem os antigos
-311xx/31073 nem as 21 entradas pendentes. Os IDs internos das ofertas
-(item id=...) foram numerados de 1 a 70; o ID da capa e production id.
-
-44 capas possuem malhas para 14 corpos. 26 possuem apenas alguns corpos:
-os comentarios no XML identificam quais. A multisell NAO filtra raca/sexo;
-o jogador ainda consegue comprar uma capa de corpo diferente. Consulte
-o catalogo antes de vender essas 26 para todos os personagens.
+Todos os 70 IDs habilitados aparecem uma vez, 35 em cada lista.
+44 capas possuem malhas para 14 corpos; 26 apenas para corpos especificos,
+identificados nos comentarios. A multisell nao filtra a compra por corpo.
