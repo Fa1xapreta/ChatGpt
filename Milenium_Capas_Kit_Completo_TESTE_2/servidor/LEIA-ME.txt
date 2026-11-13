@@ -1,0 +1,23 @@
+SE VOCE JA APLICOU O JAVA E O XML DO TESTE_1, NAO PRECISA REPETIR.
+
+O kit completo muda a entrega e o instalador do cliente. Os 25 itens e a
+classe Java sao os mesmos do TESTE_1.
+
+Caso ainda nao tenha aplicado:
+1. Guarde backup da classe atual CloakSystemManager.java.
+2. Substitua somente net.sf.l2j.gameserver.model.cloak.CloakSystemManager
+   pela fonte em java desta pasta e compile seu gameserver normalmente.
+   Esta classe interrompe o envio dos pacotes de ajuste do motor antigo,
+   preservando suas chamadas existentes. Ela nao e o codigo do novo motor.
+3. Acrescente MileniumCloaks_313xx.xml a pasta de itens do servidor.
+   Confira se algum outro XML ja define esses IDs antes de acrescentar.
+   Nao mantenha duas copias do mesmo XML e nao apague seu Cloak.xml antigo.
+4. Reinicie o servidor de testes e crie os itens de CAPAS_IDS.csv.
+
+O kit nao contem um gameserver compilado. O projeto completo do servidor
+nao foi recebido: se existirem outros envios diretos de ExCloakSystem,
+eles tambem precisam ser examinados.
+
+Os itens novos preservam o bonus do XML enviado: 5% HP e CP, slot back,
+sem enchant e com restricao de Olympiad. Os 42 itens antigos nao foram
+apagados ou convertidos no banco dos jogadores.

@@ -1,3 +1,5 @@
+> **Substituido pelo [kit completo TESTE 2](Milenium_Capas_Kit_Completo_TESTE_2/README.md). Use o kit novo; ele dispensa a pasta separada do modelo.**
+
 # Milenium — troca de capas, versão de teste 1
 
 **Teste em uma cópia do cliente e em um servidor de testes.** Este pacote foi conferido por análise estática. O motor nativo de referência não foi executado nesta sessão. Não há garantia de funcionamento na Engine de destino nem de aceitação da licença. Não é uma versão final validada no jogo.
