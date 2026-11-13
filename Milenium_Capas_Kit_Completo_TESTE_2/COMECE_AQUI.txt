@@ -43,5 +43,5 @@ O QUE MUDA:
 ATENCAO: KIT COMPLETO DE ARQUIVOS PARA TESTE, NAO VALIDADO NO JOGO.
 O funcionamento do motor/licenca na sua Engine ainda precisa ser confirmado.
 As texturas continuam nos pacotes originais; ainda nao foram unificadas em um UTX.
-Nenhum pacote/controlador LucDev e instalado. Nao houve alteracao de licenca.
+O controlador externo do modelo nao e instalado. Nao houve alteracao de licenca.
 Se der erro ao abrir, restaure pelo backup e envie a mensagem exata.

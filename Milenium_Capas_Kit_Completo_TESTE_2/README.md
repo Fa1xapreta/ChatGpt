@@ -1,6 +1,6 @@
 # Milenium — kit completo de capas, teste 2
 
-[**Baixar o ZIP completo**](https://github.com/Fa1xapreta/ChatGpt/releases/download/milenium-capas-kit-completo-teste2/Milenium_Capas_Kit_Completo_TESTE_2.zip)
+[**Baixar o ZIP completo**](https://github.com/Fa1xapreta/ChatGpt/archive/refs/heads/kit-capas-completo-teste2.zip)
 
 O download inclui todos os recursos de cliente selecionados. Nao exige uma pasta separada com a system do modelo.
 
@@ -16,4 +16,4 @@ O XML e a classe Java sao os mesmos do TESTE_1. Se ja os aplicou, mantenha-os. S
 
 **Kit completo de arquivos para teste, sem validacao do motor dentro do jogo.** A compatibilidade da Engine e a inicializacao/licenca continuam pendentes. Os arquivos de montarias e interface nao sao substituidos. As 42 capas antigas permanecem cadastradas para preservar inventarios; o carregamento do motor antigo e retirado e seus recursos guardados no backup. Texturas mantidas nos pacotes originais, ainda sem unificacao em um UTX.
 
-O ZIP completo esta nos assets da release por causa do tamanho; esta pasta do repositorio guarda os scripts e instrucoes para consulta. Baixar somente esta pasta nao fornece as malhas/DLLs.
+O ZIP completo e gerado pela branch dedicada kit-capas-completo-teste2. Esta pasta da branch principal guarda os scripts e instrucoes para consulta. Use o link de download acima para receber tambem todas as malhas/DLLs.

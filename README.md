@@ -1,6 +1,6 @@
 ## Kit completo de capas — download atual
 
-[**Baixar o kit completo TESTE 2**](https://github.com/Fa1xapreta/ChatGpt/releases/download/milenium-capas-kit-completo-teste2/Milenium_Capas_Kit_Completo_TESTE_2.zip) · [Instrucoes simples](Milenium_Capas_Kit_Completo_TESTE_2/README.md)
+[**Baixar o kit completo TESTE 2**](https://github.com/Fa1xapreta/ChatGpt/archive/refs/heads/kit-capas-completo-teste2.zip) · [Instrucoes simples](Milenium_Capas_Kit_Completo_TESTE_2/README.md)
 
 Inclui os recursos do modelo. Extraia fora do jogo e execute INSTALAR.bat. Aceita a copia manual dos tres arquivos do TESTE_1. Versao de teste; o motor ainda precisa ser validado no jogo.
 
