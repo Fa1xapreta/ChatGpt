@@ -18,5 +18,5 @@
   "native_game_tested": false,
   "server_build_included": false,
   "textures_consolidated_into_one_utx": false,
-  "lucdev_packages_installed": false
+  "external_model_controller_installed": false
 }

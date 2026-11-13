@@ -1,13 +1,18 @@
 [
   {
+    "file": ".gitattributes",
+    "bytes": 8,
+    "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+  },
+  {
     "file": "CAPAS_IDS.csv",
     "bytes": 639,
     "sha256": "3de238699859cbab22317c6bf3a9b6d5f8f8fec9ad26e0bfde65387f64fbdf6c"
   },
   {
     "file": "COMECE_AQUI.txt",
-    "bytes": 2130,
-    "sha256": "1f46519746b5a1967298fc2347d1dc9d84f08084f16ab312d7771dfcb47e63f0"
+    "bytes": 2133,
+    "sha256": "ee08af2514302e67be9dcfec08405d5b74b4bad3295a0ca2a21dc08d1825f49e"
   },
   {
     "file": "INSTALAR.bat",
@@ -21,13 +26,13 @@
   },
   {
     "file": "README.md",
-    "bytes": 1621,
-    "sha256": "eb3245d64816e00e0ad93d7b19a346f68671eda1dce4961cdac6dde3fc0ff418"
+    "bytes": 1624,
+    "sha256": "d6d4ee4b11c16378c64e362687d5595cb36c9d1cc87b0884683e6aeb903d8593"
   },
   {
     "file": "VERIFICACOES.json",
-    "bytes": 903,
-    "sha256": "764bd2d9b14b016e239393276e9fbea3c408c4044908e0bce2fbfe6dd4b30b13"
+    "bytes": 913,
+    "sha256": "94c2bdf0bc25b5fac73d221559fde7d289131c70a641ecc74cec20e6bd09dcfc"
   },
   {
     "file": "cliente/SysTextures/CapasClassicIcons.utx",

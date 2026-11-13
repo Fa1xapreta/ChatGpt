@@ -14,4 +14,4 @@ Se ja aplicou o XML e o Java do TESTE_1, mantenha-os. Caso contrario, veja [serv
 
 Para desfazer, execute RESTAURAR.bat de dentro da pasta Milenium_Capas_Backup criada no seu cliente.
 
-**Kit completo de arquivos para teste; motor ainda nao validado dentro do jogo.** Os arquivos de montarias e interface sao preservados. A compatibilidade da Engine/licenca continua pendente. As texturas permanecem nos pacotes originais. Os 42 itens antigos permanecem cadastrados para preservar inventarios; o carregamento do motor antigo e retirado e seus recursos guardados no backup. Nenhum pacote/controlador LucDev e instalado.
+**Kit completo de arquivos para teste; motor ainda nao validado dentro do jogo.** Os arquivos de montarias e interface sao preservados. A compatibilidade da Engine/licenca continua pendente. As texturas permanecem nos pacotes originais. Os 42 itens antigos permanecem cadastrados para preservar inventarios; o carregamento do motor antigo e retirado e seus recursos guardados no backup. O controlador externo do modelo nao e instalado.
