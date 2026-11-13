@@ -1,0 +1,2032 @@
+[
+  {
+    "name": "systextures/",
+    "size": 0,
+    "compressed": 0,
+    "crc": 0,
+    "method": 0,
+    "flags": 0,
+    "volume": 0,
+    "offset": 4
+  },
+  {
+    "name": "systextures/ancientwps.utx",
+    "size": 537532,
+    "compressed": 194854,
+    "crc": 2117591420,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 46
+  },
+  {
+    "name": "systextures/artifacts.utx",
+    "size": 1653390,
+    "compressed": 423156,
+    "crc": 2304244030,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 194956
+  },
+  {
+    "name": "systextures/Avengers02Ico.utx",
+    "size": 1290563,
+    "compressed": 525412,
+    "crc": 513127794,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 618167
+  },
+  {
+    "name": "systextures/Avengers03Ico.utx",
+    "size": 1290512,
+    "compressed": 544720,
+    "crc": 539099481,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 1143638
+  },
+  {
+    "name": "systextures/Avengers_FDarkElf_05.utx",
+    "size": 3414994,
+    "compressed": 1482493,
+    "crc": 2084954765,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 1688417
+  },
+  {
+    "name": "systextures/Avengers_FDwarf_05.utx",
+    "size": 1314131,
+    "compressed": 461439,
+    "crc": 3345308152,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 3170976
+  },
+  {
+    "name": "systextures/Avengers_FElf_05.utx",
+    "size": 3502851,
+    "compressed": 1394176,
+    "crc": 2757671700,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 3632479
+  },
+  {
+    "name": "systextures/Avengers_FFighter_05.utx",
+    "size": 2496128,
+    "compressed": 1071180,
+    "crc": 2843233643,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 5026717
+  },
+  {
+    "name": "systextures/Avengers_FMagic_05.utx",
+    "size": 1314070,
+    "compressed": 505549,
+    "crc": 616815223,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 6097963
+  },
+  {
+    "name": "systextures/Avengers_FOrc_05.utx",
+    "size": 2232869,
+    "compressed": 1049476,
+    "crc": 3262343837,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 6603576
+  },
+  {
+    "name": "systextures/Avengers_FShaman_05.utx",
+    "size": 1292086,
+    "compressed": 542192,
+    "crc": 2155918386,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 7653114
+  },
+  {
+    "name": "systextures/Avengers_MDarkElf_05.utx",
+    "size": 3371280,
+    "compressed": 1480618,
+    "crc": 2760127827,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 8195371
+  },
+  {
+    "name": "systextures/Avengers_MDwarf_05.utx",
+    "size": 1379789,
+    "compressed": 489325,
+    "crc": 3106976901,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 9676055
+  },
+  {
+    "name": "systextures/Avengers_MElf_05.utx",
+    "size": 3327418,
+    "compressed": 1398013,
+    "crc": 2626967007,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 10165444
+  },
+  {
+    "name": "systextures/Avengers_MFighter_05.utx",
+    "size": 2540132,
+    "compressed": 1136042,
+    "crc": 2576075936,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 11563519
+  },
+  {
+    "name": "systextures/Avengers_MMagic_05.utx",
+    "size": 1401793,
+    "compressed": 483683,
+    "crc": 2677770475,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 12699627
+  },
+  {
+    "name": "systextures/Avengers_MOrc_05.utx",
+    "size": 2189152,
+    "compressed": 1082907,
+    "crc": 4103575186,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 13183374
+  },
+  {
+    "name": "systextures/Avengers_MShaman_05.utx",
+    "size": 1314090,
+    "compressed": 546164,
+    "crc": 2679300418,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 14266343
+  },
+  {
+    "name": "systextures/Avengers_VesperBlack_wp.utx",
+    "size": 11271193,
+    "compressed": 2241257,
+    "crc": 984114550,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 14812572
+  },
+  {
+    "name": "systextures/bill.utx",
+    "size": 4593476,
+    "compressed": 163356,
+    "crc": 3946261546,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 17053898
+  },
+  {
+    "name": "systextures/BlueD.utx",
+    "size": 722391,
+    "compressed": 172764,
+    "crc": 1285886451,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 17217304
+  },
+  {
+    "name": "systextures/buttons_bs.utx",
+    "size": 13203,
+    "compressed": 697,
+    "crc": 2312846707,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 17390119
+  },
+  {
+    "name": "systextures/cap.utx",
+    "size": 691517,
+    "compressed": 202703,
+    "crc": 7948686,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 17390872
+  },
+  {
+    "name": "systextures/CapasClassicIcons.utx",
+    "size": 71148,
+    "compressed": 42265,
+    "crc": 1820650717,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 17593624
+  },
+  {
+    "name": "systextures/cartola_by_SHEV.utx",
+    "size": 537658,
+    "compressed": 131818,
+    "crc": 3257116835,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 17635952
+  },
+  {
+    "name": "systextures/CoinsbyGaara.utx",
+    "size": 12702,
+    "compressed": 9345,
+    "crc": 2479199401,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 17767831
+  },
+  {
+    "name": "systextures/costume_t_euro__com.utx",
+    "size": 126816176,
+    "compressed": 57631946,
+    "crc": 1080459657,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 17777234
+  },
+  {
+    "name": "systextures/Crest.utx",
+    "size": 68564,
+    "compressed": 5119,
+    "crc": 3091663701,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 12494685
+  },
+  {
+    "name": "systextures/ct1fdarkelf.utx",
+    "size": 1740843,
+    "compressed": 1015612,
+    "crc": 3625350371,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 12499855
+  },
+  {
+    "name": "systextures/ct1fdwarf.utx",
+    "size": 558898,
+    "compressed": 281022,
+    "crc": 3821480420,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 13515524
+  },
+  {
+    "name": "systextures/ct1felf.utx",
+    "size": 1937318,
+    "compressed": 980007,
+    "crc": 3747939599,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 13796601
+  },
+  {
+    "name": "systextures/ct1ffighter.utx",
+    "size": 1248459,
+    "compressed": 765065,
+    "crc": 1328493251,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 14776661
+  },
+  {
+    "name": "systextures/ct1fmagic.utx",
+    "size": 558897,
+    "compressed": 312895,
+    "crc": 225577530,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 15541783
+  },
+  {
+    "name": "systextures/ct1forc.utx",
+    "size": 1247840,
+    "compressed": 726181,
+    "crc": 2079601079,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 15854733
+  },
+  {
+    "name": "systextures/ct1fshaman.utx",
+    "size": 558904,
+    "compressed": 333570,
+    "crc": 680063883,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 16580967
+  },
+  {
+    "name": "systextures/ct1icon.utx",
+    "size": 205743,
+    "compressed": 129065,
+    "crc": 1542535354,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 16914593
+  },
+  {
+    "name": "systextures/ct1lineageaccessorytex.utx",
+    "size": 2670954,
+    "compressed": 891226,
+    "crc": 1896779465,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 17043711
+  },
+  {
+    "name": "systextures/ct1LineageWeaponsTex.utx",
+    "size": 9528751,
+    "compressed": 4161517,
+    "crc": 2003976428,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 17935005
+  },
+  {
+    "name": "systextures/ct1mdarkelf.utx",
+    "size": 2894411,
+    "compressed": 1492269,
+    "crc": 2369300159,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 1125068
+  },
+  {
+    "name": "systextures/ct1mdwarf.utx",
+    "size": 1087432,
+    "compressed": 597331,
+    "crc": 3004528794,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 2617394
+  },
+  {
+    "name": "systextures/ct1melf.utx",
+    "size": 2861149,
+    "compressed": 1448804,
+    "crc": 1755904204,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 3214780
+  },
+  {
+    "name": "systextures/ct1mfighter.utx",
+    "size": 2139063,
+    "compressed": 1198882,
+    "crc": 257118686,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 4663637
+  },
+  {
+    "name": "systextures/ct1mmagic.utx",
+    "size": 988734,
+    "compressed": 402909,
+    "crc": 4089777958,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 5862576
+  },
+  {
+    "name": "systextures/ct1morc.utx",
+    "size": 2104794,
+    "compressed": 1192055,
+    "crc": 4253870208,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 6265540
+  },
+  {
+    "name": "systextures/ct1mshaman.utx",
+    "size": 955816,
+    "compressed": 440797,
+    "crc": 576065665,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 7457648
+  },
+  {
+    "name": "systextures/ct2aicon.utx",
+    "size": 2083,
+    "compressed": 1815,
+    "crc": 3203757557,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 7898501
+  },
+  {
+    "name": "systextures/ct2icon.utx",
+    "size": 15296,
+    "compressed": 10168,
+    "crc": 1070909005,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 7900370
+  },
+  {
+    "name": "systextures/ct2LineageWeaponsTex.utx",
+    "size": 2512156,
+    "compressed": 1078827,
+    "crc": 3328569172,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 7910591
+  },
+  {
+    "name": "systextures/CustomAccessoryTex.utx",
+    "size": 20016094,
+    "compressed": 8584828,
+    "crc": 1943016449,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 8989484
+  },
+  {
+    "name": "systextures/customi.utx",
+    "size": 76682,
+    "compressed": 48114,
+    "crc": 1306792785,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 17574376
+  },
+  {
+    "name": "systextures/customw.utx",
+    "size": 6299209,
+    "compressed": 1716654,
+    "crc": 96714002,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 17622543
+  },
+  {
+    "name": "systextures/dksskins.utx",
+    "size": 2669383,
+    "compressed": 929087,
+    "crc": 82014112,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 19339250
+  },
+  {
+    "name": "systextures/dusks.utx",
+    "size": 526766,
+    "compressed": 161858,
+    "crc": 1666277744,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 20268391
+  },
+  {
+    "name": "systextures/Elemental.utx",
+    "size": 6121575,
+    "compressed": 1637687,
+    "crc": 2357612181,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 20430300
+  },
+  {
+    "name": "systextures/epicdrop.utx",
+    "size": 1458854,
+    "compressed": 446901,
+    "crc": 2789125783,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 1096522
+  },
+  {
+    "name": "systextures/epicfdarkelf.utx",
+    "size": 2115457,
+    "compressed": 902526,
+    "crc": 3481174880,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 1543477
+  },
+  {
+    "name": "systextures/epicfdwarf.utx",
+    "size": 2115364,
+    "compressed": 930686,
+    "crc": 1720900730,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 2446061
+  },
+  {
+    "name": "systextures/epicfelf.utx",
+    "size": 3688300,
+    "compressed": 1734935,
+    "crc": 4113717937,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 3376803
+  },
+  {
+    "name": "systextures/epicffighter.utx",
+    "size": 1984363,
+    "compressed": 909301,
+    "crc": 3699456219,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 5111792
+  },
+  {
+    "name": "systextures/epicfmagic.utx",
+    "size": 2027931,
+    "compressed": 1129942,
+    "crc": 3498790508,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 6021151
+  },
+  {
+    "name": "systextures/epicforc.utx",
+    "size": 6235321,
+    "compressed": 3023416,
+    "crc": 3696790554,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 7151149
+  },
+  {
+    "name": "systextures/epicfshaman.utx",
+    "size": 6410161,
+    "compressed": 2611513,
+    "crc": 1047147174,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 10174619
+  },
+  {
+    "name": "systextures/epicicon.utx",
+    "size": 13599,
+    "compressed": 9142,
+    "crc": 949753322,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 12786189
+  },
+  {
+    "name": "systextures/epicmask.utx",
+    "size": 419707,
+    "compressed": 137944,
+    "crc": 1237973685,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 12795385
+  },
+  {
+    "name": "systextures/epicmdarkelf.utx",
+    "size": 2246557,
+    "compressed": 1062708,
+    "crc": 2491549949,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 12933383
+  },
+  {
+    "name": "systextures/epicmdwarf.utx",
+    "size": 2639740,
+    "compressed": 974684,
+    "crc": 3035397974,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 13996149
+  },
+  {
+    "name": "systextures/epicmelf.utx",
+    "size": 3961604,
+    "compressed": 1705883,
+    "crc": 3628341960,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 14970889
+  },
+  {
+    "name": "systextures/epicmfighter.utx",
+    "size": 4082917,
+    "compressed": 1363540,
+    "crc": 2525772172,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 16676826
+  },
+  {
+    "name": "systextures/epicmmagic.utx",
+    "size": 2114824,
+    "compressed": 952538,
+    "crc": 4162138895,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 18040424
+  },
+  {
+    "name": "systextures/epicmorc.utx",
+    "size": 6060576,
+    "compressed": 3211831,
+    "crc": 2240110211,
+    "method": 8,
+    "flags": 0,
+    "volume": 5,
+    "offset": 18993018
+  },
+  {
+    "name": "systextures/epicmshaman.utx",
+    "size": 6235413,
+    "compressed": 1982439,
+    "crc": 1438694485,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 1233383
+  },
+  {
+    "name": "systextures/EternalWeapons.utx",
+    "size": 2374683,
+    "compressed": 790305,
+    "crc": 1901090579,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 3215879
+  },
+  {
+    "name": "systextures/Event1.utx",
+    "size": 6537,
+    "compressed": 5411,
+    "crc": 1325863838,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 4006244
+  },
+  {
+    "name": "systextures/FDarkelf-v3.utx",
+    "size": 2892260,
+    "compressed": 1112242,
+    "crc": 443055271,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 4011707
+  },
+  {
+    "name": "systextures/FDwarf-v3.utx",
+    "size": 964749,
+    "compressed": 372793,
+    "crc": 2017839479,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 5124006
+  },
+  {
+    "name": "systextures/FElf-v3.utx",
+    "size": 2498543,
+    "compressed": 1067684,
+    "crc": 3368942459,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 5496854
+  },
+  {
+    "name": "systextures/FFighter-v3.utx",
+    "size": 1753725,
+    "compressed": 714216,
+    "crc": 2502193730,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 6564591
+  },
+  {
+    "name": "systextures/FMagic-v3.utx",
+    "size": 920809,
+    "compressed": 365094,
+    "crc": 861322309,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 7278864
+  },
+  {
+    "name": "systextures/FOrc-v3.utx",
+    "size": 1971812,
+    "compressed": 854937,
+    "crc": 3600721513,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 7644013
+  },
+  {
+    "name": "systextures/foxmas.utx",
+    "size": 8264814,
+    "compressed": 4633845,
+    "crc": 2198413418,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 8499003
+  },
+  {
+    "name": "systextures/FoxNews.utx",
+    "size": 6424,
+    "compressed": 5257,
+    "crc": 1466819520,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 13132900
+  },
+  {
+    "name": "systextures/FoxTex.utx",
+    "size": 2315091,
+    "compressed": 526685,
+    "crc": 3811919697,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 13138210
+  },
+  {
+    "name": "systextures/FShaman-v3.utx",
+    "size": 964707,
+    "compressed": 442919,
+    "crc": 422882996,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 13664947
+  },
+  {
+    "name": "systextures/HairAcc2.utx",
+    "size": 1839387,
+    "compressed": 308280,
+    "crc": 119113218,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 14107922
+  },
+  {
+    "name": "systextures/halloween.utx",
+    "size": 2004543,
+    "compressed": 807391,
+    "crc": 1951350426,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 14416256
+  },
+  {
+    "name": "systextures/hallowem_mask_SHEV_Tex.utx",
+    "size": 25532196,
+    "compressed": 6711330,
+    "crc": 4017488197,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 15223702
+  },
+  {
+    "name": "systextures/HallowenIco.utx",
+    "size": 9896,
+    "compressed": 8101,
+    "crc": 1775994228,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 963580
+  },
+  {
+    "name": "systextures/helmetTex.utx",
+    "size": 9939307,
+    "compressed": 2282840,
+    "crc": 2516109136,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 971738
+  },
+  {
+    "name": "systextures/Helmet_octabis_SHEV_Tex.utx",
+    "size": 723217,
+    "compressed": 290130,
+    "crc": 2162881376,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 3254633
+  },
+  {
+    "name": "systextures/HoodTex.utx",
+    "size": 1778438,
+    "compressed": 1003031,
+    "crc": 625470698,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 3544832
+  },
+  {
+    "name": "systextures/Horn_Hat_Tex.utx",
+    "size": 1492257,
+    "compressed": 508248,
+    "crc": 2483651305,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 4547916
+  },
+  {
+    "name": "systextures/Icon-EL.utx",
+    "size": 363318,
+    "compressed": 63467,
+    "crc": 3336488239,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 5056222
+  },
+  {
+    "name": "systextures/Icon-v3.utx",
+    "size": 111671,
+    "compressed": 22784,
+    "crc": 988093739,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 5119742
+  },
+  {
+    "name": "systextures/Icon.utx",
+    "size": 2642041,
+    "compressed": 1615352,
+    "crc": 595446809,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 5142579
+  },
+  {
+    "name": "systextures/iconfox-armor.utx",
+    "size": 17130,
+    "compressed": 9431,
+    "crc": 321252588,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 6757981
+  },
+  {
+    "name": "systextures/iconfox-v3.utx",
+    "size": 9623885,
+    "compressed": 611251,
+    "crc": 705546984,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 6767471
+  },
+  {
+    "name": "systextures/iconfox-weapon.utx",
+    "size": 36616,
+    "compressed": 23382,
+    "crc": 3420692715,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 7378778
+  },
+  {
+    "name": "systextures/icon_acc.utx",
+    "size": 17650,
+    "compressed": 12792,
+    "crc": 1095726084,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 7402220
+  },
+  {
+    "name": "systextures/Icon_bySmallz.utx",
+    "size": 24087,
+    "compressed": 16981,
+    "crc": 4127681382,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 7415066
+  },
+  {
+    "name": "systextures/icon_themega_ru.utx",
+    "size": 3093862,
+    "compressed": 1118684,
+    "crc": 1361444552,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 7432106
+  },
+  {
+    "name": "systextures/jhonicone.utx",
+    "size": 1261,
+    "compressed": 1093,
+    "crc": 3348798360,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 8550851
+  },
+  {
+    "name": "systextures/JohnScott_Goddess_Hair.utx",
+    "size": 2457781,
+    "compressed": 1063886,
+    "crc": 445921440,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 8551999
+  },
+  {
+    "name": "systextures/JohnScott_Goddess_Helmet.utx",
+    "size": 351209,
+    "compressed": 149539,
+    "crc": 2175099471,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 9615953
+  },
+  {
+    "name": "systextures/kamui_acc.utx",
+    "size": 355299,
+    "compressed": 129373,
+    "crc": 1878837977,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 9765562
+  },
+  {
+    "name": "systextures/KSshield.utx",
+    "size": 14844922,
+    "compressed": 2922013,
+    "crc": 3872941443,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 9894990
+  },
+  {
+    "name": "systextures/KSshieldIcons.utx",
+    "size": 15234,
+    "compressed": 10961,
+    "crc": 2089064028,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 12817057
+  },
+  {
+    "name": "systextures/ksweapons.utx",
+    "size": 5235905,
+    "compressed": 1624593,
+    "crc": 1113305812,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 12828077
+  },
+  {
+    "name": "systextures/kswepicons.utx",
+    "size": 37597,
+    "compressed": 26423,
+    "crc": 4268779712,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 14452725
+  },
+  {
+    "name": "systextures/l2-revolution.utx",
+    "size": 22455,
+    "compressed": 11259,
+    "crc": 1111493326,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 14479204
+  },
+  {
+    "name": "systextures/L2Aegis.utx",
+    "size": 13703,
+    "compressed": 9863,
+    "crc": 3277984970,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 14490522
+  },
+  {
+    "name": "systextures/l2d.utx",
+    "size": 73482814,
+    "compressed": 28110209,
+    "crc": 1880465824,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 14500438
+  },
+  {
+    "name": "systextures/l2font-pt.utx",
+    "size": 328361,
+    "compressed": 17786,
+    "crc": 2848962421,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 667656
+  },
+  {
+    "name": "systextures/L2Font-r.utx",
+    "size": 26514113,
+    "compressed": 9621521,
+    "crc": 4181877254,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 685497
+  },
+  {
+    "name": "systextures/L2Fox.utx",
+    "size": 3396156,
+    "compressed": 1758986,
+    "crc": 3052382627,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 10307072
+  },
+  {
+    "name": "systextures/L2Fox2.utx",
+    "size": 6001,
+    "compressed": 4098,
+    "crc": 508000548,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 12066109
+  },
+  {
+    "name": "systextures/L2FoxIcon.utx",
+    "size": 1212,
+    "compressed": 1079,
+    "crc": 1912280144,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 12070259
+  },
+  {
+    "name": "systextures/L2Furya.utx",
+    "size": 17825,
+    "compressed": 10614,
+    "crc": 3536727988,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 12071393
+  },
+  {
+    "name": "systextures/L2Pvp.utx",
+    "size": 114097,
+    "compressed": 21795,
+    "crc": 4226738224,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 12082060
+  },
+  {
+    "name": "systextures/L2PvpZone.utx",
+    "size": 152682,
+    "compressed": 104129,
+    "crc": 2755021344,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 12103906
+  },
+  {
+    "name": "systextures/L2PvpZoneV3.utx",
+    "size": 5594,
+    "compressed": 3720,
+    "crc": 322655381,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 12208090
+  },
+  {
+    "name": "systextures/L2SongPlus.utx",
+    "size": 348632,
+    "compressed": 59058,
+    "crc": 3623118645,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 12211867
+  },
+  {
+    "name": "systextures/L2UI_CH3.utx",
+    "size": 41068654,
+    "compressed": 4928438,
+    "crc": 3159784142,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 12270981
+  },
+  {
+    "name": "systextures/l2ui_ct1.utx",
+    "size": 616,
+    "compressed": 431,
+    "crc": 3449552206,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 17199473
+  },
+  {
+    "name": "systextures/La2Loyal.utx",
+    "size": 148986,
+    "compressed": 29753,
+    "crc": 1578890018,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 17199958
+  },
+  {
+    "name": "systextures/LineageAccessory2Tex2.utx",
+    "size": 4995946,
+    "compressed": 2032256,
+    "crc": 1793058922,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 17229765
+  },
+  {
+    "name": "systextures/LineageAccessory2Tex3.utx",
+    "size": 88886,
+    "compressed": 35104,
+    "crc": 4223575778,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 19262088
+  },
+  {
+    "name": "systextures/LineageAccessoryTex.utx",
+    "size": 4323570,
+    "compressed": 1899954,
+    "crc": 739526278,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 19297259
+  },
+  {
+    "name": "systextures/LineageEffectsTextures.utx",
+    "size": 54328468,
+    "compressed": 18630338,
+    "crc": 4251853709,
+    "method": 8,
+    "flags": 0,
+    "volume": 10,
+    "offset": 225758
+  },
+  {
+    "name": "systextures/LineageMonsterFox.utx",
+    "size": 1966346,
+    "compressed": 1058450,
+    "crc": 88865845,
+    "method": 8,
+    "flags": 0,
+    "volume": 10,
+    "offset": 18856164
+  },
+  {
+    "name": "systextures/LineageMonstersTex8.utx",
+    "size": 6143402,
+    "compressed": 1568553,
+    "crc": 3698017678,
+    "method": 8,
+    "flags": 0,
+    "volume": 10,
+    "offset": 19914677
+  },
+  {
+    "name": "systextures/LineageMonster_NewStrider.utx",
+    "size": 7696984,
+    "compressed": 1961151,
+    "crc": 2494954152,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 511775
+  },
+  {
+    "name": "systextures/LineageWeaponsTex-v.utx",
+    "size": 7296095,
+    "compressed": 2142440,
+    "crc": 3988619114,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 2472997
+  },
+  {
+    "name": "systextures/MDarkelf-v3.utx",
+    "size": 2498718,
+    "compressed": 927493,
+    "crc": 3681533100,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 4615502
+  },
+  {
+    "name": "systextures/MDwarf-v3.utx",
+    "size": 964749,
+    "compressed": 387799,
+    "crc": 2774527562,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 5543052
+  },
+  {
+    "name": "systextures/MElf-v3.utx",
+    "size": 2498477,
+    "compressed": 1043015,
+    "crc": 3566192413,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 5930906
+  },
+  {
+    "name": "systextures/MFighter-v3.utx",
+    "size": 2059603,
+    "compressed": 719127,
+    "crc": 3890344500,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 6973974
+  },
+  {
+    "name": "systextures/MMagic-v3.utx",
+    "size": 920809,
+    "compressed": 328968,
+    "crc": 1483596049,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 7693158
+  },
+  {
+    "name": "systextures/MOrc-v3.utx",
+    "size": 1971813,
+    "compressed": 784196,
+    "crc": 615613052,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 8022181
+  },
+  {
+    "name": "systextures/MShaman-v3.utx",
+    "size": 964766,
+    "compressed": 404154,
+    "crc": 253021757,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 8806430
+  },
+  {
+    "name": "systextures/Munch_AgathionTex.utx",
+    "size": 10939238,
+    "compressed": 3579850,
+    "crc": 3389729238,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 9210640
+  },
+  {
+    "name": "systextures/Munch_DarkKnightTex.utx",
+    "size": 63649364,
+    "compressed": 23351563,
+    "crc": 1593539413,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 12790553
+  },
+  {
+    "name": "systextures/Munch_Hats.utx",
+    "size": 21298408,
+    "compressed": 7434288,
+    "crc": 2493898098,
+    "method": 8,
+    "flags": 0,
+    "volume": 12,
+    "offset": 15170661
+  },
+  {
+    "name": "systextures/Munch_HatsTex.utx",
+    "size": 661022,
+    "compressed": 96367,
+    "crc": 4256199871,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 1633485
+  },
+  {
+    "name": "systextures/NevesOma_vStick-r_tex.utx",
+    "size": 2188494,
+    "compressed": 986343,
+    "crc": 3722800415,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 1729911
+  },
+  {
+    "name": "systextures/nw.utx",
+    "size": 700479,
+    "compressed": 245792,
+    "crc": 2722977456,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 2716321
+  },
+  {
+    "name": "systextures/nw1.utx",
+    "size": 700488,
+    "compressed": 242715,
+    "crc": 1934785648,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 2962161
+  },
+  {
+    "name": "systextures/PirateQueen.utx",
+    "size": 3396832,
+    "compressed": 2191184,
+    "crc": 1130203721,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 3204925
+  },
+  {
+    "name": "systextures/Redepicdrop.utx",
+    "size": 1458850,
+    "compressed": 447156,
+    "crc": 2882201509,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 5396166
+  },
+  {
+    "name": "systextures/Redepicfdarkelf.utx",
+    "size": 1783695,
+    "compressed": 707504,
+    "crc": 914116379,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 5843379
+  },
+  {
+    "name": "systextures/Redepicfdwarf.utx",
+    "size": 1783574,
+    "compressed": 734178,
+    "crc": 3276946730,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 6550944
+  },
+  {
+    "name": "systextures/Redepicfelf.utx",
+    "size": 3356499,
+    "compressed": 1585847,
+    "crc": 3804282230,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 7285181
+  },
+  {
+    "name": "systextures/Redepicffighter.utx",
+    "size": 1660845,
+    "compressed": 745700,
+    "crc": 3457223549,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 8871085
+  },
+  {
+    "name": "systextures/Redepicfmagic.utx",
+    "size": 1652472,
+    "compressed": 867816,
+    "crc": 2569022723,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 9616846
+  },
+  {
+    "name": "systextures/Redepicforc.utx",
+    "size": 5728760,
+    "compressed": 2824149,
+    "crc": 3061440830,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 10484721
+  },
+  {
+    "name": "systextures/Redepicfshaman.utx",
+    "size": 5728838,
+    "compressed": 2392189,
+    "crc": 4014898706,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 13308927
+  },
+  {
+    "name": "systextures/Redepicmdarkelf.utx",
+    "size": 1917624,
+    "compressed": 873627,
+    "crc": 2956404511,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 15701176
+  },
+  {
+    "name": "systextures/Redepicmdwarf.utx",
+    "size": 2319100,
+    "compressed": 850860,
+    "crc": 1954095439,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 16574864
+  },
+  {
+    "name": "systextures/Redepicmelf.utx",
+    "size": 3654884,
+    "compressed": 1637737,
+    "crc": 3148925653,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 17425783
+  },
+  {
+    "name": "systextures/Redepicmmagic.utx",
+    "size": 1797143,
+    "compressed": 822812,
+    "crc": 2073326855,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 19063577
+  },
+  {
+    "name": "systextures/Redepicmorc.utx",
+    "size": 5742777,
+    "compressed": 3049803,
+    "crc": 2724788280,
+    "method": 8,
+    "flags": 0,
+    "volume": 13,
+    "offset": 19886448
+  },
+  {
+    "name": "systextures/Redepicmshaman.utx",
+    "size": 5742850,
+    "compressed": 1840071,
+    "crc": 1454945957,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 1964788
+  },
+  {
+    "name": "systextures/Ruthless_weapon_ByCymBals.utx",
+    "size": 626007,
+    "compressed": 148979,
+    "crc": 4049010418,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 3804919
+  },
+  {
+    "name": "systextures/SHEV_SingleMeshTex.utx",
+    "size": 1037809,
+    "compressed": 491731,
+    "crc": 3750102219,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 3953969
+  },
+  {
+    "name": "systextures/skin2.utx",
+    "size": 1202,
+    "compressed": 1071,
+    "crc": 122752999,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 4445764
+  },
+  {
+    "name": "systextures/Skins.utx",
+    "size": 22885,
+    "compressed": 9619,
+    "crc": 1834385830,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 4446886
+  },
+  {
+    "name": "systextures/sp_256_01.bmp",
+    "size": 308324,
+    "compressed": 70136,
+    "crc": 3365490894,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 4456556
+  },
+  {
+    "name": "systextures/sp_256_02.bmp",
+    "size": 308324,
+    "compressed": 67909,
+    "crc": 2677800336,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 4526747
+  },
+  {
+    "name": "systextures/sp_256_03.bmp",
+    "size": 308324,
+    "compressed": 73419,
+    "crc": 2612973734,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 4594711
+  },
+  {
+    "name": "systextures/sp_256_04.bmp",
+    "size": 308324,
+    "compressed": 61075,
+    "crc": 3607601027,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 4668185
+  },
+  {
+    "name": "systextures/sp_256_05.bmp",
+    "size": 308324,
+    "compressed": 60248,
+    "crc": 868142393,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 4729315
+  },
+  {
+    "name": "systextures/sp_256_06.bmp",
+    "size": 308324,
+    "compressed": 68614,
+    "crc": 3550211990,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 4789618
+  },
+  {
+    "name": "systextures/sp_256_07.bmp",
+    "size": 308324,
+    "compressed": 63004,
+    "crc": 2870025009,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 4858287
+  },
+  {
+    "name": "systextures/sp_256_08.bmp",
+    "size": 308324,
+    "compressed": 68537,
+    "crc": 3607337064,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 4921346
+  },
+  {
+    "name": "systextures/sp_256_09.bmp",
+    "size": 308324,
+    "compressed": 69788,
+    "crc": 1377455496,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 4989938
+  },
+  {
+    "name": "systextures/sp_256_10.bmp",
+    "size": 308324,
+    "compressed": 65216,
+    "crc": 296773277,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 5059781
+  },
+  {
+    "name": "systextures/sp_256_11.bmp",
+    "size": 308324,
+    "compressed": 55562,
+    "crc": 3909928299,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 5125052
+  },
+  {
+    "name": "systextures/sp_32b_01.bmp",
+    "size": 1228904,
+    "compressed": 303353,
+    "crc": 963681217,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 5180669
+  },
+  {
+    "name": "systextures/sp_32b_02.bmp",
+    "size": 1228904,
+    "compressed": 291696,
+    "crc": 1816804235,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 5484077
+  },
+  {
+    "name": "systextures/sp_32b_03.bmp",
+    "size": 1228904,
+    "compressed": 308537,
+    "crc": 1259909177,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 5775828
+  },
+  {
+    "name": "systextures/sp_32b_04.bmp",
+    "size": 1228904,
+    "compressed": 256810,
+    "crc": 2930368593,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 6084420
+  },
+  {
+    "name": "systextures/sp_32b_05.bmp",
+    "size": 1228904,
+    "compressed": 255221,
+    "crc": 2774425453,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 6341285
+  },
+  {
+    "name": "systextures/sp_32b_06.bmp",
+    "size": 1228904,
+    "compressed": 312786,
+    "crc": 182374083,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 6596561
+  },
+  {
+    "name": "systextures/sp_32b_07.bmp",
+    "size": 1228904,
+    "compressed": 282971,
+    "crc": 4269146173,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 6909402
+  },
+  {
+    "name": "systextures/sp_32b_08.bmp",
+    "size": 1228904,
+    "compressed": 299373,
+    "crc": 2144597473,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 7192428
+  },
+  {
+    "name": "systextures/sp_32b_09.bmp",
+    "size": 1228904,
+    "compressed": 297697,
+    "crc": 2067917328,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 7491856
+  },
+  {
+    "name": "systextures/sp_32b_10.bmp",
+    "size": 1228904,
+    "compressed": 296988,
+    "crc": 1710222952,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 7789608
+  },
+  {
+    "name": "systextures/sp_32b_11.bmp",
+    "size": 1228904,
+    "compressed": 255347,
+    "crc": 1833149051,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 8086651
+  },
+  {
+    "name": "systextures/straw_SHEV_Tex.utx",
+    "size": 548790,
+    "compressed": 148928,
+    "crc": 203630749,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 8342053
+  },
+  {
+    "name": "systextures/teleport.utx",
+    "size": 1137599,
+    "compressed": 490941,
+    "crc": 125879662,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 8491041
+  },
+  {
+    "name": "systextures/uniform.utx",
+    "size": 691305,
+    "compressed": 210722,
+    "crc": 2267732996,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 8982036
+  },
+  {
+    "name": "systextures/vesperw3.utx",
+    "size": 1227774,
+    "compressed": 437239,
+    "crc": 1753361071,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 9192811
+  },
+  {
+    "name": "systextures/Vesper_black_joias.utx",
+    "size": 97497,
+    "compressed": 18993,
+    "crc": 280167519,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 9630104
+  },
+  {
+    "name": "systextures/Vesper_Jewels.utx",
+    "size": 357840,
+    "compressed": 131671,
+    "crc": 1311143579,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 9649161
+  },
+  {
+    "name": "systextures/VIP.utx",
+    "size": 3630,
+    "compressed": 2701,
+    "crc": 2034811986,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 9780891
+  },
+  {
+    "name": "systextures/VipCoinsByAllInOne.utx",
+    "size": 2974,
+    "compressed": 2510,
+    "crc": 378402805,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 9783641
+  },
+  {
+    "name": "systextures/WariinGBoundSpecterTex.utx",
+    "size": 7008619,
+    "compressed": 2905723,
+    "crc": 3912810411,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 9786215
+  },
+  {
+    "name": "systextures/Weapons_vesper_black.utx",
+    "size": 7592306,
+    "compressed": 1714995,
+    "crc": 163995433,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 12692006
+  },
+  {
+    "name": "systextures/WilliamFS_EL_ShieldTex.utx",
+    "size": 418302,
+    "compressed": 182606,
+    "crc": 3010643132,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 14407067
+  },
+  {
+    "name": "systextures/WilliamFS_Vesper_wp_Tex.utx",
+    "size": 12665231,
+    "compressed": 3197722,
+    "crc": 3576134802,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 14589741
+  },
+  {
+    "name": "systextures/xmas.utx",
+    "size": 335339,
+    "compressed": 142978,
+    "crc": 1866433406,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 17787532
+  },
+  {
+    "name": "systextures/zSnow_News_Hat.utx",
+    "size": 1446044,
+    "compressed": 508577,
+    "crc": 1178366422,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 17930560
+  },
+  {
+    "name": "systextures/zSnow_Rabbadon_New.utx",
+    "size": 526025,
+    "compressed": 235087,
+    "crc": 774639314,
+    "method": 8,
+    "flags": 0,
+    "volume": 14,
+    "offset": 18439197
+  }
+]

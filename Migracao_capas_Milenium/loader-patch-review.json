@@ -1,0 +1,18 @@
+{
+  "status": "preparado para revisao, sem teste de execucao; nao instalar isoladamente",
+  "original": {
+    "sha256": "02c826a1f71016e7fba4fd0ce8791e9ff4ee10e7defbba731a08c0a78ab3d183",
+    "size": 240640
+  },
+  "candidate": {
+    "sha256": "fc3fb6b717fee7871578f241dc55d69055c8fec53aea57b661dca9b7ae692455",
+    "size": 240640
+  },
+  "patch_offset": 199168,
+  "old_target": "dsetup_base.dll",
+  "new_target": "dsetup_ms.dll",
+  "preserved": "CustomWndSchuster.dll",
+  "rationale": "loader resolves ordinal 11; old base already forwards that exact export to dsetup_ms",
+  "runtime_verified": false,
+  "completes_new_cloak_installation": false
+}

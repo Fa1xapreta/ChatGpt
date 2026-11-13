@@ -1,0 +1,4922 @@
+[
+  {
+    "name": "animations/",
+    "size": 0,
+    "compressed": 0,
+    "crc": 0,
+    "method": 0,
+    "flags": 0,
+    "volume": 0,
+    "offset": 4
+  },
+  {
+    "name": "animations/AgaFox.ukx",
+    "size": 4748693,
+    "compressed": 2738866,
+    "crc": 1819205077,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 45
+  },
+  {
+    "name": "animations/AgaGhostly.ukx",
+    "size": 4017818,
+    "compressed": 1773467,
+    "crc": 2435224783,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 2738962
+  },
+  {
+    "name": "animations/AgaGhostlyBlack.ukx",
+    "size": 2269648,
+    "compressed": 1281073,
+    "crc": 23509106,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 4512484
+  },
+  {
+    "name": "animations/amden_orc_shaman.ukx",
+    "size": 5696875,
+    "compressed": 2648482,
+    "crc": 3062266996,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 5793617
+  },
+  {
+    "name": "animations/Avengers_AND_Psytrance_DarkElf.ukx",
+    "size": 10551049,
+    "compressed": 3254832,
+    "crc": 2128609318,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 8442160
+  },
+  {
+    "name": "animations/Avengers_AND_Psytrance_Drop.ukx",
+    "size": 1200724,
+    "compressed": 339328,
+    "crc": 3015697077,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 11697067
+  },
+  {
+    "name": "animations/Avengers_AND_Psytrance_Dwarf.ukx",
+    "size": 3955445,
+    "compressed": 1252864,
+    "crc": 1944281231,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 12036467
+  },
+  {
+    "name": "animations/Avengers_AND_Psytrance_Elf.ukx",
+    "size": 10616604,
+    "compressed": 3471587,
+    "crc": 4286540667,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 13289404
+  },
+  {
+    "name": "animations/Avengers_AND_Psytrance_Fighter.ukx",
+    "size": 7755071,
+    "compressed": 2404823,
+    "crc": 4118405355,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 16761062
+  },
+  {
+    "name": "animations/Avengers_AND_Psytrance_Magic.ukx",
+    "size": 3458862,
+    "compressed": 1112250,
+    "crc": 1995465425,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 19165960
+  },
+  {
+    "name": "animations/Avengers_AND_Psytrance_Orc.ukx",
+    "size": 8301529,
+    "compressed": 2634813,
+    "crc": 1169048882,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 20278283
+  },
+  {
+    "name": "animations/Avengers_AND_Psytrance_Shaman.ukx",
+    "size": 3554137,
+    "compressed": 1244327,
+    "crc": 2510033937,
+    "method": 8,
+    "flags": 0,
+    "volume": 1,
+    "offset": 1941647
+  },
+  {
+    "name": "animations/Avengers_DarkElf_02.ukx",
+    "size": 10268043,
+    "compressed": 4165462,
+    "crc": 233596548,
+    "method": 8,
+    "flags": 0,
+    "volume": 1,
+    "offset": 3186048
+  },
+  {
+    "name": "animations/Avengers_DarkElf_03.ukx",
+    "size": 10224071,
+    "compressed": 4222966,
+    "crc": 3383776932,
+    "method": 8,
+    "flags": 0,
+    "volume": 1,
+    "offset": 7351574
+  },
+  {
+    "name": "animations/Avengers_DarkElf_05.ukx",
+    "size": 1300583,
+    "compressed": 574252,
+    "crc": 3737127787,
+    "method": 8,
+    "flags": 0,
+    "volume": 1,
+    "offset": 11574604
+  },
+  {
+    "name": "animations/Avengers_Drop_02.ukx",
+    "size": 1156983,
+    "compressed": 361434,
+    "crc": 678444052,
+    "method": 8,
+    "flags": 0,
+    "volume": 1,
+    "offset": 12148920
+  },
+  {
+    "name": "animations/Avengers_Drop_03.ukx",
+    "size": 1156994,
+    "compressed": 390070,
+    "crc": 1410280147,
+    "method": 8,
+    "flags": 0,
+    "volume": 1,
+    "offset": 12510415
+  },
+  {
+    "name": "animations/Avengers_Dwarf_02.ukx",
+    "size": 3824115,
+    "compressed": 1593858,
+    "crc": 3555612276,
+    "method": 8,
+    "flags": 0,
+    "volume": 1,
+    "offset": 12900546
+  },
+  {
+    "name": "animations/Avengers_Dwarf_03.ukx",
+    "size": 3824116,
+    "compressed": 1653664,
+    "crc": 230686137,
+    "method": 8,
+    "flags": 0,
+    "volume": 1,
+    "offset": 14494466
+  },
+  {
+    "name": "animations/Avengers_Dwarf_05.ukx",
+    "size": 543841,
+    "compressed": 244521,
+    "crc": 849214215,
+    "method": 8,
+    "flags": 0,
+    "volume": 1,
+    "offset": 16148192
+  },
+  {
+    "name": "animations/Avengers_Elf_02.ukx",
+    "size": 10660692,
+    "compressed": 4300751,
+    "crc": 2541077657,
+    "method": 8,
+    "flags": 0,
+    "volume": 1,
+    "offset": 16392775
+  },
+  {
+    "name": "animations/Avengers_Elf_03.ukx",
+    "size": 10485243,
+    "compressed": 4401580,
+    "crc": 1202815594,
+    "method": 8,
+    "flags": 0,
+    "volume": 1,
+    "offset": 20693586
+  },
+  {
+    "name": "animations/Avengers_Elf_05.ukx",
+    "size": 1487730,
+    "compressed": 665994,
+    "crc": 4038982828,
+    "method": 8,
+    "flags": 0,
+    "volume": 2,
+    "offset": 4123706
+  },
+  {
+    "name": "animations/Avengers_Fighter_02.ukx",
+    "size": 7623718,
+    "compressed": 2964304,
+    "crc": 1926802700,
+    "method": 8,
+    "flags": 0,
+    "volume": 2,
+    "offset": 4789760
+  },
+  {
+    "name": "animations/Avengers_Fighter_03.ukx",
+    "size": 7623720,
+    "compressed": 3072577,
+    "crc": 1002289343,
+    "method": 8,
+    "flags": 0,
+    "volume": 2,
+    "offset": 7754128
+  },
+  {
+    "name": "animations/Avengers_Fighter_05.ukx",
+    "size": 2489673,
+    "compressed": 883873,
+    "crc": 676941737,
+    "method": 8,
+    "flags": 0,
+    "volume": 2,
+    "offset": 10826769
+  },
+  {
+    "name": "animations/Avengers_Magic_02.ukx",
+    "size": 3327532,
+    "compressed": 1322930,
+    "crc": 633293188,
+    "method": 8,
+    "flags": 0,
+    "volume": 2,
+    "offset": 11710706
+  },
+  {
+    "name": "animations/Avengers_Magic_03.ukx",
+    "size": 3327533,
+    "compressed": 1340433,
+    "crc": 1189218494,
+    "method": 8,
+    "flags": 0,
+    "volume": 2,
+    "offset": 13033698
+  },
+  {
+    "name": "animations/Avengers_Magic_05.ukx",
+    "size": 454176,
+    "compressed": 204695,
+    "crc": 4081939947,
+    "method": 8,
+    "flags": 0,
+    "volume": 2,
+    "offset": 14374193
+  },
+  {
+    "name": "animations/Avengers_Orc_02.ukx",
+    "size": 8170198,
+    "compressed": 3355965,
+    "crc": 1325744157,
+    "method": 8,
+    "flags": 0,
+    "volume": 2,
+    "offset": 14578950
+  },
+  {
+    "name": "animations/Avengers_Orc_03.ukx",
+    "size": 8170201,
+    "compressed": 3542988,
+    "crc": 4160550509,
+    "method": 8,
+    "flags": 0,
+    "volume": 2,
+    "offset": 17934975
+  },
+  {
+    "name": "animations/Avengers_Orc_05.ukx",
+    "size": 1204575,
+    "compressed": 542585,
+    "crc": 1380592154,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 506503
+  },
+  {
+    "name": "animations/Avengers_Shaman_02.ukx",
+    "size": 3510431,
+    "compressed": 1498907,
+    "crc": 3886234770,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 1049148
+  },
+  {
+    "name": "animations/Avengers_Shaman_03.ukx",
+    "size": 3422714,
+    "compressed": 1561953,
+    "crc": 4150874383,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 2548118
+  },
+  {
+    "name": "animations/Avengers_Shaman_05.ukx",
+    "size": 617000,
+    "compressed": 273917,
+    "crc": 408124955,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 4110134
+  },
+  {
+    "name": "animations/baium.ukx",
+    "size": 327398,
+    "compressed": 19536,
+    "crc": 11840363,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 4384114
+  },
+  {
+    "name": "animations/BlackAgaGhostly.ukx",
+    "size": 2269648,
+    "compressed": 1281073,
+    "crc": 23509106,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 4403700
+  },
+  {
+    "name": "animations/BranchR3.ukx",
+    "size": 30451506,
+    "compressed": 19982489,
+    "crc": 3704916412,
+    "method": 8,
+    "flags": 0,
+    "volume": 3,
+    "offset": 5684833
+  },
+  {
+    "name": "animations/BranchR4.ukx",
+    "size": 11494816,
+    "compressed": 7808988,
+    "crc": 3911920824,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 4695855
+  },
+  {
+    "name": "animations/ByRaccoon.ukx",
+    "size": 1865730,
+    "compressed": 776049,
+    "crc": 3457771839,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 12504896
+  },
+  {
+    "name": "animations/by_respect_angel_ring_m000_a.ukx",
+    "size": 511064,
+    "compressed": 189958,
+    "crc": 3390684036,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13280999
+  },
+  {
+    "name": "animations/by_respect_Br_afro_f_hair_m004_a.ukx",
+    "size": 252260,
+    "compressed": 15062,
+    "crc": 532956168,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13471030
+  },
+  {
+    "name": "animations/by_respect_Br_afro_m_hair_m004_a.ukx",
+    "size": 278692,
+    "compressed": 17464,
+    "crc": 929870751,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13486169
+  },
+  {
+    "name": "animations/by_respect_Br_Bamboo_Hat_m003_a.ukx",
+    "size": 140666,
+    "compressed": 6540,
+    "crc": 4037400969,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13503710
+  },
+  {
+    "name": "animations/by_respect_br_bigrat_cap_m003.ukx",
+    "size": 350806,
+    "compressed": 19976,
+    "crc": 1766358800,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13510326
+  },
+  {
+    "name": "animations/by_respect_br_black_gem_mask_m001_a.ukx",
+    "size": 381886,
+    "compressed": 19483,
+    "crc": 3841151982,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13530376
+  },
+  {
+    "name": "animations/by_respect_br_napoleonic_cap_m003_a.ukx",
+    "size": 245218,
+    "compressed": 14504,
+    "crc": 3025843998,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13549939
+  },
+  {
+    "name": "animations/by_respect_br_noblesse_oblige_of_vesper_m001_a.ukx",
+    "size": 195252,
+    "compressed": 10451,
+    "crc": 3222679786,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13564523
+  },
+  {
+    "name": "animations/by_respect_br_tiger_cap_m003_a.ukx",
+    "size": 235628,
+    "compressed": 12194,
+    "crc": 3800519800,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13575065
+  },
+  {
+    "name": "animations/by_respect_Br_Uniform_Hat_m003_a.ukx",
+    "size": 256320,
+    "compressed": 15090,
+    "crc": 3340408616,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13587334
+  },
+  {
+    "name": "animations/by_respect_Event_magicial_cap_m003_a.ukx",
+    "size": 244224,
+    "compressed": 11644,
+    "crc": 2816579254,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13602501
+  },
+  {
+    "name": "animations/by_respect_explorer_hat_m003_a.ukx",
+    "size": 114934,
+    "compressed": 6898,
+    "crc": 2102889564,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13614226
+  },
+  {
+    "name": "animations/by_respect_freya_hair_accessary_m003_a.ukx",
+    "size": 263572,
+    "compressed": 15055,
+    "crc": 2977612501,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13621199
+  },
+  {
+    "name": "animations/by_respect_frintessa_hair_accessory_m003_a.ukx",
+    "size": 284516,
+    "compressed": 15540,
+    "crc": 1142214788,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13636337
+  },
+  {
+    "name": "animations/by_respect_frog_cap_m003_a.ukx",
+    "size": 154204,
+    "compressed": 8801,
+    "crc": 988781870,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13651964
+  },
+  {
+    "name": "animations/by_respect_graduation_cap_m003_a.ukx",
+    "size": 120072,
+    "compressed": 6972,
+    "crc": 3080505643,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13660836
+  },
+  {
+    "name": "animations/by_respect_king_of_cat_cap_m003_a.ukx",
+    "size": 298194,
+    "compressed": 15785,
+    "crc": 4137744887,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13667885
+  },
+  {
+    "name": "animations/cartola_fdarkelf_by_SHEV.ukx",
+    "size": 9743,
+    "compressed": 7358,
+    "crc": 1088712694,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13683748
+  },
+  {
+    "name": "animations/cartola_fdwarf_by_SHEV.ukx",
+    "size": 9741,
+    "compressed": 7371,
+    "crc": 2432289325,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13691175
+  },
+  {
+    "name": "animations/cartola_felf_by_SHEV.ukx",
+    "size": 9739,
+    "compressed": 7326,
+    "crc": 2585748903,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13698613
+  },
+  {
+    "name": "animations/cartola_ffighter_by_SHEV.ukx",
+    "size": 9743,
+    "compressed": 6820,
+    "crc": 2484497290,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13706004
+  },
+  {
+    "name": "animations/cartola_fmagic_by_SHEV.ukx",
+    "size": 10381,
+    "compressed": 7353,
+    "crc": 3595090725,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13712893
+  },
+  {
+    "name": "animations/cartola_forc_by_SHEV.ukx",
+    "size": 10539,
+    "compressed": 7407,
+    "crc": 468393797,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13720313
+  },
+  {
+    "name": "animations/cartola_fshaman_by_SHEV.ukx",
+    "size": 10446,
+    "compressed": 7386,
+    "crc": 4102805460,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13727785
+  },
+  {
+    "name": "animations/cartola_mdarkelf_by_SHEV.ukx",
+    "size": 10447,
+    "compressed": 5974,
+    "crc": 230619155,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13735239
+  },
+  {
+    "name": "animations/cartola_mdwarf_by_SHEV.ukx",
+    "size": 10541,
+    "compressed": 6171,
+    "crc": 719044006,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13741282
+  },
+  {
+    "name": "animations/cartola_melf_by_SHEV.ukx",
+    "size": 9739,
+    "compressed": 5972,
+    "crc": 1651833186,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13747520
+  },
+  {
+    "name": "animations/cartola_mfighter_by_SHEV.ukx",
+    "size": 9743,
+    "compressed": 6002,
+    "crc": 2582778011,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13753557
+  },
+  {
+    "name": "animations/cartola_mmagic_by_SHEV.ukx",
+    "size": 10477,
+    "compressed": 5988,
+    "crc": 3537409323,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13759628
+  },
+  {
+    "name": "animations/cartola_morc_by_SHEV.ukx",
+    "size": 10347,
+    "compressed": 5990,
+    "crc": 640120358,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13765683
+  },
+  {
+    "name": "animations/cartola_mshaman_by_SHEV.ukx",
+    "size": 10350,
+    "compressed": 6004,
+    "crc": 2026636944,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13771738
+  },
+  {
+    "name": "animations/costume_m_euro__com.ukx",
+    "size": 70851500,
+    "compressed": 42488645,
+    "crc": 879493250,
+    "method": 8,
+    "flags": 0,
+    "volume": 4,
+    "offset": 13777810
+  },
+  {
+    "name": "animations/Ct1DropItems.ukx",
+    "size": 14718846,
+    "compressed": 5335360,
+    "crc": 2453494067,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 14323479
+  },
+  {
+    "name": "animations/Ct1LineageAccessory.ukx",
+    "size": 25192955,
+    "compressed": 10443397,
+    "crc": 3109830009,
+    "method": 8,
+    "flags": 0,
+    "volume": 6,
+    "offset": 19658896
+  },
+  {
+    "name": "animations/Ct1LineageWeapons.ukx",
+    "size": 9977046,
+    "compressed": 4123142,
+    "crc": 627137017,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 9130837
+  },
+  {
+    "name": "animations/CustomAccessory.ukx",
+    "size": 12105829,
+    "compressed": 11917575,
+    "crc": 1634312128,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 13254041
+  },
+  {
+    "name": "animations/Cyxapuk_santa_claus.ukx",
+    "size": 4137702,
+    "compressed": 1747904,
+    "crc": 2582623271,
+    "method": 8,
+    "flags": 0,
+    "volume": 8,
+    "offset": 4200156
+  },
+  {
+    "name": "animations/Cyxapuk_santa_girl.ukx",
+    "size": 2812443,
+    "compressed": 1621740,
+    "crc": 1085984278,
+    "method": 8,
+    "flags": 0,
+    "volume": 8,
+    "offset": 5948124
+  },
+  {
+    "name": "animations/Darkelf-v.ukx",
+    "size": 2185897,
+    "compressed": 921261,
+    "crc": 491557059,
+    "method": 8,
+    "flags": 0,
+    "volume": 8,
+    "offset": 7569927
+  },
+  {
+    "name": "animations/Dj_Japulis2.ukx",
+    "size": 15772168,
+    "compressed": 6559933,
+    "crc": 1822087856,
+    "method": 8,
+    "flags": 0,
+    "volume": 8,
+    "offset": 8491242
+  },
+  {
+    "name": "animations/DropItems-v.ukx",
+    "size": 492205,
+    "compressed": 168630,
+    "crc": 363847577,
+    "method": 8,
+    "flags": 0,
+    "volume": 8,
+    "offset": 15051231
+  },
+  {
+    "name": "animations/drop_Horn_hat.ukx",
+    "size": 19545,
+    "compressed": 10813,
+    "crc": 2602913051,
+    "method": 8,
+    "flags": 0,
+    "volume": 8,
+    "offset": 15219917
+  },
+  {
+    "name": "animations/Dwarf-v.ukx",
+    "size": 924897,
+    "compressed": 388572,
+    "crc": 3719887041,
+    "method": 8,
+    "flags": 0,
+    "volume": 8,
+    "offset": 15230788
+  },
+  {
+    "name": "animations/DynastyCloak.ukx",
+    "size": 2891986,
+    "compressed": 825240,
+    "crc": 2421158912,
+    "method": 8,
+    "flags": 0,
+    "volume": 8,
+    "offset": 15619412
+  },
+  {
+    "name": "animations/Elf-v.ukx",
+    "size": 2542697,
+    "compressed": 1071774,
+    "crc": 3666278520,
+    "method": 8,
+    "flags": 0,
+    "volume": 8,
+    "offset": 16444709
+  },
+  {
+    "name": "animations/EventHat.ukx",
+    "size": 8385215,
+    "compressed": 3663493,
+    "crc": 3904927381,
+    "method": 8,
+    "flags": 0,
+    "volume": 8,
+    "offset": 17516533
+  },
+  {
+    "name": "animations/FDarkElf_br_Bill_Hat_m003_a.ukx",
+    "size": 17178,
+    "compressed": 13502,
+    "crc": 2254972459,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 208559
+  },
+  {
+    "name": "animations/FDarkElf_Helmet_m001.ukx",
+    "size": 20407,
+    "compressed": 11915,
+    "crc": 4002976602,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 222133
+  },
+  {
+    "name": "animations/FDarkElf_Hood_m001.ukx",
+    "size": 48653,
+    "compressed": 40521,
+    "crc": 4190497129,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 234113
+  },
+  {
+    "name": "animations/FDwarf_br_Bill_Hat_m003_a.ukx",
+    "size": 17176,
+    "compressed": 13447,
+    "crc": 2889005340,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 274697
+  },
+  {
+    "name": "animations/FDwarf_Helmet_m001.ukx",
+    "size": 23877,
+    "compressed": 13959,
+    "crc": 2241577673,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 288214
+  },
+  {
+    "name": "animations/FDwarf_Hood_m001.ukx",
+    "size": 30301,
+    "compressed": 25257,
+    "crc": 2379390505,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 302236
+  },
+  {
+    "name": "animations/FElf_br_Bill_Hat_m003_a.ukx",
+    "size": 17174,
+    "compressed": 13505,
+    "crc": 3831032408,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 327554
+  },
+  {
+    "name": "animations/FElf_Helmet_m001.ukx",
+    "size": 22843,
+    "compressed": 13170,
+    "crc": 1996852849,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 341127
+  },
+  {
+    "name": "animations/FElf_Hood_m001.ukx",
+    "size": 28619,
+    "compressed": 23713,
+    "crc": 2342913408,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 354358
+  },
+  {
+    "name": "animations/FFighter_br_Bill_Hat_m003_a.ukx",
+    "size": 17178,
+    "compressed": 13500,
+    "crc": 2677898633,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 378130
+  },
+  {
+    "name": "animations/Ffighter_Helmet_m001.ukx",
+    "size": 19855,
+    "compressed": 11474,
+    "crc": 4208915199,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 391702
+  },
+  {
+    "name": "animations/FFighter_Hood_m001.ukx",
+    "size": 28917,
+    "compressed": 24077,
+    "crc": 1380815918,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 403241
+  },
+  {
+    "name": "animations/Fighter-v.ukx",
+    "size": 1795518,
+    "compressed": 742362,
+    "crc": 2693401561,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 427381
+  },
+  {
+    "name": "animations/FKamael_br_Bill_Hat_m003_a.ukx",
+    "size": 17177,
+    "compressed": 13453,
+    "crc": 2118748027,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 1169797
+  },
+  {
+    "name": "animations/FKamael_Helmet_m001.ukx",
+    "size": 19966,
+    "compressed": 11584,
+    "crc": 3350325609,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 1183321
+  },
+  {
+    "name": "animations/FKamael_Hood_m001.ukx",
+    "size": 108129,
+    "compressed": 90220,
+    "crc": 3958122156,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 1194969
+  },
+  {
+    "name": "animations/FMagic_br_Bill_Hat_m003_a.ukx",
+    "size": 17176,
+    "compressed": 11294,
+    "crc": 4175231700,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 1285251
+  },
+  {
+    "name": "animations/FMagic_Helmet_m001.ukx",
+    "size": 19801,
+    "compressed": 11505,
+    "crc": 1066129796,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 1296615
+  },
+  {
+    "name": "animations/FMagic_Hood_m001.ukx",
+    "size": 51721,
+    "compressed": 43225,
+    "crc": 179362851,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 1308183
+  },
+  {
+    "name": "animations/FOrc_br_Bill_Hat_m003_a.ukx",
+    "size": 17174,
+    "compressed": 11421,
+    "crc": 1064349803,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 1351469
+  },
+  {
+    "name": "animations/FOrc_Helmet_m001.ukx",
+    "size": 19787,
+    "compressed": 11464,
+    "crc": 76383465,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 1362958
+  },
+  {
+    "name": "animations/FOrc_Hood_m001.ukx",
+    "size": 48859,
+    "compressed": 40836,
+    "crc": 2239393665,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 1374483
+  },
+  {
+    "name": "animations/foxmas.ukx",
+    "size": 13103051,
+    "compressed": 6970541,
+    "crc": 2020128768,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 1415378
+  },
+  {
+    "name": "animations/FreemanGoogle.ukx",
+    "size": 4377485,
+    "compressed": 1204122,
+    "crc": 583912646,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 8385970
+  },
+  {
+    "name": "animations/FShaman_br_Bill_Hat_m003_a.ukx",
+    "size": 17177,
+    "compressed": 11320,
+    "crc": 499979296,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9590150
+  },
+  {
+    "name": "animations/FShaman_Helmet_m001.ukx",
+    "size": 19670,
+    "compressed": 11406,
+    "crc": 2156172635,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9601541
+  },
+  {
+    "name": "animations/FShaman_Hood_m001.ukx",
+    "size": 48558,
+    "compressed": 40772,
+    "crc": 1859764873,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9613011
+  },
+  {
+    "name": "animations/GS_Fdarkelf_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16390,
+    "compressed": 10249,
+    "crc": 2963720298,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9653845
+  },
+  {
+    "name": "animations/GS_Fdarkelf_Uniform_Hat_m003_a.ukx",
+    "size": 16925,
+    "compressed": 11846,
+    "crc": 664799468,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9664178
+  },
+  {
+    "name": "animations/GS_Fdwarf_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16388,
+    "compressed": 10283,
+    "crc": 3617126312,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9676099
+  },
+  {
+    "name": "animations/GS_Fdwarf_Uniform_Hat_m003_a.ukx",
+    "size": 16923,
+    "compressed": 11804,
+    "crc": 634803917,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9686464
+  },
+  {
+    "name": "animations/GS_Felf_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16386,
+    "compressed": 10252,
+    "crc": 138098841,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9698341
+  },
+  {
+    "name": "animations/GS_Felf_Uniform_Hat_m003_a.ukx",
+    "size": 16921,
+    "compressed": 11838,
+    "crc": 3830789332,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9708673
+  },
+  {
+    "name": "animations/GS_Ffighter_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16390,
+    "compressed": 10250,
+    "crc": 358244999,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9720582
+  },
+  {
+    "name": "animations/GS_Ffighter_Uniform_Hat_m003_a.ukx",
+    "size": 16925,
+    "compressed": 11846,
+    "crc": 2019282952,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9730916
+  },
+  {
+    "name": "animations/GS_Fmagic_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16388,
+    "compressed": 10250,
+    "crc": 1677437210,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9742837
+  },
+  {
+    "name": "animations/GS_Fmagic_Uniform_Hat_m003_a.ukx",
+    "size": 16923,
+    "compressed": 11794,
+    "crc": 3097817801,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9753169
+  },
+  {
+    "name": "animations/GS_Forc_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16386,
+    "compressed": 10303,
+    "crc": 2255027989,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9765036
+  },
+  {
+    "name": "animations/GS_Forc_Uniform_Hat_m003_a.ukx",
+    "size": 16921,
+    "compressed": 11843,
+    "crc": 4047287571,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9775419
+  },
+  {
+    "name": "animations/GS_Fshaman_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16389,
+    "compressed": 10279,
+    "crc": 4247513338,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9787333
+  },
+  {
+    "name": "animations/GS_Fshaman_Uniform_Hat_m003_a.ukx",
+    "size": 16924,
+    "compressed": 11842,
+    "crc": 3486210673,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9797695
+  },
+  {
+    "name": "animations/GS_Mdarkelf_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16390,
+    "compressed": 10247,
+    "crc": 282522776,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9809611
+  },
+  {
+    "name": "animations/GS_Mdarkelf_Uniform_Hat_m003_a.ukx",
+    "size": 16925,
+    "compressed": 11847,
+    "crc": 771224605,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9819942
+  },
+  {
+    "name": "animations/GS_Mdwarf_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16388,
+    "compressed": 10272,
+    "crc": 270802754,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9831864
+  },
+  {
+    "name": "animations/GS_Mdwarf_Uniform_Hat_m003_a.ukx",
+    "size": 16923,
+    "compressed": 11822,
+    "crc": 3161308775,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9842218
+  },
+  {
+    "name": "animations/GS_Melf_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16386,
+    "compressed": 10252,
+    "crc": 1496980314,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9854113
+  },
+  {
+    "name": "animations/GS_Melf_Uniform_Hat_m003_a.ukx",
+    "size": 16921,
+    "compressed": 11838,
+    "crc": 739830293,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9864445
+  },
+  {
+    "name": "animations/GS_Mfighter_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16390,
+    "compressed": 10247,
+    "crc": 3054858450,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9876354
+  },
+  {
+    "name": "animations/GS_Mfighter_Uniform_Hat_m003_a.ukx",
+    "size": 16925,
+    "compressed": 11847,
+    "crc": 2557827464,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9886685
+  },
+  {
+    "name": "animations/GS_Mmagic_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16388,
+    "compressed": 10253,
+    "crc": 974117579,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9898607
+  },
+  {
+    "name": "animations/GS_Mmagic_Uniform_Hat_m003_a.ukx",
+    "size": 16923,
+    "compressed": 11843,
+    "crc": 573636369,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9908942
+  },
+  {
+    "name": "animations/GS_Morc_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16386,
+    "compressed": 10291,
+    "crc": 528309701,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9920858
+  },
+  {
+    "name": "animations/GS_Morc_Uniform_Hat_m003_a.ukx",
+    "size": 16921,
+    "compressed": 11832,
+    "crc": 2978270956,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9931229
+  },
+  {
+    "name": "animations/GS_Mshaman_Chullo_Cap_ByCymbals_m003_a.ukx",
+    "size": 16389,
+    "compressed": 10326,
+    "crc": 3676869578,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9943132
+  },
+  {
+    "name": "animations/GS_Mshaman_Uniform_Hat_m003_a.ukx",
+    "size": 16924,
+    "compressed": 11812,
+    "crc": 2931354027,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9953541
+  },
+  {
+    "name": "animations/halloween.ukx",
+    "size": 16254925,
+    "compressed": 7471453,
+    "crc": 3482713975,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 9965427
+  },
+  {
+    "name": "animations/HellGuards.ukx",
+    "size": 65109947,
+    "compressed": 39927016,
+    "crc": 1312511187,
+    "method": 8,
+    "flags": 0,
+    "volume": 9,
+    "offset": 17436934
+  },
+  {
+    "name": "animations/Horn_Hat_FDarkElf.ukx",
+    "size": 19554,
+    "compressed": 10876,
+    "crc": 881278814,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15420965
+  },
+  {
+    "name": "animations/Horn_Hat_FDwarf.ukx",
+    "size": 19552,
+    "compressed": 10702,
+    "crc": 318663074,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15431903
+  },
+  {
+    "name": "animations/Horn_Hat_FElf.ukx",
+    "size": 19582,
+    "compressed": 10748,
+    "crc": 536922184,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15442665
+  },
+  {
+    "name": "animations/Horn_Hat_FFighter.ukx",
+    "size": 19554,
+    "compressed": 10718,
+    "crc": 2906187159,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15453471
+  },
+  {
+    "name": "animations/Horn_Hat_FMagic.ukx",
+    "size": 19552,
+    "compressed": 10772,
+    "crc": 2464417465,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15464251
+  },
+  {
+    "name": "animations/Horn_Hat_FOrc.ukx",
+    "size": 19550,
+    "compressed": 10668,
+    "crc": 15744024,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15475083
+  },
+  {
+    "name": "animations/Horn_Hat_FShaman.ukx",
+    "size": 19553,
+    "compressed": 10548,
+    "crc": 3784301091,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15485809
+  },
+  {
+    "name": "animations/Horn_Hat_MDarkElf.ukx",
+    "size": 19554,
+    "compressed": 10876,
+    "crc": 2879206508,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15496418
+  },
+  {
+    "name": "animations/Horn_Hat_MDwarf.ukx",
+    "size": 19552,
+    "compressed": 10618,
+    "crc": 3399984170,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15507356
+  },
+  {
+    "name": "animations/Horn_Hat_MElf.ukx",
+    "size": 19582,
+    "compressed": 10859,
+    "crc": 1877823248,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15518034
+  },
+  {
+    "name": "animations/Horn_Hat_MFighter.ukx",
+    "size": 19554,
+    "compressed": 10690,
+    "crc": 634552551,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15528951
+  },
+  {
+    "name": "animations/Horn_Hat_MMagic.ukx",
+    "size": 19552,
+    "compressed": 11004,
+    "crc": 3672274903,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15539703
+  },
+  {
+    "name": "animations/Horn_Hat_MOrc.ukx",
+    "size": 19550,
+    "compressed": 10633,
+    "crc": 1601968716,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15550767
+  },
+  {
+    "name": "animations/Horn_Hat_MShaman.ukx",
+    "size": 19553,
+    "compressed": 10519,
+    "crc": 1026468980,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15561458
+  },
+  {
+    "name": "animations/icarus_accipiter.ukx",
+    "size": 23557,
+    "compressed": 11620,
+    "crc": 1408410264,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15572038
+  },
+  {
+    "name": "animations/icarus_chopper.ukx",
+    "size": 23379,
+    "compressed": 10569,
+    "crc": 1208916752,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15583719
+  },
+  {
+    "name": "animations/icarus_disperser.ukx",
+    "size": 10337,
+    "compressed": 6202,
+    "crc": 1561144120,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15594347
+  },
+  {
+    "name": "animations/icarus_heavy_arms.ukx",
+    "size": 10858,
+    "compressed": 7172,
+    "crc": 1456451505,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15600610
+  },
+  {
+    "name": "animations/icarus_knuckle.ukx",
+    "size": 4578,
+    "compressed": 2935,
+    "crc": 550484101,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15607844
+  },
+  {
+    "name": "animations/icarus_shooter.ukx",
+    "size": 17039,
+    "compressed": 10602,
+    "crc": 3452973108,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15610838
+  },
+  {
+    "name": "animations/icarus_sowsword.ukx",
+    "size": 10836,
+    "compressed": 6161,
+    "crc": 2738444355,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15621499
+  },
+  {
+    "name": "animations/icarus_spirits.ukx",
+    "size": 9171,
+    "compressed": 5864,
+    "crc": 261850012,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15627720
+  },
+  {
+    "name": "animations/icarus_stinger.ukx",
+    "size": 10415,
+    "compressed": 6065,
+    "crc": 2492282115,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15633643
+  },
+  {
+    "name": "animations/icarus_trident.ukx",
+    "size": 10755,
+    "compressed": 5674,
+    "crc": 220111826,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15639767
+  },
+  {
+    "name": "animations/icarus_wand.ukx",
+    "size": 17992,
+    "compressed": 10479,
+    "crc": 3699014518,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15645500
+  },
+  {
+    "name": "animations/icarus_wing_blade.ukx",
+    "size": 14702,
+    "compressed": 9007,
+    "crc": 2076992139,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15656035
+  },
+  {
+    "name": "animations/JohnScott_FDarkElf_br_close_helmet_m003.ukx",
+    "size": 19316,
+    "compressed": 14313,
+    "crc": 1605683045,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15665104
+  },
+  {
+    "name": "animations/JohnScott_FDarkElf_h00_m005.ukx",
+    "size": 9422,
+    "compressed": 7515,
+    "crc": 2527856028,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15679501
+  },
+  {
+    "name": "animations/JohnScott_FDarkElf_h01_m005.ukx",
+    "size": 14730,
+    "compressed": 10678,
+    "crc": 2279587160,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15687088
+  },
+  {
+    "name": "animations/JohnScott_FDwarf_br_close_helmet_m003.ukx",
+    "size": 19314,
+    "compressed": 14156,
+    "crc": 2558853425,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15697838
+  },
+  {
+    "name": "animations/JohnScott_FDwarf_h00_m005.ukx",
+    "size": 10084,
+    "compressed": 7594,
+    "crc": 3784177107,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15712076
+  },
+  {
+    "name": "animations/JohnScott_FDwarf_h01_m005.ukx",
+    "size": 26570,
+    "compressed": 20409,
+    "crc": 1436353392,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15719740
+  },
+  {
+    "name": "animations/JohnScott_FElf_br_close_helmet_m003.ukx",
+    "size": 19312,
+    "compressed": 14199,
+    "crc": 4103053261,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15740219
+  },
+  {
+    "name": "animations/JohnScott_FElf_h00_m005.ukx",
+    "size": 13576,
+    "compressed": 9649,
+    "crc": 1968554967,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15754498
+  },
+  {
+    "name": "animations/JohnScott_FElf_h01_m005.ukx",
+    "size": 14702,
+    "compressed": 9020,
+    "crc": 3120042991,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15764215
+  },
+  {
+    "name": "animations/JohnScott_FFighter_br_close_helmet_m003.ukx",
+    "size": 19348,
+    "compressed": 14305,
+    "crc": 994392962,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15773303
+  },
+  {
+    "name": "animations/JohnScott_FFighter_h00_m005.ukx",
+    "size": 12932,
+    "compressed": 9804,
+    "crc": 3707933371,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15787692
+  },
+  {
+    "name": "animations/JohnScott_FFighter_h01_m005.ukx",
+    "size": 9038,
+    "compressed": 6312,
+    "crc": 2073476545,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15797568
+  },
+  {
+    "name": "animations/JohnScott_Fmagic_br_close_helmet_m003.ukx",
+    "size": 19314,
+    "compressed": 14203,
+    "crc": 3006995660,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15803952
+  },
+  {
+    "name": "animations/JohnScott_FMagic_h00_m005.ukx",
+    "size": 15854,
+    "compressed": 12149,
+    "crc": 4100694998,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15818237
+  },
+  {
+    "name": "animations/JohnScott_FMagic_h01_m005.ukx",
+    "size": 16346,
+    "compressed": 10871,
+    "crc": 153565393,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15830456
+  },
+  {
+    "name": "animations/JohnScott_FOrc_br_close_helmet_m003.ukx",
+    "size": 19280,
+    "compressed": 14348,
+    "crc": 2772902628,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15841397
+  },
+  {
+    "name": "animations/JohnScott_FOrc_h00_m005.ukx",
+    "size": 18144,
+    "compressed": 12849,
+    "crc": 3811846310,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15855825
+  },
+  {
+    "name": "animations/JohnScott_FOrc_h01_m005.ukx",
+    "size": 17602,
+    "compressed": 11128,
+    "crc": 325839220,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15868742
+  },
+  {
+    "name": "animations/JohnScott_FShaman_br_close_helmet_m003.ukx",
+    "size": 19315,
+    "compressed": 14374,
+    "crc": 4021875202,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15879938
+  },
+  {
+    "name": "animations/JohnScott_FShaman_h00_m005.ukx",
+    "size": 26157,
+    "compressed": 16454,
+    "crc": 1635498235,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15894395
+  },
+  {
+    "name": "animations/JohnScott_FShaman_h01_m005.ukx",
+    "size": 12091,
+    "compressed": 8416,
+    "crc": 3042279080,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15910920
+  },
+  {
+    "name": "animations/JohnScott_MDarkElf_br_close_helmet_m003.ukx",
+    "size": 19316,
+    "compressed": 14053,
+    "crc": 2139128012,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15919407
+  },
+  {
+    "name": "animations/JohnScott_MDarkElf_h00_m005.ukx",
+    "size": 12814,
+    "compressed": 9200,
+    "crc": 2566926886,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15933544
+  },
+  {
+    "name": "animations/JohnScott_MDarkElf_h01_m005.ukx",
+    "size": 13736,
+    "compressed": 10851,
+    "crc": 2836738877,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15942816
+  },
+  {
+    "name": "animations/JohnScott_MDwarf_br_close_helmet_m003.ukx",
+    "size": 22364,
+    "compressed": 14281,
+    "crc": 4200936204,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15953739
+  },
+  {
+    "name": "animations/JohnScott_MDwarf_h00_m005.ukx",
+    "size": 14318,
+    "compressed": 9464,
+    "crc": 3490710193,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15968102
+  },
+  {
+    "name": "animations/JohnScott_MDwarf_h01_m005.ukx",
+    "size": 14852,
+    "compressed": 10942,
+    "crc": 616384923,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15977636
+  },
+  {
+    "name": "animations/JohnScott_MElf_br_close_helmet_m003.ukx",
+    "size": 19312,
+    "compressed": 14160,
+    "crc": 3308499861,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 15988648
+  },
+  {
+    "name": "animations/JohnScott_MElf_h00_m005.ukx",
+    "size": 9866,
+    "compressed": 8186,
+    "crc": 1194743130,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16002888
+  },
+  {
+    "name": "animations/JohnScott_MElf_h01_m005.ukx",
+    "size": 11472,
+    "compressed": 9100,
+    "crc": 590432270,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16011142
+  },
+  {
+    "name": "animations/JohnScott_MFighter_br_close_helmet_m003.ukx",
+    "size": 19316,
+    "compressed": 13952,
+    "crc": 4232934837,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16020310
+  },
+  {
+    "name": "animations/JohnScott_MFighter_h00_m005.ukx",
+    "size": 22390,
+    "compressed": 14657,
+    "crc": 3687432866,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16034346
+  },
+  {
+    "name": "animations/JohnScott_MFighter_h01_m005.ukx",
+    "size": 11932,
+    "compressed": 9430,
+    "crc": 2335598085,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16049075
+  },
+  {
+    "name": "animations/JohnScott_Mmagic_br_close_helmet_m003.ukx",
+    "size": 19346,
+    "compressed": 14222,
+    "crc": 1766013525,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16058577
+  },
+  {
+    "name": "animations/JohnScott_MMagic_h00_m005.ukx",
+    "size": 11798,
+    "compressed": 9129,
+    "crc": 2561223467,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16072881
+  },
+  {
+    "name": "animations/JohnScott_MMagic_h01_m005.ukx",
+    "size": 12366,
+    "compressed": 9145,
+    "crc": 2107440995,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16082080
+  },
+  {
+    "name": "animations/JohnScott_MOrc_br_close_helmet_m003.ukx",
+    "size": 19344,
+    "compressed": 14558,
+    "crc": 3837020414,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16091295
+  },
+  {
+    "name": "animations/JohnScott_MOrc_h00_m005.ukx",
+    "size": 16374,
+    "compressed": 10373,
+    "crc": 1794635063,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16105933
+  },
+  {
+    "name": "animations/JohnScott_MOrc_h01_m005.ukx",
+    "size": 9242,
+    "compressed": 5922,
+    "crc": 2478893348,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16116374
+  },
+  {
+    "name": "animations/JohnScott_MShaman_br_close_helmet_m003.ukx",
+    "size": 19347,
+    "compressed": 14374,
+    "crc": 2052879188,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16122364
+  },
+  {
+    "name": "animations/JohnScott_MShaman_h00_m005.ukx",
+    "size": 14253,
+    "compressed": 9409,
+    "crc": 2074776703,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16136821
+  },
+  {
+    "name": "animations/JohnScott_MShaman_h01_m005.ukx",
+    "size": 19207,
+    "compressed": 11444,
+    "crc": 2135101867,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16146301
+  },
+  {
+    "name": "animations/L2Fox.ukx",
+    "size": 3396159,
+    "compressed": 1758876,
+    "crc": 1348601654,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 16157816
+  },
+  {
+    "name": "animations/L2FoxHWN.ukx",
+    "size": 6327130,
+    "compressed": 2954221,
+    "crc": 3584123528,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 17916742
+  },
+  {
+    "name": "animations/l2teleport.ukx",
+    "size": 1164917,
+    "compressed": 807191,
+    "crc": 3857964655,
+    "method": 8,
+    "flags": 0,
+    "volume": 11,
+    "offset": 20871016
+  },
+  {
+    "name": "animations/LineageAccessoryRaccoon3.ukx",
+    "size": 4417458,
+    "compressed": 1866784,
+    "crc": 3385679844,
+    "method": 8,
+    "flags": 0,
+    "volume": 12,
+    "offset": 706742
+  },
+  {
+    "name": "animations/LineageCustom1.ukx",
+    "size": 14569667,
+    "compressed": 6706532,
+    "crc": 1750047871,
+    "method": 8,
+    "flags": 0,
+    "volume": 12,
+    "offset": 2573595
+  },
+  {
+    "name": "animations/LineageCustom2.ukx",
+    "size": 2107167,
+    "compressed": 888659,
+    "crc": 4278178748,
+    "method": 8,
+    "flags": 0,
+    "volume": 12,
+    "offset": 9280186
+  },
+  {
+    "name": "animations/LineageMonsterFox.ukx",
+    "size": 1966298,
+    "compressed": 1058392,
+    "crc": 2044658585,
+    "method": 8,
+    "flags": 0,
+    "volume": 12,
+    "offset": 10168904
+  },
+  {
+    "name": "animations/LineageMonsters3.ukx",
+    "size": 104809347,
+    "compressed": 71423992,
+    "crc": 835928016,
+    "method": 8,
+    "flags": 0,
+    "volume": 12,
+    "offset": 11227358
+  },
+  {
+    "name": "animations/LineageMonsters_NewStrider.ukx",
+    "size": 1189873,
+    "compressed": 784542,
+    "crc": 2661434960,
+    "method": 8,
+    "flags": 0,
+    "volume": 15,
+    "offset": 19736851
+  },
+  {
+    "name": "animations/LineageNpcs_AgaPackFR2_byNevesOma.ukx",
+    "size": 8944282,
+    "compressed": 2229809,
+    "crc": 507880210,
+    "method": 8,
+    "flags": 0,
+    "volume": 15,
+    "offset": 20521464
+  },
+  {
+    "name": "animations/LineageNpcs_beautifulFDW_byNevesOma.ukx",
+    "size": 6275462,
+    "compressed": 2986579,
+    "crc": 2871638267,
+    "method": 8,
+    "flags": 0,
+    "volume": 16,
+    "offset": 1779831
+  },
+  {
+    "name": "animations/LineageNPCs_l2Sudamerica.ukx",
+    "size": 88634341,
+    "compressed": 35168705,
+    "crc": 1598694475,
+    "method": 8,
+    "flags": 0,
+    "volume": 16,
+    "offset": 4766490
+  },
+  {
+    "name": "animations/lineageweaponsc4.ukx",
+    "size": 5840908,
+    "compressed": 2324558,
+    "crc": 4255201720,
+    "method": 8,
+    "flags": 0,
+    "volume": 17,
+    "offset": 18963744
+  },
+  {
+    "name": "animations/Magic-v.ukx",
+    "size": 786344,
+    "compressed": 344983,
+    "crc": 4071976585,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 316843
+  },
+  {
+    "name": "animations/MDarkElf_br_Bill_Hat_m003_a.ukx",
+    "size": 17178,
+    "compressed": 13486,
+    "crc": 2466884910,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 661878
+  },
+  {
+    "name": "animations/MDarkElf_Helmet_m001.ukx",
+    "size": 19791,
+    "compressed": 11481,
+    "crc": 802954720,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 675436
+  },
+  {
+    "name": "animations/MDarkElf_Hood_m001.ukx",
+    "size": 47635,
+    "compressed": 39927,
+    "crc": 1538273294,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 686982
+  },
+  {
+    "name": "animations/MDwarf_br_Bill_Hat_m003_a.ukx",
+    "size": 17176,
+    "compressed": 13559,
+    "crc": 297948100,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 726972
+  },
+  {
+    "name": "animations/MDwarf_Helmet_m001.ukx",
+    "size": 23981,
+    "compressed": 13886,
+    "crc": 2145854175,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 740601
+  },
+  {
+    "name": "animations/MDwarf_Hood_m001.ukx",
+    "size": 48163,
+    "compressed": 40186,
+    "crc": 952611576,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 754550
+  },
+  {
+    "name": "animations/MElf_br_Bill_Hat_m003_a.ukx",
+    "size": 17174,
+    "compressed": 13506,
+    "crc": 3335429794,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 794797
+  },
+  {
+    "name": "animations/MElf_Helmet_m001.ukx",
+    "size": 23371,
+    "compressed": 13547,
+    "crc": 3595093884,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 808371
+  },
+  {
+    "name": "animations/MElf_Hood_m001.ukx",
+    "size": 54881,
+    "compressed": 45908,
+    "crc": 1212633462,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 821979
+  },
+  {
+    "name": "animations/MFighter_br_Bill_Hat_m003_a.ukx",
+    "size": 17178,
+    "compressed": 13466,
+    "crc": 3842937852,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 867946
+  },
+  {
+    "name": "animations/MFighter_Helmet_m001.ukx",
+    "size": 19791,
+    "compressed": 11419,
+    "crc": 3898294445,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 881484
+  },
+  {
+    "name": "animations/MFighter_Hood_m001.ukx",
+    "size": 49923,
+    "compressed": 41859,
+    "crc": 704731647,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 892968
+  },
+  {
+    "name": "animations/MKamael_br_Bill_Hat_m003_a.ukx",
+    "size": 17177,
+    "compressed": 13474,
+    "crc": 3474421854,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 934890
+  },
+  {
+    "name": "animations/MKamael_Helmet_m001.ukx",
+    "size": 20118,
+    "compressed": 11755,
+    "crc": 4169950949,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 948435
+  },
+  {
+    "name": "animations/Mkamael_Hood_m001.ukx",
+    "size": 45646,
+    "compressed": 38205,
+    "crc": 2142474350,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 960254
+  },
+  {
+    "name": "animations/MMagic_br_Bill_Hat_m003_a.ukx",
+    "size": 17176,
+    "compressed": 11300,
+    "crc": 3880392648,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 998521
+  },
+  {
+    "name": "animations/MMagic_Helmet_m001.ukx",
+    "size": 19789,
+    "compressed": 11411,
+    "crc": 3862038939,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 1009891
+  },
+  {
+    "name": "animations/MMagic_Hood_m001.ukx",
+    "size": 49517,
+    "compressed": 41543,
+    "crc": 2119491780,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 1021365
+  },
+  {
+    "name": "animations/MOrc_br_Bill_Hat_m003_a.ukx",
+    "size": 17174,
+    "compressed": 11349,
+    "crc": 3571797719,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 1062969
+  },
+  {
+    "name": "animations/Morc_Helmet_m001.ukx",
+    "size": 23979,
+    "compressed": 13862,
+    "crc": 961708537,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 1074386
+  },
+  {
+    "name": "animations/MOrc_Hood_m001.ukx",
+    "size": 42985,
+    "compressed": 36076,
+    "crc": 1406030455,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 1088309
+  },
+  {
+    "name": "animations/MShaman_br_Bill_Hat_m003_a.ukx",
+    "size": 17177,
+    "compressed": 13479,
+    "crc": 1252215122,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 1124444
+  },
+  {
+    "name": "animations/MShaman_Helmet_m001.ukx",
+    "size": 19854,
+    "compressed": 11556,
+    "crc": 3183064166,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 1137994
+  },
+  {
+    "name": "animations/MShaman_Hood_m001.ukx",
+    "size": 48578,
+    "compressed": 40718,
+    "crc": 421582333,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 1149614
+  },
+  {
+    "name": "animations/MultiCrazY_DarkArmor.ukx",
+    "size": 13227809,
+    "compressed": 7228162,
+    "crc": 1583174611,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 1190394
+  },
+  {
+    "name": "animations/Munch_Agathion.ukx",
+    "size": 6471816,
+    "compressed": 4281317,
+    "crc": 3566883225,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 8418621
+  },
+  {
+    "name": "animations/Munch_Beany_FDElf_m003_a.ukx",
+    "size": 27531,
+    "compressed": 12628,
+    "crc": 233594779,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12699997
+  },
+  {
+    "name": "animations/Munch_Beany_FDwarf_m003_a.ukx",
+    "size": 27532,
+    "compressed": 12585,
+    "crc": 1800755323,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12712694
+  },
+  {
+    "name": "animations/Munch_Beany_FElf_m003_a.ukx",
+    "size": 27530,
+    "compressed": 12600,
+    "crc": 18352984,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12725349
+  },
+  {
+    "name": "animations/Munch_Beany_FMagic_m003_a.ukx",
+    "size": 27532,
+    "compressed": 12556,
+    "crc": 1545845799,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12738017
+  },
+  {
+    "name": "animations/Munch_Beany_FOrc_m003_a.ukx",
+    "size": 27530,
+    "compressed": 12699,
+    "crc": 308912841,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12750643
+  },
+  {
+    "name": "animations/Munch_Beany_FShaman_m003_a.ukx",
+    "size": 27533,
+    "compressed": 12643,
+    "crc": 3051607120,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12763410
+  },
+  {
+    "name": "animations/Munch_Beany_MDwarf_m003_a.ukx",
+    "size": 27532,
+    "compressed": 12621,
+    "crc": 3518897229,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12776124
+  },
+  {
+    "name": "animations/Munch_Beany_MElf_m003_a.ukx",
+    "size": 27530,
+    "compressed": 12646,
+    "crc": 459475701,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12788815
+  },
+  {
+    "name": "animations/Munch_Beany_MFighter_m003_a.ukx",
+    "size": 27534,
+    "compressed": 12649,
+    "crc": 2148399920,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12801529
+  },
+  {
+    "name": "animations/Munch_Beany_MMagic_m003_a.ukx",
+    "size": 27532,
+    "compressed": 12619,
+    "crc": 462600948,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12814250
+  },
+  {
+    "name": "animations/Munch_Beany_MOrc_m003_a.ukx",
+    "size": 27530,
+    "compressed": 12673,
+    "crc": 1999431339,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12826939
+  },
+  {
+    "name": "animations/Munch_Beany_MShaman_m003_a.ukx",
+    "size": 27533,
+    "compressed": 12635,
+    "crc": 1138809449,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12839680
+  },
+  {
+    "name": "animations/Munch_GasMask_FDElf_m001.ukx",
+    "size": 142320,
+    "compressed": 60104,
+    "crc": 2718055292,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12852386
+  },
+  {
+    "name": "animations/Munch_GasMask_FDwarf_m001.ukx",
+    "size": 142321,
+    "compressed": 60652,
+    "crc": 1423661822,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12912559
+  },
+  {
+    "name": "animations/Munch_GasMask_FElf_m001.ukx",
+    "size": 142319,
+    "compressed": 59888,
+    "crc": 1111081064,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 12973281
+  },
+  {
+    "name": "animations/Munch_GasMask_FMagic_m001.ukx",
+    "size": 142321,
+    "compressed": 59693,
+    "crc": 2233968837,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13033237
+  },
+  {
+    "name": "animations/Munch_GasMask_FOrc_m001.ukx",
+    "size": 142319,
+    "compressed": 61615,
+    "crc": 1783206224,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13093000
+  },
+  {
+    "name": "animations/Munch_GasMask_FShaman_m001.ukx",
+    "size": 142322,
+    "compressed": 60400,
+    "crc": 3128102185,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13154683
+  },
+  {
+    "name": "animations/Munch_GasMask_MDwarf_m001.ukx",
+    "size": 142321,
+    "compressed": 60097,
+    "crc": 495849911,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13215154
+  },
+  {
+    "name": "animations/Munch_GasMask_MElf_m001.ukx",
+    "size": 142319,
+    "compressed": 60319,
+    "crc": 1524486844,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13275321
+  },
+  {
+    "name": "animations/Munch_GasMask_MFighter_m001.ukx",
+    "size": 107571,
+    "compressed": 48984,
+    "crc": 4187592524,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13335708
+  },
+  {
+    "name": "animations/Munch_GasMask_MMagic_m001.ukx",
+    "size": 142321,
+    "compressed": 60058,
+    "crc": 3847963033,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13384764
+  },
+  {
+    "name": "animations/Munch_GasMask_MOrc_m001.ukx",
+    "size": 142319,
+    "compressed": 61180,
+    "crc": 3242898916,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13444892
+  },
+  {
+    "name": "animations/Munch_GasMask_MShaman_m001.ukx",
+    "size": 142322,
+    "compressed": 60941,
+    "crc": 2910903199,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13506140
+  },
+  {
+    "name": "animations/Munch_HunterHat_FDElf_m003_a.ukx",
+    "size": 22955,
+    "compressed": 12491,
+    "crc": 3518750349,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13567152
+  },
+  {
+    "name": "animations/Munch_HunterHat_FDwarf_m003_a.ukx",
+    "size": 22956,
+    "compressed": 12566,
+    "crc": 120191455,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13579716
+  },
+  {
+    "name": "animations/Munch_HunterHat_FElf_m003_a.ukx",
+    "size": 22954,
+    "compressed": 12560,
+    "crc": 3882334461,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13592356
+  },
+  {
+    "name": "animations/Munch_HunterHat_FMagic_m003_a.ukx",
+    "size": 22956,
+    "compressed": 12516,
+    "crc": 2581150384,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13604988
+  },
+  {
+    "name": "animations/Munch_HunterHat_FOrc_m003_a.ukx",
+    "size": 22954,
+    "compressed": 12604,
+    "crc": 1181965938,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13617578
+  },
+  {
+    "name": "animations/Munch_HunterHat_FShaman_m003_a.ukx",
+    "size": 22957,
+    "compressed": 12575,
+    "crc": 2306893809,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13630254
+  },
+  {
+    "name": "animations/Munch_HunterHat_MDwarf_m003_a.ukx",
+    "size": 22956,
+    "compressed": 12622,
+    "crc": 3865156184,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13642904
+  },
+  {
+    "name": "animations/Munch_HunterHat_MElf_m003_a.ukx",
+    "size": 22954,
+    "compressed": 12540,
+    "crc": 3551777757,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13655600
+  },
+  {
+    "name": "animations/Munch_HunterHat_MFighter_m003_a.ukx",
+    "size": 22958,
+    "compressed": 12586,
+    "crc": 619633534,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13668212
+  },
+  {
+    "name": "animations/Munch_HunterHat_MMagic_m003_a.ukx",
+    "size": 22956,
+    "compressed": 12482,
+    "crc": 3147247196,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13680874
+  },
+  {
+    "name": "animations/Munch_HunterHat_MOrc_m003_a.ukx",
+    "size": 22954,
+    "compressed": 12659,
+    "crc": 2455251273,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13693430
+  },
+  {
+    "name": "animations/Munch_HunterHat_MShaman_m003_a.ukx",
+    "size": 22957,
+    "compressed": 12674,
+    "crc": 5867948,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13706161
+  },
+  {
+    "name": "animations/Munch_MinerHat_FDElf_m003_a.ukx",
+    "size": 11014,
+    "compressed": 5087,
+    "crc": 3691663255,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13718910
+  },
+  {
+    "name": "animations/Munch_MinerHat_FDwarf_m003_a.ukx",
+    "size": 11015,
+    "compressed": 5102,
+    "crc": 1753428829,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13724069
+  },
+  {
+    "name": "animations/Munch_MinerHat_FElf_m003_a.ukx",
+    "size": 11013,
+    "compressed": 5080,
+    "crc": 3757450615,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13729244
+  },
+  {
+    "name": "animations/Munch_MinerHat_FMagic_m003_a.ukx",
+    "size": 11015,
+    "compressed": 5098,
+    "crc": 3669350812,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13734395
+  },
+  {
+    "name": "animations/Munch_MinerHat_FOrc_m003_a.ukx",
+    "size": 11013,
+    "compressed": 5092,
+    "crc": 2995608690,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13739566
+  },
+  {
+    "name": "animations/Munch_MinerHat_FShaman_m003_a.ukx",
+    "size": 11016,
+    "compressed": 5133,
+    "crc": 49557439,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13744729
+  },
+  {
+    "name": "animations/Munch_MinerHat_MDwarf_m003_a.ukx",
+    "size": 11015,
+    "compressed": 5153,
+    "crc": 2205234115,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13749936
+  },
+  {
+    "name": "animations/Munch_MinerHat_MElf_m003_a.ukx",
+    "size": 11013,
+    "compressed": 5139,
+    "crc": 1265225206,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13755162
+  },
+  {
+    "name": "animations/Munch_MinerHat_MFighter_m003_a.ukx",
+    "size": 11017,
+    "compressed": 5152,
+    "crc": 3849924012,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13760372
+  },
+  {
+    "name": "animations/Munch_MinerHat_MMagic_m003_a.ukx",
+    "size": 11015,
+    "compressed": 5148,
+    "crc": 1052376224,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13765599
+  },
+  {
+    "name": "animations/Munch_MinerHat_MOrc_m003_a.ukx",
+    "size": 11013,
+    "compressed": 5165,
+    "crc": 381610834,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13770820
+  },
+  {
+    "name": "animations/Munch_MinerHat_MShaman_m003_a.ukx",
+    "size": 11016,
+    "compressed": 5152,
+    "crc": 2538749676,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13776056
+  },
+  {
+    "name": "animations/Munch_PriestHat_FDElf_m003_a.ukx",
+    "size": 19967,
+    "compressed": 9609,
+    "crc": 1935654388,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13781282
+  },
+  {
+    "name": "animations/Munch_PriestHat_FDwarf_m003_a.ukx",
+    "size": 19968,
+    "compressed": 9688,
+    "crc": 2742173913,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13790964
+  },
+  {
+    "name": "animations/Munch_PriestHat_FElf_m003_a.ukx",
+    "size": 19966,
+    "compressed": 9633,
+    "crc": 3077756089,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13800726
+  },
+  {
+    "name": "animations/Munch_PriestHat_FMagic_m003_a.ukx",
+    "size": 19968,
+    "compressed": 9605,
+    "crc": 980467182,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13810431
+  },
+  {
+    "name": "animations/Munch_PriestHat_FOrc_m003_a.ukx",
+    "size": 19966,
+    "compressed": 9747,
+    "crc": 2379138085,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13820110
+  },
+  {
+    "name": "animations/Munch_PriestHat_FShaman_m003_a.ukx",
+    "size": 19969,
+    "compressed": 9649,
+    "crc": 3915684028,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13829929
+  },
+  {
+    "name": "animations/Munch_PriestHat_MDwarf_m003_a.ukx",
+    "size": 19968,
+    "compressed": 9759,
+    "crc": 673936831,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13839653
+  },
+  {
+    "name": "animations/Munch_PriestHat_MElf_m003_a.ukx",
+    "size": 19966,
+    "compressed": 9715,
+    "crc": 747235336,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13849486
+  },
+  {
+    "name": "animations/Munch_PriestHat_MFighter_m003_a.ukx",
+    "size": 19970,
+    "compressed": 9683,
+    "crc": 1557726215,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13859273
+  },
+  {
+    "name": "animations/Munch_PriestHat_MMagic_m003_a.ukx",
+    "size": 19968,
+    "compressed": 9638,
+    "crc": 467496714,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13869032
+  },
+  {
+    "name": "animations/Munch_PriestHat_MOrc_m003_a.ukx",
+    "size": 19966,
+    "compressed": 9754,
+    "crc": 1265719656,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13878744
+  },
+  {
+    "name": "animations/Munch_PriestHat_MShaman_m003_a.ukx",
+    "size": 19969,
+    "compressed": 9721,
+    "crc": 3414377093,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13888570
+  },
+  {
+    "name": "animations/Munch_Snapback_FDElf_m003.ukx",
+    "size": 6419,
+    "compressed": 3797,
+    "crc": 3843698053,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13898366
+  },
+  {
+    "name": "animations/Munch_Snapback_FDwarf_m003.ukx",
+    "size": 6420,
+    "compressed": 3571,
+    "crc": 206398859,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13902233
+  },
+  {
+    "name": "animations/Munch_Snapback_FElf_m003.ukx",
+    "size": 6418,
+    "compressed": 3574,
+    "crc": 1279025092,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13905875
+  },
+  {
+    "name": "animations/Munch_Snapback_FFighter_m003.ukx",
+    "size": 6422,
+    "compressed": 3800,
+    "crc": 982062489,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13909518
+  },
+  {
+    "name": "animations/Munch_Snapback_FMagic_m003.ukx",
+    "size": 6420,
+    "compressed": 3603,
+    "crc": 3728171594,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13913391
+  },
+  {
+    "name": "animations/Munch_Snapback_FOrc_m003.ukx",
+    "size": 6418,
+    "compressed": 3538,
+    "crc": 3518292608,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13917065
+  },
+  {
+    "name": "animations/Munch_Snapback_FShaman_m003.ukx",
+    "size": 6421,
+    "compressed": 3622,
+    "crc": 3652616324,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13920672
+  },
+  {
+    "name": "animations/Munch_Snapback_MDElf_m003.ukx",
+    "size": 6419,
+    "compressed": 3287,
+    "crc": 2559563830,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13924366
+  },
+  {
+    "name": "animations/Munch_Snapback_MDwarf_m003.ukx",
+    "size": 6420,
+    "compressed": 3584,
+    "crc": 491746673,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13927723
+  },
+  {
+    "name": "animations/Munch_Snapback_MElf_m003.ukx",
+    "size": 6418,
+    "compressed": 3597,
+    "crc": 2707042708,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13931378
+  },
+  {
+    "name": "animations/Munch_Snapback_MFighter_m003.ukx",
+    "size": 6422,
+    "compressed": 3805,
+    "crc": 2034219903,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13935044
+  },
+  {
+    "name": "animations/Munch_Snapback_MMagic_m003.ukx",
+    "size": 6420,
+    "compressed": 3592,
+    "crc": 1507406546,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13938922
+  },
+  {
+    "name": "animations/Munch_Snapback_MOrc_m003.ukx",
+    "size": 6418,
+    "compressed": 3634,
+    "crc": 226871307,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13942585
+  },
+  {
+    "name": "animations/Munch_Snapback_MShaman_m003.ukx",
+    "size": 6421,
+    "compressed": 3621,
+    "crc": 3061699790,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13946288
+  },
+  {
+    "name": "animations/Munch_TopHat_FDarkElf_m003.ukx",
+    "size": 13237,
+    "compressed": 6820,
+    "crc": 2784664119,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13949981
+  },
+  {
+    "name": "animations/Munch_TopHat_FDElf_m003.ukx",
+    "size": 13234,
+    "compressed": 6798,
+    "crc": 4176361987,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13956872
+  },
+  {
+    "name": "animations/Munch_TopHat_FDwarf_m003.ukx",
+    "size": 13235,
+    "compressed": 6820,
+    "crc": 3317500417,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13963738
+  },
+  {
+    "name": "animations/Munch_TopHat_FElf_m003.ukx",
+    "size": 13233,
+    "compressed": 6817,
+    "crc": 2897885557,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13970627
+  },
+  {
+    "name": "animations/Munch_TopHat_FMagic_m003.ukx",
+    "size": 13235,
+    "compressed": 6878,
+    "crc": 1618746064,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13977511
+  },
+  {
+    "name": "animations/Munch_TopHat_FOrc_m003.ukx",
+    "size": 13233,
+    "compressed": 6815,
+    "crc": 3410100092,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13984458
+  },
+  {
+    "name": "animations/Munch_TopHat_FShaman_m003.ukx",
+    "size": 13236,
+    "compressed": 6821,
+    "crc": 418578733,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13991340
+  },
+  {
+    "name": "animations/Munch_TopHat_MDwarf_m003.ukx",
+    "size": 13235,
+    "compressed": 6819,
+    "crc": 2413019608,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 13998231
+  },
+  {
+    "name": "animations/Munch_TopHat_MElf_m003.ukx",
+    "size": 13233,
+    "compressed": 6818,
+    "crc": 2025222322,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14005119
+  },
+  {
+    "name": "animations/Munch_TopHat_MFighter_m003.ukx",
+    "size": 13237,
+    "compressed": 6839,
+    "crc": 1455251593,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14012004
+  },
+  {
+    "name": "animations/Munch_TopHat_MMagic_m003.ukx",
+    "size": 13235,
+    "compressed": 6818,
+    "crc": 2016135684,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14018914
+  },
+  {
+    "name": "animations/Munch_TopHat_MOrc_m003.ukx",
+    "size": 13233,
+    "compressed": 6818,
+    "crc": 3716124777,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14025801
+  },
+  {
+    "name": "animations/Munch_TopHat_MShaman_m003.ukx",
+    "size": 13236,
+    "compressed": 6805,
+    "crc": 3059225527,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14032686
+  },
+  {
+    "name": "animations/NevesOma_bSticker-mDW_m003_a.ukx",
+    "size": 26095,
+    "compressed": 17777,
+    "crc": 3547667282,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14039561
+  },
+  {
+    "name": "animations/NevesOma_bSticker-mOR_m003_a.ukx",
+    "size": 26095,
+    "compressed": 17739,
+    "crc": 831331156,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14057411
+  },
+  {
+    "name": "animations/NevesOma_bSticker-mSH_m003_a.ukx",
+    "size": 26095,
+    "compressed": 17722,
+    "crc": 1313735191,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14075223
+  },
+  {
+    "name": "animations/NevesOma_bSticker_m003_a.ukx",
+    "size": 26091,
+    "compressed": 17721,
+    "crc": 3279892009,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14093018
+  },
+  {
+    "name": "animations/NZ_Fdarkelf_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3948,
+    "compressed": 2981,
+    "crc": 3046052048,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14110808
+  },
+  {
+    "name": "animations/NZ_Fdwarf_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3946,
+    "compressed": 2996,
+    "crc": 1786435267,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14113876
+  },
+  {
+    "name": "animations/NZ_Felf_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3944,
+    "compressed": 2985,
+    "crc": 4231284894,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14116957
+  },
+  {
+    "name": "animations/NZ_Ffighter_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3948,
+    "compressed": 2978,
+    "crc": 2718311018,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14120025
+  },
+  {
+    "name": "animations/NZ_Fmagic_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3946,
+    "compressed": 2908,
+    "crc": 4176291702,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14123090
+  },
+  {
+    "name": "animations/NZ_Forc_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3944,
+    "compressed": 3001,
+    "crc": 3773733310,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14126083
+  },
+  {
+    "name": "animations/NZ_Fshaman_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3947,
+    "compressed": 3002,
+    "crc": 488793119,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14129167
+  },
+  {
+    "name": "animations/NZ_Fshaman_tophat_slash_BySecretDevelopers_m002_a.ukx",
+    "size": 13260,
+    "compressed": 7694,
+    "crc": 1379130544,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14132255
+  },
+  {
+    "name": "animations/NZ_Mdarkelf_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3948,
+    "compressed": 2984,
+    "crc": 1165012471,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14140043
+  },
+  {
+    "name": "animations/NZ_Mdwarf_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3946,
+    "compressed": 3004,
+    "crc": 775706951,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14143114
+  },
+  {
+    "name": "animations/NZ_Melf_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3944,
+    "compressed": 2903,
+    "crc": 3167204988,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14146203
+  },
+  {
+    "name": "animations/NZ_Mfighter_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3948,
+    "compressed": 2904,
+    "crc": 2434127993,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14149189
+  },
+  {
+    "name": "animations/NZ_Mmagic_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3946,
+    "compressed": 2914,
+    "crc": 3397256626,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14152180
+  },
+  {
+    "name": "animations/NZ_Morc_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3944,
+    "compressed": 2995,
+    "crc": 4083275993,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14155179
+  },
+  {
+    "name": "animations/NZ_Morc_tophat_slash_BySecretDevelopers_m002_a.ukx",
+    "size": 13257,
+    "compressed": 7679,
+    "crc": 4046750831,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14158257
+  },
+  {
+    "name": "animations/NZ_Mshaman_Ruthless_Mask_ByCymBals_m000_a.ukx",
+    "size": 3947,
+    "compressed": 3000,
+    "crc": 2751362960,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14166027
+  },
+  {
+    "name": "animations/NZ_Mshaman_Ruthless_Mask_ByCymBals_m003_a.ukx",
+    "size": 3947,
+    "compressed": 3001,
+    "crc": 3447718385,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14169113
+  },
+  {
+    "name": "animations/NZ_Mshaman_tophat_slash_BySecretDevelopers_m002_a.ukx",
+    "size": 13260,
+    "compressed": 7680,
+    "crc": 1006808698,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14172200
+  },
+  {
+    "name": "animations/Orc-v.ukx",
+    "size": 1879186,
+    "compressed": 782265,
+    "crc": 3490029543,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14179974
+  },
+  {
+    "name": "animations/PirateQueen.ukx",
+    "size": 3396832,
+    "compressed": 2191185,
+    "crc": 3586223582,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 14962289
+  },
+  {
+    "name": "animations/satyr_shaman.ukx",
+    "size": 5475388,
+    "compressed": 2464947,
+    "crc": 1396210333,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 17153530
+  },
+  {
+    "name": "animations/Shaman-v.ukx",
+    "size": 838619,
+    "compressed": 371858,
+    "crc": 2311916451,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 19618534
+  },
+  {
+    "name": "animations/SHEV_alien_mask_m008_a.ukx",
+    "size": 10045,
+    "compressed": 6170,
+    "crc": 2711498580,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 19990445
+  },
+  {
+    "name": "animations/SHEV_br_doccabi_mask_m008_a.ukx",
+    "size": 22902,
+    "compressed": 14928,
+    "crc": 1082234232,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 19996682
+  },
+  {
+    "name": "animations/SHEV_br_frankenstein_mask_m008_a.ukx",
+    "size": 23371,
+    "compressed": 16604,
+    "crc": 1661892141,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20011682
+  },
+  {
+    "name": "animations/SHEV_br_jack0_mask_m008_a.ukx",
+    "size": 12968,
+    "compressed": 9948,
+    "crc": 2783149975,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20028363
+  },
+  {
+    "name": "animations/SHEV_br_mummy_mask_m008_a.ukx",
+    "size": 17228,
+    "compressed": 13508,
+    "crc": 3606915176,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20038381
+  },
+  {
+    "name": "animations/SHEV_br_scream_mask_m008_a.ukx",
+    "size": 16265,
+    "compressed": 10570,
+    "crc": 3882465174,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20051959
+  },
+  {
+    "name": "animations/SHEV_FDarkElf_g_straw_hat_m003_a.ukx",
+    "size": 17967,
+    "compressed": 13507,
+    "crc": 2430167307,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20062600
+  },
+  {
+    "name": "animations/SHEV_Fdarkelf_palaika_helmet_g_m003_a.ukx",
+    "size": 10984,
+    "compressed": 8084,
+    "crc": 1662264450,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20076184
+  },
+  {
+    "name": "animations/SHEV_FDwarf_g_straw_hat_m003_a.ukx",
+    "size": 18029,
+    "compressed": 13566,
+    "crc": 3875641571,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20084350
+  },
+  {
+    "name": "animations/SHEV_Fdwarf_palaika_helmet_g_m003_a.ukx",
+    "size": 10982,
+    "compressed": 8520,
+    "crc": 1933661963,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20097991
+  },
+  {
+    "name": "animations/SHEV_FElf_g_straw_hat_m003_a.ukx",
+    "size": 17963,
+    "compressed": 13473,
+    "crc": 2501059870,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20106591
+  },
+  {
+    "name": "animations/SHEV_Felf_palaika_helmet_g_m003_a.ukx",
+    "size": 10980,
+    "compressed": 8516,
+    "crc": 3317352323,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20120137
+  },
+  {
+    "name": "animations/SHEV_Ffighter_palaika_helmet_g_m003_a.ukx",
+    "size": 10984,
+    "compressed": 8099,
+    "crc": 3096511257,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20128731
+  },
+  {
+    "name": "animations/SHEV_Fmagic_g_straw_hat_m003_a.ukx",
+    "size": 17965,
+    "compressed": 13553,
+    "crc": 814447389,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20136912
+  },
+  {
+    "name": "animations/SHEV_Fmagic_palaika_helmet_g_m003_a.ukx",
+    "size": 10982,
+    "compressed": 8509,
+    "crc": 163409854,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20150540
+  },
+  {
+    "name": "animations/SHEV_FOrc_g_straw_hat_m003_a.ukx",
+    "size": 17963,
+    "compressed": 13577,
+    "crc": 3974636276,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20159129
+  },
+  {
+    "name": "animations/SHEV_Forc_palaika_helmet_g_m003_a.ukx",
+    "size": 10980,
+    "compressed": 8491,
+    "crc": 1738163529,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20172779
+  },
+  {
+    "name": "animations/SHEV_FShaman_g_straw_hat_m003_a.ukx",
+    "size": 17966,
+    "compressed": 13559,
+    "crc": 1427385030,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20181348
+  },
+  {
+    "name": "animations/SHEV_Fshaman_palaika_helmet_g_m003_a.ukx",
+    "size": 10983,
+    "compressed": 8481,
+    "crc": 3108688216,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20194983
+  },
+  {
+    "name": "animations/SHEV_Mdarf_br_jack0_mask_m008_a.ukx",
+    "size": 12974,
+    "compressed": 9950,
+    "crc": 780812473,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20203545
+  },
+  {
+    "name": "animations/SHEV_Mdarkelf_palaika_helmet_g_m003_a.ukx",
+    "size": 10984,
+    "compressed": 8098,
+    "crc": 2512494038,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20213571
+  },
+  {
+    "name": "animations/SHEV_Mdwarf_doccabi_mask_m008_a.ukx",
+    "size": 22906,
+    "compressed": 15230,
+    "crc": 1705439306,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20221751
+  },
+  {
+    "name": "animations/SHEV_MDwarf_g_straw_hat_m003_a.ukx",
+    "size": 17965,
+    "compressed": 13616,
+    "crc": 509543123,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20237057
+  },
+  {
+    "name": "animations/SHEV_Mdwarf_palaika_helmet_g_m000_a.ukx",
+    "size": 10982,
+    "compressed": 8094,
+    "crc": 4271151526,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20250748
+  },
+  {
+    "name": "animations/SHEV_Mdwarf_scream_mask_m008_a.ukx",
+    "size": 16269,
+    "compressed": 10785,
+    "crc": 2506863257,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20258922
+  },
+  {
+    "name": "animations/SHEV_MElf_g_straw_hat_m003_a.ukx",
+    "size": 17963,
+    "compressed": 13540,
+    "crc": 2113887045,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20269782
+  },
+  {
+    "name": "animations/SHEV_Melf_palaika_helmet_g_m003_a.ukx",
+    "size": 10980,
+    "compressed": 8521,
+    "crc": 2546802016,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20283395
+  },
+  {
+    "name": "animations/SHEV_MFighter_g_straw_hat_m003_a.ukx",
+    "size": 17967,
+    "compressed": 13486,
+    "crc": 3326295698,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20291994
+  },
+  {
+    "name": "animations/SHEV_MMagic_g_straw_hat_m003_a.ukx",
+    "size": 17965,
+    "compressed": 13549,
+    "crc": 319808683,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20305557
+  },
+  {
+    "name": "animations/SHEV_Mmagic_palaika_helmet_g_m003_a.ukx",
+    "size": 10982,
+    "compressed": 8513,
+    "crc": 2921328152,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20319181
+  },
+  {
+    "name": "animations/SHEV_Morc_alien_mask_m008_a.ukx",
+    "size": 10050,
+    "compressed": 6185,
+    "crc": 282747151,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20327774
+  },
+  {
+    "name": "animations/SHEV_Morc_br_jack0_mask_m008_a.ukx",
+    "size": 12973,
+    "compressed": 9947,
+    "crc": 4235582134,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20334031
+  },
+  {
+    "name": "animations/SHEV_Morc_doccabi_mask_m008_a.ukx",
+    "size": 22904,
+    "compressed": 15211,
+    "crc": 1588235048,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20344053
+  },
+  {
+    "name": "animations/SHEV_MOrc_g_straw_hat_m003_a.ukx",
+    "size": 17963,
+    "compressed": 13600,
+    "crc": 3597146388,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20359338
+  },
+  {
+    "name": "animations/SHEV_Morc_mummy_mask_m008_a.ukx",
+    "size": 17230,
+    "compressed": 13520,
+    "crc": 3049708568,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20373011
+  },
+  {
+    "name": "animations/SHEV_Morc_palaika_helmet_g_m003_a.ukx",
+    "size": 10980,
+    "compressed": 8505,
+    "crc": 2782979038,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20386603
+  },
+  {
+    "name": "animations/SHEV_Morc_scream_mask_m008_a.ukx",
+    "size": 16267,
+    "compressed": 10784,
+    "crc": 3445191194,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20395186
+  },
+  {
+    "name": "animations/SHEV_Mshaman_alien_mask_m008_a.ukx",
+    "size": 10053,
+    "compressed": 6196,
+    "crc": 2284725369,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20406043
+  },
+  {
+    "name": "animations/SHEV_MShaman_g_straw_hat_m003_a.ukx",
+    "size": 17966,
+    "compressed": 13573,
+    "crc": 1929690194,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20412314
+  },
+  {
+    "name": "animations/SHEV_Mshaman_palaika_helmet_g_m003_a.ukx",
+    "size": 10983,
+    "compressed": 8485,
+    "crc": 2088712873,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20425963
+  },
+  {
+    "name": "animations/SHEV_Musketeer.ukx",
+    "size": 13537392,
+    "compressed": 7036028,
+    "crc": 1203780026,
+    "method": 8,
+    "flags": 0,
+    "volume": 18,
+    "offset": 20434529
+  },
+  {
+    "name": "animations/SHEV_palaika_helmet_g_m003_a.ukx",
+    "size": 10975,
+    "compressed": 8078,
+    "crc": 2746058318,
+    "method": 8,
+    "flags": 0,
+    "volume": 19,
+    "offset": 6499096
+  },
+  {
+    "name": "animations/SHEV_SingleMeshOrc.ukx",
+    "size": 7511682,
+    "compressed": 5451868,
+    "crc": 1049696996,
+    "method": 8,
+    "flags": 0,
+    "volume": 19,
+    "offset": 6507247
+  },
+  {
+    "name": "animations/SHEV_Wizard.ukx",
+    "size": 14077760,
+    "compressed": 7091759,
+    "crc": 1891987877,
+    "method": 8,
+    "flags": 0,
+    "volume": 19,
+    "offset": 11959178
+  },
+  {
+    "name": "animations/skill.usk",
+    "size": 50885,
+    "compressed": 16264,
+    "crc": 2950252253,
+    "method": 8,
+    "flags": 0,
+    "volume": 19,
+    "offset": 19050993
+  },
+  {
+    "name": "animations/sp_summon_cat_mage.ukx",
+    "size": 4630545,
+    "compressed": 2245044,
+    "crc": 2776873218,
+    "method": 8,
+    "flags": 0,
+    "volume": 19,
+    "offset": 19067307
+  },
+  {
+    "name": "animations/vesper_avenger.ukx",
+    "size": 39594,
+    "compressed": 17865,
+    "crc": 3997577781,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 340894
+  },
+  {
+    "name": "animations/vesper_burster.ukx",
+    "size": 9814,
+    "compressed": 4663,
+    "crc": 561741711,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 358818
+  },
+  {
+    "name": "animations/vesper_caster.ukx",
+    "size": 15073,
+    "compressed": 7844,
+    "crc": 3033580014,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 363540
+  },
+  {
+    "name": "animations/vesper_cutter.ukx",
+    "size": 12005,
+    "compressed": 5193,
+    "crc": 3673265618,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 371442
+  },
+  {
+    "name": "animations/vesper_fighter.ukx",
+    "size": 14790,
+    "compressed": 7432,
+    "crc": 4140242516,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 376693
+  },
+  {
+    "name": "animations/vesper_nagen.ukx",
+    "size": 14376,
+    "compressed": 6881,
+    "crc": 534050668,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 384184
+  },
+  {
+    "name": "animations/vesper_retributer.ukx",
+    "size": 28401,
+    "compressed": 12220,
+    "crc": 345451925,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 391122
+  },
+  {
+    "name": "animations/vesper_shaper.ukx",
+    "size": 10229,
+    "compressed": 4784,
+    "crc": 1267745882,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 403404
+  },
+  {
+    "name": "animations/vesper_singer.ukx",
+    "size": 14279,
+    "compressed": 7406,
+    "crc": 1381491461,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 408246
+  },
+  {
+    "name": "animations/vesper_slasher.ukx",
+    "size": 15958,
+    "compressed": 7913,
+    "crc": 708157797,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 415710
+  },
+  {
+    "name": "animations/vesper_stormer.ukx",
+    "size": 18718,
+    "compressed": 8538,
+    "crc": 2529802632,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 423682
+  },
+  {
+    "name": "animations/vesper_thrower.ukx",
+    "size": 32806,
+    "compressed": 14748,
+    "crc": 1578286461,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 432279
+  },
+  {
+    "name": "animations/vesper_verteidiger.ukx",
+    "size": 6077,
+    "compressed": 2916,
+    "crc": 761126721,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 447086
+  },
+  {
+    "name": "animations/viRUS_Assassin_dark.ukx",
+    "size": 12104252,
+    "compressed": 10986295,
+    "crc": 1436161828,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 450065
+  },
+  {
+    "name": "animations/viRUS_Assassin_light.ukx",
+    "size": 12104782,
+    "compressed": 11054531,
+    "crc": 1708640642,
+    "method": 8,
+    "flags": 0,
+    "volume": 20,
+    "offset": 11436424
+  },
+  {
+    "name": "animations/viRUS_BlueZaken_Set.ukx",
+    "size": 7647328,
+    "compressed": 6660036,
+    "crc": 2648576737,
+    "method": 8,
+    "flags": 0,
+    "volume": 21,
+    "offset": 1519500
+  },
+  {
+    "name": "animations/viRUS_Developments_Pack01.ukx",
+    "size": 48148836,
+    "compressed": 21386501,
+    "crc": 398167201,
+    "method": 8,
+    "flags": 0,
+    "volume": 21,
+    "offset": 8179600
+  },
+  {
+    "name": "animations/viRUS_Hairstyle012.ukx",
+    "size": 6130602,
+    "compressed": 2658138,
+    "crc": 1677360793,
+    "method": 8,
+    "flags": 0,
+    "volume": 22,
+    "offset": 8594651
+  },
+  {
+    "name": "animations/viRUS_NewDino_Il.ukx",
+    "size": 23044722,
+    "compressed": 13398291,
+    "crc": 435160435,
+    "method": 8,
+    "flags": 0,
+    "volume": 22,
+    "offset": 11252852
+  },
+  {
+    "name": "animations/WariinG_Deodos.ukx",
+    "size": 43801,
+    "compressed": 28126,
+    "crc": 933140946,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3679684
+  },
+  {
+    "name": "animations/WilliamFS_EL_Shield_m00.ukx",
+    "size": 12422,
+    "compressed": 8121,
+    "crc": 2332343586,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3707869
+  },
+  {
+    "name": "animations/WilliamFS_vesper_avenger_m00.ukx",
+    "size": 39535,
+    "compressed": 28380,
+    "crc": 2948809442,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3716058
+  },
+  {
+    "name": "animations/WilliamFS_vesper_burster_m00.ukx",
+    "size": 9755,
+    "compressed": 7020,
+    "crc": 2958070495,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3744511
+  },
+  {
+    "name": "animations/WilliamFS_vesper_caster_m00.ukx",
+    "size": 15014,
+    "compressed": 11897,
+    "crc": 3217698763,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3751604
+  },
+  {
+    "name": "animations/WilliamFS_vesper_cutter_m00.ukx",
+    "size": 10890,
+    "compressed": 7839,
+    "crc": 3083483305,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3763573
+  },
+  {
+    "name": "animations/WilliamFS_vesper_fighter_m00.ukx",
+    "size": 14731,
+    "compressed": 11452,
+    "crc": 2880427809,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3771484
+  },
+  {
+    "name": "animations/WilliamFS_vesper_nagen_m00.ukx",
+    "size": 12589,
+    "compressed": 10188,
+    "crc": 1324094677,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3783009
+  },
+  {
+    "name": "animations/WilliamFS_vesper_pincer_m00.ukx",
+    "size": 11022,
+    "compressed": 8791,
+    "crc": 34841888,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3793268
+  },
+  {
+    "name": "animations/WilliamFS_vesper_retributer_m00.ukx",
+    "size": 28342,
+    "compressed": 19364,
+    "crc": 190051221,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3802131
+  },
+  {
+    "name": "animations/WilliamFS_vesper_shaper_m00.ukx",
+    "size": 10170,
+    "compressed": 7518,
+    "crc": 854791411,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3821571
+  },
+  {
+    "name": "animations/WilliamFS_vesper_sigil_m00.ukx",
+    "size": 7440,
+    "compressed": 4792,
+    "crc": 3077690140,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3829161
+  },
+  {
+    "name": "animations/WilliamFS_vesper_singer_m00.ukx",
+    "size": 14092,
+    "compressed": 11228,
+    "crc": 3753357384,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3834024
+  },
+  {
+    "name": "animations/WilliamFS_vesper_slasher_m00.ukx",
+    "size": 15867,
+    "compressed": 13000,
+    "crc": 39593127,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3845324
+  },
+  {
+    "name": "animations/WilliamFS_vesper_stormer_m00.ukx",
+    "size": 18659,
+    "compressed": 13449,
+    "crc": 171942244,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3858397
+  },
+  {
+    "name": "animations/WilliamFS_vesper_thrower_m00.ukx",
+    "size": 32747,
+    "compressed": 24399,
+    "crc": 2904483243,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3871919
+  },
+  {
+    "name": "animations/WilliamFS_vesper_verteidiger_m00.ukx",
+    "size": 5266,
+    "compressed": 4049,
+    "crc": 4059574211,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3896391
+  },
+  {
+    "name": "animations/xmas.utx",
+    "size": 335339,
+    "compressed": 142978,
+    "crc": 1866433406,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 3900517
+  },
+  {
+    "name": "animations/zaken1.ukx",
+    "size": 76565,
+    "compressed": 4830,
+    "crc": 418288392,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4043544
+  },
+  {
+    "name": "animations/zaken2.ukx",
+    "size": 200816,
+    "compressed": 11028,
+    "crc": 3263862362,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4048425
+  },
+  {
+    "name": "animations/zS_Fdarkelf_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27705,
+    "compressed": 19443,
+    "crc": 250689972,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4059504
+  },
+  {
+    "name": "animations/zS_Fdarkelf_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92412,
+    "compressed": 71680,
+    "crc": 3323006617,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4079034
+  },
+  {
+    "name": "animations/zS_Fdarkelf_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32235,
+    "compressed": 21882,
+    "crc": 1028164268,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4150799
+  },
+  {
+    "name": "animations/zS_Fdwarf_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27703,
+    "compressed": 19428,
+    "crc": 1276089426,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4172770
+  },
+  {
+    "name": "animations/zS_Fdwarf_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92410,
+    "compressed": 71749,
+    "crc": 624849077,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4192283
+  },
+  {
+    "name": "animations/zS_Fdwarf_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32233,
+    "compressed": 21866,
+    "crc": 1267138122,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4264115
+  },
+  {
+    "name": "animations/zS_Felf_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27701,
+    "compressed": 19448,
+    "crc": 1474367283,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4286068
+  },
+  {
+    "name": "animations/zS_Felf_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92408,
+    "compressed": 71722,
+    "crc": 2003088052,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4305599
+  },
+  {
+    "name": "animations/zS_Felf_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32231,
+    "compressed": 21813,
+    "crc": 3899061305,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4377402
+  },
+  {
+    "name": "animations/zS_Ffighter_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27705,
+    "compressed": 19473,
+    "crc": 2707851147,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4399300
+  },
+  {
+    "name": "animations/zS_Ffighter_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92412,
+    "compressed": 71719,
+    "crc": 3449724657,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4418860
+  },
+  {
+    "name": "animations/zS_Ffighter_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32235,
+    "compressed": 21865,
+    "crc": 618609092,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4490664
+  },
+  {
+    "name": "animations/zS_Fmagic_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27703,
+    "compressed": 19459,
+    "crc": 2868419787,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4512618
+  },
+  {
+    "name": "animations/zS_Fmagic_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92410,
+    "compressed": 71688,
+    "crc": 2820317549,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4532162
+  },
+  {
+    "name": "animations/zS_Fmagic_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32233,
+    "compressed": 21868,
+    "crc": 593814248,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4603933
+  },
+  {
+    "name": "animations/zS_Forc_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27701,
+    "compressed": 19453,
+    "crc": 2979131698,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4625888
+  },
+  {
+    "name": "animations/zS_Forc_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92408,
+    "compressed": 71737,
+    "crc": 3242938131,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4645424
+  },
+  {
+    "name": "animations/zS_Forc_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32231,
+    "compressed": 21854,
+    "crc": 3654513957,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4717242
+  },
+  {
+    "name": "animations/zS_Fshaman_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27704,
+    "compressed": 19421,
+    "crc": 102519525,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4739181
+  },
+  {
+    "name": "animations/zS_Fshaman_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92411,
+    "compressed": 71731,
+    "crc": 4281778551,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4758688
+  },
+  {
+    "name": "animations/zS_Fshaman_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32234,
+    "compressed": 21865,
+    "crc": 2510903976,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4830503
+  },
+  {
+    "name": "animations/zS_Mdarkelf_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27705,
+    "compressed": 19456,
+    "crc": 3016381115,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4852456
+  },
+  {
+    "name": "animations/zS_Mdarkelf_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92412,
+    "compressed": 71725,
+    "crc": 3449268074,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4871999
+  },
+  {
+    "name": "animations/zS_Mdarkelf_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32235,
+    "compressed": 21857,
+    "crc": 605926106,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4943809
+  },
+  {
+    "name": "animations/zS_Mdwarf_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27703,
+    "compressed": 19421,
+    "crc": 1497135786,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4965755
+  },
+  {
+    "name": "animations/zS_Mdwarf_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92410,
+    "compressed": 71744,
+    "crc": 2877310762,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 4985261
+  },
+  {
+    "name": "animations/zS_Mdwarf_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32233,
+    "compressed": 21891,
+    "crc": 4205191071,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5057088
+  },
+  {
+    "name": "animations/zS_Melf_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27701,
+    "compressed": 19485,
+    "crc": 2560753951,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5079066
+  },
+  {
+    "name": "animations/zS_Melf_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92408,
+    "compressed": 71741,
+    "crc": 2816955999,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5098634
+  },
+  {
+    "name": "animations/zS_Melf_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32231,
+    "compressed": 21870,
+    "crc": 33323578,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5170456
+  },
+  {
+    "name": "animations/zS_Mfighter_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27705,
+    "compressed": 19474,
+    "crc": 4215781778,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5192411
+  },
+  {
+    "name": "animations/zS_Mfighter_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92412,
+    "compressed": 71718,
+    "crc": 903955822,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5211972
+  },
+  {
+    "name": "animations/zS_Mfighter_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32235,
+    "compressed": 21865,
+    "crc": 2071101968,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5283775
+  },
+  {
+    "name": "animations/zS_Mmagic_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27703,
+    "compressed": 19467,
+    "crc": 121686050,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5305729
+  },
+  {
+    "name": "animations/zS_Mmagic_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92410,
+    "compressed": 71715,
+    "crc": 590470274,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5325281
+  },
+  {
+    "name": "animations/zS_Mmagic_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32233,
+    "compressed": 21874,
+    "crc": 2578399191,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5397079
+  },
+  {
+    "name": "animations/zS_Morc_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27701,
+    "compressed": 19449,
+    "crc": 731228441,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5419040
+  },
+  {
+    "name": "animations/zS_Morc_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92408,
+    "compressed": 71707,
+    "crc": 4286357962,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5438572
+  },
+  {
+    "name": "animations/zS_Morc_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32231,
+    "compressed": 21881,
+    "crc": 357977590,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5510360
+  },
+  {
+    "name": "animations/zS_Mshaman_Barba_Ruiva_Cap_ByzSnow_m003_a.ukx",
+    "size": 27704,
+    "compressed": 19443,
+    "crc": 2858663633,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5532326
+  },
+  {
+    "name": "animations/zS_Mshaman_Rabbadon_Mask_ByzSnow_m003_a.ukx",
+    "size": 92411,
+    "compressed": 71738,
+    "crc": 1989905627,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5551855
+  },
+  {
+    "name": "animations/zS_Mshaman_TopFormal_Cap_Hat_ByzSnow_m003_a.ukx",
+    "size": 32234,
+    "compressed": 21866,
+    "crc": 3929429243,
+    "method": 8,
+    "flags": 0,
+    "volume": 23,
+    "offset": 5623677
+  }
+]

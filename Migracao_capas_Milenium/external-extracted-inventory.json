@@ -1,0 +1,38 @@
+[
+  {
+    "name": "systextures/CapasClassicIcons.utx",
+    "size": 71148,
+    "compressed": 42265,
+    "crc": 1820650717,
+    "method": 8,
+    "flags": 0,
+    "volume": 0,
+    "offset": 17593624,
+    "sha256": "59a3a6de3942845125dcf0649d118e66a2a8978810db5760d73d747b91990c2d",
+    "path": "reference-external/systextures/CapasClassicIcons.utx"
+  },
+  {
+    "name": "systextures/iconfox-v3.utx",
+    "size": 9623885,
+    "compressed": 611251,
+    "crc": 705546984,
+    "method": 8,
+    "flags": 0,
+    "volume": 7,
+    "offset": 6767471,
+    "sha256": "d9fda70b4bf008aeb421a5afe472a81f336d6b79b0730bf2bba9037397831d32",
+    "path": "reference-external/systextures/iconfox-v3.utx"
+  },
+  {
+    "name": "animations/DynastyCloak.ukx",
+    "size": 2891986,
+    "compressed": 825240,
+    "crc": 2421158912,
+    "method": 8,
+    "flags": 0,
+    "volume": 8,
+    "offset": 15619412,
+    "sha256": "17a08de04bcb6204cea01d8b3a93c7d86d2c0daa9d068787b5ab9b6c8555db2e",
+    "path": "reference-external/animations/DynastyCloak.ukx"
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "object": "Dyn_Cover",
+    "class": "Engine.Texture",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "Dyn_Cloth",
+    "class": "Engine.Texture",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "DynastyCloakPkg.ScriptText",
+    "class": "Core.TextBuffer",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "DynastyCloakPkg",
+    "class": "Core.Class",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MFighter_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MFighter_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FFighter_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FFighter_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MDarkElf_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MDarkElf_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FDarkElf_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FDarkElf_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MDwarf_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MDwarf_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FDwarf_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FDwarf_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MElf_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MElf_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FElf_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FElf_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MMagic_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MMagic_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FMagic_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FMagic_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MOrc_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MOrc_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FOrc_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FOrc_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MShaman_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "MShaman_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FShaman_DynCloth",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  },
+  {
+    "object": "FShaman_DynCover",
+    "class": "Engine.SkeletalMesh",
+    "exists_in_ukx": true,
+    "serialized_payload_equal": false
+  }
+]
