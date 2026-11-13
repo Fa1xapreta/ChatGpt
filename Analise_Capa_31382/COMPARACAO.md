@@ -49,3 +49,16 @@ Foi preparado **Verificar_Capa_31382_V2.zip**, sem alterações no jogo: lê tam
 O V2 também inicia o PowerShell de 64 bits via Sysnative quando necessário. Os testes com fixtures cobriram estado ativo, bloqueado, canal ausente e arquivo divergente, incluindo extração do nome e dos campos numéricos. Esses testes não substituem a captura real no Windows.
 
 Não houve troca de Engine, NWindow, parâmetros de tecido ou assets em resposta a esse resultado. A próxima decisão depende de observar o processamento por quadro, não apenas o estado de inicialização.
+
+
+## Resultado real do V2 e teste de renderização separado
+
+O V2 recebido confirmou novamente 112 arquivos iguais, nenhum ausente/divergente. O objeto publicado foi MFighter_Draconic_m_ad00 em todas as amostras. Os contadores de callbacks 0x20/0x24/0x28 avançaram juntos de 875 a 1560. A inicialização permaneceu em estado 3, hooks ativos — jogando. Isso demonstra execução dos callbacks com o objeto rastreado esperado; não prova equivalência integral da física ou da aparência com o vídeo de referência.
+
+Os valores zero dos campos não nomeados não foram tratados como erros. Não foi identificada uma falha específica de simulação nessa captura. As primeiras amostras apresentam menor incremento dos contadores, seguido de incrementos regulares quando a captura prossegue; isso, isoladamente, não comprova problema de desempenho.
+
+D3DDrv.dll tem o mesmo tamanho (1.277.972 bytes), mesmas tabelas de import/export e mesmos layouts de seções nos dois clientes. Há 19 bytes diferentes em oito intervalos, incluindo duas regiões executáveis. Na versão de destino, uma condição em 0x18328 foi transformada em salto incondicional; outra em 0x1C419 foi substituída por NOPs. A segunda região está junto a mensagens de detecção de suporte AGP; a primeira percorre uma rotina com GetDesktopWindow/GetDC e tabela de 256 entradas. Não se afirmou que essas alterações sejam a causa da diferença da capa.
+
+Foi preparado Milenium_Render_Modelo_TESTE_3.zip: teste A/B de um único componente, usando D3DDrv.dll da referência. Inclui o original do destino e APLICAR/DESFAZER com verificação de hashes, backup e reversão em caso de falha de cópia. Não altera Engine, NWindow, chargrp, Java, XML ou arquivos de montarias. É uma tentativa controlada de igualar a renderização, não correção comprovada da física.
+
+Testes do instalador com arquivos simulados: aplicar/restaurar e repetição idempotente; recusa de versão desconhecida; recusa de payload alterado; restauração após falha de cópia injetada. Não houve execução desse driver no jogo durante a sessão.
