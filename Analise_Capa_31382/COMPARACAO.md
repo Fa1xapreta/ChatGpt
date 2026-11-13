@@ -36,3 +36,16 @@ Foi preparado um verificador de leitura que abre somente esse canal existente, c
 Verificação do verificador: sintaxe analisada em PowerShell 7.7 e testes com fixtures para canal ativo, bloqueado, ausente e arquivo diferente. Não foi executado contra o jogo Windows nesta sessão. O código usa chamadas compatíveis com Windows PowerShell 5.1 e não depende de sintaxe de métodos genéricos do PowerShell 7.
 
 O resultado real de execução é necessário para localizar a próxima alteração. Nenhum novo ajuste visual foi aplicado nesta etapa e o kit que já funciona foi mantido intacto.
+
+
+## Resultado real recebido após o primeiro verificador
+
+O relatório enviado confirmou **112 recursos iguais, nenhum ausente ou diferente**. As oito amostras mostraram estado 3, com PID correspondente ao processo aberto e mensagem UTF-8 `hooks ativos — jogando`. Não houve bloqueio de inicialização registrado nessa captura. O primeiro leitor usava CP1252 para esse texto; a leitura foi corrigida para UTF-8 no V2.
+
+Isso confirma que os arquivos conferem e que a DLL chegou à etapa de hooks ativos. Não demonstra que cada callback continue executando ou que cada etapa de animação receba o objeto esperado. A lista de módulos do primeiro relatório veio vazia; ela não foi usada como prova de módulos ausentes.
+
+Foi preparado **Verificar_Capa_31382_V2.zip**, sem alterações no jogo: lê também o nome do objeto publicado em 0x40 e os campos numéricos publicados em 0x14–0x38 e 0xF0–0xFC durante 12 segundos. Os contadores 0x20, 0x24 e 0x28 têm incrementos confirmados em callbacks no código nativo. Os demais campos foram mantidos com nomes de offset, sem atribuir significados não comprovados. Não são ponteiros lidos arbitrariamente do processo, mas campos do canal diagnóstico existente, aberto somente para leitura.
+
+O V2 também inicia o PowerShell de 64 bits via Sysnative quando necessário. Os testes com fixtures cobriram estado ativo, bloqueado, canal ausente e arquivo divergente, incluindo extração do nome e dos campos numéricos. Esses testes não substituem a captura real no Windows.
+
+Não houve troca de Engine, NWindow, parâmetros de tecido ou assets em resposta a esse resultado. A próxima decisão depende de observar o processamento por quadro, não apenas o estado de inicialização.
