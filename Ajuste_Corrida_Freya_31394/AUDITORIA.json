@@ -1,0 +1,25 @@
+{
+  "scope": "Experimental MFighter movement profile; all capes using that body, not item-specific",
+  "reported_item": 31394,
+  "body": "MFighter_",
+  "source_sha256": "20250ed27749bc3e5efee5f307dce3590c982d21d14b3bbbae1e4c747919f3d0",
+  "patched_sha256": "80478436ae8811f67436c82d16c17dc89968f2b2a714045ea0da423ebbc5ec25",
+  "file_offset": 306624,
+  "va": "0x1004b9c0",
+  "profile_va": "0x1004b728",
+  "field_offset": "0x298",
+  "before_double": -50.0,
+  "after_double": -65.0,
+  "original_bytes_hex": "00000000000049c0",
+  "patched_bytes_hex": "00000000004050c0",
+  "instruction_code_unchanged": true,
+  "other_body_profiles_unchanged": true,
+  "standing_walk_and_mount_profile_entries_unchanged": true,
+  "game_validated": false,
+  "new_leg_collision_detection_added": false,
+  "evidence": {
+    "profile_reader": "0x10004450: interpolation thresholds 70,120; entries +0x250,+0x270,+0x290; mounted mix +0x2b0; outputs +0x80..+0x98",
+    "read_run_component": "0x1000452f: movsd xmm5, qword ptr [eax + 0x298]",
+    "body_name": "UTF16 MFighter_ via profile pointer table entry 1"
+  }
+}

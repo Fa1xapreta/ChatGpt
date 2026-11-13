@@ -1,3 +1,11 @@
+## Freya 31394 — teste de corrida no humano fighter masculino
+
+[**Baixar ajuste reversível TESTE 6**](Ajuste_Corrida_Freya_31394/Milenium_Corrida_Freya_TESTE6.zip) · [Escopo e limites](Ajuste_Corrida_Freya_31394/README.md)
+
+O vídeo confirma a bota atravessando o tecido. Este teste altera um parâmetro de movimento do corpo MFighter para avaliar o afastamento na passada. Afeta outras capas desse corpo e ainda precisa de confirmação visual no jogo; não acrescenta colisão com as pernas. Feche o jogo, execute APLICAR.bat; DESFAZER.bat restaura o original. Efeitos visuais, INIs e dados do servidor não mudam.
+
+---
+
 ## Multisell das 70 capas novas
 
 [**Baixar cinco multisells (16 + 16 + 16 + 16 + 6) + HTML da loja**](Milenium_Capas_Integrado_70/Multisell_Capas_70_5_Botoes.zip). Cloaks.xml, Cloack2.xml, Cloack3.xml e Cloack4.xml contêm 16 capas cada; Cloack5.xml contém 6. O HTML contém apenas os cinco botões das capas, respeitando o limite de 16 por botão. Mantém o preço original (20453 × 300000, 20454 × 200, 3470 × 200) e entrega uma capa. Use o HTML no arquivo original da loja. As 26 capas de corpos específicos estão identificadas nos comentários, mas a multisell não restringe a compra por corpo.

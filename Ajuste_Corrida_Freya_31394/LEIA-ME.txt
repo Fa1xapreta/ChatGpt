@@ -1,0 +1,40 @@
+MILENIUM - TESTE 6 DE CORRIDA - FREYA 31394
+
+1. FECHE O JOGO.
+2. Extraia este ZIP e de dois cliques em APLICAR.bat.
+3. Abra o cliente e teste a Freya 31394 no HUMANO FIGHTER MASCULINO,
+   correndo em linha reta, virando e parando. Confira tambem a montaria.
+4. Para desfazer, feche o jogo e execute DESFAZER.bat deste mesmo kit.
+
+O instalador procura seu cliente em:
+C:\Program Files (x86)\LINEAGE ROYAL NOVO
+Se nao encontrar, abre uma janela para selecionar a pasta do jogo.
+Backup: Milenium_Corrida_Backup_TESTE6 na pasta do cliente.
+Nao copie DLLs manualmente. Nao precisa alterar Java, DAT, XML ou multisell.
+Nao precisa reinstalar o kit completo de capas.
+
+O QUE ESTE TESTE MUDA
+Um componente do perfil de movimento MFighter_, na faixa interpolada entre
+70 e 120 usada pelo motor, passa de -50 para -65. A finalidade e testar
+uma resposta do tecido que de mais espaco para a passada dos pes.
+A diferenca no resultado visual ainda nao foi confirmada dentro do jogo.
+Este teste NAO implementa deteccao nova de colisao com as pernas.
+
+IMPORTANTE: o perfil e do CORPO, portanto afeta OUTRAS CAPAS usadas por
+humanos fighter masculinos. Nao e exclusivo do ID 31394.
+Os valores dos outros 13 corpos, das entradas parado/caminhada e das
+entradas de montaria permanecem iguais. O codigo executavel da DLL e
+preservado; somente o campo double indicado no relatorio e alterado.
+Isso nao equivale a confirmar todos os comportamentos em execucao:
+a transicao para a montaria tambem deve ser verificada no jogo.
+
+Nao altera MileniumFX, d3d9, CliExt, L2modExCore, os INIs ou as montarias.
+O script aceita apenas a CapasClassic.dll original identificada no modelo,
+confere hash antes/depois e guarda o original. Se reconhecer outra versao,
+interrompe antes de mudar qualquer arquivo. Alteracoes posteriores tambem
+sao protegidas na restauracao: nao sao sobrescritas silenciosamente.
+
+A origem observada foi a bota atravessando a parte inferior da Freya na
+passada. O video mostra a intersecao, mas nao prova sozinho a causa interna.
+Use este ajuste como TESTE REVERSIVEL. Se nao melhorar, desfaça e mantenha
+sua versao anterior; nao acumule alteracoes de DLL para tentar compensar.
