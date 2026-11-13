@@ -112,18 +112,4 @@
 		<ingredient id="3470" count="200" />
 		<production id="31326" count="1" />
 	</item>
-	<!-- 31327 - Essence Mantle 03 -->
-	<item id="17">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31327" count="1" />
-	</item>
-	<!-- 31328 - Dragon Cloak - Lindvior -->
-	<item id="18">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31328" count="1" />
-	</item>
 </list>

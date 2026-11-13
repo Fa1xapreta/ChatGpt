@@ -1,28 +1,23 @@
-MILENIUM - TESTE COM 4 BOTOES / 70 CAPAS
+MILENIUM - 70 CAPAS / LIMITE DE 16 POR BOTAO
 
-Cloaks.xml: 18 capas (botao New Cloaks).
-Cloack2.xml: 18 capas (CLOACK 2).
-Cloack3.xml: 17 capas (CLOACK 3).
-Cloack4.xml: 17 capas (CLOACK 4).
+Cloaks.xml:  16 capas (New Cloaks).
+Cloack2.xml: 16 capas (CLOACK 2).
+Cloack3.xml: 16 capas (CLOACK 3).
+Cloack4.xml: 16 capas (CLOACK 4).
+Cloack5.xml:  6 capas (CLOACK 5).
 
 1. Guarde backup das multisells e do HTML fora das pastas carregadas.
-2. Substitua Cloaks.xml, Cloack2.xml e Cloack3.xml pelas novas versoes.
-   Acrescente Cloack4.xml na MESMA pasta de multisells usada pela loja.
-3. Use CustomShop.htm no HTML da loja, mantendo o nome/caminho original.
-   Este HTML contem somente os quatro botoes de capas.
+2. SUBSTITUA Cloaks.xml, Cloack2.xml, Cloack3.xml e Cloack4.xml pelas
+   versoes deste ZIP. ACRESCENTE Cloack5.xml na mesma pasta de multisells.
+3. Use o conteudo de CustomShop.htm no HTML original da loja, mantendo
+   o nome/caminho usado pelo servidor. Contem apenas os cinco botoes.
 4. Recarregue multisells e HTML ou reinicie o gameserver normalmente.
 
-Os XMLs de multisell NAO vao na pasta items. Os 70 itens precisam estar
-cadastrados no gameserver pelo Milenium_Capas_70.xml do kit anterior.
-Nao alteramos os DATs, os precos nem o bypass voiced_multisell do HTML.
-Os quatro XMLs foram conferidos: 70 IDs distintos, sem perda ou duplicatas.
+Nao coloque estes XMLs na pasta items. Os 70 itens precisam estar
+cadastrados pelo Milenium_Capas_70.xml do kit. DATs permanecem iguais.
+O bypass voiced_multisell original foi mantido.
 
 Preco por capa: 20453 x 300000, 20454 x 200, 3470 x 200. Entrega 1 capa.
-44 capas possuem malhas para 14 corpos; 26 apenas para corpos especificos.
-A multisell nao filtra a compra por corpo; consulte os comentarios dos XMLs.
-
-Se nenhuma lista abrir com essa divisao, quantidade de ofertas pode nao
-ser a causa. Confira no console do gameserver, ao carregar e clicar, se
-ha erros de XML, item inexistente ou bypass/voiced handler nao registrado.
-Os IDs de producao foram conferidos contra o XML de itens do kit; isso nao
-confirma que esse XML foi carregado no servidor em execucao.
+Conferido: nenhum botao passa de 16 ofertas, 70 IDs unicos, custos mantidos.
+44 capas possuem malhas para 14 corpos; 26 sao de corpos especificos,
+identificados nos comentarios. A multisell nao filtra a compra por corpo.
