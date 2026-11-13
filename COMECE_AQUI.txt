@@ -1,0 +1,47 @@
+MILENIUM - KIT COMPLETO DE CAPAS - TESTE 2
+
+1. Feche o jogo.
+2. Extraia este ZIP INTEIRO em uma pasta na Area de Trabalho.
+   NAO extraia dentro do jogo e NAO copie os arquivos manualmente.
+3. Abra a pasta extraida e de dois cliques em INSTALAR.bat.
+   Se o Windows pedir permissao de administrador, aceite.
+4. Aguarde a mensagem CLIENTE PREPARADO PARA TESTE.
+
+O instalador procura seu jogo em:
+C:\Program Files (x86)\LINEAGE ROYAL NOVO
+Se nao encontrar, ele abre uma janela para voce escolher a pasta do jogo.
+
+VOCE NAO PRECISA DA PASTA DO MODELO: os recursos estao neste kit.
+VOCE NAO PRECISA RESTAURAR MANUALMENTE OS TRES ARQUIVOS DO TESTE_1.
+
+SERVIDOR:
+Se voce ja aplicou o Java e o XML do TESTE_1, mantenha-os.
+Se faltou o XML, copie servidor\MileniumCloaks_313xx.xml para a pasta de
+itens do seu servidor, junto ao Cloak.xml, e reinicie o servidor de testes.
+Se ainda nao compilou o Java, leia servidor\LEIA-ME.txt.
+O instalador nao compila nem altera automaticamente o gameserver.
+
+PRIMEIRO TESTE:
+31382 = Draconic
+31383 = Vesper
+Use seu comando GM habitual para criar esses itens.
+
+PARA DESFAZER:
+Na pasta do jogo sera criada Milenium_Capas_Backup_DATA_HORA.
+Abra essa pasta e de dois cliques em RESTAURAR.bat.
+O backup inclui o estado encontrado e os tres arquivos originais para
+corrigir a copia manual anterior do TESTE_1. XML/Java do servidor sao
+restaurados separadamente, se necessario.
+
+O QUE MUDA:
+- Instala o motor e os recursos das capas do modelo.
+- Retira o carregamento do motor antigo e guarda seus recursos no backup.
+- Troca o d3d9 de efeitos pelo usado nas capas do modelo.
+- Acrescenta 25 capas novas; os itens antigos continuam validos durante o teste.
+- Nao substitui as montarias, Engine, interface, inventario ou autoequip.
+
+ATENCAO: KIT COMPLETO DE ARQUIVOS PARA TESTE, NAO VALIDADO NO JOGO.
+O funcionamento do motor/licenca na sua Engine ainda precisa ser confirmado.
+As texturas continuam nos pacotes originais; ainda nao foram unificadas em um UTX.
+Nenhum pacote/controlador LucDev e instalado. Nao houve alteracao de licenca.
+Se der erro ao abrir, restaure pelo backup e envie a mensagem exata.

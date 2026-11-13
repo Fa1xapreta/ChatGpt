@@ -1,0 +1,647 @@
+[
+  {
+    "file": "CAPAS_IDS.csv",
+    "bytes": 639,
+    "sha256": "3de238699859cbab22317c6bf3a9b6d5f8f8fec9ad26e0bfde65387f64fbdf6c"
+  },
+  {
+    "file": "COMECE_AQUI.txt",
+    "bytes": 2130,
+    "sha256": "1f46519746b5a1967298fc2347d1dc9d84f08084f16ab312d7771dfcb47e63f0"
+  },
+  {
+    "file": "INSTALAR.bat",
+    "bytes": 146,
+    "sha256": "e2f4c8776d073f147018c46b6e75954bc8dac38826fd96b84ad23a1959666bb3"
+  },
+  {
+    "file": "Instalar.ps1",
+    "bytes": 7476,
+    "sha256": "e14f41627a7d061ab56927fcc3921fb37c940d71aa01839bc563a20a033e7c5d"
+  },
+  {
+    "file": "README.md",
+    "bytes": 1621,
+    "sha256": "eb3245d64816e00e0ad93d7b19a346f68671eda1dce4961cdac6dde3fc0ff418"
+  },
+  {
+    "file": "VERIFICACOES.json",
+    "bytes": 903,
+    "sha256": "764bd2d9b14b016e239393276e9fbea3c408c4044908e0bce2fbfe6dd4b30b13"
+  },
+  {
+    "file": "cliente/SysTextures/CapasClassicIcons.utx",
+    "bytes": 71148,
+    "sha256": "59a3a6de3942845125dcf0649d118e66a2a8978810db5760d73d747b91990c2d"
+  },
+  {
+    "file": "cliente/SysTextures/iconfox-v3.utx",
+    "bytes": 9623885,
+    "sha256": "d9fda70b4bf008aeb421a5afe472a81f336d6b79b0730bf2bba9037397831d32"
+  },
+  {
+    "file": "cliente/system/BlessingCloaks.u",
+    "bytes": 30987985,
+    "sha256": "eec580f9910567d0b2fb103e3245578660b4aad0420dfc4f9da1c3bfc661d218"
+  },
+  {
+    "file": "cliente/system/CCBlackCloak.u",
+    "bytes": 22578554,
+    "sha256": "9f1c545ee381162dc0dbd860072b44fcd08a1b526b25a51568f2ec63690e5f4f"
+  },
+  {
+    "file": "cliente/system/CCDraconicCloak.u",
+    "bytes": 16984695,
+    "sha256": "555880e8e3f50290fc965619071f0e2c3910e933451fd97044f843107249aa50"
+  },
+  {
+    "file": "cliente/system/CCDragonBody.u",
+    "bytes": 69192456,
+    "sha256": "da45c81f78d88d4b9a41250ccfc66ad1c3e7afe06f93dba2e5f18abe87e786b7"
+  },
+  {
+    "file": "cliente/system/CCDragonCloak.u",
+    "bytes": 17618,
+    "sha256": "3d85a39cd0271726729b171a4058a824f71ed236eac05fe80446ea55b35665fa"
+  },
+  {
+    "file": "cliente/system/CCElegiaCloak.u",
+    "bytes": 16984225,
+    "sha256": "1cac49ca81c035cb80d9d56406468acb3d04b4ea95fd0f8c8d124c4a14f57e04"
+  },
+  {
+    "file": "cliente/system/CCEss00.u",
+    "bytes": 25422742,
+    "sha256": "610269e54c95fdb289538a72f2424f214265776565268b43a313721cd0da7d19"
+  },
+  {
+    "file": "cliente/system/CCEss01.u",
+    "bytes": 13735060,
+    "sha256": "75ace347f76b6b179d450c0db15acafba2f3ef51c0d1ced1c66d97cdcd88b35d"
+  },
+  {
+    "file": "cliente/system/CCEss02.u",
+    "bytes": 15246255,
+    "sha256": "2bf5368aaec7c5b598759f5bca051b54b5fbd491f6a1911cf39ba743888f9227"
+  },
+  {
+    "file": "cliente/system/CCEss03.u",
+    "bytes": 25193333,
+    "sha256": "fea333cb7ee17e022e9bb61c522f0e256a8e4f65d4ee4cf276120285a1f6c7e5"
+  },
+  {
+    "file": "cliente/system/CCEss05.u",
+    "bytes": 22104997,
+    "sha256": "550e100b3360f0d37c51984c81600dfc796b454d22ed877a2572ee7eca9f8127"
+  },
+  {
+    "file": "cliente/system/CCEss06.u",
+    "bytes": 18953561,
+    "sha256": "a7cb82911f7b995cd17eeca9e38f333dbed195deaf3627cd004ca8e703369d16"
+  },
+  {
+    "file": "cliente/system/CCEss07.u",
+    "bytes": 20150509,
+    "sha256": "5dd406414c4d8bbd3cc813e6eefd7f642c1d31d625e2c86b647f9cc7de884f94"
+  },
+  {
+    "file": "cliente/system/CCEss08.u",
+    "bytes": 23033698,
+    "sha256": "a47ab39aed3131780680aa0e40ba367a6b534f09106dbbe41aef7adfeaa43f43"
+  },
+  {
+    "file": "cliente/system/CCEss09.u",
+    "bytes": 25422742,
+    "sha256": "8a94467b51320674673a3af0d98014a80132e8d6a6d8a1e9fd084fd8c7710ea3"
+  },
+  {
+    "file": "cliente/system/CCEssA00.u",
+    "bytes": 7139284,
+    "sha256": "03451391bb508905157ebc6ba995a43415ac87d696fc8cd2a862d7734c17b9c5"
+  },
+  {
+    "file": "cliente/system/CCEssA01.u",
+    "bytes": 7892060,
+    "sha256": "0d9503b5f1430fc5e95fe7367bdc49bdb857b298ae2ce65d463a835bf3dd8a84"
+  },
+  {
+    "file": "cliente/system/CCEssA02.u",
+    "bytes": 7043683,
+    "sha256": "bc4f5ccd6e7b594434fb1a023792328100858e0f699a175681b7836cc0991411"
+  },
+  {
+    "file": "cliente/system/CCEssA03.u",
+    "bytes": 8350219,
+    "sha256": "100061d8e4dfe37894784eda0525ae6416d3174098bcb39f7931980b09677413"
+  },
+  {
+    "file": "cliente/system/CCEssA04.u",
+    "bytes": 9515487,
+    "sha256": "8e03bde07fa46e03f9378466996b5f77fa6163a24062bb3e45ff7343bdbf9109"
+  },
+  {
+    "file": "cliente/system/CCEssA05.u",
+    "bytes": 8160845,
+    "sha256": "59c9a52c4848a9822a62cf68bf9ee33277a395327ea79d7174040ba30eb70aac"
+  },
+  {
+    "file": "cliente/system/CCEssA06.u",
+    "bytes": 7607827,
+    "sha256": "3e7f35d1544442a363ee5b5d0454b1b808b07cc14691d0bf28e7325278639b76"
+  },
+  {
+    "file": "cliente/system/CCEssA07.u",
+    "bytes": 7371503,
+    "sha256": "9bc81b47ea95234ff43d754b8872249d8299efd6439bb562c08bb2910985c3bd"
+  },
+  {
+    "file": "cliente/system/CCEssA08.u",
+    "bytes": 4195718,
+    "sha256": "8da5f0e0a771c36ae0c767bebdf3d25e4421cc4759689b8e8e0534d6b3d8f01d"
+  },
+  {
+    "file": "cliente/system/CCEssA09.u",
+    "bytes": 7139285,
+    "sha256": "5b0798d67273e114b4f8392e2311aaf84f6b13dc89dd63f52720557e244a3235"
+  },
+  {
+    "file": "cliente/system/CCEssJ00.u",
+    "bytes": 6655426,
+    "sha256": "769c383982bb744cc00ae32fda98eca814e8f8f7c6932210ebbf6bfa4c717e91"
+  },
+  {
+    "file": "cliente/system/CCEssJ01.u",
+    "bytes": 6082886,
+    "sha256": "5757632f061ea48ba834d7533c12dae7afefe7b76c0229fad696f7fed7fe48be"
+  },
+  {
+    "file": "cliente/system/CCEssJ02.u",
+    "bytes": 6305585,
+    "sha256": "8a26fed77d376a19dba4937eef1fe948d9e09b19125e04628a9f10f3b32fbd79"
+  },
+  {
+    "file": "cliente/system/CCEssJ03.u",
+    "bytes": 6717554,
+    "sha256": "1b11dc0b41b55f7e88b594f6c54574e071aecff0cb10195dd7a11bd68783c8be"
+  },
+  {
+    "file": "cliente/system/CCEssJ04.u",
+    "bytes": 6925131,
+    "sha256": "dfc1bef41ab9569d6f563f3222ef071a1a7bdd77b585e57a18ca431e587ee00d"
+  },
+  {
+    "file": "cliente/system/CCEssJ05.u",
+    "bytes": 6391051,
+    "sha256": "a4e84320f7700d68d21b70e1de6e253f817f36e6764869de00a87a3c6fbdba4e"
+  },
+  {
+    "file": "cliente/system/CCEssJ06.u",
+    "bytes": 6406033,
+    "sha256": "e689a6a84483248f7aa2b723e9f7bdaa65afc9edab9dfb912a75f19605691460"
+  },
+  {
+    "file": "cliente/system/CCEssJ07.u",
+    "bytes": 6499805,
+    "sha256": "a8301fae91a9bdc5ca13e6873ba0bccd8ee102f597a04018ce4ed9f0b6808704"
+  },
+  {
+    "file": "cliente/system/CCEssJ08.u",
+    "bytes": 6393533,
+    "sha256": "2b37eaf08ed6eb5104937b57b396ff23e0193b869fb44ace6ca6b07534ba8c88"
+  },
+  {
+    "file": "cliente/system/CCEssJR0.u",
+    "bytes": 7071847,
+    "sha256": "f6dd742129c852a5f8cdcf7ff1ebe86e1735df8437788bca4de5bda08773cd02"
+  },
+  {
+    "file": "cliente/system/CCEssM00.u",
+    "bytes": 6065554,
+    "sha256": "9902bc05052311da7e459aeebc493af424f4b24c5ee688626ded2c535646952c"
+  },
+  {
+    "file": "cliente/system/CCEssM01.u",
+    "bytes": 6130122,
+    "sha256": "e1c8b9b76313737b9a2fc642c88938b51d5edacff6c0e245fbffc7214057caaf"
+  },
+  {
+    "file": "cliente/system/CCEssM07.u",
+    "bytes": 6610569,
+    "sha256": "b5a3c522f539c652cd73a025cdf0e42e1d4293a5f19b9ad490b9d1641413f64f"
+  },
+  {
+    "file": "cliente/system/CCEssM08.u",
+    "bytes": 7698836,
+    "sha256": "a01e84dd6f0fc27e644a052bed26072293ea4021c31e6b54f731640ba7020177"
+  },
+  {
+    "file": "cliente/system/CCEssMR0.u",
+    "bytes": 6666434,
+    "sha256": "990ba8516f17fb460a6dcb9aa02cb72288ab70fa861228a6aa8cce33a353e409"
+  },
+  {
+    "file": "cliente/system/CCEssW00.u",
+    "bytes": 12644130,
+    "sha256": "f9aecd062010246e479971bfcb6d546c31517532b96ee715c9619d33c7d19b2b"
+  },
+  {
+    "file": "cliente/system/CCEssenceBody.u",
+    "bytes": 27475861,
+    "sha256": "c59f3f32b63f4a278dc7398b1b6b5938e72f06c19511706509cdd76862197a9b"
+  },
+  {
+    "file": "cliente/system/CCFDarkElf.u",
+    "bytes": 1843021,
+    "sha256": "085ea39113bde6f50f42a0298eaba8bdb16ee364a5adb936f40d417e59edd26a"
+  },
+  {
+    "file": "cliente/system/CCFDarkElfFestival.u",
+    "bytes": 41589725,
+    "sha256": "a143b1ee4253ff28c6b019d5e95dd929227da04574ed83bd875974f4e1841f34"
+  },
+  {
+    "file": "cliente/system/CCFDwarf.u",
+    "bytes": 1853779,
+    "sha256": "b1bc404dd437adc5efc20e882b4fe25619a76b3afffd65768d51f46df8e8e531"
+  },
+  {
+    "file": "cliente/system/CCFDwarfFestival.u",
+    "bytes": 41592401,
+    "sha256": "85d201c1c95ea9ed49fb509168105a2d05c11be2eee42dbfe2f586f4a8b0e251"
+  },
+  {
+    "file": "cliente/system/CCFElf.u",
+    "bytes": 1840881,
+    "sha256": "255bcf8e6a6afdf3a4cbf731723aec6a4f603c47272274cbc75bf56d377e8b67"
+  },
+  {
+    "file": "cliente/system/CCFElfFestival.u",
+    "bytes": 41564135,
+    "sha256": "e52c24680992d8ec7cd0488146cb86cab2d2ac20f8b22d88199fcc5ea49cc6f1"
+  },
+  {
+    "file": "cliente/system/CCFFighterFestival.u",
+    "bytes": 42065354,
+    "sha256": "c3669aeba387b0abd16742a460cbd1fc71c165f6b31e600cf4df0b7053961af7"
+  },
+  {
+    "file": "cliente/system/CCFMagic.u",
+    "bytes": 1843559,
+    "sha256": "a3f0c974187feab04191d22561713edb2f505f5e3afa8b8c7abef415bfa62e22"
+  },
+  {
+    "file": "cliente/system/CCFMagicFestival.u",
+    "bytes": 41598057,
+    "sha256": "2942c22bb8b7a49ab009e6b8a6c8135d0ac52c3e1124abb12653efa9bdc01a77"
+  },
+  {
+    "file": "cliente/system/CCFOrc.u",
+    "bytes": 1842017,
+    "sha256": "0042eefe74049f7f91ddf0849054fdf936add2fc298e7ffd55f0b6a4bf7532b0"
+  },
+  {
+    "file": "cliente/system/CCFOrcFestival.u",
+    "bytes": 41579697,
+    "sha256": "a34a0d8c147c02032f1b5be53834e24172c9c6c4250dc07171b07c17198fd37c"
+  },
+  {
+    "file": "cliente/system/CCFShaman.u",
+    "bytes": 1846205,
+    "sha256": "39abd1c1fb3c49d3d0881bd50d014555b76adc3ef8312f74a70fad09577c2bf6"
+  },
+  {
+    "file": "cliente/system/CCFShamanFestival.u",
+    "bytes": 41632154,
+    "sha256": "eb94643ff739f51a696525ddf03f15dfdcfec8eab70337918140baf74bbdf61d"
+  },
+  {
+    "file": "cliente/system/CCFestivalTex.u",
+    "bytes": 42342538,
+    "sha256": "9e378e063f5c39208a35adcfa62164e9c78cbc2d7fd44832691ee8e023382f61"
+  },
+  {
+    "file": "cliente/system/CCFxBBLineageCloak.u",
+    "bytes": 19433666,
+    "sha256": "18fd6426310230aa87420ac3e0d407fa694673e908ee1138ee33fe7dab429102"
+  },
+  {
+    "file": "cliente/system/CCFxBTGuardCloak.u",
+    "bytes": 18384593,
+    "sha256": "17c2228e0918b755b2fa54a9a34ab42ab31c2a0a72d0bc40d26ea5aa034b097b"
+  },
+  {
+    "file": "cliente/system/CCFxDMStrangerCloak.u",
+    "bytes": 18385310,
+    "sha256": "042f5507175f3e45aa7d4ebe78251e60eaf8de064e52d5a5a256edc1036f1cb6"
+  },
+  {
+    "file": "cliente/system/CCFxEMGuardCloak.u",
+    "bytes": 18384593,
+    "sha256": "8ed03a2c0415f42ebe2e297af10b847bb7aff7a339b809166d18a5e519462a1b"
+  },
+  {
+    "file": "cliente/system/CCFxEmitL.u",
+    "bytes": 5354437,
+    "sha256": "32c05ab4ad9babe4d39127b3a4b469ce28b01ab59f5149e37fa3cd8d84d0e073"
+  },
+  {
+    "file": "cliente/system/CCFxEmitters.u",
+    "bytes": 24767766,
+    "sha256": "a1ab5874d7bfda1114baef3672a1410530d6755faeb9e069fce9fcaddb193aa0"
+  },
+  {
+    "file": "cliente/system/CCFxFreyaCloak.u",
+    "bytes": 16984460,
+    "sha256": "91c591783f8cfdca203c014a079fd0fa431e7036bade1c9eb7f8c1ad06f56fae"
+  },
+  {
+    "file": "cliente/system/CCFxFrintessaCloak.u",
+    "bytes": 16985400,
+    "sha256": "ad23baf44323248cd88b83e0164981bd6937aae4513e29a8d894b753f66718dd"
+  },
+  {
+    "file": "cliente/system/CCFxGTChaseCloak.u",
+    "bytes": 18384593,
+    "sha256": "f2d1785edadd4772880f33a61a3c2e80414017e662d24fcb79fcc3fd9bf6c696"
+  },
+  {
+    "file": "cliente/system/CCFxHalloCloak.u",
+    "bytes": 17461962,
+    "sha256": "ca6ad190a2369cbf9501fee9249b48e83f87ee46be75203611350087cbd4f94f"
+  },
+  {
+    "file": "cliente/system/CCFxMesh.u",
+    "bytes": 294227,
+    "sha256": "ec53f39e2ae855d98ce21db86fe5351f0d5ca2273d29855e409000a69bd1ec48"
+  },
+  {
+    "file": "cliente/system/CCFxOlyGCloak.u",
+    "bytes": 16984225,
+    "sha256": "58b3c7a0b8853dba7012261091921835dc5c5d083ea47a262886c61d0a407045"
+  },
+  {
+    "file": "cliente/system/CCFxOlySCloak.u",
+    "bytes": 16984225,
+    "sha256": "70501366f5d50a76299c03a1efbdf0a0a29517b140a935a35d0119045d009145"
+  },
+  {
+    "file": "cliente/system/CCFxSiegeBlkCloak.u",
+    "bytes": 19185624,
+    "sha256": "8cd4058160a4886ef60d695bad6990e5e26929d25c7bb5a9c544babc5e5513f4"
+  },
+  {
+    "file": "cliente/system/CCFxSiegeWhtCloak.u",
+    "bytes": 16985165,
+    "sha256": "2fd5c3ac0b4fc52ab3fd413ccec51b1192c133ebf849a3e7aad78ee7ac8d5ae3"
+  },
+  {
+    "file": "cliente/system/CCFxTrail.u",
+    "bytes": 17816384,
+    "sha256": "085a08677ab332117117a74239a25809dbb0807d7c1194bf8974ff1656508849"
+  },
+  {
+    "file": "cliente/system/CCFxWings.u",
+    "bytes": 393848,
+    "sha256": "658df7e39ff437459d49cd4acdb2b071f88e80a02bcea0e7806fd53802466837"
+  },
+  {
+    "file": "cliente/system/CCFxXmasCloak.u",
+    "bytes": 17461643,
+    "sha256": "f56215d9dd95fe282326855278be38278fdc2b60a8f9fd2315211ea0b9730f97"
+  },
+  {
+    "file": "cliente/system/CCFxZakenCloak.u",
+    "bytes": 16984460,
+    "sha256": "dd080668e2a0c910e632c83ad9842b9cc7efdbf4379443caaf81b99886d2beca"
+  },
+  {
+    "file": "cliente/system/CCMDarkElf.u",
+    "bytes": 1842597,
+    "sha256": "fb3184c5a6566736ba85a733543c7b67c8114a50baa1ab3e091f21aa9b4216a5"
+  },
+  {
+    "file": "cliente/system/CCMDarkElfFestival.u",
+    "bytes": 41585263,
+    "sha256": "63b8b9abf2c1ac8c1f9ce14e9865352a515d4b6366825323599f6bfccb755273"
+  },
+  {
+    "file": "cliente/system/CCMDwarf.u",
+    "bytes": 1850279,
+    "sha256": "3abb445a191d6bce9e977e84a958ce80222e459e4bc8e33dc7e7be6704da8c43"
+  },
+  {
+    "file": "cliente/system/CCMDwarfFestival.u",
+    "bytes": 41511025,
+    "sha256": "731d55f11be9052c2db55782e9dc2f931756b6a5440d23bdf8e0c4ecaa22d29f"
+  },
+  {
+    "file": "cliente/system/CCMElf.u",
+    "bytes": 1840409,
+    "sha256": "890efd3ad49bf6d8c84899fb791eb6c87338b76babb2dd8c212645c76ce76fc4"
+  },
+  {
+    "file": "cliente/system/CCMElfFestival.u",
+    "bytes": 41558919,
+    "sha256": "1c33e5b2e7b21172a10ddfeb210ab591a31c7957465e75f357feaf6a22155881"
+  },
+  {
+    "file": "cliente/system/CCMFighter.u",
+    "bytes": 1842895,
+    "sha256": "a98adca841e8dc321777a6d58538d16a372ff450bed21bffb4f5a26b5f6bc454"
+  },
+  {
+    "file": "cliente/system/CCMFighterFestival.u",
+    "bytes": 41566117,
+    "sha256": "6643192ad79b73ad43c40e45e7f366323df7fb546a5944bc948cb734f395d989"
+  },
+  {
+    "file": "cliente/system/CCMMagic.u",
+    "bytes": 1843085,
+    "sha256": "71cf8f1e486c83904b591b3c768d1960bc813a076385c8b6bf09e87222fe0650"
+  },
+  {
+    "file": "cliente/system/CCMMagicFestival.u",
+    "bytes": 41592487,
+    "sha256": "8b10e0a2b9af7dcb92a797f8001bdd8e1f143c00e96a2727fe3a5520bfa2fcf1"
+  },
+  {
+    "file": "cliente/system/CCMOrc.u",
+    "bytes": 1841818,
+    "sha256": "89ab24b4d432f8fbaeee57914583270edddbbfea6952b665d6f3b422b078e390"
+  },
+  {
+    "file": "cliente/system/CCMOrcFestival.u",
+    "bytes": 41578708,
+    "sha256": "53613fe742f64ab996c99cfa3673922f8a3b1da8946c0f98b700873b2fa6fddd"
+  },
+  {
+    "file": "cliente/system/CCMShaman.u",
+    "bytes": 1843752,
+    "sha256": "a40192068088f13fc34217a2e06f89c91ed882279886fd5ed6fffa3c03f991da"
+  },
+  {
+    "file": "cliente/system/CCMShamanFestival.u",
+    "bytes": 41598671,
+    "sha256": "d6c911b609b9ce4f9de70a2f90ecdbb2a756844e897a7f08b6fa4065d82d7a47"
+  },
+  {
+    "file": "cliente/system/CCMoiraiCloak.u",
+    "bytes": 16984225,
+    "sha256": "cfa6956e3d30a63376ce8126d31776b9692a8fd5320b1d25e7031c4ecd9ef31f"
+  },
+  {
+    "file": "cliente/system/CCRedCloak.u",
+    "bytes": 1169094,
+    "sha256": "a2b56fab5c2f207f8825d6e984e21a8be295e2ad1afe86511d885292193a16e6"
+  },
+  {
+    "file": "cliente/system/CCRedRanker.u",
+    "bytes": 11278122,
+    "sha256": "64a72943ff7319fa56a92e9ca052621a5f5419325da7c3d98e0825c2b30dd605"
+  },
+  {
+    "file": "cliente/system/CCVesperBlkCloak.u",
+    "bytes": 17462600,
+    "sha256": "8e3b3e82b88150974435bc9b9d3b3aa9e13ad31eada338f235e53348560d19df"
+  },
+  {
+    "file": "cliente/system/CCVesperCloak.u",
+    "bytes": 16984225,
+    "sha256": "d963b783bbf598f04801d6ba42bf74f5de0f1f9aaf157b5910f18ca8db197cb4"
+  },
+  {
+    "file": "cliente/system/CCVorpalCloak.u",
+    "bytes": 16984225,
+    "sha256": "46849794bd5f3480fbf1f537d29887fb025607498a3c31009790d38123d4c943"
+  },
+  {
+    "file": "cliente/system/CCWingBody.u",
+    "bytes": 870838,
+    "sha256": "a906e63e28323d7bc1ac0de995fcad7dc0a015bb257def787ce7d5222e269263"
+  },
+  {
+    "file": "cliente/system/CapasClassic.dll",
+    "bytes": 589824,
+    "sha256": "20250ed27749bc3e5efee5f307dce3590c982d21d14b3bbbae1e4c747919f3d0"
+  },
+  {
+    "file": "cliente/system/CapasClassic.ini",
+    "bytes": 765,
+    "sha256": "bab66d8b6ee1e638eaad6a623e654a3522e8961c2362b1e802480a1343b1d6e6"
+  },
+  {
+    "file": "cliente/system/CapasClassic.sha256",
+    "bytes": 66,
+    "sha256": "4f7596a4a217e09c9c9920b9d317bbe48de872a34a2cdcb79d9caab5db040010"
+  },
+  {
+    "file": "cliente/system/CapasClassicBody.u",
+    "bytes": 2897694,
+    "sha256": "c00ca8af64447802e338fca8cc1fd37544aa2a66321a72216ba0d93f70533aa9"
+  },
+  {
+    "file": "cliente/system/CapasClassicCloth.u",
+    "bytes": 1435486,
+    "sha256": "eef7654791a7c4c4dd5effba2635d6486c629160ff409c4b03d6fbd565604160"
+  },
+  {
+    "file": "cliente/system/CapasClassicFx.ccfx",
+    "bytes": 63872,
+    "sha256": "6b549bf580d5803c1d92910e9a767a62a3d7150a4425a7778942cf67e2bb8e4c"
+  },
+  {
+    "file": "cliente/system/CapasClassicFxTex.bin",
+    "bytes": 19335436,
+    "sha256": "43fac801f64f271dbd2eaf539114eb6141c1cba5cac2cb5ae43e89c3b478a38d"
+  },
+  {
+    "file": "cliente/system/CapasClassicWings.bin",
+    "bytes": 78976,
+    "sha256": "dc2f204176180bcdafee428b129603cbff85b2b1c0bd8536080d20de90d60755"
+  },
+  {
+    "file": "cliente/system/ClassicCloaks.u",
+    "bytes": 13857667,
+    "sha256": "0688909a9275e8cddc4152a4fec785aa119417964fe2a7edb9087451a6dddf2c"
+  },
+  {
+    "file": "cliente/system/DynastyCloak.u",
+    "bytes": 2891991,
+    "sha256": "268f6672af646aa8ebd0fbf94ab5423fbe0c216c3eef24240a17834f63e85705"
+  },
+  {
+    "file": "cliente/system/armorgrp.dat",
+    "bytes": 144432,
+    "sha256": "94859ab23a0e715daee796ef36015f3b2b22a4512afe653bfd7854dd8255487c"
+  },
+  {
+    "file": "cliente/system/d3d9.dll",
+    "bytes": 136192,
+    "sha256": "4e6bf78f1228311ed81e829c1efd9b683ddef86ba4540c32c1de167a283c8b17"
+  },
+  {
+    "file": "cliente/system/dsetup.dll",
+    "bytes": 240640,
+    "sha256": "fc3fb6b717fee7871578f241dc55d69055c8fec53aea57b661dca9b7ae692455"
+  },
+  {
+    "file": "cliente/system/itemname-e.dat",
+    "bytes": 256432,
+    "sha256": "330b89ba3487459df042a941f959158c29aa19d4be3b4c0a7714802514c0f13b"
+  },
+  {
+    "file": "cliente_aceito.json",
+    "bytes": 956,
+    "sha256": "c3b557ab5dcb5cd63be19802d25515f8b9fc9907c9ecbff3aa322f63b2d8c73f"
+  },
+  {
+    "file": "originais/servidor/Cloak.xml",
+    "bytes": 17037,
+    "sha256": "2c0b919f8bb38c3d7216bda391cac990531d5055acc70660486d059e56ab69f8"
+  },
+  {
+    "file": "originais/servidor/CloakSystemManager.java",
+    "bytes": 7885,
+    "sha256": "b14fd075f51011ad1d6e7ca7cb50d6ae46c9e5c434bafb282e5a39f04b1bad84"
+  },
+  {
+    "file": "originais/system/armorgrp.dat",
+    "bytes": 158128,
+    "sha256": "4d04df0bc842fd8b10ac2d7cb5b416267f6b10f87fe48a1948e868e627af3252"
+  },
+  {
+    "file": "originais/system/dsetup.dll",
+    "bytes": 240640,
+    "sha256": "02c826a1f71016e7fba4fd0ce8791e9ff4ee10e7defbba731a08c0a78ab3d183"
+  },
+  {
+    "file": "originais/system/itemname-e.dat",
+    "bytes": 256048,
+    "sha256": "08774a9f266f557b9ba165d77e919e340af30a12a2649908788bf81b10f0d062"
+  },
+  {
+    "file": "servidor/LEIA-ME.txt",
+    "bytes": 1221,
+    "sha256": "663a87dd9a93d1da93875cdc5ac1cd62daff31fc22d6f3da525c267e314ffca1"
+  },
+  {
+    "file": "servidor/MileniumCloaks_313xx.xml",
+    "bytes": 12530,
+    "sha256": "c182f9db2d31aa08a940bef6fbfe181d42a4f871a5c21bfa8aa33f1a7a6e98a3"
+  },
+  {
+    "file": "servidor/java/net/sf/l2j/gameserver/model/cloak/CloakSystemManager.java",
+    "bytes": 763,
+    "sha256": "9326da4967eb8ce98210bcdeae05bdac71ecd00cf8eb675aecb60d81578ea0bc"
+  },
+  {
+    "file": "suporte/RESTAURAR.bat",
+    "bytes": 147,
+    "sha256": "69b5e66e6efdca10bd976b75e8bc719d5a543123126b1f2676b06d3c8bed85e1"
+  },
+  {
+    "file": "suporte/Restaurar.ps1",
+    "bytes": 2233,
+    "sha256": "d68f4002bb74a111ba88fda2b257acae330c2acf7b06558f7afbcb724b10f633"
+  }
+]

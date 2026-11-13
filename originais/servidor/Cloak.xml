@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="31100" type="Armor" name="Light Dragon's Cloak">
+		<set name="bodypart" val="back"/>
+		<set name="crystal_type" val="NONE"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="weight" val="100"/>
+		<set name="price" val="10000"/>
+		<set name="is_enchantable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31101" type="Armor" name="Golden Mantle">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31102" type="Armor" name="Gran Kain's Shroud">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31103" type="Armor" name="Shadow Mantle">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31104" type="Armor" name="Fafurion Mantle">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31105" type="Armor" name="Lindvior Mantle">
+		<set name="bodypart" val="back"/>
+		<set name="crystal_type" val="NONE"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="weight" val="100"/>
+		<set name="price" val="10000"/>
+		<set name="is_enchantable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31106" type="Armor" name="Valakas Mantle">
+		<set name="bodypart" val="back"/>
+		<set name="crystal_type" val="NONE"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="weight" val="100"/>
+		<set name="price" val="10000"/>
+		<set name="is_enchantable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31107" type="Armor" name="Dark Dragon's Radiant Cloak">
+		<set name="bodypart" val="back"/>
+		<set name="crystal_type" val="NONE"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="weight" val="100"/>
+		<set name="price" val="10000"/>
+		<set name="is_enchantable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31108" type="Armor" name="Dark Star - Heavenly Cloak">
+		<set name="bodypart" val="back"/>
+		<set name="crystal_type" val="NONE"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="weight" val="100"/>
+		<set name="price" val="10000"/>
+		<set name="is_enchantable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31109" type="Armor" name="Crimson Noblesse Mantle">
+		<set name="bodypart" val="back"/>
+		<set name="crystal_type" val="NONE"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="weight" val="100"/>
+		<set name="price" val="10000"/>
+		<set name="is_enchantable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31110" type="Armor" name="Festival's Cloak - Pitch Black">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31111" type="Armor" name="Festival's Cloak - Blood Red">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31112" type="Armor" name="Festival's Cloak - Pearl White">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31113" type="Armor" name="Zaken's Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31114" type="Armor" name="Freya's Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31115" type="Armor" name="Frintezza's Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31116" type="Armor" name="Halloween Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31117" type="Armor" name="Santa Girl's Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31118" type="Armor" name="Russian Commemorative Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31119" type="Armor" name="Polish Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31120" type="Armor" name="Cloak of Light for the Chosen">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31121" type="Armor" name="Cloak of Darkness for the Chosen">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31122" type="Armor" name="Elmoreden Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31123" type="Armor" name="Aden Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31124" type="Armor" name="Legendary Ferios Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31125" type="Armor" name="Abelius' Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31126" type="Armor" name="Sapyros' Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31127" type="Armor" name="Ashagen's Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31128" type="Armor" name="Cranigg's Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31129" type="Armor" name="Soltkreig's Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31130" type="Armor" name="Naviarope's Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31131" type="Armor" name="Leister's Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31132" type="Armor" name="Lakcis' Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31133" type="Armor" name="Hero's Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31134" type="Armor" name="Cloak of Glory">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31135" type="Armor" name="Cloak of Conquest">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31136" type="Armor" name="Valakas' Wings">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31137" type="Armor" name="Death Knight's Cloak R99">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31138" type="Armor" name="Death Knight's Cloak R110">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+	<item id="31139" type="Armor" name="Death Knight's Ranker Mantle">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+
+	<item id="31140" type="Armor" name="Woeful Sword Eigis's Cloak">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+	
+	<item id="31073" type="Armor" name="Light Dragon's Cloak Imbued With Dwarven Magic">
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="NONE"/>
+		<set name="bodypart" val="back"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="material" val="DYESTUFF"/>
+		<for>
+			<mul val="1.05" order="0x30" stat="maxHp"/>
+			<mul val="1.05" order="0x30" stat="maxCp"/>
+		</for>
+	</item>
+</list>

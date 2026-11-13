@@ -1,0 +1,27 @@
+{
+  "armorgrp.dat": [
+    "4d04df0bc842fd8b10ac2d7cb5b416267f6b10f87fe48a1948e868e627af3252",
+    "94859ab23a0e715daee796ef36015f3b2b22a4512afe653bfd7854dd8255487c"
+  ],
+  "d3d9.dll": [
+    "1b0f76881886afb016564cfaa2d1bae1ac419c3d83ab445cb54cae926cb97c7a",
+    "4e6bf78f1228311ed81e829c1efd9b683ddef86ba4540c32c1de167a283c8b17"
+  ],
+  "dsetup.dll": [
+    "02c826a1f71016e7fba4fd0ce8791e9ff4ee10e7defbba731a08c0a78ab3d183",
+    "fc3fb6b717fee7871578f241dc55d69055c8fec53aea57b661dca9b7ae692455"
+  ],
+  "dsetup_ms.dll": [
+    "d207eefa78c693b22335f03e5c33dcbe1af3b7593c4a93dd0327b5935aa9db0e"
+  ],
+  "engine.dll": [
+    "603a85d347692089a12e017845dc8ffcb9a65bc0d4a249b5f9b5af30109cddda"
+  ],
+  "itemname-e.dat": [
+    "08774a9f266f557b9ba165d77e919e340af30a12a2649908788bf81b10f0d062",
+    "330b89ba3487459df042a941f959158c29aa19d4be3b4c0a7714802514c0f13b"
+  ],
+  "nwindow.dll": [
+    "365328009bd37870f626569d37181d3cceecc1e5a2eb3e1ee6b7b2915eb64105"
+  ]
+}

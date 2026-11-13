@@ -1,0 +1,22 @@
+{
+  "status": "kit completo de arquivos para teste; motor nao executado no jogo",
+  "reference_resources": 107,
+  "icons_packages": 2,
+  "armor_records": 1492,
+  "itemname_records": 10280,
+  "old_records_preserved": true,
+  "previous_TESTE_1_files_accepted": true,
+  "baseline_original_files_included": 3,
+  "powershell_syntax_checked": true,
+  "installer_logic_tests": {
+    "original_client_and_restore": "passed using fixture files",
+    "partial_TESTE_1_and_restore": "passed using fixture files",
+    "tampered_payload_prevents_changes": "passed using fixture files",
+    "copy_failure_rolls_back": "passed using fixture files"
+  },
+  "installer_tests_environment": "PowerShell 7.7 Linux, mock elevation and fixture files; nao e teste no Windows",
+  "native_game_tested": false,
+  "server_build_included": false,
+  "textures_consolidated_into_one_utx": false,
+  "lucdev_packages_installed": false
+}
