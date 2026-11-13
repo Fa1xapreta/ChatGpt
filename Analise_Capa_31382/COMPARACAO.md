@@ -62,3 +62,14 @@ D3DDrv.dll tem o mesmo tamanho (1.277.972 bytes), mesmas tabelas de import/expor
 Foi preparado Milenium_Render_Modelo_TESTE_3.zip: teste A/B de um único componente, usando D3DDrv.dll da referência. Inclui o original do destino e APLICAR/DESFAZER com verificação de hashes, backup e reversão em caso de falha de cópia. Não altera Engine, NWindow, chargrp, Java, XML ou arquivos de montarias. É uma tentativa controlada de igualar a renderização, não correção comprovada da física.
 
 Testes do instalador com arquivos simulados: aplicar/restaurar e repetição idempotente; recusa de versão desconhecida; recusa de payload alterado; restauração após falha de cópia injetada. Não houve execução desse driver no jogo durante a sessão.
+
+
+## Pedido posterior: montarias e abertura suave ao equipar
+
+Após o usuário informar melhora no TESTE 3, foi preparado um perfil experimental para montarias, sem trocar mais DLLs. A análise do leitor de CapasClassic.ini e de seus consumidores identificou a estrutura retornada pela função 0x10006480: mount_stiffness em +0x08, mount_stiffness_slow em +0x10 e mount_wind_cap em +0x18. No trecho 0x100045EC–0x10004682, os valores de rigidez são interpolados conforme a velocidade e o limite de vento é usado nessa rota montada.
+
+O TESTE 4 modifica somente esses três valores: 0.55→0.45, 0.75→0.60 e 33→24. A intenção é reduzir rigidez e vento montado; a melhora ainda não foi validada no jogo. As chaves de colisão strider_* e os parâmetros globais foram preservados.
+
+O usuário esclareceu que o efeito ao equipar desejado é o tecido abrindo/caindo suavemente. Essa transição **não foi implementada**: não foi localizada uma chave comprovada que a controle diretamente. Não foi apresentada a ativação de vento global ou a alteração de pano_sem_reset como substituta desse efeito.
+
+O instalador modifica o INI existente preservando todos os bytes fora dos três números. Tem backup/restauração com hashes e recusa desfazer automaticamente caso o usuário tenha editado o INI depois do teste. Testes com fixtures: INI original; BOM UTF-8 e CRLF com comentários/segunda seção; recusa de chave ausente/duplicada; recusa de UTF-16; proteção de alterações posteriores; reversão após falha de escrita. Não houve execução do perfil dentro do jogo nesta sessão.
