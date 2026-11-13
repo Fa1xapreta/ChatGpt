@@ -1,27 +1,28 @@
-MULTISELL MILENIUM - 70 CAPAS EM TRES LISTAS
+MILENIUM - TESTE COM 4 BOTOES / 70 CAPAS
 
-1. Guarde backup dos XMLs de multisell e do HTML atual da loja, fora das
-   pastas carregadas pelo servidor.
-2. Na pasta de multisells, SUBSTITUA Cloaks.xml e Cloack2.xml pelas novas
-   versoes deste ZIP e ACRESCENTE Cloack3.xml.
-   Cloaks.xml: 24 capas; Cloack2.xml: 23 capas; Cloack3.xml: 23 capas.
-3. Use o conteudo de CustomShop.htm no HTML da loja que voce enviou,
-   mantendo o nome/caminho original desse HTML no servidor.
-4. Recarregue multisells e HTML pelo seu procedimento habitual, ou reinicie.
+Cloaks.xml: 18 capas (botao New Cloaks).
+Cloack2.xml: 18 capas (CLOACK 2).
+Cloack3.xml: 17 capas (CLOACK 3).
+Cloack4.xml: 17 capas (CLOACK 4).
 
-O botao original New Cloaks chama Cloaks.
-CLOACK 2 chama Cloack2; CLOACK 3 chama Cloack3.
-O bypass e o estilo dos botoes existentes foram mantidos.
-Nao e necessario alterar DATs nem o XML de definicao dos 70 itens.
-Estes tres XMLs sao multisells: NAO coloque na pasta items.
+1. Guarde backup das multisells e do HTML fora das pastas carregadas.
+2. Substitua Cloaks.xml, Cloack2.xml e Cloack3.xml pelas novas versoes.
+   Acrescente Cloack4.xml na MESMA pasta de multisells usada pela loja.
+3. Use CustomShop.htm no HTML da loja, mantendo o nome/caminho original.
+   Este HTML contem somente os quatro botoes de capas.
+4. Recarregue multisells e HTML ou reinicie o gameserver normalmente.
 
-Preco de CADA capa preservado:
-20453 x 300000
-20454 x 200
-3470  x 200
-Entrega: 1 capa.
+Os XMLs de multisell NAO vao na pasta items. Os 70 itens precisam estar
+cadastrados no gameserver pelo Milenium_Capas_70.xml do kit anterior.
+Nao alteramos os DATs, os precos nem o bypass voiced_multisell do HTML.
+Os quatro XMLs foram conferidos: 70 IDs distintos, sem perda ou duplicatas.
 
-Os mesmos 70 IDs aparecem uma unica vez, sem capas perdidas ou duplicadas.
-44 capas possuem malhas para 14 corpos; 26 apenas para corpos especificos,
-identificados nos comentarios. A multisell nao filtra a compra por corpo.
-Divisao verificada nos arquivos; carregamento no jogo precisa ser testado.
+Preco por capa: 20453 x 300000, 20454 x 200, 3470 x 200. Entrega 1 capa.
+44 capas possuem malhas para 14 corpos; 26 apenas para corpos especificos.
+A multisell nao filtra a compra por corpo; consulte os comentarios dos XMLs.
+
+Se nenhuma lista abrir com essa divisao, quantidade de ofertas pode nao
+ser a causa. Confira no console do gameserver, ao carregar e clicar, se
+ha erros de XML, item inexistente ou bypass/voiced handler nao registrado.
+Os IDs de producao foram conferidos contra o XML de itens do kit; isso nao
+confirma que esse XML foi carregado no servidor em execucao.

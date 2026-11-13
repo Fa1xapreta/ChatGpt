@@ -1,164 +1,122 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
-	<!-- 31363 - Maestro Cloak 01 | Somente corpos: FDwarf -->
+	<!-- 31349 - New Cloak - Death Knight | Somente corpos: MFighter -->
 	<item id="1">
+		<ingredient id="20453" count="300000" />
+		<ingredient id="20454" count="200" />
+		<ingredient id="3470" count="200" />
+		<production id="31349" count="1" />
+	</item>
+	<!-- 31350 - Death Knight Mantle 01 | Somente corpos: MFighter -->
+	<item id="2">
+		<ingredient id="20453" count="300000" />
+		<ingredient id="20454" count="200" />
+		<ingredient id="3470" count="200" />
+		<production id="31350" count="1" />
+	</item>
+	<!-- 31351 - New Cloak 2 - Death Knight | Somente corpos: MFighter -->
+	<item id="3">
+		<ingredient id="20453" count="300000" />
+		<ingredient id="20454" count="200" />
+		<ingredient id="3470" count="200" />
+		<production id="31351" count="1" />
+	</item>
+	<!-- 31352 - Death Knight Mantle 03 | Somente corpos: MFighter -->
+	<item id="4">
+		<ingredient id="20453" count="300000" />
+		<ingredient id="20454" count="200" />
+		<ingredient id="3470" count="200" />
+		<production id="31352" count="1" />
+	</item>
+	<!-- 31353 - Death Knight's Cloak - Fafurion | Somente corpos: MFighter -->
+	<item id="5">
+		<ingredient id="20453" count="300000" />
+		<ingredient id="20454" count="200" />
+		<ingredient id="3470" count="200" />
+		<production id="31353" count="1" />
+	</item>
+	<!-- 31354 - Death Knight's Cloak - Lindvior | Somente corpos: MFighter -->
+	<item id="6">
+		<ingredient id="20453" count="300000" />
+		<ingredient id="20454" count="200" />
+		<ingredient id="3470" count="200" />
+		<production id="31354" count="1" />
+	</item>
+	<!-- 31355 - Death Knight's Cloak - Valakas | Somente corpos: MFighter -->
+	<item id="7">
+		<ingredient id="20453" count="300000" />
+		<ingredient id="20454" count="200" />
+		<ingredient id="3470" count="200" />
+		<production id="31355" count="1" />
+	</item>
+	<!-- 31356 - Death Knight's Cloak - Antharas | Somente corpos: MFighter -->
+	<item id="8">
+		<ingredient id="20453" count="300000" />
+		<ingredient id="20454" count="200" />
+		<ingredient id="3470" count="200" />
+		<production id="31356" count="1" />
+	</item>
+	<!-- 31357 - Dark Star - Heavenly Cloak (Death Knight) | Somente corpos: MFighter -->
+	<item id="9">
+		<ingredient id="20453" count="300000" />
+		<ingredient id="20454" count="200" />
+		<ingredient id="3470" count="200" />
+		<production id="31357" count="1" />
+	</item>
+	<!-- 31358 - Heavenly Cloak of Worthy Death Knight | Somente corpos: MFighter -->
+	<item id="10">
+		<ingredient id="20453" count="300000" />
+		<ingredient id="20454" count="200" />
+		<ingredient id="3470" count="200" />
+		<production id="31358" count="1" />
+	</item>
+	<!-- 31362 - Maestro Cloak 00 | Somente corpos: FDwarf -->
+	<item id="11">
+		<ingredient id="20453" count="300000" />
+		<ingredient id="20454" count="200" />
+		<ingredient id="3470" count="200" />
+		<production id="31362" count="1" />
+	</item>
+	<!-- 31363 - Maestro Cloak 01 | Somente corpos: FDwarf -->
+	<item id="12">
 		<ingredient id="20453" count="300000" />
 		<ingredient id="20454" count="200" />
 		<ingredient id="3470" count="200" />
 		<production id="31363" count="1" />
 	</item>
 	<!-- 31364 - Maestro Cloak 07 | Somente corpos: FDwarf -->
-	<item id="2">
+	<item id="13">
 		<ingredient id="20453" count="300000" />
 		<ingredient id="20454" count="200" />
 		<ingredient id="3470" count="200" />
 		<production id="31364" count="1" />
 	</item>
 	<!-- 31365 - Maestro Cloak (Dark Star) | Somente corpos: FDwarf -->
-	<item id="3">
+	<item id="14">
 		<ingredient id="20453" count="300000" />
 		<ingredient id="20454" count="200" />
 		<ingredient id="3470" count="200" />
 		<production id="31365" count="1" />
 	</item>
 	<!-- 31366 - Maestro Ranker Cloak | Somente corpos: FDwarf -->
-	<item id="4">
+	<item id="15">
 		<ingredient id="20453" count="300000" />
 		<ingredient id="20454" count="200" />
 		<ingredient id="3470" count="200" />
 		<production id="31366" count="1" />
 	</item>
 	<!-- 31380 - Crimson Wings Cloak -->
-	<item id="5">
+	<item id="16">
 		<ingredient id="20453" count="300000" />
 		<ingredient id="20454" count="200" />
 		<ingredient id="3470" count="200" />
 		<production id="31380" count="1" />
 	</item>
 	<!-- 31381 - Festival's Cloak - Pearl White -->
-	<item id="6">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31381" count="1" />
-	</item>
-	<!-- 31382 - Draconic Cloak -->
-	<item id="7">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31382" count="1" />
-	</item>
-	<!-- 31383 - Vesper Cloak -->
-	<item id="8">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31383" count="1" />
-	</item>
-	<!-- 31384 - Elegia Cloak -->
-	<item id="9">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31384" count="1" />
-	</item>
-	<!-- 31385 - Vesper's Cloak -->
-	<item id="10">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31385" count="1" />
-	</item>
-	<!-- 31386 - Moirai Cloak -->
-	<item id="11">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31386" count="1" />
-	</item>
-	<!-- 31387 - Blackbird Cloak -->
-	<item id="12">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31387" count="1" />
-	</item>
-	<!-- 31388 - Cloak of Protection -->
-	<item id="13">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31388" count="1" />
-	</item>
-	<!-- 31389 - Alien Cloak -->
-	<item id="14">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31389" count="1" />
-	</item>
-	<!-- 31390 - Royal Guard Cloak -->
-	<item id="15">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31390" count="1" />
-	</item>
-	<!-- 31391 - Slayer's Cloak -->
-	<item id="16">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31391" count="1" />
-	</item>
-	<!-- 31392 - Festival's Cloak - Pitch Black -->
 	<item id="17">
 		<ingredient id="20453" count="300000" />
 		<ingredient id="20454" count="200" />
 		<ingredient id="3470" count="200" />
-		<production id="31392" count="1" />
-	</item>
-	<!-- 31393 - Zaken's Cloak -->
-	<item id="18">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31393" count="1" />
-	</item>
-	<!-- 31394 - Cloak of Freya -->
-	<item id="19">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31394" count="1" />
-	</item>
-	<!-- 31395 - Frintezza's Cloak -->
-	<item id="20">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31395" count="1" />
-	</item>
-	<!-- 31396 - Blue Dynasty Cloak -->
-	<item id="21">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31396" count="1" />
-	</item>
-	<!-- 31397 - Festival's Cloak - Blood Red -->
-	<item id="22">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31397" count="1" />
-	</item>
-	<!-- 31398 - Vesper Black Cloak -->
-	<item id="23">
-		<ingredient id="20453" count="300000" />
-		<ingredient id="20454" count="200" />
-		<ingredient id="3470" count="200" />
-		<production id="31398" count="1" />
+		<production id="31381" count="1" />
 	</item>
 </list>
