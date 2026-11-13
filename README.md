@@ -1,3 +1,7 @@
+## Multisell das 70 capas novas
+
+[**Baixar Cloaks.xml + instruções**](Milenium_Capas_Integrado_70/Multisell_Capas_70.zip). Mantém o preço original (20453 × 300000, 20454 × 200, 3470 × 200) e entrega uma capa. Substitua a multisell da loja, mantendo o nome usado pelo NPC. As 26 capas de corpos específicos estão identificadas nos comentários, mas a multisell não restringe a compra por corpo.
+
 ## Capas — catálogo 70 e integração gráfica TESTE 5
 
 [**Baixar o kit em um ZIP**](https://github.com/Fa1xapreta/ChatGpt/archive/refs/heads/kit-capas-integrado-70.zip) · [Instruções](Milenium_Capas_Integrado_70/README.md) · [DATs e XML separados](Milenium_Capas_Integrado_70/DAT_XML_Capas_70.zip)

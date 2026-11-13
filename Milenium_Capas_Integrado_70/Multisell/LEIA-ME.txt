@@ -1,0 +1,25 @@
+MULTISELL MILENIUM - 70 CAPAS NOVAS
+
+Guarde uma copia da sua multisell Cloaks.xml atual fora da pasta multisell.
+Substitua somente o Cloaks.xml da loja por este arquivo, mantendo o nome
+que o NPC/HTML ja utiliza. Recarregue as multisells pelo seu procedimento
+habitual ou reinicie o gameserver.
+
+Esta e uma multisell de loja, NAO e XML de definicao de itens.
+Use na pasta de multisells; nao coloque na pasta items.
+Depende dos DATs, recursos e cadastro de itens do kit de 70 capas.
+
+Preco de CADA capa preservado do arquivo enviado:
+20453 x 300000
+20454 x 200
+3470  x 200
+Entrega: 1 capa.
+
+Contem somente os 70 IDs habilitados do novo kit. Nao contem os antigos
+311xx/31073 nem as 21 entradas pendentes. Os IDs internos das ofertas
+(item id=...) foram numerados de 1 a 70; o ID da capa e production id.
+
+44 capas possuem malhas para 14 corpos. 26 possuem apenas alguns corpos:
+os comentarios no XML identificam quais. A multisell NAO filtra raca/sexo;
+o jogador ainda consegue comprar uma capa de corpo diferente. Consulte
+o catalogo antes de vender essas 26 para todos os personagens.
