@@ -1,0 +1,17 @@
+{
+  "passed": [
+    "after_A1",
+    "before_A1",
+    "original_controller",
+    "already_installed",
+    "unknown_controller",
+    "tampered_payload",
+    "write_failure",
+    "modified_after",
+    "bad_backup"
+  ],
+  "platform": "PowerShell 7 Linux fixtures with real DLL bytes, elevation/UI mocked; Windows game not executed",
+  "native_abi_contract_checked": true,
+  "native_binding_state_machine_tested": true,
+  "pvp_visual_confirmed": false
+}

@@ -18,5 +18,8 @@
   "patch_powershell_pacote_real_testado": true,
   "aura_driver_original_restored": true,
   "aura_driver_fnv32_expected": "0x167faa65",
-  "aura_visual_restoration_confirmed_in_game": false
+  "aura_visual_restoration_confirmed_in_game": false,
+  "aura_pkflag_bridge": "B2",
+  "aura_pkflag_contract_tested": true,
+  "aura_pkflag_visual_confirmed": false
 }

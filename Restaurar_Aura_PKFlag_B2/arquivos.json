@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "file": "MilAuraWait.dll",
+      "sha256": "d9930e37082567e4f38ddc3a639502bb7a14ae96f1ac1d2113d69d64f87ae64d",
+      "accepted": [
+        "33bd2b713e22021618fb476eb7dfd7ceee5839b0a8cbd57b285aa908ef180ead",
+        "d9930e37082567e4f38ddc3a639502bb7a14ae96f1ac1d2113d69d64f87ae64d"
+      ],
+      "optional": true
+    },
+    {
+      "file": "CliExt.dll",
+      "sha256": "eeb724569d69b175191265fc6ea6e1c88868614c087777b7cdcb286c4ca834af",
+      "accepted": [
+        "c63c0a674e7384b8b80821a8822f37f9f7797a7c731332bcf9e26b4e21981a0c",
+        "eeb724569d69b175191265fc6ea6e1c88868614c087777b7cdcb286c4ca834af"
+      ],
+      "optional": false
+    },
+    {
+      "file": "D3DDrv.dll",
+      "sha256": "f670f30ce22973a36e8fec49c3536c9ed05a49fe47b9205a778230a1c17e79e2",
+      "accepted": [
+        "f670f30ce22973a36e8fec49c3536c9ed05a49fe47b9205a778230a1c17e79e2",
+        "2b496d235cca529b6180588a987ca0059600a2323193d96e87b90014105be0c2"
+      ],
+      "optional": false
+    }
+  ],
+  "required": {
+    "L2modExCore.dll": "0b50347c9fa583c2c99412cc84bf38225a7671d379b678267d336f826e738400",
+    "CapasClassic.dll": "20250ed27749bc3e5efee5f307dce3590c982d21d14b3bbbae1e4c747919f3d0"
+  }
+}

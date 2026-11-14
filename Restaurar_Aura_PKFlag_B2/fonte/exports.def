@@ -1,0 +1,4 @@
+LIBRARY MilAuraWait
+EXPORTS
+ ContornoDourado_Status
+ ContornoDourado_Versao

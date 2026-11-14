@@ -1,3 +1,11 @@
+## Aura automática de PK/flag — B2
+
+[**Baixar reparo B2**](Restaurar_Aura_PKFlag_B2/Milenium_Aura_PKFlag_B2.zip) · [Instruções e diagnóstico](Restaurar_Aura_PKFlag_B2/README.md)
+
+O A1 restaurou o driver, mas faltava religar o controlador automático ao núcleo real da aura. Feche o jogo, extraia o B2 e execute INSTALAR.bat; teste ficando flag ou PK. Preserva capas, corrida, montarias e cores. Instalação e contrato binário testados; retorno visual ainda depende de teste no cliente Windows.
+
+---
+
 ## Humanos fighter — TESTE 8, sem o afastamento do TESTE 7
 
 [**Baixar teste de inclinação na passada**](Ajuste_Humanos_Corrida_TESTE8/Milenium_Humanos_Corrida_TESTE8.zip) · [Escopo e limites](Ajuste_Humanos_Corrida_TESTE8/README.md)
@@ -10,7 +18,7 @@ O TESTE 7 foi retirado após relato de afastamento da capa nos ombros. O TESTE 8
 
 [**Baixar a restauração da aura**](Restaurar_Aura_Milenium_A1/Milenium_Restaurar_Aura_A1.zip) · [Causa e instruções](Restaurar_Aura_Milenium_A1/README.md)
 
-A DLL da aura recusa o D3DDrv.dll do modelo instalado no TESTE 3/5. O pacote devolve apenas o driver original aceito, preservando o Fighter.ukx instalado e os arquivos dos efeitos de imagem. Feche o jogo, execute RESTAURAR_AURA.bat, abra o cliente e pressione F10 sem Ctrl. O retorno visual ainda precisa de confirmação no jogo. Há backup, desfazer e verificação de logs caso permaneça ausente.
+A DLL da aura recusa o D3DDrv.dll do modelo instalado no TESTE 3/5. O pacote devolve apenas o driver original aceito, preservando o Fighter.ukx instalado e os arquivos dos efeitos de imagem. Para a aura automática de PK/flag, use o reparo B2 acima; o A1 sozinho não corrige a ponte do controlador. O retorno visual ainda precisa de confirmação no jogo. Há backup, desfazer e verificação de logs caso permaneça ausente.
 
 ---
 

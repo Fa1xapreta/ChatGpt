@@ -1,0 +1,13 @@
+{
+  "original_shim_missing_status_export": true,
+  "new_shim_exports_status_and_version": true,
+  "new_shim_x86": true,
+  "legacy_core_hook_patterns_match": true,
+  "cliext_module_slot_rva": "0x4044",
+  "cliext_fingerprint_checked_with_relocation": true,
+  "legacy_getproc_status_site": "0x13b0..0x13c5",
+  "legacy_core_base_reload_site": "0x13f3",
+  "native_game_tested": false,
+  "sha256_new": "d9930e37082567e4f38ddc3a639502bb7a14ae96f1ac1d2113d69d64f87ae64d",
+  "observed_report": "A1: original D3DDrv restored, core reports 1, PK/flag aura remains absent"
+}

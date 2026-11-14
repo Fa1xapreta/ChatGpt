@@ -1,3 +1,5 @@
+> Atualização: o A1 restaura o driver. Para a aura automática de PK/flag, use o [reparo B2](../Restaurar_Aura_PKFlag_B2/README.md), que também corrige a ponte do controlador.
+
 # Restauração da aura Milenium — A1
 
 [Baixar a restauração](Milenium_Restaurar_Aura_A1.zip).
