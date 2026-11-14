@@ -31,13 +31,13 @@
   },
   {
     "file": "README.md",
-    "bytes": 5441,
-    "sha256": "bb154dc1eec5435c8add078974dd377c636f493e7defdbd903bc84772b778274"
+    "bytes": 5748,
+    "sha256": "1688ef5e7f8a0ebff234cc8adcf4c47c01badd8d5a9d13a1b12e8409a8e6e232"
   },
   {
     "file": "VERIFICACOES.json",
-    "bytes": 570,
-    "sha256": "e30a70a461e0b6f90fde517d12825e5c5c37bef889a4b0bf8bc0ad67bd44d62d"
+    "bytes": 711,
+    "sha256": "5e83980fec82dc56376bf4c2e1b47da721578371f104ac946e7f4710cd6da7d6"
   },
   {
     "file": "alias-patches/CCFDarkElfFestival.u.append",
@@ -183,6 +183,11 @@
     "file": "alias-patches/patches.json",
     "bytes": 12602,
     "sha256": "b5d8784c34f4bf4f271346398b4bd5bc2a096c9093e75a9f18b572564e140225"
+  },
+  {
+    "file": "catalogo/aura-driver-compatibility.json",
+    "bytes": 1142,
+    "sha256": "67e3e1879238b05a9441c594b81d5f4a539ac13b3bc3a2d6b0c25319ea63e768"
   },
   {
     "file": "catalogo/pendentes.json",
@@ -737,7 +742,7 @@
   {
     "file": "cliente/system/D3DDrv.dll",
     "bytes": 1277972,
-    "sha256": "2b496d235cca529b6180588a987ca0059600a2323193d96e87b90014105be0c2"
+    "sha256": "f670f30ce22973a36e8fec49c3536c9ed05a49fe47b9205a778230a1c17e79e2"
   },
   {
     "file": "cliente/system/DynastyCloak.u",

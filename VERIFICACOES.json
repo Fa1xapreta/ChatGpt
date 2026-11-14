@@ -15,5 +15,8 @@
   "efeito_equipar_implementado": false,
   "licenca_motor_alterada": false,
   "xml_anterior_25_migracao_testada": true,
-  "patch_powershell_pacote_real_testado": true
+  "patch_powershell_pacote_real_testado": true,
+  "aura_driver_original_restored": true,
+  "aura_driver_fnv32_expected": "0x167faa65",
+  "aura_visual_restoration_confirmed_in_game": false
 }
