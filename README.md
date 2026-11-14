@@ -1,8 +1,8 @@
-## Inventário 3D — TESTE 4, fundo no caminho informado
+## Inventário 3D — TESTE 5, correção da relocação
 
-[**Baixar teste com o fundo**](Inventario_Personagem_TESTE4/Milenium_Inventario_Personagem_TESTE4.zip) · [Instruções e limites](Inventario_Personagem_TESTE4/README.md)
+[**Baixar TESTE 5**](Inventario_Personagem_TESTE5/Milenium_Inventario_Personagem_TESTE5.zip) · [Causa, instalação e limites](Inventario_Personagem_TESTE5/README.md)
 
-Usa `L2UI_CH3.AbnormalWnd.Inventory_DF_CharacterEquipBg` no painel e na cena 3D, com UV 0,0,284,419 do atlas original 512×512. Copie os três arquivos de system e mantenha o L2UI_CH3 que você editou. O rodapé informa Render 3D e Fundo. Estruturas e recorte x86 verificados em simulação; resultado visual ainda aguarda teste no jogo. Inclui retorno ao TESTE 2.
+Corrige uma entrada obsoleta de relocação na DLL do TESTE 4, que podia fazer o salto do fundo apontar para fora do módulo. Reproduzida a falha anterior com as relocações PE aplicadas; a correção passou em 36 emulações x86. Se o TESTE 4 continua instalado, substitua apenas MileniumPortraitNative.dll. Se voltou ao TESTE 3, copie os três arquivos de system. Inclui retorno ao TESTE 3, confirmado abrindo pelo usuário. O TESTE 4 foi retirado. A abertura no jogo ainda precisa ser confirmada.
 
 ---
 

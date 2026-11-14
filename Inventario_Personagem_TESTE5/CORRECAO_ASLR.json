@@ -1,0 +1,14 @@
+{
+  "change": "neutralize only obsolete HIGHLOW relocation overlapping the replaced MOV operand",
+  "original_operand_rva": "0x2d1f",
+  "patch_jump_rva": "0x2d1d",
+  "relocation_word_file_offset": "0x16d5c",
+  "old_word": "0x3d1f",
+  "new_word": "0xd1f",
+  "changed_file_bytes": 1,
+  "size_unchanged": true,
+  "sha256_test4": "80f8b11adf18087c18fd0e71268d111cb224bd80972c2a7f8b850ea052ee0e6a",
+  "sha256_fixed": "41227dcad5087d3c5e5984602a5a0be928e74001c2889cb13c1176d5fec9ed05",
+  "interface_u_xdat_unchanged_from_test4": true,
+  "windows_game_tested": false
+}

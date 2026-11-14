@@ -1,0 +1,53 @@
+{
+  "actual_windows_PE_relocations_applied": true,
+  "original_test4_fault_reproduced_with_actual_x86_jump": true,
+  "fault": "UC_ERR_FETCH_UNMAPPED",
+  "original_exports_and_code_unchanged": true,
+  "only_one_obsolete_relocation_entry_neutralized": true,
+  "all_new_detours_clear_of_active_relocation_overlaps": true,
+  "results": [
+    {
+      "base": "0x10000000",
+      "test4_jump_rva": "0x181300",
+      "test4_in_image": true,
+      "test5_jump_rva": "0x181300",
+      "test5_in_image": true
+    },
+    {
+      "base": "0x10100000",
+      "test4_jump_rva": "0x10181300",
+      "test4_in_image": false,
+      "test5_jump_rva": "0x181300",
+      "test5_in_image": true
+    },
+    {
+      "base": "0x10340000",
+      "test4_jump_rva": "0x34181300",
+      "test4_in_image": false,
+      "test5_jump_rva": "0x181300",
+      "test5_in_image": true
+    },
+    {
+      "base": "0x33000000",
+      "test4_jump_rva": "0x181300",
+      "test4_in_image": true,
+      "test5_jump_rva": "0x181300",
+      "test5_in_image": true
+    },
+    {
+      "base": "0x6fba0000",
+      "test4_jump_rva": "-0x45e7ed00",
+      "test4_in_image": false,
+      "test5_jump_rva": "0x181300",
+      "test5_in_image": true
+    },
+    {
+      "base": "0x500000",
+      "test4_jump_rva": "0x50181300",
+      "test4_in_image": false,
+      "test5_jump_rva": "0x181300",
+      "test5_in_image": true
+    }
+  ],
+  "windows_game_run": false
+}

@@ -1,0 +1,1 @@
+Ferramentas da sessão com caminhos locais para os testes 4 e 5. Requerem Python, pefile e Unicorn 2.1.4. Executam as instruções x86 depois de aplicar as relocações PE. Chamadas do Engine são simuladas; o processo do jogo Windows não foi executado. Os relatórios na raiz são os resultados efetivamente obtidos.

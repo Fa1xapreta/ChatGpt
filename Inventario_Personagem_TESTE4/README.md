@@ -1,3 +1,5 @@
+> TESTE 4 RETIRADO: a tabela de relocação podia corromper o salto do fundo quando a DLL era carregada fora da base preferida. Use o [TESTE 5 corrigido](../Inventario_Personagem_TESTE5/README.md). O ZIP defeituoso foi removido; os fontes e relatórios abaixo ficam como histórico.
+
 # Inventário 3D — TESTE 4: fundo no L2UI_CH3 do usuário
 
 Referência informada e configurada:
