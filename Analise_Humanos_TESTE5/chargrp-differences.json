@@ -1,0 +1,483 @@
+[
+  {
+    "index": 0,
+    "face_icon": "SEK.cbui29",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "Fighter.MFighter_m001_u",
+          "Fighter.MFighter_m001_l",
+          "Fighter.MFighter_m001_g",
+          "Fighter.MFighter_m001_b"
+        ],
+        "current": [
+          "fighter.MFighter_m000_u",
+          "fighter.MFighter_m000_l",
+          "fighter.MFighter_m000_g",
+          "fighter.MFighter_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "MFighter.MFighter_m001_t02_u",
+          "MFighter.MFighter_m001_t02_l",
+          "MFighter.MFighter_m001_t02_g",
+          "MFighter.MFighter_m001_t02_b"
+        ],
+        "current": [
+          "MFighter.MFighter_m000_t1000_u",
+          "MFighter.MFighter_m000_t1000_l",
+          "MFighter.MFighter_m000_t1000_g",
+          "MFighter.MFighter_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 1,
+    "face_icon": "SEK.cbui22",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "Fighter.FFighter_m001_u",
+          "Fighter.FFighter_m001_l",
+          "Fighter.FFighter_m001_g",
+          "Fighter.FFighter_m001_b"
+        ],
+        "current": [
+          "fighter.FFighter_m000_u",
+          "fighter.FFighter_m000_l",
+          "fighter.FFighter_m000_g",
+          "fighter.FFighter_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "FFighter.FFighter_m001_t02_u",
+          "FFighter.FFighter_m001_t02_l",
+          "FFighter.FFighter_m001_t02_g",
+          "FFighter.FFighter_m001_t02_b"
+        ],
+        "current": [
+          "FFighter.FFighter_m000_t1000_u",
+          "FFighter.FFighter_m000_t1000_l",
+          "FFighter.FFighter_m000_t1000_g",
+          "FFighter.FFighter_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 2,
+    "face_icon": "SEK.cbui23",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "DarkElf.MDarkElf_m001_u",
+          "DarkElf.MDarkElf_m001_l",
+          "DarkElf.MDarkElf_m001_g",
+          "DarkElf.MDarkElf_m001_b"
+        ],
+        "current": [
+          "darkelf.MDarkElf_m000_u",
+          "darkelf.MDarkElf_m000_l",
+          "darkelf.MDarkElf_m000_g",
+          "darkelf.MDarkElf_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "MDarkElf.MDarkElf_m001_t02_u",
+          "MDarkElf.MDarkElf_m001_t02_l",
+          "MDarkElf.MDarkElf_m001_t02_g",
+          "MDarkElf.MDarkElf_m001_t02_b"
+        ],
+        "current": [
+          "MDarkElf.MDarkElf_m000_t1000_u",
+          "MDarkElf.MDarkElf_m000_t1000_l",
+          "MDarkElf.MDarkElf_m000_t1000_g",
+          "MDarkElf.MDarkElf_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 3,
+    "face_icon": "SEK.cbui23",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "DarkElf.FDarkElf_m001_u",
+          "DarkElf.FDarkElf_m001_l",
+          "DarkElf.FDarkElf_m001_g",
+          "DarkElf.FDarkElf_m001_b"
+        ],
+        "current": [
+          "darkelf.FDarkElf_m000_u",
+          "darkelf.FDarkElf_m000_l",
+          "darkelf.FDarkElf_m000_g",
+          "darkelf.FDarkElf_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "FDarkElf.FDarkElf_m001_t02_u",
+          "FDarkElf.FDarkElf_m001_t02_l",
+          "FDarkElf.FDarkElf_m001_t02_g",
+          "FDarkElf.FDarkElf_m001_t02_b"
+        ],
+        "current": [
+          "FDarkElf.FDarkElf_m000_t1000_u",
+          "FDarkElf.FDarkElf_m000_t1000_l",
+          "FDarkElf.FDarkElf_m000_t1000_g",
+          "FDarkElf.FDarkElf_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 4,
+    "face_icon": "SEK.cbui23",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "Dwarf.MDwarf_m001_u",
+          "Dwarf.MDwarf_m001_l",
+          "Dwarf.MDwarf_m001_g",
+          "Dwarf.MDwarf_m001_b"
+        ],
+        "current": [
+          "dwarf.MDwarf_m000_u",
+          "dwarf.MDwarf_m000_l",
+          "dwarf.MDwarf_m000_g",
+          "dwarf.MDwarf_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "MDwarf.MDwarf_m001_t02_u",
+          "MDwarf.MDwarf_m001_t02_l",
+          "MDwarf.MDwarf_m001_t02_g",
+          "MDwarf.MDwarf_m001_t02_b"
+        ],
+        "current": [
+          "MDwarf.MDwarf_m000_t1000_u",
+          "MDwarf.MDwarf_m000_t1000_l",
+          "MDwarf.MDwarf_m000_t1000_g",
+          "MDwarf.MDwarf_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 5,
+    "face_icon": "SEK.cbui28",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "Dwarf.FDwarf_m001_u",
+          "Dwarf.FDwarf_m001_l",
+          "Dwarf.FDwarf_m001_g",
+          "Dwarf.FDwarf_m001_b"
+        ],
+        "current": [
+          "dwarf.FDwarf_m000_u",
+          "dwarf.FDwarf_m000_l",
+          "dwarf.FDwarf_m000_g",
+          "dwarf.FDwarf_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "FDwarf.FDwarf_m001_t02_u",
+          "FDwarf.FDwarf_m001_t02_l",
+          "FDwarf.FDwarf_m001_t02_g",
+          "FDwarf.FDwarf_m001_t02_b"
+        ],
+        "current": [
+          "FDwarf.FDwarf_m000_t1000_u",
+          "FDwarf.FDwarf_m000_t1000_l",
+          "FDwarf.FDwarf_m000_t1000_g",
+          "FDwarf.FDwarf_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 6,
+    "face_icon": "SEK.cbui31",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "Elf.MElf_m001_u",
+          "Elf.MElf_m001_l",
+          "Elf.MElf_m001_g",
+          "Elf.MElf_m001_b"
+        ],
+        "current": [
+          "elf.MElf_m000_u",
+          "elf.MElf_m000_l",
+          "elf.MElf_m000_g",
+          "elf.MElf_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "MElf.MElf_m001_t02_u",
+          "MElf.MElf_m001_t02_l",
+          "MElf.MElf_m001_t02_g",
+          "MElf.MElf_m001_t02_b"
+        ],
+        "current": [
+          "MElf.MElf_m000_t1000_u",
+          "MElf.MElf_m000_t1000_l",
+          "MElf.MElf_m000_t1000_g",
+          "MElf.MElf_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 7,
+    "face_icon": "SEK.cbui30",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "Elf.FElf_m001_u",
+          "Elf.FElf_m001_l",
+          "Elf.FElf_m001_g",
+          "Elf.FElf_m001_b"
+        ],
+        "current": [
+          "elf.FElf_m000_u",
+          "elf.FElf_m000_l",
+          "elf.FElf_m000_g",
+          "elf.FElf_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "FElf.FElf_m001_t02_u",
+          "FElf.FElf_m001_t02_l",
+          "FElf.FElf_m001_t02_g",
+          "FElf.FElf_m001_t02_b"
+        ],
+        "current": [
+          "FElf.FElf_m000_t1000_u",
+          "FElf.FElf_m000_t1000_l",
+          "FElf.FElf_m000_t1000_g",
+          "FElf.FElf_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 8,
+    "face_icon": "SEK.cbui29",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "Magic.MMagic_m005_u",
+          "Magic.MMagic_m003_l",
+          "Magic.MMagic_m005_g",
+          "Magic.MMagic_m003_b"
+        ],
+        "current": [
+          "magic.MMagic_m000_u",
+          "magic.MMagic_m000_l",
+          "magic.MMagic_m000_g",
+          "magic.MMagic_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "MMagic.MMagic_m005_t02_u",
+          "MMagic.MMagic_m003_t02_l",
+          "MMagic.MMagic_m005_t02_g",
+          "MMagic.MMagic_m003_t02_b"
+        ],
+        "current": [
+          "MMagic.MMagic_m000_t1000_u",
+          "MMagic.MMagic_m000_t1000_l",
+          "MMagic.MMagic_m000_t1000_g",
+          "MMagic.MMagic_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 9,
+    "face_icon": "SEK.cbui22",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "Magic.FMagic_m003_u",
+          "Magic.FMagic_m002_l",
+          "Magic.FMagic_m003_g",
+          "Magic.FMagic_m002_b"
+        ],
+        "current": [
+          "magic.FMagic_m000_u",
+          "magic.FMagic_m000_l",
+          "magic.FMagic_m000_g",
+          "magic.FMagic_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "FMagic.FMagic_m003_t02_u",
+          "FMagic.FMagic_m002_t02_l",
+          "FMagic.FMagic_m003_t02_g",
+          "FMagic.FMagic_m002_t02_b"
+        ],
+        "current": [
+          "FMagic.FMagic_m000_t1000_u",
+          "FMagic.FMagic_m000_t1000_l",
+          "FMagic.FMagic_m000_t1000_g",
+          "FMagic.FMagic_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 10,
+    "face_icon": "SEK.cbui23",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "Orc.MOrc_m001_u",
+          "Orc.MOrc_m001_l",
+          "Orc.MOrc_m001_g",
+          "Orc.MOrc_m001_b"
+        ],
+        "current": [
+          "orc.MOrc_m000_u",
+          "orc.MOrc_m000_l",
+          "orc.MOrc_m000_g",
+          "orc.MOrc_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "MOrc.MOrc_m001_t02_u",
+          "MOrc.MOrc_m001_t02_l",
+          "MOrc.MOrc_m001_t02_g",
+          "MOrc.MOrc_m001_t02_b"
+        ],
+        "current": [
+          "MOrc.MOrc_m000_t1000_u",
+          "MOrc.MOrc_m000_t1000_l",
+          "MOrc.MOrc_m000_t1000_g",
+          "MOrc.MOrc_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 11,
+    "face_icon": "SEK.cbui23",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "Orc.FOrc_m001_u",
+          "Orc.FOrc_m001_l",
+          "Orc.FOrc_m001_g",
+          "Orc.FOrc_m001_b"
+        ],
+        "current": [
+          "orc.FOrc_m000_u",
+          "orc.FOrc_m000_l",
+          "orc.FOrc_m000_g",
+          "orc.FOrc_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "FOrc.FOrc_m001_t02_u",
+          "FOrc.FOrc_m001_t02_l",
+          "FOrc.FOrc_m001_t02_g",
+          "FOrc.FOrc_m001_t02_b"
+        ],
+        "current": [
+          "FOrc.FOrc_m000_t1000_u",
+          "FOrc.FOrc_m000_t1000_l",
+          "FOrc.FOrc_m000_t1000_g",
+          "FOrc.FOrc_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 12,
+    "face_icon": "SEK.cbui23",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "Shaman.MShaman_m001_u",
+          "Shaman.MShaman_m001_l",
+          "Shaman.MShaman_m001_g",
+          "Shaman.MShaman_m001_b"
+        ],
+        "current": [
+          "shaman.MShaman_m000_u",
+          "shaman.MShaman_m000_l",
+          "shaman.MShaman_m000_g",
+          "shaman.MShaman_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "MShaman.MShaman_m001_t02_u",
+          "MShaman.MShaman_m001_t02_l",
+          "MShaman.MShaman_m001_t02_g",
+          "MShaman.MShaman_m001_t02_b"
+        ],
+        "current": [
+          "MShaman.MShaman_m000_t1000_u",
+          "MShaman.MShaman_m000_t1000_l",
+          "MShaman.MShaman_m000_t1000_g",
+          "MShaman.MShaman_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 13,
+    "face_icon": "SEK.cbui23",
+    "changes": {
+      "body_mesh": {
+        "model": [
+          "Shaman.FShaman_m001_u",
+          "Shaman.FShaman_m001_l",
+          "Shaman.FShaman_m001_g",
+          "Shaman.FShaman_m001_b"
+        ],
+        "current": [
+          "shaman.FShaman_m000_u",
+          "shaman.FShaman_m000_l",
+          "shaman.FShaman_m000_g",
+          "shaman.FShaman_m000_b"
+        ]
+      },
+      "body_tex": {
+        "model": [
+          "FShaman.FShaman_m001_t02_u",
+          "FShaman.FShaman_m001_t02_l",
+          "FShaman.FShaman_m001_t02_g",
+          "FShaman.FShaman_m001_t02_b"
+        ],
+        "current": [
+          "FShaman.FShaman_m000_t1000_u",
+          "FShaman.FShaman_m000_t1000_l",
+          "FShaman.FShaman_m000_t1000_g",
+          "FShaman.FShaman_m000_t1000_b"
+        ]
+      }
+    }
+  },
+  {
+    "index": 14,
+    "face_icon": "",
+    "changes": {}
+  }
+]

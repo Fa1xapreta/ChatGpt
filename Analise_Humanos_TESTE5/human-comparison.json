@@ -1,0 +1,919 @@
+{
+  "baseline": "published TESTE 5 assets and original current-system upload, not a new copy of the running Windows client",
+  "cape_native_dll_identical": true,
+  "native_sha256": "20250ed27749bc3e5efee5f307dce3590c982d21d14b3bbbae1e4c747919f3d0",
+  "human_models_checked": 109,
+  "human_original_25_DAT_MTX_identical": true,
+  "human_mesh_checks": [
+    {
+      "id": 31300,
+      "body": "MFighter",
+      "model": "CCMFighterFestival.MFighter_FxRogu_m_ad00",
+      "package_sha256": "6643192ad79b73ad43c40e45e7f366323df7fb546a5944bc948cb734f395d989",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31300,
+      "body": "FFighter",
+      "model": "CCFFighterFestival.FFighter_FxRogu_m_ad00",
+      "package_sha256": "c3669aeba387b0abd16742a460cbd1fc71c165f6b31e600cf4df0b7053961af7",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31301,
+      "body": "MFighter",
+      "model": "CCMFighterFestival.MFighter_FxSwrdBlue_m_ad00",
+      "package_sha256": "6643192ad79b73ad43c40e45e7f366323df7fb546a5944bc948cb734f395d989",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31301,
+      "body": "FFighter",
+      "model": "CCFFighterFestival.FFighter_FxSwrdBlue_m_ad00",
+      "package_sha256": "c3669aeba387b0abd16742a460cbd1fc71c165f6b31e600cf4df0b7053961af7",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31302,
+      "body": "MFighter",
+      "model": "CCMFighterFestival.MFighter_FxSwrdDark_m_ad00",
+      "package_sha256": "6643192ad79b73ad43c40e45e7f366323df7fb546a5944bc948cb734f395d989",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31302,
+      "body": "FFighter",
+      "model": "CCFFighterFestival.FFighter_FxSwrdDark_m_ad00",
+      "package_sha256": "c3669aeba387b0abd16742a460cbd1fc71c165f6b31e600cf4df0b7053961af7",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31303,
+      "body": "MFighter",
+      "model": "CCMFighterFestival.MFighter_FxArch_m_ad00",
+      "package_sha256": "6643192ad79b73ad43c40e45e7f366323df7fb546a5944bc948cb734f395d989",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31303,
+      "body": "FFighter",
+      "model": "CCFFighterFestival.FFighter_FxArch_m_ad00",
+      "package_sha256": "c3669aeba387b0abd16742a460cbd1fc71c165f6b31e600cf4df0b7053961af7",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31304,
+      "body": "MFighter",
+      "model": "CCMFighterFestival.MFighter_FxEnch_m_ad00",
+      "package_sha256": "6643192ad79b73ad43c40e45e7f366323df7fb546a5944bc948cb734f395d989",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31304,
+      "body": "FFighter",
+      "model": "CCFFighterFestival.FFighter_FxEnch_m_ad00",
+      "package_sha256": "c3669aeba387b0abd16742a460cbd1fc71c165f6b31e600cf4df0b7053961af7",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31305,
+      "body": "MFighter",
+      "model": "CCMFighterFestival.MFighter_FxKnig_m_ad00",
+      "package_sha256": "6643192ad79b73ad43c40e45e7f366323df7fb546a5944bc948cb734f395d989",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31305,
+      "body": "FFighter",
+      "model": "CCFFighterFestival.FFighter_FxKnig_m_ad00",
+      "package_sha256": "c3669aeba387b0abd16742a460cbd1fc71c165f6b31e600cf4df0b7053961af7",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31306,
+      "body": "MFighter",
+      "model": "CCMFighterFestival.MFighter_FxOlyB_m_ad00",
+      "package_sha256": "6643192ad79b73ad43c40e45e7f366323df7fb546a5944bc948cb734f395d989",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31306,
+      "body": "FFighter",
+      "model": "CCFFighterFestival.FFighter_FxOlyB_m_ad00",
+      "package_sha256": "c3669aeba387b0abd16742a460cbd1fc71c165f6b31e600cf4df0b7053961af7",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31307,
+      "body": "MFighter",
+      "model": "CCFxOlyGCloak.MFighter_FxOlyG_m_ad00",
+      "package_sha256": "58b3c7a0b8853dba7012261091921835dc5c5d083ea47a262886c61d0a407045",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31307,
+      "body": "FFighter",
+      "model": "CCFxOlyGCloak.FFighter_FxOlyG_m_ad00",
+      "package_sha256": "58b3c7a0b8853dba7012261091921835dc5c5d083ea47a262886c61d0a407045",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31308,
+      "body": "MFighter",
+      "model": "CCFxOlySCloak.MFighter_FxOlyS_m_ad00",
+      "package_sha256": "70501366f5d50a76299c03a1efbdf0a0a29517b140a935a35d0119045d009145",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31308,
+      "body": "FFighter",
+      "model": "CCFxOlySCloak.FFighter_FxOlyS_m_ad00",
+      "package_sha256": "70501366f5d50a76299c03a1efbdf0a0a29517b140a935a35d0119045d009145",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31309,
+      "body": "MFighter",
+      "model": "CCMFighterFestival.MFighter_FxRus2024_m_ad00",
+      "package_sha256": "6643192ad79b73ad43c40e45e7f366323df7fb546a5944bc948cb734f395d989",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31309,
+      "body": "FFighter",
+      "model": "CCFFighterFestival.FFighter_FxRus2024_m_ad00",
+      "package_sha256": "c3669aeba387b0abd16742a460cbd1fc71c165f6b31e600cf4df0b7053961af7",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31310,
+      "body": "MFighter",
+      "model": "CCFxSiegeBlkCloak.MFighter_FxSiegeBlk_m_ad00",
+      "package_sha256": "8cd4058160a4886ef60d695bad6990e5e26929d25c7bb5a9c544babc5e5513f4",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31310,
+      "body": "FFighter",
+      "model": "CCFxSiegeBlkCloak.FFighter_FxSiegeBlk_m_ad00",
+      "package_sha256": "8cd4058160a4886ef60d695bad6990e5e26929d25c7bb5a9c544babc5e5513f4",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31311,
+      "body": "MFighter",
+      "model": "CCFxSiegeWhtCloak.MFighter_FxSiegeWht_m_ad00",
+      "package_sha256": "2fd5c3ac0b4fc52ab3fd413ccec51b1192c133ebf849a3e7aad78ee7ac8d5ae3",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31311,
+      "body": "FFighter",
+      "model": "CCFxSiegeWhtCloak.FFighter_FxSiegeWht_m_ad00",
+      "package_sha256": "2fd5c3ac0b4fc52ab3fd413ccec51b1192c133ebf849a3e7aad78ee7ac8d5ae3",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31312,
+      "body": "MFighter",
+      "model": "CCMFighterFestival.MFighter_FxWarr_m_ad00",
+      "package_sha256": "6643192ad79b73ad43c40e45e7f366323df7fb546a5944bc948cb734f395d989",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31312,
+      "body": "FFighter",
+      "model": "CCFFighterFestival.FFighter_FxWarr_m_ad00",
+      "package_sha256": "c3669aeba387b0abd16742a460cbd1fc71c165f6b31e600cf4df0b7053961af7",
+      "same_source_package_in_test5": true,
+      "mode": "source-package plus verified export alias"
+    },
+    {
+      "id": 31324,
+      "body": "MFighter",
+      "model": "CCEssenceBody.MFighter_E04",
+      "package_sha256": "c59f3f32b63f4a278dc7398b1b6b5938e72f06c19511706509cdd76862197a9b",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31324,
+      "body": "FFighter",
+      "model": "CCEssenceBody.FFighter_E04",
+      "package_sha256": "c59f3f32b63f4a278dc7398b1b6b5938e72f06c19511706509cdd76862197a9b",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31325,
+      "body": "MFighter",
+      "model": "CCEss00.MFighter_E00",
+      "package_sha256": "610269e54c95fdb289538a72f2424f214265776565268b43a313721cd0da7d19",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31325,
+      "body": "FFighter",
+      "model": "CCEss00.FFighter_E00",
+      "package_sha256": "610269e54c95fdb289538a72f2424f214265776565268b43a313721cd0da7d19",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31326,
+      "body": "MFighter",
+      "model": "CCEss01.MFighter_E01",
+      "package_sha256": "75ace347f76b6b179d450c0db15acafba2f3ef51c0d1ced1c66d97cdcd88b35d",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31326,
+      "body": "FFighter",
+      "model": "CCEss01.FFighter_E01",
+      "package_sha256": "75ace347f76b6b179d450c0db15acafba2f3ef51c0d1ced1c66d97cdcd88b35d",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31327,
+      "body": "MFighter",
+      "model": "CCEss03.MFighter_E03",
+      "package_sha256": "fea333cb7ee17e022e9bb61c522f0e256a8e4f65d4ee4cf276120285a1f6c7e5",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31327,
+      "body": "FFighter",
+      "model": "CCEss03.FFighter_E03",
+      "package_sha256": "fea333cb7ee17e022e9bb61c522f0e256a8e4f65d4ee4cf276120285a1f6c7e5",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31328,
+      "body": "MFighter",
+      "model": "CCEss05.MFighter_E05",
+      "package_sha256": "550e100b3360f0d37c51984c81600dfc796b454d22ed877a2572ee7eca9f8127",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31328,
+      "body": "FFighter",
+      "model": "CCEss05.FFighter_E05",
+      "package_sha256": "550e100b3360f0d37c51984c81600dfc796b454d22ed877a2572ee7eca9f8127",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31329,
+      "body": "MFighter",
+      "model": "CCEss06.MFighter_E06",
+      "package_sha256": "a7cb82911f7b995cd17eeca9e38f333dbed195deaf3627cd004ca8e703369d16",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31329,
+      "body": "FFighter",
+      "model": "CCEss06.FFighter_E06",
+      "package_sha256": "a7cb82911f7b995cd17eeca9e38f333dbed195deaf3627cd004ca8e703369d16",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31330,
+      "body": "MFighter",
+      "model": "CCEss07.MFighter_E07",
+      "package_sha256": "5dd406414c4d8bbd3cc813e6eefd7f642c1d31d625e2c86b647f9cc7de884f94",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31330,
+      "body": "FFighter",
+      "model": "CCEss07.FFighter_E07",
+      "package_sha256": "5dd406414c4d8bbd3cc813e6eefd7f642c1d31d625e2c86b647f9cc7de884f94",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31331,
+      "body": "MFighter",
+      "model": "CCEss08.MFighter_E08",
+      "package_sha256": "a47ab39aed3131780680aa0e40ba367a6b534f09106dbbe41aef7adfeaa43f43",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31331,
+      "body": "FFighter",
+      "model": "CCEss08.FFighter_E08",
+      "package_sha256": "a47ab39aed3131780680aa0e40ba367a6b534f09106dbbe41aef7adfeaa43f43",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31332,
+      "body": "MFighter",
+      "model": "CCEssA00.MFighter_A00",
+      "package_sha256": "03451391bb508905157ebc6ba995a43415ac87d696fc8cd2a862d7734c17b9c5",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31333,
+      "body": "MFighter",
+      "model": "CCEssA01.MFighter_A01",
+      "package_sha256": "0d9503b5f1430fc5e95fe7367bdc49bdb857b298ae2ce65d463a835bf3dd8a84",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31334,
+      "body": "MFighter",
+      "model": "CCEssA02.MFighter_A02",
+      "package_sha256": "bc4f5ccd6e7b594434fb1a023792328100858e0f699a175681b7836cc0991411",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31335,
+      "body": "MFighter",
+      "model": "CCEssA03.MFighter_A03",
+      "package_sha256": "100061d8e4dfe37894784eda0525ae6416d3174098bcb39f7931980b09677413",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31336,
+      "body": "MFighter",
+      "model": "CCEssA04.MFighter_A04",
+      "package_sha256": "8e03bde07fa46e03f9378466996b5f77fa6163a24062bb3e45ff7343bdbf9109",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31337,
+      "body": "MFighter",
+      "model": "CCEssA05.MFighter_A05",
+      "package_sha256": "59c9a52c4848a9822a62cf68bf9ee33277a395327ea79d7174040ba30eb70aac",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31338,
+      "body": "MFighter",
+      "model": "CCEssA06.MFighter_A06",
+      "package_sha256": "3e7f35d1544442a363ee5b5d0454b1b808b07cc14691d0bf28e7325278639b76",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31339,
+      "body": "MFighter",
+      "model": "CCEssA07.MFighter_A07",
+      "package_sha256": "9bc81b47ea95234ff43d754b8872249d8299efd6439bb562c08bb2910985c3bd",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31340,
+      "body": "MFighter",
+      "model": "CCEssA08.MFighter_A08",
+      "package_sha256": "8da5f0e0a771c36ae0c767bebdf3d25e4421cc4759689b8e8e0534d6b3d8f01d",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31341,
+      "body": "MFighter",
+      "model": "CCEssW00.MFighter_W00",
+      "package_sha256": "f9aecd062010246e479971bfcb6d546c31517532b96ee715c9619d33c7d19b2b",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31342,
+      "body": "MFighter",
+      "model": "CCEss02.MFighter_E02",
+      "package_sha256": "2bf5368aaec7c5b598759f5bca051b54b5fbd491f6a1911cf39ba743888f9227",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31342,
+      "body": "FFighter",
+      "model": "CCEss02.FFighter_E02",
+      "package_sha256": "2bf5368aaec7c5b598759f5bca051b54b5fbd491f6a1911cf39ba743888f9227",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31343,
+      "body": "MFighter",
+      "model": "CCEss09.MFighter_E09",
+      "package_sha256": "8a94467b51320674673a3af0d98014a80132e8d6a6d8a1e9fd084fd8c7710ea3",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31343,
+      "body": "FFighter",
+      "model": "CCEss09.FFighter_E09",
+      "package_sha256": "8a94467b51320674673a3af0d98014a80132e8d6a6d8a1e9fd084fd8c7710ea3",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31344,
+      "body": "MFighter",
+      "model": "CCEssA09.MFighter_A09",
+      "package_sha256": "5b0798d67273e114b4f8392e2311aaf84f6b13dc89dd63f52720557e244a3235",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31346,
+      "body": "MFighter",
+      "model": "CCFxXmasCloak.MFighter_FxXmas_m_ad00",
+      "package_sha256": "f56215d9dd95fe282326855278be38278fdc2b60a8f9fd2315211ea0b9730f97",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31346,
+      "body": "FFighter",
+      "model": "CCFxXmasCloak.FFighter_FxXmas_m_ad00",
+      "package_sha256": "f56215d9dd95fe282326855278be38278fdc2b60a8f9fd2315211ea0b9730f97",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31347,
+      "body": "MFighter",
+      "model": "CCFxHalloCloak.MFighter_FxHallo_m_ad00",
+      "package_sha256": "ca6ad190a2369cbf9501fee9249b48e83f87ee46be75203611350087cbd4f94f",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31347,
+      "body": "FFighter",
+      "model": "CCFxHalloCloak.FFighter_FxHallo_m_ad00",
+      "package_sha256": "ca6ad190a2369cbf9501fee9249b48e83f87ee46be75203611350087cbd4f94f",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31349,
+      "body": "MFighter",
+      "model": "CCEssJ00.MFighter_J00",
+      "package_sha256": "769c383982bb744cc00ae32fda98eca814e8f8f7c6932210ebbf6bfa4c717e91",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31350,
+      "body": "MFighter",
+      "model": "CCEssJ01.MFighter_J01",
+      "package_sha256": "5757632f061ea48ba834d7533c12dae7afefe7b76c0229fad696f7fed7fe48be",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31351,
+      "body": "MFighter",
+      "model": "CCEssJ02.MFighter_J02",
+      "package_sha256": "8a26fed77d376a19dba4937eef1fe948d9e09b19125e04628a9f10f3b32fbd79",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31352,
+      "body": "MFighter",
+      "model": "CCEssJ03.MFighter_J03",
+      "package_sha256": "1b11dc0b41b55f7e88b594f6c54574e071aecff0cb10195dd7a11bd68783c8be",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31353,
+      "body": "MFighter",
+      "model": "CCEssJ04.MFighter_J04",
+      "package_sha256": "dfc1bef41ab9569d6f563f3222ef071a1a7bdd77b585e57a18ca431e587ee00d",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31354,
+      "body": "MFighter",
+      "model": "CCEssJ05.MFighter_J05",
+      "package_sha256": "a4e84320f7700d68d21b70e1de6e253f817f36e6764869de00a87a3c6fbdba4e",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31355,
+      "body": "MFighter",
+      "model": "CCEssJ06.MFighter_J06",
+      "package_sha256": "e689a6a84483248f7aa2b723e9f7bdaa65afc9edab9dfb912a75f19605691460",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31356,
+      "body": "MFighter",
+      "model": "CCEssJ07.MFighter_J07",
+      "package_sha256": "a8301fae91a9bdc5ca13e6873ba0bccd8ee102f597a04018ce4ed9f0b6808704",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31357,
+      "body": "MFighter",
+      "model": "CCEssJ08.MFighter_J08",
+      "package_sha256": "2b37eaf08ed6eb5104937b57b396ff23e0193b869fb44ace6ca6b07534ba8c88",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31358,
+      "body": "MFighter",
+      "model": "CCEssJR0.MFighter_JR0",
+      "package_sha256": "f6dd742129c852a5f8cdcf7ff1ebe86e1735df8437788bca4de5bda08773cd02",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31380,
+      "body": "MFighter",
+      "model": "CCRedRanker.MFighter_RankerCloak_m_ad00",
+      "package_sha256": "64a72943ff7319fa56a92e9ca052621a5f5419325da7c3d98e0825c2b30dd605",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31380,
+      "body": "FFighter",
+      "model": "CCRedRanker.FFighter_RankerCloak_m_ad00",
+      "package_sha256": "64a72943ff7319fa56a92e9ca052621a5f5419325da7c3d98e0825c2b30dd605",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31381,
+      "body": "MFighter",
+      "model": "ClassicCloaks.MFighter_NewMantle01_m_ad00",
+      "package_sha256": "0688909a9275e8cddc4152a4fec785aa119417964fe2a7edb9087451a6dddf2c",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31381,
+      "body": "FFighter",
+      "model": "ClassicCloaks.FFighter_NewMantle01_m_ad00",
+      "package_sha256": "0688909a9275e8cddc4152a4fec785aa119417964fe2a7edb9087451a6dddf2c",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31382,
+      "body": "MFighter",
+      "model": "CCDraconicCloak.MFighter_Draconic_m_ad00",
+      "package_sha256": "555880e8e3f50290fc965619071f0e2c3910e933451fd97044f843107249aa50",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31382,
+      "body": "FFighter",
+      "model": "CCDraconicCloak.FFighter_Draconic_m_ad00",
+      "package_sha256": "555880e8e3f50290fc965619071f0e2c3910e933451fd97044f843107249aa50",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31383,
+      "body": "MFighter",
+      "model": "CCVesperCloak.MFighter_Vesper_m_ad00",
+      "package_sha256": "d963b783bbf598f04801d6ba42bf74f5de0f1f9aaf157b5910f18ca8db197cb4",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31383,
+      "body": "FFighter",
+      "model": "CCVesperCloak.FFighter_Vesper_m_ad00",
+      "package_sha256": "d963b783bbf598f04801d6ba42bf74f5de0f1f9aaf157b5910f18ca8db197cb4",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31384,
+      "body": "MFighter",
+      "model": "CCElegiaCloak.MFighter_Elegia_m_ad00",
+      "package_sha256": "1cac49ca81c035cb80d9d56406468acb3d04b4ea95fd0f8c8d124c4a14f57e04",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31384,
+      "body": "FFighter",
+      "model": "CCElegiaCloak.FFighter_Elegia_m_ad00",
+      "package_sha256": "1cac49ca81c035cb80d9d56406468acb3d04b4ea95fd0f8c8d124c4a14f57e04",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31385,
+      "body": "MFighter",
+      "model": "CCVorpalCloak.MFighter_Vorpal_m_ad00",
+      "package_sha256": "46849794bd5f3480fbf1f537d29887fb025607498a3c31009790d38123d4c943",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31385,
+      "body": "FFighter",
+      "model": "CCVorpalCloak.FFighter_Vorpal_m_ad00",
+      "package_sha256": "46849794bd5f3480fbf1f537d29887fb025607498a3c31009790d38123d4c943",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31386,
+      "body": "MFighter",
+      "model": "CCMoiraiCloak.MFighter_Moirai_m_ad00",
+      "package_sha256": "cfa6956e3d30a63376ce8126d31776b9692a8fd5320b1d25e7031c4ecd9ef31f",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31386,
+      "body": "FFighter",
+      "model": "CCMoiraiCloak.FFighter_Moirai_m_ad00",
+      "package_sha256": "cfa6956e3d30a63376ce8126d31776b9692a8fd5320b1d25e7031c4ecd9ef31f",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31387,
+      "body": "MFighter",
+      "model": "CCFxBBLineageCloak.MFighter_FxBBLineage_m_ad00",
+      "package_sha256": "18fd6426310230aa87420ac3e0d407fa694673e908ee1138ee33fe7dab429102",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31387,
+      "body": "FFighter",
+      "model": "CCFxBBLineageCloak.FFighter_FxBBLineage_m_ad00",
+      "package_sha256": "18fd6426310230aa87420ac3e0d407fa694673e908ee1138ee33fe7dab429102",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31388,
+      "body": "MFighter",
+      "model": "CCFxBTGuardCloak.MFighter_FxBTGuard_m_ad00",
+      "package_sha256": "17c2228e0918b755b2fa54a9a34ab42ab31c2a0a72d0bc40d26ea5aa034b097b",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31388,
+      "body": "FFighter",
+      "model": "CCFxBTGuardCloak.FFighter_FxBTGuard_m_ad00",
+      "package_sha256": "17c2228e0918b755b2fa54a9a34ab42ab31c2a0a72d0bc40d26ea5aa034b097b",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31389,
+      "body": "MFighter",
+      "model": "CCFxDMStrangerCloak.MFighter_FxDMStranger_m_ad00",
+      "package_sha256": "042f5507175f3e45aa7d4ebe78251e60eaf8de064e52d5a5a256edc1036f1cb6",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31389,
+      "body": "FFighter",
+      "model": "CCFxDMStrangerCloak.FFighter_FxDMStranger_m_ad00",
+      "package_sha256": "042f5507175f3e45aa7d4ebe78251e60eaf8de064e52d5a5a256edc1036f1cb6",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31390,
+      "body": "MFighter",
+      "model": "CCFxEMGuardCloak.MFighter_FxEMGuard_m_ad00",
+      "package_sha256": "8ed03a2c0415f42ebe2e297af10b847bb7aff7a339b809166d18a5e519462a1b",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31390,
+      "body": "FFighter",
+      "model": "CCFxEMGuardCloak.FFighter_FxEMGuard_m_ad00",
+      "package_sha256": "8ed03a2c0415f42ebe2e297af10b847bb7aff7a339b809166d18a5e519462a1b",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31391,
+      "body": "MFighter",
+      "model": "CCFxGTChaseCloak.MFighter_FxGTChase_m_ad00",
+      "package_sha256": "f2d1785edadd4772880f33a61a3c2e80414017e662d24fcb79fcc3fd9bf6c696",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31391,
+      "body": "FFighter",
+      "model": "CCFxGTChaseCloak.FFighter_FxGTChase_m_ad00",
+      "package_sha256": "f2d1785edadd4772880f33a61a3c2e80414017e662d24fcb79fcc3fd9bf6c696",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31392,
+      "body": "MFighter",
+      "model": "CCBlackCloak.MFighter_BlackCloak_m_ad00",
+      "package_sha256": "9f1c545ee381162dc0dbd860072b44fcd08a1b526b25a51568f2ec63690e5f4f",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31392,
+      "body": "FFighter",
+      "model": "CCBlackCloak.FFighter_BlackCloak_m_ad00",
+      "package_sha256": "9f1c545ee381162dc0dbd860072b44fcd08a1b526b25a51568f2ec63690e5f4f",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31393,
+      "body": "MFighter",
+      "model": "CCFxZakenCloak.MFighter_FxZaken_m_ad00",
+      "package_sha256": "dd080668e2a0c910e632c83ad9842b9cc7efdbf4379443caaf81b99886d2beca",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31393,
+      "body": "FFighter",
+      "model": "CCFxZakenCloak.FFighter_FxZaken_m_ad00",
+      "package_sha256": "dd080668e2a0c910e632c83ad9842b9cc7efdbf4379443caaf81b99886d2beca",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31394,
+      "body": "MFighter",
+      "model": "CCFxFreyaCloak.MFighter_FxFreya_m_ad00",
+      "package_sha256": "91c591783f8cfdca203c014a079fd0fa431e7036bade1c9eb7f8c1ad06f56fae",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31394,
+      "body": "FFighter",
+      "model": "CCFxFreyaCloak.FFighter_FxFreya_m_ad00",
+      "package_sha256": "91c591783f8cfdca203c014a079fd0fa431e7036bade1c9eb7f8c1ad06f56fae",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31395,
+      "body": "MFighter",
+      "model": "CCFxFrintessaCloak.MFighter_FxFrintessa_m_ad00",
+      "package_sha256": "ad23baf44323248cd88b83e0164981bd6937aae4513e29a8d894b753f66718dd",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31395,
+      "body": "FFighter",
+      "model": "CCFxFrintessaCloak.FFighter_FxFrintessa_m_ad00",
+      "package_sha256": "ad23baf44323248cd88b83e0164981bd6937aae4513e29a8d894b753f66718dd",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31396,
+      "body": "MFighter",
+      "model": "DynastyCloak.MFighter_DynCloth",
+      "package_sha256": "268f6672af646aa8ebd0fbf94ab5423fbe0c216c3eef24240a17834f63e85705",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31396,
+      "body": "FFighter",
+      "model": "DynastyCloak.FFighter_DynCloth",
+      "package_sha256": "268f6672af646aa8ebd0fbf94ab5423fbe0c216c3eef24240a17834f63e85705",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31397,
+      "body": "MFighter",
+      "model": "BlessingCloaks.MFighter_NewMantle00_m_ad00",
+      "package_sha256": "eec580f9910567d0b2fb103e3245578660b4aad0420dfc4f9da1c3bfc661d218",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31397,
+      "body": "FFighter",
+      "model": "BlessingCloaks.FFighter_NewMantle00_m_ad00",
+      "package_sha256": "eec580f9910567d0b2fb103e3245578660b4aad0420dfc4f9da1c3bfc661d218",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31398,
+      "body": "MFighter",
+      "model": "CCVesperBlkCloak.MFighter_VesperBlk_m_ad00",
+      "package_sha256": "8e3b3e82b88150974435bc9b9d3b3aa9e13ad31eada338f235e53348560d19df",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    },
+    {
+      "id": 31398,
+      "body": "FFighter",
+      "model": "CCVesperBlkCloak.FFighter_VesperBlk_m_ad00",
+      "package_sha256": "8e3b3e82b88150974435bc9b9d3b3aa9e13ad31eada338f235e53348560d19df",
+      "same_source_package_in_test5": true,
+      "mode": "exact source package"
+    }
+  ],
+  "core_dll_identical": true,
+  "engine_original_code_section_differences": [
+    {
+      "file_offset_start": "0x2484dd",
+      "file_offset_end_exclusive": "0x2484e3",
+      "changed_bytes": 6,
+      "model_hex": "8b86a4000000",
+      "current_hex": "e91e9fb20190"
+    },
+    {
+      "file_offset_start": "0x5d8f66",
+      "file_offset_end_exclusive": "0x5d8f8f",
+      "changed_bytes": 20,
+      "model_hex": "750063004400650076004d006f0075006e00740073002e0052006f00790061006c0065000000000000",
+      "current_hex": "69006e0065006100670065004d006f006e0073007400650072002e0073007400720069006400650072"
+    }
+  ],
+  "engine_notes": "Only 6-byte trampoline to an appended text formatter and 20 differing UTF16 bytes in mount class literal in the original code section. Appended formatter parses <number|number> strings. No original human animation instruction block difference identified. Runtime hooks remain unmeasured.",
+  "chargrp_diff_file": "chargrp-differences.json",
+  "walkanimframe_same_all_bodies": true,
+  "base_human_animation_files_received": false,
+  "reference_fighter_v_contents": {
+    "file": "Fighter-v.ukx",
+    "skeletal_mesh_exports": 22,
+    "mesh_animation_exports": 0
+  },
+  "test6": {
+    "status": "withdrawn",
+    "reason_observed": "user reports capes disappeared after applying",
+    "internal_cause_confirmed": false,
+    "changed_field_was_not_verified_leg_collision": true
+  },
+  "root_cause_confirmed": false,
+  "next_required_files": [
+    "Animations/Fighter.ukx from current client",
+    "Animations/Fighter.ukx from the complete model client, if present",
+    "If files have another name: filenames of Fighter*.ukx, MFighter*.ukx, FFighter*.ukx in each client"
+  ]
+}

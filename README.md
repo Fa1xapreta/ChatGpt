@@ -1,3 +1,9 @@
+## Humanos fighter — comparação dirigida ao TESTE 5
+
+[**Resultado da análise**](Analise_Humanos_TESTE5/README.md): malhas humanas, mapeamentos dos 25 itens originais e DLL de capas do TESTE 5 coincidem com o modelo. A causa da interseção na corrida ainda não foi confirmada. Falta o pacote-base Fighter.ukx para comparar esqueleto/animações; o Fighter-v.ukx recebido só contém malhas de armaduras. Não foi publicado outro ajuste experimental.
+
+---
+
 ## TESTE 6 retirado — restauração das capas
 
 As capas deixaram de aparecer no cliente após o TESTE 6. **Feche o jogo e execute DESFAZER.bat** da pasta desse teste. A aplicação foi bloqueada na versão publicada.
