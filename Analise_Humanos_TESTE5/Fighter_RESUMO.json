@@ -1,0 +1,423 @@
+{
+  "input_file": "Fighter.ukx",
+  "input_origin": "current client with TESTE 5, confirmed by user",
+  "sha256": "8a22d41ceaa78d52a10b856b923462eb8eb08d61b203d0d7904e464857ae988c",
+  "package_version": 123,
+  "licensee": 30,
+  "skeletal_mesh_exports": 143,
+  "animation_exports": 3,
+  "all_animation_payloads_parsed_to_end": true,
+  "bodies": [
+    {
+      "body": "MFighter",
+      "animation": "MFighter_anim",
+      "bones": 70,
+      "native_expected_bones": 70,
+      "animation_sequences": 114,
+      "native_leg_indices": [
+        38,
+        39,
+        40,
+        43,
+        44,
+        45
+      ],
+      "native_leg_names": [
+        "Bip01_L_Thigh",
+        "Bip01_L_Calf",
+        "bip01_l_foot",
+        "Bip01_R_Thigh",
+        "Bip01_R_Calf",
+        "bip01_r_foot"
+      ],
+      "cape_anchor_index": 36,
+      "running_sequences": [
+        {
+          "name": "Run_1HS_MFighter",
+          "frames": 13,
+          "rate": 15.0,
+          "cape_bone_index": 36,
+          "cape_track_position": [
+            6.308538436889648,
+            2.9295148849487305,
+            -5.698401764675509e-06
+          ],
+          "cape_track_quaternion": [
+            2.2866811377753038e-07,
+            -6.57866507935978e-07,
+            -0.9746676087379456,
+            0.22365844249725342
+          ]
+        },
+        {
+          "name": "Run_Bow_MFighter",
+          "frames": 13,
+          "rate": 15.0,
+          "cape_bone_index": 36,
+          "cape_track_position": [
+            6.308538436889648,
+            2.9295148849487305,
+            -5.698401764675509e-06
+          ],
+          "cape_track_quaternion": [
+            2.2866811377753038e-07,
+            -6.57866507935978e-07,
+            -0.9746676087379456,
+            0.22365844249725342
+          ]
+        },
+        {
+          "name": "Run_2HS_MFighter",
+          "frames": 13,
+          "rate": 15.0,
+          "cape_bone_index": 36,
+          "cape_track_position": [
+            6.308537006378174,
+            2.9295151233673096,
+            -5.566786967392545e-06
+          ],
+          "cape_track_quaternion": [
+            2.3107352831175376e-07,
+            -6.822838827247324e-07,
+            -0.9746676087379456,
+            0.22365841269493103
+          ]
+        },
+        {
+          "name": "Run_Hand_MFighter",
+          "frames": 13,
+          "rate": 15.0,
+          "cape_bone_index": 36,
+          "cape_track_position": [
+            6.30853796005249,
+            2.929514169692993,
+            -5.661789600708289e-06
+          ],
+          "cape_track_quaternion": [
+            2.495601734153752e-07,
+            -6.520510851260042e-07,
+            -0.9746676087379456,
+            0.2236584573984146
+          ]
+        },
+        {
+          "name": "Run_Pole_MFighter",
+          "frames": 13,
+          "rate": 15.0,
+          "cape_bone_index": 36,
+          "cape_track_position": [
+            6.30853796005249,
+            2.9295146465301514,
+            -6.395589025487425e-06
+          ],
+          "cape_track_quaternion": [
+            3.273133302172937e-07,
+            -6.764284421478806e-07,
+            -0.9746675491333008,
+            0.223658487200737
+          ]
+        },
+        {
+          "name": "Run_Dual_MFighter",
+          "frames": 13,
+          "rate": 15.0,
+          "cape_bone_index": 36,
+          "cape_track_position": [
+            6.308538436889648,
+            2.9295146465301514,
+            -5.8180776250083e-06
+          ],
+          "cape_track_quaternion": [
+            1.8999257633822708e-07,
+            -6.481172931671608e-07,
+            -0.9746676087379456,
+            0.22365841269493103
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "source_package": "CCFxFreyaCloak.u",
+          "source_mesh": "MFighter_DynCover_FxFreya",
+          "current_mesh": "MFighter_m000_f",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 2.8627604821787993e-06,
+          "max_normalized_quaternion_angle_degrees": 5.959315587357721e-05
+        },
+        {
+          "source_package": "CCFxFreyaCloak.u",
+          "source_mesh": "MFighter_DynCover_FxFreya",
+          "current_mesh": "MFighter_m000_u",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        },
+        {
+          "source_package": "CCFxFreyaCloak.u",
+          "source_mesh": "MFighter_DynCover_FxFreya",
+          "current_mesh": "MFighter_m001_u",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        },
+        {
+          "source_package": "CCDraconicCloak.u",
+          "source_mesh": "MFighter_DynCover_Draconic",
+          "current_mesh": "MFighter_m000_f",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 2.8627604821787993e-06,
+          "max_normalized_quaternion_angle_degrees": 5.959315587357721e-05
+        },
+        {
+          "source_package": "CCDraconicCloak.u",
+          "source_mesh": "MFighter_DynCover_Draconic",
+          "current_mesh": "MFighter_m000_u",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        },
+        {
+          "source_package": "CCDraconicCloak.u",
+          "source_mesh": "MFighter_DynCover_Draconic",
+          "current_mesh": "MFighter_m001_u",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        },
+        {
+          "source_package": "CCVesperCloak.u",
+          "source_mesh": "MFighter_DynCover_Vesper",
+          "current_mesh": "MFighter_m000_f",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 2.8627604821787993e-06,
+          "max_normalized_quaternion_angle_degrees": 5.959315587357721e-05
+        },
+        {
+          "source_package": "CCVesperCloak.u",
+          "source_mesh": "MFighter_DynCover_Vesper",
+          "current_mesh": "MFighter_m000_u",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        },
+        {
+          "source_package": "CCVesperCloak.u",
+          "source_mesh": "MFighter_DynCover_Vesper",
+          "current_mesh": "MFighter_m001_u",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        }
+      ]
+    },
+    {
+      "body": "FFighter",
+      "animation": "FFighter_anim",
+      "bones": 76,
+      "native_expected_bones": 76,
+      "animation_sequences": 113,
+      "native_leg_indices": [
+        42,
+        43,
+        44,
+        47,
+        48,
+        49
+      ],
+      "native_leg_names": [
+        "Bip01_L_Thigh",
+        "Bip01_L_Calf",
+        "bip01_l_foot",
+        "Bip01_R_Thigh",
+        "Bip01_R_Calf",
+        "bip01_r_foot"
+      ],
+      "cape_anchor_index": 36,
+      "running_sequences": [
+        {
+          "name": "Run_1HS_FFighter",
+          "frames": 12,
+          "rate": 15.0,
+          "cape_bone_index": 36,
+          "cape_track_position": [
+            6.037822723388672,
+            1.9567445516586304,
+            -0.04402514919638634
+          ],
+          "cape_track_quaternion": [
+            3.252482656534994e-07,
+            -7.213737944766763e-07,
+            -0.9754300713539124,
+            0.22030921280384064
+          ]
+        },
+        {
+          "name": "Run_2HS_FFighter",
+          "frames": 12,
+          "rate": 15.0,
+          "cape_bone_index": 36,
+          "cape_track_position": [
+            6.0378217697143555,
+            1.9567437171936035,
+            -0.04402513429522514
+          ],
+          "cape_track_quaternion": [
+            3.98054879724441e-07,
+            -7.394187377940398e-07,
+            -0.9754300713539124,
+            0.22030924260616302
+          ]
+        },
+        {
+          "name": "Run_Bow_FFighter",
+          "frames": 12,
+          "rate": 15.0,
+          "cape_bone_index": 36,
+          "cape_track_position": [
+            6.037822723388672,
+            1.9567443132400513,
+            -0.044024765491485596
+          ],
+          "cape_track_quaternion": [
+            3.9091960957193805e-07,
+            -7.594020985379757e-07,
+            -0.9754300713539124,
+            0.22030925750732422
+          ]
+        },
+        {
+          "name": "Run_Dual_FFighter",
+          "frames": 12,
+          "rate": 15.0,
+          "cape_bone_index": 36,
+          "cape_track_position": [
+            6.03782320022583,
+            1.9567440748214722,
+            -0.0440252386033535
+          ],
+          "cape_track_quaternion": [
+            3.7376861428128905e-07,
+            -7.685238756494073e-07,
+            -0.9754300713539124,
+            0.22030924260616302
+          ]
+        },
+        {
+          "name": "Run_Hand_FFighter",
+          "frames": 12,
+          "rate": 15.0,
+          "cape_bone_index": 36,
+          "cape_track_position": [
+            6.037824630737305,
+            1.9567433595657349,
+            -0.04402521625161171
+          ],
+          "cape_track_quaternion": [
+            3.4089677569681953e-07,
+            -7.880974521867756e-07,
+            -0.9754300713539124,
+            0.2203092724084854
+          ]
+        },
+        {
+          "name": "Run_Pole_FFighter",
+          "frames": 12,
+          "rate": 15.0,
+          "cape_bone_index": 36,
+          "cape_track_position": [
+            6.0378217697143555,
+            1.9567440748214722,
+            -0.04402508959174156
+          ],
+          "cape_track_quaternion": [
+            3.95706678091301e-07,
+            -7.149791372285108e-07,
+            -0.9754300713539124,
+            0.22030921280384064
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "source_package": "CCFxFreyaCloak.u",
+          "source_mesh": "FFighter_DynCover_FxFreya",
+          "current_mesh": "FFighter_m000_f",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        },
+        {
+          "source_package": "CCFxFreyaCloak.u",
+          "source_mesh": "FFighter_DynCover_FxFreya",
+          "current_mesh": "FFighter_m000_u",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        },
+        {
+          "source_package": "CCFxFreyaCloak.u",
+          "source_mesh": "FFighter_DynCover_FxFreya",
+          "current_mesh": "FFighter_m001_u",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        },
+        {
+          "source_package": "CCDraconicCloak.u",
+          "source_mesh": "FFighter_DynCover_Draconic",
+          "current_mesh": "FFighter_m000_f",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        },
+        {
+          "source_package": "CCDraconicCloak.u",
+          "source_mesh": "FFighter_DynCover_Draconic",
+          "current_mesh": "FFighter_m000_u",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        },
+        {
+          "source_package": "CCDraconicCloak.u",
+          "source_mesh": "FFighter_DynCover_Draconic",
+          "current_mesh": "FFighter_m001_u",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        },
+        {
+          "source_package": "CCVesperCloak.u",
+          "source_mesh": "FFighter_DynCover_Vesper",
+          "current_mesh": "FFighter_m000_f",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        },
+        {
+          "source_package": "CCVesperCloak.u",
+          "source_mesh": "FFighter_DynCover_Vesper",
+          "current_mesh": "FFighter_m000_u",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        },
+        {
+          "source_package": "CCVesperCloak.u",
+          "source_mesh": "FFighter_DynCover_Vesper",
+          "current_mesh": "FFighter_m001_u",
+          "same_leg_spine_cape_names_indices_parents": true,
+          "max_bind_translation_delta": 0,
+          "max_normalized_quaternion_angle_degrees": 0
+        }
+      ]
+    }
+  ],
+  "root_cause_confirmed": false,
+  "notes": [
+    "The original model patch contains no base Fighter.ukx to compare running tracks byte-for-byte.",
+    "Leg skeleton compatibility does not prove dynamic cloth clearance.",
+    "Cape cloth rigs have their own bone count; they were not treated as identical to the body rig.",
+    "No client file was modified. TESTE 6 remains withdrawn."
+  ]
+}

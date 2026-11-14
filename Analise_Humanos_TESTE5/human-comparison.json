@@ -898,7 +898,6 @@
   "engine_notes": "Only 6-byte trampoline to an appended text formatter and 20 differing UTF16 bytes in mount class literal in the original code section. Appended formatter parses <number|number> strings. No original human animation instruction block difference identified. Runtime hooks remain unmeasured.",
   "chargrp_diff_file": "chargrp-differences.json",
   "walkanimframe_same_all_bodies": true,
-  "base_human_animation_files_received": false,
   "reference_fighter_v_contents": {
     "file": "Fighter-v.ukx",
     "skeletal_mesh_exports": 22,
@@ -912,8 +911,9 @@
   },
   "root_cause_confirmed": false,
   "next_required_files": [
-    "Animations/Fighter.ukx from current client",
-    "Animations/Fighter.ukx from the complete model client, if present",
-    "If files have another name: filenames of Fighter*.ukx, MFighter*.ukx, FFighter*.ukx in each client"
-  ]
+    "Animations/Fighter.ukx from complete model client, identified as model"
+  ],
+  "current_base_human_animation_file_received": true,
+  "model_base_human_animation_file_received": false,
+  "current_fighter_followup_report": "Fighter_RESUMO.json"
 }

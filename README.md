@@ -1,6 +1,6 @@
 ## Humanos fighter — comparação dirigida ao TESTE 5
 
-[**Resultado da análise**](Analise_Humanos_TESTE5/README.md): malhas humanas, mapeamentos dos 25 itens originais e DLL de capas do TESTE 5 coincidem com o modelo. A causa da interseção na corrida ainda não foi confirmada. Falta o pacote-base Fighter.ukx para comparar esqueleto/animações; o Fighter-v.ukx recebido só contém malhas de armaduras. Não foi publicado outro ajuste experimental.
+[**Resultado da análise**](Analise_Humanos_TESTE5/README.md): malhas humanas, mapeamentos dos 25 itens originais e DLL de capas do TESTE 5 coincidem com o modelo. A causa da interseção na corrida ainda não foi confirmada. O Fighter.ukx do cliente atual foi recebido e analisado: índices das pernas e poses-base conferem com as malhas auxiliares das capas; as 12 sequências de corrida humanas foram lidas. Falta a contraparte Fighter.ukx do cliente completo do modelo para comparar as duas corridas. O Fighter-v.ukx do patch só contém malhas de armaduras. Não foi publicado outro ajuste experimental.
 
 ---
 
