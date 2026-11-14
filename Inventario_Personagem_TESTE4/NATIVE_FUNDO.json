@@ -1,0 +1,22 @@
+{
+  "patched_site": "0x2d1d",
+  "wrapper_rva": "0x181300",
+  "wrapper_bytes": 99,
+  "inventory_parent_only": true,
+  "uv_pixel_rectangle": [
+    0,
+    0,
+    284,
+    419
+  ],
+  "texture_reference": "L2UI_CH3.AbnormalWnd.Inventory_DF_CharacterEquipBg",
+  "original_texture_dimensions_assumed": [
+    512,
+    512
+  ],
+  "user_imported_texture_not_replaced": true,
+  "windows_tested": false,
+  "engine_uv_unit": "pixels; FCanvasUtil::DrawTile normalizes using material width and height",
+  "engine_drawtile_body_rva": "0x381db0",
+  "engine_source_sha256": "603a85d347692089a12e017845dc8ffcb9a65bc0d4a249b5f9b5af30109cddda"
+}

@@ -1,0 +1,1 @@
+Ferramentas da sessão com caminhos locais de análise, não um SDK portátil. Os relatórios na raiz registram testes reais do bytecode e das instruções x86 com chamadas do jogo simuladas. Nenhuma execução Windows foi realizada. A textura foi configurada pela referência fornecida pelo usuário e o arquivo que contém a importação não foi modificado.

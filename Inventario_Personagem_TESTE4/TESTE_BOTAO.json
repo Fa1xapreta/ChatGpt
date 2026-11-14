@@ -1,0 +1,518 @@
+{
+  "real_bytecode_interpreted": true,
+  "game_window_and_native_apis_mocked": true,
+  "cases": [
+    {
+      "button": "btnMileniumPreview",
+      "initially_open": false,
+      "player_available": true,
+      "hud_initial": false,
+      "hud_final": false,
+      "actions": [
+        [
+          "HideWindow",
+          [
+            "window",
+            "MobInformerWnd"
+          ],
+          []
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.MobViewport"
+          ],
+          []
+        ],
+        [
+          "SetAnchor",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          [
+            "InventoryWnd",
+            "TopLeft",
+            "TopRight",
+            -6,
+            33
+          ]
+        ],
+        [
+          "PortraitExpanded",
+          true
+        ],
+        [
+          "PrepareDisplayPawn"
+        ],
+        [
+          "PortraitExpanded",
+          false
+        ],
+        [
+          "HideWindow",
+          [
+            "window",
+            "StatusWnd.HudPortraitViewport"
+          ],
+          []
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ],
+        [
+          "BindPreview",
+          [
+            [
+              "window",
+              "MileniumInventoryPreviewWnd.MobViewport"
+            ],
+            "display-pawn",
+            35.0,
+            30.0,
+            100.0
+          ]
+        ],
+        [
+          "SetStageBackground",
+          [
+            [
+              "texture",
+              "L2UI_CH3.AbnormalWnd.Inventory_DF_CharacterEquipBg"
+            ]
+          ]
+        ],
+        [
+          "SetText",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.RenderStatus"
+          ],
+          [
+            "Render 3D: 1 / Fundo: 1"
+          ]
+        ]
+      ]
+    },
+    {
+      "button": "btnMileniumPreview",
+      "initially_open": true,
+      "player_available": true,
+      "hud_initial": false,
+      "hud_final": false,
+      "actions": [
+        [
+          "ReleasePreview",
+          []
+        ],
+        [
+          "HideWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ],
+        [
+          "ReleaseDisplayPawn"
+        ]
+      ]
+    },
+    {
+      "button": "unhandled",
+      "initially_open": false,
+      "player_available": true,
+      "hud_initial": false,
+      "hud_final": false,
+      "actions": []
+    },
+    {
+      "button": "btnMileniumPreview",
+      "initially_open": false,
+      "player_available": false,
+      "hud_initial": false,
+      "hud_final": false,
+      "actions": [
+        [
+          "HideWindow",
+          [
+            "window",
+            "MobInformerWnd"
+          ],
+          []
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.MobViewport"
+          ],
+          []
+        ],
+        [
+          "SetAnchor",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          [
+            "InventoryWnd",
+            "TopLeft",
+            "TopRight",
+            -6,
+            33
+          ]
+        ],
+        [
+          "PortraitExpanded",
+          true
+        ],
+        [
+          "PrepareDisplayPawn"
+        ],
+        [
+          "PortraitExpanded",
+          false
+        ],
+        [
+          "HideWindow",
+          [
+            "window",
+            "StatusWnd.HudPortraitViewport"
+          ],
+          []
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ],
+        [
+          "BindPreview",
+          [
+            [
+              "window",
+              "MileniumInventoryPreviewWnd.MobViewport"
+            ],
+            null,
+            35.0,
+            30.0,
+            100.0
+          ]
+        ],
+        [
+          "SetStageBackground",
+          [
+            [
+              "texture",
+              "L2UI_CH3.AbnormalWnd.Inventory_DF_CharacterEquipBg"
+            ]
+          ]
+        ],
+        [
+          "SetText",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.RenderStatus"
+          ],
+          [
+            "Render 3D: -3 / Fundo: 1"
+          ]
+        ]
+      ]
+    },
+    {
+      "button": "btnMileniumPreview",
+      "initially_open": false,
+      "player_available": true,
+      "hud_initial": true,
+      "hud_final": true,
+      "actions": [
+        [
+          "HideWindow",
+          [
+            "window",
+            "MobInformerWnd"
+          ],
+          []
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.MobViewport"
+          ],
+          []
+        ],
+        [
+          "SetAnchor",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          [
+            "InventoryWnd",
+            "TopLeft",
+            "TopRight",
+            -6,
+            33
+          ]
+        ],
+        [
+          "PrepareDisplayPawn"
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ],
+        [
+          "BindPreview",
+          [
+            [
+              "window",
+              "MileniumInventoryPreviewWnd.MobViewport"
+            ],
+            "display-pawn",
+            35.0,
+            30.0,
+            100.0
+          ]
+        ],
+        [
+          "SetStageBackground",
+          [
+            [
+              "texture",
+              "L2UI_CH3.AbnormalWnd.Inventory_DF_CharacterEquipBg"
+            ]
+          ]
+        ],
+        [
+          "SetText",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.RenderStatus"
+          ],
+          [
+            "Render 3D: 1 / Fundo: 1"
+          ]
+        ]
+      ]
+    },
+    {
+      "button": "btnMileniumPreview",
+      "initially_open": true,
+      "player_available": true,
+      "hud_initial": true,
+      "hud_final": true,
+      "actions": [
+        [
+          "ReleasePreview",
+          []
+        ],
+        [
+          "HideWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ]
+      ]
+    },
+    {
+      "button": "unhandled",
+      "initially_open": false,
+      "player_available": true,
+      "hud_initial": true,
+      "hud_final": true,
+      "actions": []
+    },
+    {
+      "button": "btnMileniumPreview",
+      "initially_open": false,
+      "player_available": false,
+      "hud_initial": true,
+      "hud_final": true,
+      "actions": [
+        [
+          "HideWindow",
+          [
+            "window",
+            "MobInformerWnd"
+          ],
+          []
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.MobViewport"
+          ],
+          []
+        ],
+        [
+          "SetAnchor",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          [
+            "InventoryWnd",
+            "TopLeft",
+            "TopRight",
+            -6,
+            33
+          ]
+        ],
+        [
+          "PrepareDisplayPawn"
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ],
+        [
+          "BindPreview",
+          [
+            [
+              "window",
+              "MileniumInventoryPreviewWnd.MobViewport"
+            ],
+            null,
+            35.0,
+            30.0,
+            100.0
+          ]
+        ],
+        [
+          "SetStageBackground",
+          [
+            [
+              "texture",
+              "L2UI_CH3.AbnormalWnd.Inventory_DF_CharacterEquipBg"
+            ]
+          ]
+        ],
+        [
+          "SetText",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.RenderStatus"
+          ],
+          [
+            "Render 3D: -3 / Fundo: 1"
+          ]
+        ]
+      ]
+    },
+    {
+      "missing_texture_case": true,
+      "actions": [
+        [
+          "HideWindow",
+          [
+            "window",
+            "MobInformerWnd"
+          ],
+          []
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.MobViewport"
+          ],
+          []
+        ],
+        [
+          "SetAnchor",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          [
+            "InventoryWnd",
+            "TopLeft",
+            "TopRight",
+            -6,
+            33
+          ]
+        ],
+        [
+          "PortraitExpanded",
+          true
+        ],
+        [
+          "PrepareDisplayPawn"
+        ],
+        [
+          "PortraitExpanded",
+          false
+        ],
+        [
+          "HideWindow",
+          [
+            "window",
+            "StatusWnd.HudPortraitViewport"
+          ],
+          []
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ],
+        [
+          "BindPreview",
+          [
+            [
+              "window",
+              "MileniumInventoryPreviewWnd.MobViewport"
+            ],
+            "display-pawn",
+            35.0,
+            30.0,
+            100.0
+          ]
+        ],
+        [
+          "SetStageBackground",
+          [
+            null
+          ]
+        ],
+        [
+          "SetText",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.RenderStatus"
+          ],
+          [
+            "Render 3D: 1 / Fundo: 0"
+          ]
+        ]
+      ]
+    }
+  ]
+}

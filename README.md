@@ -1,3 +1,11 @@
+## Inventário 3D — TESTE 4, fundo no caminho informado
+
+[**Baixar teste com o fundo**](Inventario_Personagem_TESTE4/Milenium_Inventario_Personagem_TESTE4.zip) · [Instruções e limites](Inventario_Personagem_TESTE4/README.md)
+
+Usa `L2UI_CH3.AbnormalWnd.Inventory_DF_CharacterEquipBg` no painel e na cena 3D, com UV 0,0,284,419 do atlas original 512×512. Copie os três arquivos de system e mantenha o L2UI_CH3 que você editou. O rodapé informa Render 3D e Fundo. Estruturas e recorte x86 verificados em simulação; resultado visual ainda aguarda teste no jogo. Inclui retorno ao TESTE 2.
+
+---
+
 ## Fundo Classic do inventário localizado
 
 [**Ver a imagem extraída**](Fundo_Classic_Inventario/PREVIA.png) · [**Baixar PNG/TGA**](Fundo_Classic_Inventario/Fundo_Classic_Inventario_Extraido.zip) · [Referência e UV](Fundo_Classic_Inventario/README.md)

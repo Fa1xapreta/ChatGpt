@@ -1,0 +1,33 @@
+{
+  "kit": "InventoryPreview_TESTE4",
+  "visual_runtime_tested": false,
+  "shared_mob_renderer": true,
+  "hud_renderer_preserved": true,
+  "original_dispatch_branch_offsets_preserved": true,
+  "uses_hud_display_pawn_not_world_actor": true,
+  "background_reference": "L2UI_CH3.AbnormalWnd.Inventory_DF_CharacterEquipBg",
+  "background_uv_pixels": [
+    0,
+    0,
+    284,
+    419
+  ],
+  "patched_functions": [
+    "InventoryWnd.OnClickButton",
+    "InventoryWnd.OnHide",
+    "MobInformerWnd.OnShow",
+    "InventoryWnd.OnEvent",
+    "StatusWnd.ReleaseOptionalPortrait",
+    "InventoryWnd.ScriptText",
+    "MobInformerWnd.ScriptText",
+    "StatusWnd.ScriptText"
+  ],
+  "native_pic_wrapper_in_unused_padding_rva": "0x181230",
+  "native_patched_sites": [
+    "0x4fb8",
+    "0x4550",
+    "0x2d1d"
+  ],
+  "no_server_or_graphics_or_cloak_dll_changes": true,
+  "original_dll_sha256": "2b65ddc8c69bd57c1ee8dc65557110f0b186e160acecd6523daf610872e689f3"
+}
