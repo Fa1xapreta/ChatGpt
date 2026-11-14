@@ -169,6 +169,8 @@ nb[rawptr:rawptr+len(code)]=code
 struct.pack_into('<I',nb,last.get_field_absolute_offset('Misc_VirtualSize'),max(last.Misc_VirtualSize,rva-last.VirtualAddress+len(code)))
 struct.pack_into('<I',nb,pe.OPTIONAL_HEADER.get_field_absolute_offset('CheckSum'),0)
 o=pe.get_offset_from_rva(site);nb[o:o+5]=b'\xe8'+struct.pack('<i',rva-site-5);(OUT/'system/MileniumPortraitNative.dll').write_bytes(nb)
+import runpy
+runpy.run_path(str(R/'extend_native3.py'))
 # Document exact source-level changes rather than alter the embedded original ScriptText.
 import runpy
 runpy.run_path(str(R/'write_sources3.py'))

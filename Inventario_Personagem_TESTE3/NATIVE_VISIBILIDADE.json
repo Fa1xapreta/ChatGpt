@@ -1,0 +1,10 @@
+{
+  "hook_rva": "0x4550",
+  "wrapper_rva": "0x1812b0",
+  "wrapper_bytes": 67,
+  "hud_branch_preserved": true,
+  "new_inventory_parent_only": true,
+  "original_restore_flags_code_rva": "0x4cb5..0x4cc8",
+  "source_character_visibility_not_changed_outside_preview": true,
+  "windows_runtime_tested": false
+}

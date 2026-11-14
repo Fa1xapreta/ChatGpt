@@ -2,7 +2,7 @@
 
 [**Baixar teste de pose e enquadramento**](Inventario_Personagem_TESTE3/Milenium_Inventario_Personagem_TESTE3.zip) · [Limites e instalação](Inventario_Personagem_TESTE3/README.md)
 
-Requer TESTE 2 funcionando. Troca somente interface.u para usar a cópia do retrato, com pose de espera e enquadramento de corpo inteiro. Inclui retorno ao TESTE 2. Fundo continua pendente do L2UI_CT1 dividido em partes menores; a ferramenta recusou o RAR acima de 32 MiB. Bytecode e ciclo de vida verificados com APIs simuladas; imagem, capas e efeitos da cópia ainda precisam de confirmação no Windows. O kit estável de capas não foi alterado.
+Requer TESTE 2 funcionando. Altera interface.u e a DLL de prévia para usar a cópia do retrato, com visibilidade restrita ao painel, pose de espera e enquadramento de corpo inteiro. Inclui retorno ao TESTE 2. Fundo continua pendente do L2UI_CT1 dividido em partes menores; a ferramenta recusou o RAR acima de 32 MiB. Bytecode e ciclo de vida verificados com APIs simuladas; imagem, capas e efeitos da cópia ainda precisam de confirmação no Windows. O kit estável de capas não foi alterado.
 
 ---
 

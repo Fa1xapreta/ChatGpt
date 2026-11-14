@@ -78,7 +78,8 @@ a=pefile.PE('/workspace/attachments/4bd198f4-d35d-488f-88d6-785bfc6b168f/Mileniu
 assert a.FILE_HEADER.Machine==b.FILE_HEADER.Machine==0x14c
 assert [(e.name,e.address,e.ordinal) for e in a.DIRECTORY_ENTRY_EXPORT.symbols]==[(e.name,e.address,e.ordinal) for e in b.DIRECTORY_ENTRY_EXPORT.symbols]
 assert a.get_data(a.OPTIONAL_HEADER.DATA_DIRECTORY[5].VirtualAddress,a.OPTIONAL_HEADER.DATA_DIRECTORY[5].Size)==b.get_data(b.OPTIONAL_HEADER.DATA_DIRECTORY[5].VirtualAddress,b.OPTIONAL_HEADER.DATA_DIRECTORY[5].Size)
-ac=a.get_data(0x1000,0x12c00);bc=b.get_data(0x1000,0x12c00);assert ac[:0x3fb8]==bc[:0x3fb8] and ac[0x3fbd:]==bc[0x3fbd:]
+ac=a.get_data(0x1000,0x12c00);bc=b.get_data(0x1000,0x12c00)
+assert ac[:0x3550]==bc[:0x3550] and ac[0x3556:0x3fb8]==bc[0x3556:0x3fb8] and ac[0x3fbd:]==bc[0x3fbd:]
 assert a.get_data(0x14000,0x3e00)==b.get_data(0x14000,0x3e00)
 result={'bytecode_checked':checks,'xdat_190_roots_parsed':True,'original_inventory_controls_preserved':True,'all_other_root_windows_byte_identical':True,'xdat_shortcuts_and_tail_preserved':True,'native_exports_and_existing_relocations_preserved':True,'native_original_data_unchanged':True,'windows_game_executed':False}
 (O/'VALIDACAO.json').write_text(json.dumps(result,indent=2));print(json.dumps(result,indent=2))

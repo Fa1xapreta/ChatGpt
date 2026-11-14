@@ -1,0 +1,137 @@
+{
+  "actual_x86_emulated": true,
+  "name_predicate_mocked": true,
+  "original_restore_actor_flags_code_unchanged": true,
+  "cases": [
+    {
+      "base": "0x10000000",
+      "original_hud_role": 1,
+      "parent_name": "StatusWnd",
+      "branch": "0x4556",
+      "name_checks": []
+    },
+    {
+      "base": "0x10000000",
+      "original_hud_role": 0,
+      "parent_name": "MileniumInventoryPreviewWnd",
+      "branch": "0x4556",
+      "name_checks": [
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x10000000",
+      "original_hud_role": 0,
+      "parent_name": "MobInformerWnd",
+      "branch": "0x45c3",
+      "name_checks": [
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x10000000",
+      "original_hud_role": 0,
+      "parent_name": "TeleportWnd",
+      "branch": "0x45c3",
+      "name_checks": [
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x10000000",
+      "original_hud_role": 0,
+      "parent_name": "UnknownWnd",
+      "branch": "0x45c3",
+      "name_checks": [
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "original_hud_role": 1,
+      "parent_name": "StatusWnd",
+      "branch": "0x4556",
+      "name_checks": []
+    },
+    {
+      "base": "0x33000000",
+      "original_hud_role": 0,
+      "parent_name": "MileniumInventoryPreviewWnd",
+      "branch": "0x4556",
+      "name_checks": [
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "original_hud_role": 0,
+      "parent_name": "MobInformerWnd",
+      "branch": "0x45c3",
+      "name_checks": [
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "original_hud_role": 0,
+      "parent_name": "TeleportWnd",
+      "branch": "0x45c3",
+      "name_checks": [
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "original_hud_role": 0,
+      "parent_name": "UnknownWnd",
+      "branch": "0x45c3",
+      "name_checks": [
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x500000",
+      "original_hud_role": 1,
+      "parent_name": "StatusWnd",
+      "branch": "0x4556",
+      "name_checks": []
+    },
+    {
+      "base": "0x500000",
+      "original_hud_role": 0,
+      "parent_name": "MileniumInventoryPreviewWnd",
+      "branch": "0x4556",
+      "name_checks": [
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x500000",
+      "original_hud_role": 0,
+      "parent_name": "MobInformerWnd",
+      "branch": "0x45c3",
+      "name_checks": [
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x500000",
+      "original_hud_role": 0,
+      "parent_name": "TeleportWnd",
+      "branch": "0x45c3",
+      "name_checks": [
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x500000",
+      "original_hud_role": 0,
+      "parent_name": "UnknownWnd",
+      "branch": "0x45c3",
+      "name_checks": [
+        "MileniumInventoryPreviewWnd"
+      ]
+    }
+  ],
+  "windows_game_executed": false
+}
