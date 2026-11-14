@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 7
+
+[Baixar ZIP](Inventario_Personagem_TESTE7/Milenium_Inventory_Viewr_TESTE7.zip) · [Instruções](Inventario_Personagem_TESTE7/README.md). Câmera mais afastada e sincronização das malhas de armas, escudo e capa. Para quem usa o TESTE 6B, substitua somente a DLL. Aguarda confirmação visual no cliente.
+
 ## Inventário — correção TESTE 6B
 
 [Baixar somente a DLL corrigida](Inventario_Personagem_TESTE6B/Correcao_DLL_TESTE6B.zip) · [Pacote completo](Inventario_Personagem_TESTE6B/Milenium_Inventario_TESTE6B.zip) · [Instruções](Inventario_Personagem_TESTE6B/README.md). Corrige um intervalo inválido no cabeçalho PE do TESTE 6, rejeitado pelo Windows com erro 193. Aguarda confirmação no cliente.
