@@ -1,0 +1,513 @@
+{
+  "real_x86_emulated": true,
+  "engine_name_predicate_mocked": true,
+  "actual_PE_base_relocations_applied_before_emulation": true,
+  "all_registers_stack_and_other_draw_parameters_checked": true,
+  "cases": [
+    {
+      "base": "0x10000000",
+      "parent": "MileniumInventoryPreviewWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        0.0,
+        0.0,
+        284.0,
+        419.0
+      ]
+    },
+    {
+      "base": "0x10000000",
+      "parent": "MileniumInventoryPreviewWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        0.0,
+        0.0,
+        284.0,
+        419.0
+      ]
+    },
+    {
+      "base": "0x10000000",
+      "parent": "MobInformerWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        272.0,
+        473.0
+      ]
+    },
+    {
+      "base": "0x10000000",
+      "parent": "MobInformerWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        208.0,
+        330.0
+      ]
+    },
+    {
+      "base": "0x10000000",
+      "parent": "UnknownWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        272.0,
+        473.0
+      ]
+    },
+    {
+      "base": "0x10000000",
+      "parent": "UnknownWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        208.0,
+        330.0
+      ]
+    },
+    {
+      "base": "0x10100000",
+      "parent": "MileniumInventoryPreviewWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        0.0,
+        0.0,
+        284.0,
+        419.0
+      ]
+    },
+    {
+      "base": "0x10100000",
+      "parent": "MileniumInventoryPreviewWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        0.0,
+        0.0,
+        284.0,
+        419.0
+      ]
+    },
+    {
+      "base": "0x10100000",
+      "parent": "MobInformerWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        272.0,
+        473.0
+      ]
+    },
+    {
+      "base": "0x10100000",
+      "parent": "MobInformerWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        208.0,
+        330.0
+      ]
+    },
+    {
+      "base": "0x10100000",
+      "parent": "UnknownWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        272.0,
+        473.0
+      ]
+    },
+    {
+      "base": "0x10100000",
+      "parent": "UnknownWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        208.0,
+        330.0
+      ]
+    },
+    {
+      "base": "0x10340000",
+      "parent": "MileniumInventoryPreviewWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        0.0,
+        0.0,
+        284.0,
+        419.0
+      ]
+    },
+    {
+      "base": "0x10340000",
+      "parent": "MileniumInventoryPreviewWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        0.0,
+        0.0,
+        284.0,
+        419.0
+      ]
+    },
+    {
+      "base": "0x10340000",
+      "parent": "MobInformerWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        272.0,
+        473.0
+      ]
+    },
+    {
+      "base": "0x10340000",
+      "parent": "MobInformerWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        208.0,
+        330.0
+      ]
+    },
+    {
+      "base": "0x10340000",
+      "parent": "UnknownWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        272.0,
+        473.0
+      ]
+    },
+    {
+      "base": "0x10340000",
+      "parent": "UnknownWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        208.0,
+        330.0
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "parent": "MileniumInventoryPreviewWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        0.0,
+        0.0,
+        284.0,
+        419.0
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "parent": "MileniumInventoryPreviewWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        0.0,
+        0.0,
+        284.0,
+        419.0
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "parent": "MobInformerWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        272.0,
+        473.0
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "parent": "MobInformerWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        208.0,
+        330.0
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "parent": "UnknownWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        272.0,
+        473.0
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "parent": "UnknownWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        208.0,
+        330.0
+      ]
+    },
+    {
+      "base": "0x6fba0000",
+      "parent": "MileniumInventoryPreviewWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        0.0,
+        0.0,
+        284.0,
+        419.0
+      ]
+    },
+    {
+      "base": "0x6fba0000",
+      "parent": "MileniumInventoryPreviewWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        0.0,
+        0.0,
+        284.0,
+        419.0
+      ]
+    },
+    {
+      "base": "0x6fba0000",
+      "parent": "MobInformerWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        272.0,
+        473.0
+      ]
+    },
+    {
+      "base": "0x6fba0000",
+      "parent": "MobInformerWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        208.0,
+        330.0
+      ]
+    },
+    {
+      "base": "0x6fba0000",
+      "parent": "UnknownWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        272.0,
+        473.0
+      ]
+    },
+    {
+      "base": "0x6fba0000",
+      "parent": "UnknownWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        208.0,
+        330.0
+      ]
+    },
+    {
+      "base": "0x500000",
+      "parent": "MileniumInventoryPreviewWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        0.0,
+        0.0,
+        284.0,
+        419.0
+      ]
+    },
+    {
+      "base": "0x500000",
+      "parent": "MileniumInventoryPreviewWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        0.0,
+        0.0,
+        284.0,
+        419.0
+      ]
+    },
+    {
+      "base": "0x500000",
+      "parent": "MobInformerWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        272.0,
+        473.0
+      ]
+    },
+    {
+      "base": "0x500000",
+      "parent": "MobInformerWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        208.0,
+        330.0
+      ]
+    },
+    {
+      "base": "0x500000",
+      "parent": "UnknownWnd",
+      "viewport": [
+        270,
+        429
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        272.0,
+        473.0
+      ]
+    },
+    {
+      "base": "0x500000",
+      "parent": "UnknownWnd",
+      "viewport": [
+        206,
+        286
+      ],
+      "source_uv": [
+        2.0,
+        44.0,
+        208.0,
+        330.0
+      ]
+    }
+  ],
+  "windows_tested": false
+}

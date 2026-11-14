@@ -1,3 +1,7 @@
+## Inventário — correção TESTE 6B
+
+[Baixar somente a DLL corrigida](Inventario_Personagem_TESTE6B/Correcao_DLL_TESTE6B.zip) · [Pacote completo](Inventario_Personagem_TESTE6B/Milenium_Inventario_TESTE6B.zip) · [Instruções](Inventario_Personagem_TESTE6B/README.md). Corrige um intervalo inválido no cabeçalho PE do TESTE 6, rejeitado pelo Windows com erro 193. Aguarda confirmação no cliente.
+
 ## Inventário 3D — TESTE 6
 
 [Baixar ZIP](Inventario_Personagem_TESTE6/Milenium_Inventario_Personagem_TESTE6.zip): tamanho fixo ao equipar, atualização dos itens, título Inventory Viewr e rotação ao arrastar. Inclui restauração para o TESTE 5. Teste no cliente ainda necessário.

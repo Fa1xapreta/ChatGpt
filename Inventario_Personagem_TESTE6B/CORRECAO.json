@@ -1,0 +1,44 @@
+{
+  "original_sha256": "d15e409b4f70ae067c50a1ce42d3ee0a2ee12cb8937554bb98bc169e5195b8f6",
+  "corrected_sha256": "c1487932953f911a3abdf90cc4162cb70d4f5f4154f8e1a53bfe1f6cadeffe96",
+  "changed_file_offsets": [
+    504,
+    505
+  ],
+  "fix": "Reserve .iview virtual range through 0x184000; eliminate unmapped section gap at RVA 0x183000",
+  "section_layout": [
+    {
+      "section": ".text",
+      "rva": "0x1000",
+      "next": "0x14000"
+    },
+    {
+      "section": ".data",
+      "rva": "0x14000",
+      "next": "0x180000"
+    },
+    {
+      "section": ".reloc",
+      "rva": "0x180000",
+      "next": "0x182000"
+    },
+    {
+      "section": ".iview",
+      "rva": "0x182000",
+      "next": "0x184000"
+    },
+    {
+      "section": ".ivdata",
+      "rva": "0x184000",
+      "next": "0x186000"
+    },
+    {
+      "section": ".ivrel",
+      "rva": "0x186000",
+      "next": "0x187000"
+    }
+  ],
+  "all_sections_consecutive": true,
+  "code_imports_exports_relocations_unchanged": true,
+  "windows_load_not_executed_here": true
+}
