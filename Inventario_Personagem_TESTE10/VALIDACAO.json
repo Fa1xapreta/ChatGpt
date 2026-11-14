@@ -1,0 +1,78 @@
+{
+  "windows_game_run": false,
+  "engine_calls_mocked": true,
+  "results": [
+    {
+      "base": "0x10000000",
+      "fixed_camera": [
+        193.0354461669922,
+        200.0,
+        334.7099914550781
+      ],
+      "equipment_refresh": true,
+      "drag_rotation": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10100000",
+      "fixed_camera": [
+        193.0354461669922,
+        200.0,
+        334.7099914550781
+      ],
+      "equipment_refresh": true,
+      "drag_rotation": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10340000",
+      "fixed_camera": [
+        193.0354461669922,
+        200.0,
+        334.7099914550781
+      ],
+      "equipment_refresh": true,
+      "drag_rotation": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x33000000",
+      "fixed_camera": [
+        193.0354461669922,
+        200.0,
+        334.7099914550781
+      ],
+      "equipment_refresh": true,
+      "drag_rotation": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x6fba0000",
+      "fixed_camera": [
+        193.0354461669922,
+        200.0,
+        334.7099914550781
+      ],
+      "equipment_refresh": true,
+      "drag_rotation": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x500000",
+      "fixed_camera": [
+        193.0354461669922,
+        200.0,
+        334.7099914550781
+      ],
+      "equipment_refresh": true,
+      "drag_rotation": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    }
+  ]
+}

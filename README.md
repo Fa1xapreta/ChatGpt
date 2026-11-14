@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 10
+
+[Baixar ZIP](Inventario_Personagem_TESTE10/Milenium_Inventory_Viewr_TESTE10.zip) · [Instruções](Inventario_Personagem_TESTE10/README.md). Personagem menor e pés mais baixos; clonagem independente de ExtraMeshDatas e identificação da arma para o encantamento. Confirmação visual de capa, brilho e alinhamento ainda necessária. Para quem está no TESTE 9, substitua somente a DLL.
+
 ## Inventory Viewr — TESTE 9
 
 [Baixar ZIP](Inventario_Personagem_TESTE9/Milenium_Inventory_Viewr_TESTE9.zip) · [Instruções](Inventario_Personagem_TESTE9/README.md). Correção candidata para a prévia vazia no TESTE 8. Retira a cópia dos IDs internos e restaura as dimensões do campo de diagnóstico, mantendo-o transparente. Inclui retorno ao TESTE 7. Aguarda teste no cliente.
