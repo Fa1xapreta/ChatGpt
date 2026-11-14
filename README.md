@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 9
+
+[Baixar ZIP](Inventario_Personagem_TESTE9/Milenium_Inventory_Viewr_TESTE9.zip) · [Instruções](Inventario_Personagem_TESTE9/README.md). Correção candidata para a prévia vazia no TESTE 8. Retira a cópia dos IDs internos e restaura as dimensões do campo de diagnóstico, mantendo-o transparente. Inclui retorno ao TESTE 7. Aguarda teste no cliente.
+
 ## Inventory Viewr — TESTE 8
 
 [Baixar ZIP](Inventario_Personagem_TESTE8/Milenium_Inventory_Viewr_TESTE8.zip) · [Instruções](Inventario_Personagem_TESTE8/README.md). Personagem menor e mais baixo, rodapé oculto, painel encostado no inventário e sincronização do nível de encantamento da arma. Copie os três arquivos de system. Cor/brilho aguardam confirmação no jogo.
