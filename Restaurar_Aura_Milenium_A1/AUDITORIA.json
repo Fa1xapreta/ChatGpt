@@ -1,0 +1,33 @@
+{
+  "finding": "Original aura module refuses the model D3DDrv before installing hooks",
+  "files": {
+    "original": {
+      "bytes": 1277972,
+      "sha256": "f670f30ce22973a36e8fec49c3536c9ed05a49fe47b9205a778230a1c17e79e2",
+      "fnv32": "0x167faa65"
+    },
+    "model": {
+      "bytes": 1277972,
+      "sha256": "2b496d235cca529b6180588a987ca0059600a2323193d96e87b90014105be0c2",
+      "fnv32": "0xc2b0e85b"
+    }
+  },
+  "native_gate": {
+    "module": "L2modExCore.dll",
+    "size_compare_va": "0x68005cf4",
+    "required_size": "0x138014",
+    "hash_compare_va": "0x68005d02",
+    "required_fnv32": "0x167faa65",
+    "reject_log": "D3DDrv diferente da system auditada. Efeito desativado. FNV32",
+    "disassembly_bytes_hex": "81bd78ffffff1480130089c275073d65aa7f16740fb8a68f0068e847bbffffe9bf060000"
+  },
+  "repair": "Restore the users original D3DDrv.dll; do not patch aura or cape checks",
+  "runtime_verified": false,
+  "preserve": [
+    "Fighter.ukx TESTE7 confirmed by user",
+    "CapasClassic DLL and INI",
+    "MileniumFX and d3d9 bridge",
+    "CliExt, MilAuraWait and L2modExCore",
+    "server files and other race assets"
+  ]
+}

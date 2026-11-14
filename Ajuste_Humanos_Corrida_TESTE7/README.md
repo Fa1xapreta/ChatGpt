@@ -1,5 +1,7 @@
 # TESTE 7 — âncora da capa na corrida dos humanos fighter
 
+**O usuário confirmou melhora e aprovou o resultado no jogo.** A restauração de aura A1 preserva este Fighter.ukx.
+
 [Baixar o teste reversível](Milenium_Humanos_Corrida_TESTE7.zip).
 
 Feche totalmente o jogo, extraia e execute **APLICAR.bat** sobre o cliente com TESTE 5. Teste a Freya 31394 correndo, virando, parando, atacando e montando. **DESFAZER.bat** restaura o Fighter.ukx original guardado em `Milenium_Humanos_Backup_TESTE7`.

@@ -1,3 +1,11 @@
+## Aura Milenium — restauração A1
+
+[**Baixar a restauração da aura**](Restaurar_Aura_Milenium_A1/Milenium_Restaurar_Aura_A1.zip) · [Causa e instruções](Restaurar_Aura_Milenium_A1/README.md)
+
+A DLL da aura recusa o D3DDrv.dll do modelo instalado no TESTE 3/5. O pacote devolve apenas o driver original aceito, preservando o Fighter.ukx do TESTE 7 aprovado e os arquivos dos efeitos de imagem. Feche o jogo, execute RESTAURAR_AURA.bat, abra o cliente e pressione F10 sem Ctrl. O retorno visual ainda precisa de confirmação no jogo. Há backup, desfazer e verificação de logs caso permaneça ausente.
+
+---
+
 ## TESTE 7 — corrida dos humanos fighter (experimental)
 
 [**Baixar ajuste reversível da âncora da capa**](Ajuste_Humanos_Corrida_TESTE7/Milenium_Humanos_Corrida_TESTE7.zip) · [Escopo e limites](Ajuste_Humanos_Corrida_TESTE7/README.md)

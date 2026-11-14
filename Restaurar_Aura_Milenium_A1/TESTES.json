@@ -1,0 +1,13 @@
+{
+  "passed": [
+    "normal",
+    "already_original",
+    "unknown_version",
+    "modified_after",
+    "write_failure",
+    "tampered_payload",
+    "game_open"
+  ],
+  "diagnostic_read_only_checked": true,
+  "platform": "PowerShell 7 Linux, actual driver bytes, Windows elevation/UI mocked; client not run"
+}

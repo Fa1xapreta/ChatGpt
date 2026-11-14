@@ -1,0 +1,41 @@
+MILENIUM - RESTAURACAO DA AURA A1
+
+Use este pacote sobre seu cliente atual com TESTE 5 e a corrida TESTE 7.
+
+1. FECHE TOTALMENTE O JOGO.
+2. Extraia o ZIP inteiro e execute RESTAURAR_AURA.bat.
+3. Aguarde a mensagem DRIVER ORIGINAL RESTAURADO.
+4. Abra o jogo, entre no personagem e pressione somente F10, sem Ctrl,
+   para ligar a aura. O retorno visual ainda precisa ser confirmado no jogo.
+
+O instalador procura seu cliente em:
+C:\Program Files (x86)\LINEAGE ROYAL NOVO
+Se nao encontrar, aparece uma janela para selecionar a pasta do jogo.
+
+A CAUSA ENCONTRADA
+A DLL original da aura exige um D3DDrv.dll especifico. Ela confere tamanho
+e FNV32; o driver do modelo colocado no TESTE 3/5 nao passa nessa conferência,
+entao a aura encerra antes de instalar seus hooks e a tecla F10 nao funciona.
+O pacote devolve SOMENTE system/D3DDrv.dll ao original do seu cliente.
+Nao modifica nem desativa as verificacoes da aura.
+
+PRESERVADO
+Animations/Fighter.ukx com o TESTE 7 aprovado; CapasClassic e seus ajustes;
+d3d9/MileniumGraphics e seus efeitos de imagem; os INIs, CliExt, MilAuraWait,
+L2modExCore, XMLs e multisells. Nao precisa reinstalar o kit completo.
+Confirme tambem as capas e montarias depois da troca do driver.
+
+BACKUP E DESFAZER
+O driver encontrado fica guardado em Milenium_Aura_Backup_A1, na pasta
+do cliente. Se precisar retornar ao driver do modelo, feche o jogo e
+execute DESFAZER.bat deste pacote. Esse retorno pode desativar a aura
+novamente, pois devolve o driver recusado por ela.
+
+SE A AURA CONTINUAR AUSENTE
+Com o personagem visivel e apos tentar F10, execute VERIFICAR_AURA.bat.
+Envie Resultado_Aura_A1.txt gerado nesta pasta. O verificador apenas le
+hashes, modulos e os logs da propria integracao; nao injeta nem altera o jogo.
+
+A comparacao do bloqueio foi confirmada no codigo e os scripts foram
+testados com os arquivos reais em PowerShell Linux, simulando apenas a
+interface/elevacao Windows. O cliente Windows nao foi executado aqui.
