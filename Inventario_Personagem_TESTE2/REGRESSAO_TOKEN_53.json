@@ -1,0 +1,23 @@
+{
+  "original_client_conversion_fixtures": [
+    {
+      "original_function": "InventoryWnd.SetItemCount",
+      "runtime_size": 320,
+      "conversion_prefix_39_53_present": true
+    },
+    {
+      "original_function": "StatusWnd.UpdateUserInfo",
+      "runtime_size": 344,
+      "conversion_prefix_39_53_present": true
+    },
+    {
+      "original_function": "InventoryWnd.SetAdenaText",
+      "runtime_size": 677,
+      "conversion_prefix_39_53_present": true
+    }
+  ],
+  "actual_broken_test1_rejected": true,
+  "actual_error": "('Unknown opcode', '0x53', 867)",
+  "xdat_and_native_dll_unchanged_from_test1": true,
+  "game_launch_validation_pending": true
+}

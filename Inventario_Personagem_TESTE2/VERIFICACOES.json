@@ -1,0 +1,18 @@
+{
+  "kit": "InventoryPreview_TESTE2",
+  "visual_runtime_tested": false,
+  "shared_mob_renderer": true,
+  "hud_renderer_preserved": true,
+  "original_dispatch_branch_offsets_preserved": true,
+  "patched_functions": [
+    "InventoryWnd.OnClickButton",
+    "InventoryWnd.OnHide",
+    "MobInformerWnd.OnShow",
+    "InventoryWnd.ScriptText",
+    "MobInformerWnd.ScriptText"
+  ],
+  "native_pic_wrapper_in_unused_padding_rva": "0x181230",
+  "native_only_existing_instruction_patch": "0x4fb8",
+  "no_server_or_graphics_or_cloak_dll_changes": true,
+  "original_dll_sha256": "2b65ddc8c69bd57c1ee8dc65557110f0b186e160acecd6523daf610872e689f3"
+}

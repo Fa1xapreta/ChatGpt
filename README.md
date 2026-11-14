@@ -1,8 +1,8 @@
-## Inventário com personagem 3D — TESTE 1
+## Inventário 3D — TESTE 2, correção de carregamento
 
-[**Baixar arquivos do teste**](Inventario_Personagem_TESTE1/Milenium_Inventario_Personagem_TESTE1.zip) · [Instalação manual e limites](Inventario_Personagem_TESTE1/README.md)
+[**Baixar TESTE 2**](Inventario_Personagem_TESTE2/Milenium_Inventario_Personagem_TESTE2.zip) · [Instalação e limites](Inventario_Personagem_TESTE2/README.md)
 
-Acrescenta botão pequeno ao inventário e painel à esquerda. Inclui interface.u, interface.xdat, MileniumPortraitNative.dll, fontes alterados e os originais para restaurar. Usa as texturas do L2UI_CH3.u enviado. Compartilha o renderizador de monstros; o retrato do HUD permanece independente. Bytecode e extensão x86 verificados com APIs simuladas; imagem, capas, aura e demais efeitos aguardam confirmação no jogo Windows. Pacote experimental separado do kit estável de capas.
+Corrige o erro `Bad expr token 53` do TESTE 1 usando o prefixo de conversão encontrado no cliente original. Se o TESTE 1 continua instalado, troque apenas interface.u; o XDAT e a DLL permanecem iguais. Se restaurou o cliente, copie os três arquivos. O TESTE 1 foi retirado. Carregamento e resultado visual ainda aguardam teste no Windows.
 
 ---
 

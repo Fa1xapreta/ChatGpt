@@ -1,0 +1,32 @@
+{
+  "bytecode_checked": {
+    "MobInformerWnd.OnShow": {
+      "serialized_bytes": 129,
+      "runtime_bytes": 155,
+      "jump_targets_checked": 2,
+      "context_skips_checked": 4,
+      "all_references_in_range": true
+    },
+    "InventoryWnd.OnHide": {
+      "serialized_bytes": 248,
+      "runtime_bytes": 329,
+      "jump_targets_checked": 6,
+      "context_skips_checked": 9,
+      "all_references_in_range": true
+    },
+    "InventoryWnd.OnClickButton": {
+      "serialized_bytes": 965,
+      "runtime_bytes": 1104,
+      "jump_targets_checked": 40,
+      "context_skips_checked": 17,
+      "all_references_in_range": true
+    }
+  },
+  "xdat_190_roots_parsed": true,
+  "original_inventory_controls_preserved": true,
+  "all_other_root_windows_byte_identical": true,
+  "xdat_shortcuts_and_tail_preserved": true,
+  "native_exports_and_existing_relocations_preserved": true,
+  "native_original_data_unchanged": true,
+  "windows_game_executed": false
+}

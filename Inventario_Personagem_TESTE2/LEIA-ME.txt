@@ -1,0 +1,47 @@
+﻿# Inventário com personagem 3D — TESTE 2
+
+Correção do erro `Bad expr token 53` do TESTE 1: a conversão agora usa o prefixo 39, como o próprio cliente original. Se o TESTE 1 continua instalado, basta trocar system/interface.u; o XDAT e a DLL são idênticos. Se você restaurou os arquivos originais, copie os três arquivos da pasta system.
+
+Este é um teste funcional da integração, ainda sem confirmação dentro do jogo Windows. Acrescenta um botão de personagem de 16x16 no alto à esquerda do inventário e um painel lateral de 270x429.
+
+## Instalação manual
+
+1. Feche o jogo e o launcher.
+2. Guarde uma cópia dos seus arquivos atuais system/interface.u, system/interface.xdat e system/MileniumPortraitNative.dll.
+3. Copie os TRÊS arquivos da pasta system deste ZIP para a system do cliente que você abre.
+4. Mantenha o L2UI_CH3.u que você enviou. As texturas usadas já existem nele; não é necessário substituir texturas, arquivos de capas ou drivers.
+5. Abra o jogo e o inventário. Clique no novo ícone de personagem no canto superior esquerdo, acima dos equipamentos. Deixe espaço à esquerda para o painel aparecer.
+
+Não há instalador. A pasta Classes contém somente os dois fontes alterados para referência; copiar arquivos UC para o cliente não executa a mudança. O interface.u já contém os ajustes binários deste teste.
+
+## O que conferir
+
+- O botão deve abrir e fechar o painel à esquerda.
+- O rodapé mostra o retorno da DLL: Render 3D: 1 significa que ela aceitou a ligação ao personagem; um número negativo identifica uma falha. Isso não comprova sozinho que a imagem está correta.
+- Troque armadura, arma, escudo, acessórios e capa. Observe também brilho e aura com flag/PK e com os equipamentos que você usa.
+- Fechar o inventário deve fechar o painel; o retrato existente do HUD deve continuar funcionando.
+
+A prévia recebe o ator real do jogador para acompanhar seus recursos atuais. A reprodução de anexos do motor de capas, partículas, aura e brilho dentro desse segundo render ainda precisa ser conferida no jogo. Não foram acrescentadas colisões, animações ou cópias artificiais de efeitos.
+
+Neste teste a prévia do inventário compartilha o renderizador de monstros. Abrir o inventário 3D fecha a janela de monstros; abrir a janela de monstros fecha o painel 3D. O retrato do HUD usa outro contexto. A prévia lateral ainda não tem giro ou zoom próprios.
+
+## Retorno do teste
+
+Envie uma captura do painel e do número Render 3D. Se não abrir ou ficar vazio, execute VERIFICAR.bat, escolha a pasta do cliente se necessário e envie Resultado_Inventario_T2.txt. O verificador apenas lê hashes e logs; não instala nem modifica o jogo.
+
+## Restaurar
+
+Feche o jogo e reponha os três arquivos do seu backup. A pasta RESTAURAR/system também contém exatamente os três arquivos originais que você enviou para esta análise. Se tiver feito outra alteração depois do envio, prefira seu backup mais recente.
+
+## Validação realizada
+
+- Regressão: o verificador rejeita o bytecode defeituoso do TESTE 1 e aceita a conversão encontrada em três funções do cliente original.
+- Pacote Unreal: tabelas, referências, tamanhos de bytecode em memória, destinos de saltos e contextos verificados; as demais funções permanecem idênticas.
+- XDAT: 190 janelas lidas; todos os controles originais do inventário, demais janelas, atalhos e dados finais preservados.
+- DLL x86: exportações, código original fora de uma chamada, dados existentes e relocações preservados. A extensão aceita o nome exato do novo painel e mantém as validações anteriores.
+- Executadas 18 emulações das instruções x86 em três endereços de carregamento; chamadas, rejeições, pilha e registradores preservados.
+- Interpretado o bytecode do botão com APIs simuladas para abrir, fechar, ignorar botões alheios e mostrar falha quando não há ator disponível.
+
+Não houve execução do cliente Windows. Esses testes não confirmam a imagem, o posicionamento final, o desempenho ou os efeitos dentro do jogo.
+
+Não altera Java, itens, multisells, posições dos slots, animações dos humanos, DLLs das capas, B2 da aura ou efeitos de imagem. As verificações e os hashes acompanham o pacote.
