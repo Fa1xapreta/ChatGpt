@@ -1,3 +1,11 @@
+## TESTE 7 — corrida dos humanos fighter (experimental)
+
+[**Baixar ajuste reversível da âncora da capa**](Ajuste_Humanos_Corrida_TESTE7/Milenium_Humanos_Corrida_TESTE7.zip) · [Escopo e limites](Ajuste_Humanos_Corrida_TESTE7/README.md)
+
+Sobre o cliente com TESTE 5: feche o jogo, execute APLICAR.bat; DESFAZER.bat restaura. A alteração é restrita a Cape_Bone nas 12 corridas masculinas/femininas do Fighter.ukx enviado. Os pés, as outras animações, malhas, DLLs e arquivos de outras raças permanecem iguais. O resultado visual ainda precisa ser confirmado; o ajuste pode afastar a parte superior da capa durante a corrida. O TESTE 6 continua retirado.
+
+---
+
 ## Humanos fighter — comparação dirigida ao TESTE 5
 
 [**Resultado da análise**](Analise_Humanos_TESTE5/README.md): malhas humanas, mapeamentos dos 25 itens originais e DLL de capas do TESTE 5 coincidem com o modelo. A causa da interseção na corrida ainda não foi confirmada. O Fighter.ukx do cliente atual foi recebido e analisado: índices das pernas e poses-base conferem com as malhas auxiliares das capas; as 12 sequências de corrida humanas foram lidas. Falta a contraparte Fighter.ukx do cliente completo do modelo para comparar as duas corridas. O Fighter-v.ukx do patch só contém malhas de armaduras. Não foi publicado outro ajuste experimental.

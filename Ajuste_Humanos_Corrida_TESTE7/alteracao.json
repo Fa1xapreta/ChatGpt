@@ -1,0 +1,282 @@
+{
+  "name": "TESTE7 human running cape anchor",
+  "source_sha256": "8a22d41ceaa78d52a10b856b923462eb8eb08d61b203d0d7904e464857ae988c",
+  "patched_sha256": "dcd14791f086d0f3053837f12dca8883ee0f2c1e6ea17ba68aab52d88d4ae170",
+  "file_bytes": 19349878,
+  "delta_local_Y": 4.0,
+  "changed_sequences": 12,
+  "all_sequences": 340,
+  "changed_tracks": "Cape_Bone local Y in human Run sequences only",
+  "actual_changed_bytes": 42,
+  "all_other_tracks_and_sequences_unchanged": true,
+  "all_mesh_and_notify_exports_unchanged": true,
+  "package_tables_and_sizes_unchanged": true,
+  "game_tested": false,
+  "reference_running_animations_available": false,
+  "changes": [
+    {
+      "animation": "MFighter_anim",
+      "sequence": "Run_1HS_MFighter",
+      "bone": "Cape_Bone",
+      "bone_index": 36,
+      "component": "local_position_Y",
+      "offset": 1250608,
+      "before": [
+        128,
+        209,
+        151,
+        236
+      ],
+      "after": [
+        58,
+        18,
+        113,
+        236
+      ],
+      "old_value": 2.9295148849487305,
+      "new_value": 6.9295148849487305
+    },
+    {
+      "animation": "MFighter_anim",
+      "sequence": "Run_Bow_MFighter",
+      "bone": "Cape_Bone",
+      "bone_index": 36,
+      "component": "local_position_Y",
+      "offset": 1262717,
+      "before": [
+        128,
+        209,
+        151,
+        236
+      ],
+      "after": [
+        58,
+        18,
+        113,
+        236
+      ],
+      "old_value": 2.9295148849487305,
+      "new_value": 6.9295148849487305
+    },
+    {
+      "animation": "MFighter_anim",
+      "sequence": "Run_2HS_MFighter",
+      "bone": "Cape_Bone",
+      "bone_index": 36,
+      "component": "local_position_Y",
+      "offset": 1273934,
+      "before": [
+        129,
+        209,
+        151,
+        236
+      ],
+      "after": [
+        58,
+        18,
+        113,
+        236
+      ],
+      "old_value": 2.9295151233673096,
+      "new_value": 6.9295148849487305
+    },
+    {
+      "animation": "MFighter_anim",
+      "sequence": "Run_Hand_MFighter",
+      "bone": "Cape_Bone",
+      "bone_index": 36,
+      "component": "local_position_Y",
+      "offset": 1286343,
+      "before": [
+        133,
+        209,
+        151,
+        236
+      ],
+      "after": [
+        56,
+        18,
+        113,
+        236
+      ],
+      "old_value": 2.929514169692993,
+      "new_value": 6.929513931274414
+    },
+    {
+      "animation": "MFighter_anim",
+      "sequence": "Run_Pole_MFighter",
+      "bone": "Cape_Bone",
+      "bone_index": 36,
+      "component": "local_position_Y",
+      "offset": 1297560,
+      "before": [
+        135,
+        209,
+        151,
+        236
+      ],
+      "after": [
+        58,
+        18,
+        113,
+        236
+      ],
+      "old_value": 2.9295146465301514,
+      "new_value": 6.9295148849487305
+    },
+    {
+      "animation": "MFighter_anim",
+      "sequence": "Run_Dual_MFighter",
+      "bone": "Cape_Bone",
+      "bone_index": 36,
+      "component": "local_position_Y",
+      "offset": 1309729,
+      "before": [
+        135,
+        209,
+        151,
+        236
+      ],
+      "after": [
+        58,
+        18,
+        113,
+        236
+      ],
+      "old_value": 2.9295146465301514,
+      "new_value": 6.9295148849487305
+    },
+    {
+      "animation": "FFighter_anim",
+      "sequence": "Run_1HS_FFighter",
+      "bone": "Cape_Bone",
+      "bone_index": 36,
+      "component": "local_position_Y",
+      "offset": 5617780,
+      "before": [
+        55,
+        218,
+        86,
+        147
+      ],
+      "after": [
+        11,
+        49,
+        18,
+        236
+      ],
+      "old_value": 1.9567445516586304,
+      "new_value": 5.95674467086792
+    },
+    {
+      "animation": "FFighter_anim",
+      "sequence": "Run_2HS_FFighter",
+      "bone": "Cape_Bone",
+      "bone_index": 36,
+      "component": "local_position_Y",
+      "offset": 5629575,
+      "before": [
+        56,
+        218,
+        86,
+        147
+      ],
+      "after": [
+        9,
+        49,
+        18,
+        236
+      ],
+      "old_value": 1.9567437171936035,
+      "new_value": 5.9567437171936035
+    },
+    {
+      "animation": "FFighter_anim",
+      "sequence": "Run_Bow_FFighter",
+      "bone": "Cape_Bone",
+      "bone_index": 36,
+      "component": "local_position_Y",
+      "offset": 5641830,
+      "before": [
+        53,
+        218,
+        86,
+        147
+      ],
+      "after": [
+        10,
+        49,
+        18,
+        236
+      ],
+      "old_value": 1.9567443132400513,
+      "new_value": 5.956744194030762
+    },
+    {
+      "animation": "FFighter_anim",
+      "sequence": "Run_Dual_FFighter",
+      "bone": "Cape_Bone",
+      "bone_index": 36,
+      "component": "local_position_Y",
+      "offset": 5654305,
+      "before": [
+        59,
+        218,
+        86,
+        147
+      ],
+      "after": [
+        10,
+        49,
+        18,
+        236
+      ],
+      "old_value": 1.9567440748214722,
+      "new_value": 5.956744194030762
+    },
+    {
+      "animation": "FFighter_anim",
+      "sequence": "Run_Hand_FFighter",
+      "bone": "Cape_Bone",
+      "bone_index": 36,
+      "component": "local_position_Y",
+      "offset": 5666780,
+      "before": [
+        61,
+        218,
+        86,
+        147
+      ],
+      "after": [
+        8,
+        49,
+        18,
+        236
+      ],
+      "old_value": 1.9567433595657349,
+      "new_value": 5.956743240356445
+    },
+    {
+      "animation": "FFighter_anim",
+      "sequence": "Run_Pole_FFighter",
+      "bone": "Cape_Bone",
+      "bone_index": 36,
+      "component": "local_position_Y",
+      "offset": 5679035,
+      "before": [
+        59,
+        218,
+        86,
+        147
+      ],
+      "after": [
+        10,
+        49,
+        18,
+        236
+      ],
+      "old_value": 1.9567440748214722,
+      "new_value": 5.956744194030762
+    }
+  ]
+}

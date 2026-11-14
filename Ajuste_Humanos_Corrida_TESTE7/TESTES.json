@@ -1,0 +1,11 @@
+{
+  "passed": [
+    "normal",
+    "unknown_version",
+    "modified_after",
+    "write_failure",
+    "bad_descriptor",
+    "game_open"
+  ],
+  "platform": "PowerShell 7 Linux, Windows elevation/UI mocked; actual Fighter input; no Windows game test"
+}

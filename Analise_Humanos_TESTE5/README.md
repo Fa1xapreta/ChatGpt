@@ -42,3 +42,7 @@ O TESTE 6 está retirado. Ele alterava um componente do perfil de movimento, sem
 **Causa do clipping ainda não confirmada. Nenhuma nova DLL, DAT ou malha foi substituída nesta investigação.** A próxima comparação será restrita aos assets dos humanos; não há justificativa para trocar os arquivos das outras raças que funcionam.
 
 Os scripts Python dependem da estrutura local de análise e dos arquivos originais. O JSON registra hashes e diferenças verificadas. A definição de chargrp consultada é a [Interlude do L2FileEdit](https://github.com/L2Miko/L2FileEdit/blob/master/data/l2asm-disasm/DAT_defs/Interlude/chargrp.ddf).
+
+## Continuação sem o arquivo-base do modelo
+
+O usuário informou que não possui Fighter.ukx no material do modelo e confirmou que desligar o MileniumFX por Ctrl+F10 não remove a interseção. A comparação exata entre as duas corridas permanece indisponível. Foi preparada uma [adaptação experimental de âncora em Run](../Ajuste_Humanos_Corrida_TESTE7/README.md), restrita aos humanos do arquivo recebido e com restauração. Isso não confirma a causa interna nem equivale a copiar uma animação do modelo.
