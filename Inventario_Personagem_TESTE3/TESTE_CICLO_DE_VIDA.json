@@ -1,0 +1,288 @@
+{
+  "real_new_bytecode_epilogues_interpreted": true,
+  "engine_native_calls_mocked": true,
+  "cases": [
+    {
+      "function": "InventoryWnd.OnHide",
+      "initially_open": false,
+      "hud_expanded": false,
+      "finally_open": false,
+      "actions": []
+    },
+    {
+      "function": "InventoryWnd.OnHide",
+      "initially_open": false,
+      "hud_expanded": true,
+      "finally_open": false,
+      "actions": []
+    },
+    {
+      "function": "InventoryWnd.OnHide",
+      "initially_open": true,
+      "hud_expanded": false,
+      "finally_open": false,
+      "actions": [
+        [
+          "ReleasePreview",
+          []
+        ],
+        [
+          "HideWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ],
+        [
+          "ReleaseDisplayPawn"
+        ]
+      ]
+    },
+    {
+      "function": "InventoryWnd.OnHide",
+      "initially_open": true,
+      "hud_expanded": true,
+      "finally_open": false,
+      "actions": [
+        [
+          "ReleasePreview",
+          []
+        ],
+        [
+          "HideWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ]
+      ]
+    },
+    {
+      "function": "InventoryWnd.OnEvent",
+      "initially_open": false,
+      "hud_expanded": false,
+      "finally_open": false,
+      "actions": []
+    },
+    {
+      "function": "InventoryWnd.OnEvent",
+      "initially_open": false,
+      "hud_expanded": true,
+      "finally_open": false,
+      "actions": []
+    },
+    {
+      "function": "InventoryWnd.OnEvent",
+      "initially_open": true,
+      "hud_expanded": false,
+      "finally_open": true,
+      "actions": [
+        [
+          "PortraitExpanded",
+          true
+        ],
+        [
+          "PrepareDisplayPawn"
+        ],
+        [
+          "PortraitExpanded",
+          false
+        ],
+        [
+          "HideWindow",
+          [
+            "window",
+            "StatusWnd.HudPortraitViewport"
+          ],
+          []
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ],
+        [
+          "BindPreview",
+          [
+            [
+              "window",
+              "MileniumInventoryPreviewWnd.MobViewport"
+            ],
+            "display-pawn",
+            35.0,
+            30.0,
+            100.0
+          ]
+        ],
+        [
+          "SetText",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.RenderStatus"
+          ],
+          [
+            "Render 3D: 1"
+          ]
+        ]
+      ]
+    },
+    {
+      "function": "InventoryWnd.OnEvent",
+      "initially_open": true,
+      "hud_expanded": true,
+      "finally_open": true,
+      "actions": [
+        [
+          "PrepareDisplayPawn"
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ],
+        [
+          "BindPreview",
+          [
+            [
+              "window",
+              "MileniumInventoryPreviewWnd.MobViewport"
+            ],
+            "display-pawn",
+            35.0,
+            30.0,
+            100.0
+          ]
+        ],
+        [
+          "SetText",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.RenderStatus"
+          ],
+          [
+            "Render 3D: 1"
+          ]
+        ]
+      ]
+    },
+    {
+      "function": "MobInformerWnd.OnShow",
+      "initially_open": false,
+      "hud_expanded": false,
+      "finally_open": false,
+      "actions": []
+    },
+    {
+      "function": "MobInformerWnd.OnShow",
+      "initially_open": false,
+      "hud_expanded": true,
+      "finally_open": false,
+      "actions": []
+    },
+    {
+      "function": "MobInformerWnd.OnShow",
+      "initially_open": true,
+      "hud_expanded": false,
+      "finally_open": false,
+      "actions": [
+        [
+          "ReleasePreview",
+          []
+        ],
+        [
+          "HideWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ],
+        [
+          "ReleaseDisplayPawn"
+        ]
+      ]
+    },
+    {
+      "function": "MobInformerWnd.OnShow",
+      "initially_open": true,
+      "hud_expanded": true,
+      "finally_open": false,
+      "actions": [
+        [
+          "ReleasePreview",
+          []
+        ],
+        [
+          "HideWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ]
+      ]
+    },
+    {
+      "function": "StatusWnd.ReleaseOptionalPortrait",
+      "initially_open": false,
+      "hud_expanded": false,
+      "finally_open": false,
+      "actions": []
+    },
+    {
+      "function": "StatusWnd.ReleaseOptionalPortrait",
+      "initially_open": false,
+      "hud_expanded": true,
+      "finally_open": false,
+      "actions": []
+    },
+    {
+      "function": "StatusWnd.ReleaseOptionalPortrait",
+      "initially_open": true,
+      "hud_expanded": false,
+      "finally_open": false,
+      "actions": [
+        [
+          "ReleasePreview",
+          []
+        ],
+        [
+          "HideWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ]
+      ]
+    },
+    {
+      "function": "StatusWnd.ReleaseOptionalPortrait",
+      "initially_open": true,
+      "hud_expanded": true,
+      "finally_open": false,
+      "actions": [
+        [
+          "ReleasePreview",
+          []
+        ],
+        [
+          "HideWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ]
+      ]
+    }
+  ]
+}

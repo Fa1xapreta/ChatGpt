@@ -1,0 +1,1 @@
+Ferramentas de auditoria da sessão, com caminhos locais aos arquivos originais enviados. Não são um SDK portátil. Os relatórios na raiz registram as verificações executadas. Chamadas do jogo foram simuladas; não houve execução Windows. A DLL e o XDAT são idênticos ao TESTE 2; o pacote distribuído modifica somente interface.u.

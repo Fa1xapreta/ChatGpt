@@ -1,0 +1,46 @@
+{
+  "bytecode_checked": {
+    "StatusWnd.ReleaseOptionalPortrait": {
+      "serialized_bytes": 200,
+      "runtime_bytes": 237,
+      "jump_targets_checked": 2,
+      "context_skips_checked": 7,
+      "all_references_in_range": true
+    },
+    "MobInformerWnd.OnShow": {
+      "serialized_bytes": 190,
+      "runtime_bytes": 225,
+      "jump_targets_checked": 4,
+      "context_skips_checked": 6,
+      "all_references_in_range": true
+    },
+    "InventoryWnd.OnHide": {
+      "serialized_bytes": 309,
+      "runtime_bytes": 399,
+      "jump_targets_checked": 8,
+      "context_skips_checked": 11,
+      "all_references_in_range": true
+    },
+    "InventoryWnd.OnEvent": {
+      "serialized_bytes": 649,
+      "runtime_bytes": 743,
+      "jump_targets_checked": 30,
+      "context_skips_checked": 11,
+      "all_references_in_range": true
+    },
+    "InventoryWnd.OnClickButton": {
+      "serialized_bytes": 1218,
+      "runtime_bytes": 1392,
+      "jump_targets_checked": 44,
+      "context_skips_checked": 24,
+      "all_references_in_range": true
+    }
+  },
+  "xdat_190_roots_parsed": true,
+  "original_inventory_controls_preserved": true,
+  "all_other_root_windows_byte_identical": true,
+  "xdat_shortcuts_and_tail_preserved": true,
+  "native_exports_and_existing_relocations_preserved": true,
+  "native_original_data_unchanged": true,
+  "windows_game_executed": false
+}
