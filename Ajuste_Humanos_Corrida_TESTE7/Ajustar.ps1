@@ -4,6 +4,7 @@ $originalSha='8a22d41ceaa78d52a10b856b923462eb8eb08d61b203d0d7904e464857ae988c'
 $patchedSha='dcd14791f086d0f3053837f12dca8883ee0f2c1e6ea17ba68aab52d88d4ae170'
 function Hash-Bytes([byte[]]$bytes){$s=[Security.Cryptography.SHA256]::Create();try{return ([BitConverter]::ToString($s.ComputeHash($bytes))).Replace('-','').ToLowerInvariant()}finally{$s.Dispose()}}
 try{
+ if($Acao -eq 'Aplicar'){throw 'TESTE 7 RETIRADO: afasta o encaixe nos ombros. Use o TESTE 8 ou DESFAZER.bat para restaurar.'}
  $identity=[Security.Principal.WindowsIdentity]::GetCurrent();$principal=New-Object Security.Principal.WindowsPrincipal($identity)
  if(!$principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)){
   $arguments='-NoProfile -ExecutionPolicy Bypass -File "'+$PSCommandPath+'" -Acao '+$Acao;if($Cliente){$arguments+=' -Cliente "'+$Cliente+'"'}

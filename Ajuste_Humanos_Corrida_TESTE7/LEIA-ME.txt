@@ -1,49 +1,6 @@
-MILENIUM - TESTE 7 - CAPAS DOS HUMANOS FIGHTER NA CORRIDA
+TESTE 7 RETIRADO: o deslocamento da ancora afasta a capa dos ombros.
 
-APLICAR SOBRE O CLIENTE QUE ESTA USANDO O TESTE 5.
-O TESTE 6 CONTINUA RETIRADO.
-
-1. FECHE TOTALMENTE O JOGO.
-2. Extraia este ZIP e de dois cliques em APLICAR.bat.
-3. Aguarde TESTE 7 APLICADO e abra o jogo.
-4. Teste correr, virar, parar, atacar e montar com humanos fighter
-   masculino e feminino. Comece com a Freya 31394.
-5. Se nao melhorar ou a capa ficar afastada demais, feche o jogo e
-   execute DESFAZER.bat deste kit para restaurar seu Fighter.ukx original.
-
-O script procura seu jogo em:
-C:\Program Files (x86)\LINEAGE ROYAL NOVO
-Se nao encontrar, abre uma janela para escolher a pasta do cliente.
-Backup: Milenium_Humanos_Backup_TESTE7/Fighter.ukx na pasta do jogo.
-Guarde este kit e esse backup enquanto testa.
-
-Este pacote usa o Fighter.ukx que voce ja tem em Animations.
-O hash e conferido contra o arquivo que voce enviou. Nao e necessario
-copiar um UKX grande manualmente. Outra versao sera recusada antes de gravar.
-
-O QUE MUDA
-Um deslocamento de +4 unidades no eixo Y local de Cape_Bone, indice 36,
-somente nas seis sequencias Run masculinas e seis femininas.
-O objetivo e testar maior folga entre a capa e a passada. Trata-se de
-ADAPTACAO EXPERIMENTAL sobre o seu Fighter.ukx, nao de uma animacao
-copiada do modelo. O arquivo-base de animacoes do modelo nao foi recebido.
-O resultado ainda nao foi confirmado dentro do jogo.
-
-A mudanca afeta TODAS as capas desses dois corpos durante a corrida.
-A posicao da parte superior pode ficar mais afastada do corpo enquanto
-corre; avalie isso tambem. Nao e uma nova deteccao de colisao de pernas.
-
-CONFERENCIAS REALIZADAS
-42 bytes diferem, todos dentro dos 12 valores ajustados.
-As trilhas de pernas/pes, as demais trilhas, as 143 malhas, os eventos e
-a tabela do pacote foram preservados. As outras sequencias, incluindo
-montarias, caminhada, ataques e paradas, permanecem byte a byte iguais.
-Isso nao garante que transicoes entre animacoes fiquem visualmente boas;
-por isso teste as transicoes para parar, atacar e montar.
-
-Os arquivos de outras racas, CapasClassic.dll, d3d9, MileniumFX, CliExt,
-L2modExCore, INIs, Java, DATs, XMLs e multisells permanecem como estao.
-
-Se aparecer erro ao aplicar ou desfazer, preserve o backup e envie a
-mensagem exibida. Se nao houver melhora, volte a versao anterior com
-DESFAZER.bat; o teste nao deve ser tratado como correcao confirmada.
+Para voltar ao original: feche o jogo e execute DESFAZER.bat desta pasta.
+Para avaliar o substituto: use o pacote TESTE 8, que retira o afastamento
+automaticamente. Nao e necessario reinstalar TESTE 5 nem mexer na aura.
+O instalador de aplicacao do TESTE 7 foi bloqueado nesta versao publicada.

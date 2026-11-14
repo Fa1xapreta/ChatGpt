@@ -4,7 +4,7 @@
 
 1. Feche completamente o jogo, extraia o ZIP e execute **RESTAURAR_AURA.bat**.
 2. Abra o jogo, entre no personagem e pressione **F10 sem Ctrl** para ligar a aura.
-3. Confira a aura, as capas e a montaria. O ajuste de corrida TESTE 7 é preservado.
+3. Confira a aura, as capas e a montaria. O Fighter.ukx e o ajuste de corrida que estiver instalado são preservados.
 
 ## Bloqueio encontrado
 

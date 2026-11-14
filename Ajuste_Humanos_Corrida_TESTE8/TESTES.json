@@ -1,0 +1,15 @@
+{
+  "passed": [
+    "from_test7",
+    "from_original",
+    "already_applied",
+    "unknown_version",
+    "modified_after",
+    "write_failure",
+    "tampered_payload",
+    "game_open",
+    "bad_backup"
+  ],
+  "platform": "PowerShell 7 Linux with original/T7/T8 bytes; Windows elevation/UI mocked; no game runtime test",
+  "aura_and_other_race_files_unchanged": true
+}

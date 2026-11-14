@@ -1,0 +1,42 @@
+MILENIUM - TESTE 8 - ENCAIXE ORIGINAL E INCLINACAO NA PASSADA
+
+SUBSTITUI O AFASTAMENTO DO TESTE 7. NAO PRECISA DESFAZER O TESTE 7 ANTES.
+
+1. FECHE TOTALMENTE O JOGO.
+2. Extraia o ZIP INTEIRO e execute APLICAR.bat.
+3. Abra o jogo e teste humanos fighter masculino e feminino, correndo,
+   virando, parando, atacando e montando. Confira principalmente os ombros.
+4. Se nao gostar, feche o jogo e execute DESFAZER.bat deste kit.
+
+O instalador reconhece seu Fighter.ukx original ou o TESTE 7 e remove
+o deslocamento de +4 do TESTE 7 antes de montar a nova animacao.
+Nao copie apenas os arquivos .bin: eles sao dados usados pelo instalador.
+Ele procura o cliente habitual ou abre uma janela para escolher a pasta.
+
+O QUE O TESTE FAZ
+Mantem a POSICAO ORIGINAL da ancora Cape_Bone nas 12 corridas humanas.
+Acrescenta uma inclinacao pequena, variavel, de ate 6 graus em torno do
+encaixe. A fase e calculada pela altura e posicao posterior dos pes nas
+animacoes existentes, com suavizacao entre os frames.
+As trilhas de pernas/pes e a movimentacao original do personagem ficam
+iguais. DLLs, aura A1, cores, INIs, montarias e outras racas ficam intactos.
+As animacoes de andar, atacar, parar e montar nao sao modificadas.
+
+LIMITE IMPORTANTE
+E um TESTE de inclinacao em torno do encaixe original, com maior efeito
+longe desse eixo. NAO e deformacao independente somente dos ossos/vertices
+das pontas e NAO cria uma nova deteccao de colisao com os pes. O resultado
+visual ainda precisa de confirmacao no jogo, inclusive encaixe nos ombros
+e transicoes. Nao e uma copia de animacao ausente do modelo.
+
+BACKUP E DESFAZER
+Pasta no cliente: Milenium_Humanos_Backup_TESTE8.
+Fighter_antes_TESTE8.ukx = arquivo encontrado antes de instalar.
+Fighter_original.ukx = arquivo original, sem o afastamento do TESTE 7.
+DESFAZER.bat restaura Fighter_original.ukx: fica SEM TESTE 7 E SEM TESTE 8.
+O arquivo do estado encontrado tambem fica guardado, sem ser apagado.
+
+Conferido: 12 trilhas de capa alteradas; 21754 outras trilhas e todas as
+trilhas de deslocamento raiz iguais. As 143 malhas e os eventos foram
+preservados. Ponteiros dos blocos realocados foram recalculados e lidos
+novamente ate o fim. O jogo Windows nao foi executado neste ambiente.

@@ -1,16 +1,24 @@
+## Humanos fighter — TESTE 8, sem o afastamento do TESTE 7
+
+[**Baixar teste de inclinação na passada**](Ajuste_Humanos_Corrida_TESTE8/Milenium_Humanos_Corrida_TESTE8.zip) · [Escopo e limites](Ajuste_Humanos_Corrida_TESTE8/README.md)
+
+O TESTE 7 foi retirado após relato de afastamento da capa nos ombros. O TESTE 8 restaura as posições originais da âncora e testa inclinação suave ligada à passada; não implementa deformação independente apenas das pontas nem nova colisão. Instala sobre o original ou TESTE 7 e preserva a aura A1. O resultado visual ainda precisa de confirmação no jogo. DESFAZER.bat restaura o original sem TESTE 7/8.
+
+---
+
 ## Aura Milenium — restauração A1
 
 [**Baixar a restauração da aura**](Restaurar_Aura_Milenium_A1/Milenium_Restaurar_Aura_A1.zip) · [Causa e instruções](Restaurar_Aura_Milenium_A1/README.md)
 
-A DLL da aura recusa o D3DDrv.dll do modelo instalado no TESTE 3/5. O pacote devolve apenas o driver original aceito, preservando o Fighter.ukx do TESTE 7 aprovado e os arquivos dos efeitos de imagem. Feche o jogo, execute RESTAURAR_AURA.bat, abra o cliente e pressione F10 sem Ctrl. O retorno visual ainda precisa de confirmação no jogo. Há backup, desfazer e verificação de logs caso permaneça ausente.
+A DLL da aura recusa o D3DDrv.dll do modelo instalado no TESTE 3/5. O pacote devolve apenas o driver original aceito, preservando o Fighter.ukx instalado e os arquivos dos efeitos de imagem. Feche o jogo, execute RESTAURAR_AURA.bat, abra o cliente e pressione F10 sem Ctrl. O retorno visual ainda precisa de confirmação no jogo. Há backup, desfazer e verificação de logs caso permaneça ausente.
 
 ---
 
-## TESTE 7 — corrida dos humanos fighter (experimental)
+## TESTE 7 — histórico retirado por afastamento nos ombros
 
-[**Baixar ajuste reversível da âncora da capa**](Ajuste_Humanos_Corrida_TESTE7/Milenium_Humanos_Corrida_TESTE7.zip) · [Escopo e limites](Ajuste_Humanos_Corrida_TESTE7/README.md)
+[Restauração do TESTE 7](Ajuste_Humanos_Corrida_TESTE7/Milenium_Humanos_Corrida_TESTE7.zip) · [Escopo e limites](Ajuste_Humanos_Corrida_TESTE7/README.md)
 
-Sobre o cliente com TESTE 5: feche o jogo, execute APLICAR.bat; DESFAZER.bat restaura. A alteração é restrita a Cape_Bone nas 12 corridas masculinas/femininas do Fighter.ukx enviado. Os pés, as outras animações, malhas, DLLs e arquivos de outras raças permanecem iguais. O resultado visual ainda precisa ser confirmado; o ajuste pode afastar a parte superior da capa durante a corrida. O TESTE 6 continua retirado.
+Aplicação retirada: o usuário confirmou melhora nos pés, mas encontrou afastamento da capa nos ombros. Use DESFAZER.bat para restaurar ou consulte o TESTE 8 experimental. O TESTE 6 também continua retirado.
 
 ---
 
