@@ -1,0 +1,78 @@
+{
+  "real_bytecode_interpreted": true,
+  "engine_calls_mocked": true,
+  "footer_handle_not_accessed": true,
+  "explicit_texture_setup_and_arrow_show": true,
+  "function_checks": {
+    "InventoryWnd.OnClickButton": {
+      "runtime_bytes": 1906,
+      "jumps": 44
+    },
+    "InventoryWnd.OnEvent": {
+      "runtime_bytes": 1257,
+      "jumps": 30
+    },
+    "InventoryWnd.OnHide": {
+      "runtime_bytes": 399,
+      "jumps": 8
+    },
+    "MobInformerWnd.OnShow": {
+      "runtime_bytes": 225,
+      "jumps": 4
+    },
+    "StatusWnd.ReleaseOptionalPortrait": {
+      "runtime_bytes": 237,
+      "jumps": 2
+    }
+  },
+  "cases": [
+    {
+      "key": "btnMileniumPreview",
+      "opened": false,
+      "actor": true,
+      "hud": false
+    },
+    {
+      "key": "btnMileniumPreview",
+      "opened": true,
+      "actor": true,
+      "hud": false
+    },
+    {
+      "key": "unhandled",
+      "opened": false,
+      "actor": true,
+      "hud": false
+    },
+    {
+      "key": "btnMileniumPreview",
+      "opened": false,
+      "actor": false,
+      "hud": false
+    },
+    {
+      "key": "btnMileniumPreview",
+      "opened": false,
+      "actor": true,
+      "hud": true
+    },
+    {
+      "key": "btnMileniumPreview",
+      "opened": true,
+      "actor": true,
+      "hud": true
+    },
+    {
+      "key": "unhandled",
+      "opened": false,
+      "actor": true,
+      "hud": true
+    },
+    {
+      "key": "btnMileniumPreview",
+      "opened": false,
+      "actor": false,
+      "hud": true
+    }
+  ]
+}

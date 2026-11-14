@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 12
+
+[Baixar ZIP](Inventario_Personagem_TESTE12/Milenium_Inventory_Viewr_TESTE12.zip) · [Instruções](Inventario_Personagem_TESTE12/README.md). Arquivos instalados e texturas conferidos no ZIP do usuário. Inicialização da prévia independente do rodapé oculto, ativação explícita das setas e enquadramento do TESTE 9. Copie os três arquivos. Renderização no cliente ainda precisa de confirmação; capa/enchant e alinhamento final continuam pendentes.
+
 ## Inventory Viewr — TESTE 11
 
 [Baixar ZIP](Inventario_Personagem_TESTE11/Milenium_Inventory_Viewr_TESTE11.zip) · [Instruções](Inventario_Personagem_TESTE11/README.md). Setas de 64x32 com texturas L2Devil; rotação somente ao pressionar as setas. Retira as mudanças de recursos do TESTE 10 que deixou a prévia vazia. Capa/brilho continuam pendentes. Copie os três arquivos de system.
