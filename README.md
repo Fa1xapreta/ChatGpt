@@ -1,3 +1,11 @@
+## Inventário com personagem 3D — TESTE 1
+
+[**Baixar arquivos do teste**](Inventario_Personagem_TESTE1/Milenium_Inventario_Personagem_TESTE1.zip) · [Instalação manual e limites](Inventario_Personagem_TESTE1/README.md)
+
+Acrescenta botão pequeno ao inventário e painel à esquerda. Inclui interface.u, interface.xdat, MileniumPortraitNative.dll, fontes alterados e os originais para restaurar. Usa as texturas do L2UI_CH3.u enviado. Compartilha o renderizador de monstros; o retrato do HUD permanece independente. Bytecode e extensão x86 verificados com APIs simuladas; imagem, capas, aura e demais efeitos aguardam confirmação no jogo Windows. Pacote experimental separado do kit estável de capas.
+
+---
+
 ## Aura automática de PK/flag — B2
 
 [**Baixar reparo B2**](Restaurar_Aura_PKFlag_B2/Milenium_Aura_PKFlag_B2.zip) · [Instruções e diagnóstico](Restaurar_Aura_PKFlag_B2/README.md)

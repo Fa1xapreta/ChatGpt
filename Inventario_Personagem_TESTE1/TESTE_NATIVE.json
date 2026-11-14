@@ -1,0 +1,175 @@
+{
+  "cases": [
+    {
+      "base": "0x10000000",
+      "actual": "MobInformerWnd",
+      "expected_rva": "0x14d28",
+      "result": 1,
+      "calls": [
+        "MobInformerWnd"
+      ]
+    },
+    {
+      "base": "0x10000000",
+      "actual": "MileniumInventoryPreviewWnd",
+      "expected_rva": "0x14d28",
+      "result": 1,
+      "calls": [
+        "MobInformerWnd",
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x10000000",
+      "actual": "StatusWnd",
+      "expected_rva": "0x14cfc",
+      "result": 1,
+      "calls": [
+        "StatusWnd"
+      ]
+    },
+    {
+      "base": "0x10000000",
+      "actual": "MileniumInventoryPreviewWnd",
+      "expected_rva": "0x14cfc",
+      "result": 0,
+      "calls": [
+        "StatusWnd"
+      ]
+    },
+    {
+      "base": "0x10000000",
+      "actual": "TeleportWnd",
+      "expected_rva": "0x14d10",
+      "result": 1,
+      "calls": [
+        "TeleportWnd"
+      ]
+    },
+    {
+      "base": "0x10000000",
+      "actual": "UnknownWnd",
+      "expected_rva": "0x14d28",
+      "result": 0,
+      "calls": [
+        "MobInformerWnd",
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "actual": "MobInformerWnd",
+      "expected_rva": "0x14d28",
+      "result": 1,
+      "calls": [
+        "MobInformerWnd"
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "actual": "MileniumInventoryPreviewWnd",
+      "expected_rva": "0x14d28",
+      "result": 1,
+      "calls": [
+        "MobInformerWnd",
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "actual": "StatusWnd",
+      "expected_rva": "0x14cfc",
+      "result": 1,
+      "calls": [
+        "StatusWnd"
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "actual": "MileniumInventoryPreviewWnd",
+      "expected_rva": "0x14cfc",
+      "result": 0,
+      "calls": [
+        "StatusWnd"
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "actual": "TeleportWnd",
+      "expected_rva": "0x14d10",
+      "result": 1,
+      "calls": [
+        "TeleportWnd"
+      ]
+    },
+    {
+      "base": "0x33000000",
+      "actual": "UnknownWnd",
+      "expected_rva": "0x14d28",
+      "result": 0,
+      "calls": [
+        "MobInformerWnd",
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x500000",
+      "actual": "MobInformerWnd",
+      "expected_rva": "0x14d28",
+      "result": 1,
+      "calls": [
+        "MobInformerWnd"
+      ]
+    },
+    {
+      "base": "0x500000",
+      "actual": "MileniumInventoryPreviewWnd",
+      "expected_rva": "0x14d28",
+      "result": 1,
+      "calls": [
+        "MobInformerWnd",
+        "MileniumInventoryPreviewWnd"
+      ]
+    },
+    {
+      "base": "0x500000",
+      "actual": "StatusWnd",
+      "expected_rva": "0x14cfc",
+      "result": 1,
+      "calls": [
+        "StatusWnd"
+      ]
+    },
+    {
+      "base": "0x500000",
+      "actual": "MileniumInventoryPreviewWnd",
+      "expected_rva": "0x14cfc",
+      "result": 0,
+      "calls": [
+        "StatusWnd"
+      ]
+    },
+    {
+      "base": "0x500000",
+      "actual": "TeleportWnd",
+      "expected_rva": "0x14d10",
+      "result": 1,
+      "calls": [
+        "TeleportWnd"
+      ]
+    },
+    {
+      "base": "0x500000",
+      "actual": "UnknownWnd",
+      "expected_rva": "0x14d28",
+      "result": 0,
+      "calls": [
+        "MobInformerWnd",
+        "MileniumInventoryPreviewWnd"
+      ]
+    }
+  ],
+  "actual_x86_instructions_emulated": true,
+  "engine_name_predicate_mocked": true,
+  "windows_game_tested": false
+}

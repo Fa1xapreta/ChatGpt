@@ -1,0 +1,167 @@
+{
+  "real_bytecode_interpreted": true,
+  "game_window_and_native_apis_mocked": true,
+  "cases": [
+    {
+      "button": "btnMileniumPreview",
+      "initially_open": false,
+      "player_available": true,
+      "actions": [
+        [
+          "HideWindow",
+          [
+            "window",
+            "MobInformerWnd"
+          ],
+          []
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.MobViewport"
+          ],
+          []
+        ],
+        [
+          "SetAnchor",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          [
+            "InventoryWnd",
+            "TopLeft",
+            "TopRight",
+            -6,
+            33
+          ]
+        ],
+        [
+          "BindPreview",
+          [
+            [
+              "window",
+              "MileniumInventoryPreviewWnd.MobViewport"
+            ],
+            "player",
+            35.0,
+            145.0,
+            45.0
+          ]
+        ],
+        [
+          "SetText",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.RenderStatus"
+          ],
+          [
+            "Render 3D: 1"
+          ]
+        ]
+      ]
+    },
+    {
+      "button": "btnMileniumPreview",
+      "initially_open": true,
+      "player_available": true,
+      "actions": [
+        [
+          "ReleasePreview",
+          []
+        ],
+        [
+          "HideWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ]
+      ]
+    },
+    {
+      "button": "unhandled",
+      "initially_open": false,
+      "player_available": true,
+      "actions": []
+    },
+    {
+      "button": "btnMileniumPreview",
+      "initially_open": false,
+      "player_available": false,
+      "actions": [
+        [
+          "HideWindow",
+          [
+            "window",
+            "MobInformerWnd"
+          ],
+          []
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          []
+        ],
+        [
+          "ShowWindow",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.MobViewport"
+          ],
+          []
+        ],
+        [
+          "SetAnchor",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd"
+          ],
+          [
+            "InventoryWnd",
+            "TopLeft",
+            "TopRight",
+            -6,
+            33
+          ]
+        ],
+        [
+          "BindPreview",
+          [
+            [
+              "window",
+              "MileniumInventoryPreviewWnd.MobViewport"
+            ],
+            null,
+            35.0,
+            145.0,
+            45.0
+          ]
+        ],
+        [
+          "SetText",
+          [
+            "window",
+            "MileniumInventoryPreviewWnd.RenderStatus"
+          ],
+          [
+            "Render 3D: -3"
+          ]
+        ]
+      ]
+    }
+  ]
+}
