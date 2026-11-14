@@ -1,0 +1,10 @@
+{
+  "symbols": {
+    "viewer.c": 0,
+    "equip_names": 270025824,
+    "viewer_tick": 270016512,
+    "viewer_state": 270028800
+  },
+  "trampoline": 1583456,
+  "relocations": 1697
+}

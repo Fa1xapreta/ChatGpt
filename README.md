@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 11
+
+[Baixar ZIP](Inventario_Personagem_TESTE11/Milenium_Inventory_Viewr_TESTE11.zip) · [Instruções](Inventario_Personagem_TESTE11/README.md). Setas de 64x32 com texturas L2Devil; rotação somente ao pressionar as setas. Retira as mudanças de recursos do TESTE 10 que deixou a prévia vazia. Capa/brilho continuam pendentes. Copie os três arquivos de system.
+
 ## Inventory Viewr — TESTE 10
 
 [Baixar ZIP](Inventario_Personagem_TESTE10/Milenium_Inventory_Viewr_TESTE10.zip) · [Instruções](Inventario_Personagem_TESTE10/README.md). Personagem menor e pés mais baixos; clonagem independente de ExtraMeshDatas e identificação da arma para o encantamento. Confirmação visual de capa, brilho e alinhamento ainda necessária. Para quem está no TESTE 9, substitua somente a DLL.
