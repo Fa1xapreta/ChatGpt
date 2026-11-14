@@ -1,3 +1,7 @@
+## Inventário 3D — TESTE 6
+
+[Baixar ZIP](Inventario_Personagem_TESTE6/Milenium_Inventario_Personagem_TESTE6.zip): tamanho fixo ao equipar, atualização dos itens, título Inventory Viewr e rotação ao arrastar. Inclui restauração para o TESTE 5. Teste no cliente ainda necessário.
+
 ## Inventário 3D — TESTE 5, correção da relocação
 
 [**Baixar TESTE 5**](Inventario_Personagem_TESTE5/Milenium_Inventario_Personagem_TESTE5.zip) · [Causa, instalação e limites](Inventario_Personagem_TESTE5/README.md)
