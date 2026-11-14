@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 8
+
+[Baixar ZIP](Inventario_Personagem_TESTE8/Milenium_Inventory_Viewr_TESTE8.zip) · [Instruções](Inventario_Personagem_TESTE8/README.md). Personagem menor e mais baixo, rodapé oculto, painel encostado no inventário e sincronização do nível de encantamento da arma. Copie os três arquivos de system. Cor/brilho aguardam confirmação no jogo.
+
 ## Inventory Viewr — TESTE 7
 
 [Baixar ZIP](Inventario_Personagem_TESTE7/Milenium_Inventory_Viewr_TESTE7.zip) · [Instruções](Inventario_Personagem_TESTE7/README.md). Câmera mais afastada e sincronização das malhas de armas, escudo e capa. Para quem usa o TESTE 6B, substitua somente a DLL. Aguarda confirmação visual no cliente.
