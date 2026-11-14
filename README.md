@@ -1,3 +1,12 @@
+## Reparo B2 do controlador automático de aura PK/flag
+
+O diagnóstico A1 confirmou o driver original e o núcleo pronto, mas a aura automática continuou ausente. Encontramos outro bloqueio: o CliExt procurava a função ContornoDourado_Status no carregador de espera, que não a exportava. Além disso, o controlador precisava do identificador do núcleo real para concluir sua inicialização.
+
+A ponte B2 exporta a função e corrige esse identificador somente no perfil conhecido do CliExt. Mantém os módulos originais e suas verificações. O driver original restaurado no A1 também é preservado.
+
+
+O kit já inclui a ponte B2. Para quem já instalou o kit, use somente o reparo pequeno B2 da branch principal. O retorno visual ainda precisa de confirmação no Windows.
+
 # Milenium — capas, catálogo 70 e integração gráfica TESTE 5
 
 [Baixar o kit em um único ZIP](https://github.com/Fa1xapreta/ChatGpt/archive/refs/heads/kit-capas-integrado-70.zip)

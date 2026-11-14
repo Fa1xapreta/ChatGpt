@@ -31,13 +31,13 @@
   },
   {
     "file": "README.md",
-    "bytes": 5748,
-    "sha256": "1688ef5e7f8a0ebff234cc8adcf4c47c01badd8d5a9d13a1b12e8409a8e6e232"
+    "bytes": 6531,
+    "sha256": "69632a7c5bdbe00c7fd7298c92f81cf14c7f1967c2be7dbf745d64b755931402"
   },
   {
     "file": "VERIFICACOES.json",
-    "bytes": 711,
-    "sha256": "5e83980fec82dc56376bf4c2e1b47da721578371f104ac946e7f4710cd6da7d6"
+    "bytes": 822,
+    "sha256": "b899cfb5b713680176c5df62f3a95c72762a82a70fc9be78b89a2a129f7d7e3e"
   },
   {
     "file": "alias-patches/CCFDarkElfFestival.u.append",
@@ -188,6 +188,11 @@
     "file": "catalogo/aura-driver-compatibility.json",
     "bytes": 1142,
     "sha256": "67e3e1879238b05a9441c594b81d5f4a539ac13b3bc3a2d6b0c25319ea63e768"
+  },
+  {
+    "file": "catalogo/aura-pkflag-contract.json",
+    "bytes": 562,
+    "sha256": "5415fe49bcd963f509588b0f1abfeaa8d03af6f5ac39d6840d68fd48307696d4"
   },
   {
     "file": "catalogo/pendentes.json",
@@ -756,8 +761,8 @@
   },
   {
     "file": "cliente/system/MilAuraWait.dll",
-    "bytes": 197632,
-    "sha256": "33bd2b713e22021618fb476eb7dfd7ceee5839b0a8cbd57b285aa908ef180ead"
+    "bytes": 198144,
+    "sha256": "d9930e37082567e4f38ddc3a639502bb7a14ae96f1ac1d2113d69d64f87ae64d"
   },
   {
     "file": "cliente/system/MileniumFX.ini",
@@ -801,8 +806,8 @@
   },
   {
     "file": "fonte_integracao/README.md",
-    "bytes": 844,
-    "sha256": "2a0cee374bcb2b2bd20a0089626321b7aa5a805c6eb0469f288a64a5e8ce067e"
+    "bytes": 1113,
+    "sha256": "676eb98061c67d24a6a29bd0217aa253a29c1896c1504a43f9f1f8a9d8f7202a"
   },
   {
     "file": "fonte_integracao/alias_packages.py",
@@ -815,9 +820,19 @@
     "sha256": "96a243d6802b6641673e8b16ca3fae0e77d1847a195d20286b038e3d22178a46"
   },
   {
+    "file": "fonte_integracao/aura_exports.def",
+    "bytes": 76,
+    "sha256": "5e9fd2682cc4efb58a1ccbca489a5fa4aa98df8f65ef9f6df723dc07ceff4e77"
+  },
+  {
     "file": "fonte_integracao/aura_wait.c",
-    "bytes": 2368,
-    "sha256": "2e43a2a687815a752bb6ce2440ad46b3fa2eba4b42534d81db5aa43952879b61"
+    "bytes": 5585,
+    "sha256": "eca6ac785ea0e24e0974b5d5ce857b466be990d3def2f4335b78aab18ede9211"
+  },
+  {
+    "file": "fonte_integracao/binding.h",
+    "bytes": 329,
+    "sha256": "9f213b17311465f687d7e2d687359a7e27cbde1d4a2f91a04e73e3bc337daa2e"
   },
   {
     "file": "fonte_integracao/build_catalog.py",
@@ -843,6 +858,11 @@
     "file": "fonte_integracao/sync_guard.c",
     "bytes": 237,
     "sha256": "e27b20a7737498c07886da8364d2d95f52a203128299d785e4d4be183b21dea7"
+  },
+  {
+    "file": "fonte_integracao/test_binding.c",
+    "bytes": 813,
+    "sha256": "216a33461e9172fb3ee72654e9551ba74e24b64a2c855c3105c4ba765358ebfd"
   },
   {
     "file": "fonte_integracao/test_chain.c",
