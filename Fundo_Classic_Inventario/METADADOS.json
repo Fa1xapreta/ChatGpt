@@ -1,0 +1,64 @@
+{
+  "source_package": "L2UI_CT1.utx",
+  "reference": "L2UI_CT1.InventoryWnd.Inventory_DF_CharacterEquipBg",
+  "source_version": 133,
+  "source_licensee": 40,
+  "texture_class": "Engine.Texture",
+  "source_format": 5,
+  "source_size": [
+    512,
+    512
+  ],
+  "visible_rectangle": [
+    0,
+    0,
+    284,
+    419
+  ],
+  "uv_rectangle": [
+    0,
+    0,
+    0.5546875,
+    0.818359375
+  ],
+  "export": {
+    "path": "InventoryWnd.Inventory_DF_CharacterEquipBg",
+    "w": 512,
+    "h": 512,
+    "fmt": 5,
+    "original_offset": 234106052,
+    "native_mip_offset": 345,
+    "png": "InventoryWnd_Inventory_DF_CharacterEquipBg.png"
+  },
+  "source_archive_validation": {
+    "crc32_checked": true,
+    "uncompressed_size_checked": true,
+    "entry": {
+      "name": "SysTextures/L2UI_CT1.utx",
+      "size": 289404674,
+      "compressed": 72134274,
+      "crc": 3748734726,
+      "method": 8,
+      "flags": 0,
+      "volume": 37,
+      "offset": 2332234
+    },
+    "volumes": [
+      "SysTextures.z38",
+      "SysTextures.z39",
+      "SysTextures.z40",
+      "SysTextures.z41"
+    ],
+    "package_version": 133,
+    "package_licensee": 40,
+    "texture_candidates": 16
+  },
+  "canonical_png_and_tga_identical_pixels": true,
+  "preview_only_crops_transparent_padding": true,
+  "applied_to_game": false,
+  "files": {
+    "Inventory_DF_CharacterEquipBg.png": "c97e7a44b76e9ddc0751386634b55d6db95d6ec288d4d8343607879ca379423c",
+    "Inventory_DF_CharacterEquipBg.tga": "5e13f361fa753e631936ccf424c836eb81b481952d23b067201ee21cce295697",
+    "PREVIA.png": "40f881def629380e7665d97e1af4e14d360053b77e95087aec8ea6802aafd5bd"
+  }
+}

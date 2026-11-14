@@ -1,8 +1,16 @@
+## Fundo Classic do inventário localizado
+
+[**Ver a imagem extraída**](Fundo_Classic_Inventario/PREVIA.png) · [**Baixar PNG/TGA**](Fundo_Classic_Inventario/Fundo_Classic_Inventario_Extraido.zip) · [Referência e UV](Fundo_Classic_Inventario/README.md)
+
+Encontrado em `L2UI_CT1.InventoryWnd.Inventory_DF_CharacterEquipBg`, no SysTextures Classic enviado. Atlas de 512×512 com área útil de 284×419. Imagens originais extraídas; a aplicação desse fundo no cliente ainda está pendente. Não substitui o kit estável nem os testes de personagem.
+
+---
+
 ## Inventário 3D — TESTE 3: personagem de exibição
 
 [**Baixar teste de pose e enquadramento**](Inventario_Personagem_TESTE3/Milenium_Inventario_Personagem_TESTE3.zip) · [Limites e instalação](Inventario_Personagem_TESTE3/README.md)
 
-Requer TESTE 2 funcionando. Altera interface.u e a DLL de prévia para usar a cópia do retrato, com visibilidade restrita ao painel, pose de espera e enquadramento de corpo inteiro. Inclui retorno ao TESTE 2. Fundo continua pendente do L2UI_CT1 dividido em partes menores; a ferramenta recusou o RAR acima de 32 MiB. Bytecode e ciclo de vida verificados com APIs simuladas; imagem, capas e efeitos da cópia ainda precisam de confirmação no Windows. O kit estável de capas não foi alterado.
+Requer TESTE 2 funcionando. Altera interface.u e a DLL de prévia para usar a cópia do retrato, com visibilidade restrita ao painel, pose de espera e enquadramento de corpo inteiro. Inclui retorno ao TESTE 2. O fundo foi localizado no conjunto Classic dividido e está separado na pasta Fundo_Classic_Inventario; este TESTE 3 ainda não aplica essa imagem. Bytecode e ciclo de vida verificados com APIs simuladas; imagem, capas e efeitos da cópia ainda precisam de confirmação no Windows. O kit estável de capas não foi alterado.
 
 ---
 
