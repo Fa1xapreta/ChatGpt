@@ -1,0 +1,50 @@
+{
+  "source_sha256": "34fd107753eab604beab819ba99fff7ffa3d583d42a7ee69a4b10ee1bf41788c",
+  "result_sha256": "5727780196ca50a0edb53c2b93602fc3470eb3e5fc6b4c963691faa5eb59c295",
+  "source_size": 317089175,
+  "result_size": 316437874,
+  "source_encoding": "raw",
+  "result_encoding": "raw",
+  "requested_textures_removed": [
+    "AbnormalWnd.board_back5",
+    "AbnormalWnd.CounterAttack_on",
+    "AbnormalWnd.head_pvp_1",
+    "AbnormalWnd.head_pvp_2",
+    "AbnormalWnd.head_pvp_3",
+    "AbnormalWnd.TitleViwer"
+  ],
+  "additional_invalid_public_none_export_removed": [
+    {
+      "index": 4721,
+      "class_ref": -2,
+      "super_ref": 0,
+      "outer": 3224,
+      "name": "None",
+      "flags": 983044,
+      "size": 33926,
+      "offset": 316932163,
+      "path": "AbnormalWnd.None",
+      "class": "Engine.Texture",
+      "super": ""
+    }
+  ],
+  "original_export_count": 4722,
+  "result_export_count": 4715,
+  "remaining_texture_count": 4570,
+  "package_groups_preserved": 145,
+  "names_and_imports_identical": true,
+  "all_remaining_export_rows_indices_offsets_and_flags_identical": true,
+  "all_remaining_serialized_bytes_unchanged": true,
+  "retained_prefix_sha256_masking_summary_fields": "78104c79c365692da095665cdf734c23e7ca0c27da21ab53f04c1c40ee07fb12",
+  "object_and_class_property_refs_validated": 830,
+  "array_properties_found": {},
+  "critical_inventory_resources_preserved": [
+    "InventoryWnd.MileniumCloakSlot",
+    "InventoryWnd.Inventory_EquipSlot",
+    "AbnormalWnd.Inventory_DF_CharacterEquipBg"
+  ],
+  "guid_and_version_unchanged": true,
+  "latest_generation_export_count_updated": true,
+  "invalid_public_none_export_remaining": false,
+  "windows_editor_runtime_tested": false
+}

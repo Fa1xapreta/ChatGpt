@@ -1,3 +1,7 @@
+## L2UI_CH3 — teste sem as seis texturas recentes
+
+[Baixar ZIP](L2UI_CH3_Limpeza_6_Texturas/L2UI_CH3_sem_6_texturas.zip) · [Instruções](L2UI_CH3_Limpeza_6_Texturas/README.md). Remove TitleViwer, head_pvp_1/2/3, CounterAttack_on, board_back5 e a exportação pública inválida None que corresponde à asserção do editor. Preserva dados e índices das demais texturas. Abertura no editor Windows ainda precisa de confirmação.
+
 ## Inventory Viewr — FINAL com as 34 capas do XML
 
 [Pacote final](Inventario_Personagem_FINAL/Milenium_Inventory_Viewr_FINAL.zip) · [Somente classes UC](Inventario_Personagem_FINAL/Classes_Inventory_Viewr_FINAL.zip) · [Instruções](Inventario_Personagem_FINAL/README.md). Regra do slot atualizada para os 34 IDs do XML, no fonte UC e na interface compilada. Inclui as três classes completas; layout final sem faixa preservado. Atualize interface.u/interface.xdat e mantenha as DLLs atuais.
