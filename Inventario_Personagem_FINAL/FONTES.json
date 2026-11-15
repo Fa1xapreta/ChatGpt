@@ -1,0 +1,33 @@
+{
+  "full_sources_based_on_user_classes": true,
+  "source_compilation_with_ucc_not_performed": true,
+  "binary_interface_supplied_ready_to_use": true,
+  "changed_original_functions": [
+    {
+      "class": "InventoryWnd",
+      "changed_functions": [
+        "OnLoad",
+        "OnEvent",
+        "OnShow",
+        "OnHide",
+        "OnClickButton"
+      ],
+      "all_other_function_bodies_unchanged": true,
+      "full_original_defaultproperties_preserved": true
+    },
+    {
+      "class": "MobInformerWnd",
+      "changed_functions": [
+        "OnShow"
+      ],
+      "all_other_function_bodies_unchanged": true,
+      "full_original_defaultproperties_preserved": true
+    }
+  ],
+  "native_signatures_unchanged": true,
+  "source_file_sha256": {
+    "MobInformerWnd.uc": "d9faf3c0960dd24fa8c89ec8ccaa8bb2043e150099ea40a09c1f4b046b3183de",
+    "MobPreviewNative.uc": "b97aea0153544ef75cba90f9af1d03727a9f91abfb0a161a2fd14098625c33d6",
+    "InventoryWnd.uc": "3334afe05f3ec2dddc087a680470723d96ee2967545865032bbdb89d14d345b6"
+  }
+}
