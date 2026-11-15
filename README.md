@@ -1,3 +1,7 @@
+## Inventory Viewr — atualização visual 23
+
+[Baixar ZIP](Inventario_Personagem_TESTE23/Milenium_Inventory_Viewr_TESTE23.zip) · [Instruções](Inventario_Personagem_TESTE23/README.md). Faixa TitleViwer de 256x32 acima do título, botão ADD/DEL de 32x32 com mouse e descrição, logs do Inventory Viewr desativados. Preserva o funcionamento aprovado do TESTE 22. Copie os três arquivos de system.
+
 ## Inventory Viewr — TESTE 22
 
 [Baixar ZIP](Inventario_Personagem_TESTE22/Milenium_Inventory_Viewr_TESTE22.zip) · [Instruções](Inventario_Personagem_TESTE22/README.md). Exceção restrita à cena/jogador da prévia no bloqueio de FActorSceneNode do CapasClassic. Preserva opção global de sombras, zoom, nomes e câmera. Substitua somente a DLL. Capa ainda precisa de confirmação visual.

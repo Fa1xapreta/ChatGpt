@@ -1,0 +1,7 @@
+{
+  "inventory_diagnostic_filename_absent": true,
+  "extension_has_no_file_logging_iat_references": true,
+  "legacy_logger_entry_is_ret": true,
+  "emulated_callback_tests_forbid_diagnostic_file_calls": true,
+  "existing_user_logs_not_deleted": true
+}

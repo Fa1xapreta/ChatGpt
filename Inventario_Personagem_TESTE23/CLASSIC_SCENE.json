@@ -1,0 +1,188 @@
+{
+  "windows_game_run": false,
+  "engine_rendering_mocked": true,
+  "actual_classic_branch_executed_in_unicorn": true,
+  "actual_relocated_classic_code_bytes": true,
+  "results": [
+    {
+      "base": "0x10000000",
+      "race": 0,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x10000000",
+      "race": 4,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x10000000",
+      "race": 3,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x10100000",
+      "race": 0,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x10100000",
+      "race": 4,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x10100000",
+      "race": 3,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x10340000",
+      "race": 0,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x10340000",
+      "race": 4,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x10340000",
+      "race": 3,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x33000000",
+      "race": 0,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x33000000",
+      "race": 4,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x33000000",
+      "race": 3,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x6fba0000",
+      "race": 0,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x6fba0000",
+      "race": 4,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x6fba0000",
+      "race": 3,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x500000",
+      "race": 0,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x500000",
+      "race": 4,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    },
+    {
+      "base": "0x500000",
+      "race": 3,
+      "actual_unmodified_classic_branch_rejects_actor_scene": true,
+      "preview_same_scene_and_pawn_allowed": true,
+      "world_branch_registers_and_flags_identical": true,
+      "other_scene_pawn_and_thread_still_rejected": true,
+      "global_shadow_flag_unchanged": true,
+      "wrong_version_and_foreign_code_untouched": true
+    }
+  ]
+}

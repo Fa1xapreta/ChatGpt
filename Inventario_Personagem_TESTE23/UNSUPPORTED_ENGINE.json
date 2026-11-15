@@ -1,0 +1,113 @@
+{
+  "windows_game_run": false,
+  "results": [
+    {
+      "base": "0x10000000",
+      "race": 0,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x10000000",
+      "race": 4,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x10000000",
+      "race": 3,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x10100000",
+      "race": 0,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x10100000",
+      "race": 4,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x10100000",
+      "race": 3,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x10340000",
+      "race": 0,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x10340000",
+      "race": 4,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x10340000",
+      "race": 3,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x33000000",
+      "race": 0,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x33000000",
+      "race": 4,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x33000000",
+      "race": 3,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x6fba0000",
+      "race": 0,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x6fba0000",
+      "race": 4,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x6fba0000",
+      "race": 3,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x500000",
+      "race": 0,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x500000",
+      "race": 4,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    },
+    {
+      "base": "0x500000",
+      "race": 3,
+      "unsupported_or_modified_engine_code_untouched": true,
+      "framing_still_available": true
+    }
+  ]
+}

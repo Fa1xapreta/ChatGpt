@@ -1,0 +1,9 @@
+{
+  "windows_game_run": false,
+  "all_unrelated_windows_and_inventory_controls_byte_identical": true,
+  "native_preview_parent_and_all_children_byte_identical": true,
+  "native_viewport_remains_270x429": true,
+  "independent_decoration_256x32_anchored_above_title": true,
+  "button_32x32_add_initial_and_over": true,
+  "root_geometry_completely_unchanged": true
+}
