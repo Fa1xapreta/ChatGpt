@@ -1,0 +1,14 @@
+{
+  "changed_control": "BoardWnd.texBackBottom",
+  "changed_field": "file",
+  "before": "iconfox-v3.DailyReward_BGNew",
+  "after": "L2UI_CH3.AbnormalWnd.board_back5",
+  "all_other_bytes_preserved": true,
+  "all_other_parsed_values_preserved": true,
+  "uc_or_native_changes": false,
+  "texture_package_not_modified": true,
+  "texture_must_exist_in_client_package": true,
+  "source_sha256": "f18a66bf3b12f9f588f183216feed74bf6f5da72c8f39163b7fa50e1ead18a97",
+  "result_sha256": "c84a4469f6e2ed21d83d87c110fb35760d10a0b9a09c5abc22eba60bd3a38e27",
+  "windows_game_run": false
+}

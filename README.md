@@ -1,3 +1,7 @@
+## Reward diário — troca somente do fundo
+
+[Baixar ZIP](Reward_Diario_Fundo_board_back5/Reward_Diario_Fundo_board_back5.zip) · [XDAT](Reward_Diario_Fundo_board_back5/interface.xdat). Só a referência de imagem em BoardWnd.texBackBottom foi alterada para L2UI_CH3.AbnormalWnd.board_back5. A textura precisa existir no pacote do cliente.
+
 ## L2UI_CH3 — teste sem as seis texturas recentes
 
 [Baixar ZIP](L2UI_CH3_Limpeza_6_Texturas/L2UI_CH3_sem_6_texturas.zip) · [Instruções](L2UI_CH3_Limpeza_6_Texturas/README.md). Remove TitleViwer, head_pvp_1/2/3, CounterAttack_on, board_back5 e a exportação pública inválida None que corresponde à asserção do editor. Preserva dados e índices das demais texturas. Abertura no editor Windows ainda precisa de confirmação.
