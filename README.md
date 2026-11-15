@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 13
+
+[Baixar DLL](Inventario_Personagem_TESTE13/Milenium_Inventory_Viewr_TESTE13.zip) · [Instruções](Inventario_Personagem_TESTE13/README.md). O registro confirma que o ator chega ao desenho. Câmera deixa de usar foco de osso/cápsula e passa a usar os limites do modelo após carregar. Mantém layout do TESTE 12; substitua somente a DLL. Confirmação visual ainda necessária.
+
 ## Inventory Viewr — TESTE 12
 
 [Baixar ZIP](Inventario_Personagem_TESTE12/Milenium_Inventory_Viewr_TESTE12.zip) · [Instruções](Inventario_Personagem_TESTE12/README.md). Arquivos instalados e texturas conferidos no ZIP do usuário. Inicialização da prévia independente do rodapé oculto, ativação explícita das setas e enquadramento do TESTE 9. Copie os três arquivos. Renderização no cliente ainda precisa de confirmação; capa/enchant e alinhamento final continuam pendentes.

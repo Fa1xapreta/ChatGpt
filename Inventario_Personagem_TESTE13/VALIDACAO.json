@@ -1,0 +1,108 @@
+{
+  "windows_game_run": false,
+  "engine_calls_mocked": true,
+  "results": [
+    {
+      "base": "0x10000000",
+      "fixed_camera": [
+        222.98162841796875,
+        200.0,
+        336.2791748046875
+      ],
+      "projected_feet_y": 358.2150393809006,
+      "projected_head_y": 131.9150320779989,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "equipment_refresh": true,
+      "arrow_click_and_hold": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10100000",
+      "fixed_camera": [
+        222.98162841796875,
+        200.0,
+        336.2791748046875
+      ],
+      "projected_feet_y": 358.2150393809006,
+      "projected_head_y": 131.9150320779989,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "equipment_refresh": true,
+      "arrow_click_and_hold": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10340000",
+      "fixed_camera": [
+        222.98162841796875,
+        200.0,
+        336.2791748046875
+      ],
+      "projected_feet_y": 358.2150393809006,
+      "projected_head_y": 131.9150320779989,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "equipment_refresh": true,
+      "arrow_click_and_hold": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x33000000",
+      "fixed_camera": [
+        222.98162841796875,
+        200.0,
+        336.2791748046875
+      ],
+      "projected_feet_y": 358.2150393809006,
+      "projected_head_y": 131.9150320779989,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "equipment_refresh": true,
+      "arrow_click_and_hold": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x6fba0000",
+      "fixed_camera": [
+        222.98162841796875,
+        200.0,
+        336.2791748046875
+      ],
+      "projected_feet_y": 358.2150393809006,
+      "projected_head_y": 131.9150320779989,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "equipment_refresh": true,
+      "arrow_click_and_hold": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x500000",
+      "fixed_camera": [
+        222.98162841796875,
+        200.0,
+        336.2791748046875
+      ],
+      "projected_feet_y": 358.2150393809006,
+      "projected_head_y": 131.9150320779989,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "equipment_refresh": true,
+      "arrow_click_and_hold": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    }
+  ]
+}

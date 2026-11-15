@@ -1,0 +1,72 @@
+{
+  "user_runtime_log": true,
+  "frames": [
+    {
+      "actor_location": [
+        83307.98,
+        148207.03,
+        -3410.6
+      ],
+      "camera_location": [
+        83372.95,
+        148207.03,
+        -3415.87
+      ],
+      "camera_z_minus_actor_z": -5.27
+    },
+    {
+      "actor_location": [
+        83307.98,
+        148207.03,
+        -3410.6
+      ],
+      "camera_location": [
+        83372.95,
+        148207.03,
+        -3415.87
+      ],
+      "camera_z_minus_actor_z": -5.27
+    },
+    {
+      "actor_location": [
+        83307.98,
+        148207.03,
+        -3410.6
+      ],
+      "camera_location": [
+        83372.95,
+        148207.03,
+        -3415.87
+      ],
+      "camera_z_minus_actor_z": -5.27
+    },
+    {
+      "actor_location": [
+        83307.98,
+        148207.03,
+        -3410.6
+      ],
+      "camera_location": [
+        83372.95,
+        148207.03,
+        -3415.87
+      ],
+      "camera_z_minus_actor_z": -5.27
+    },
+    {
+      "actor_location": [
+        83307.98,
+        148207.03,
+        -3410.6
+      ],
+      "camera_location": [
+        83372.95,
+        148207.03,
+        -3415.87
+      ],
+      "camera_z_minus_actor_z": -5.27
+    }
+  ],
+  "camera_bone_reference_removed": true,
+  "root_cause_not_confirmed_by_windows_reproduction": true
+}
