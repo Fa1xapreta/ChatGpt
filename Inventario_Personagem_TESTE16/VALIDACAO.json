@@ -1,0 +1,312 @@
+{
+  "windows_game_run": false,
+  "engine_calls_mocked": true,
+  "results": [
+    {
+      "base": "0x10000000",
+      "race_fixture": 0,
+      "simulated_body_height": 75.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.2150223673954,
+      "initial_camera": [
+        285.1678771972656,
+        200.5,
+        337.46478271484375
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10000000",
+      "race_fixture": 4,
+      "simulated_body_height": 55.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.2150065980136,
+      "initial_camera": [
+        236.63421630859375,
+        200.5,
+        326.0105285644531
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10000000",
+      "race_fixture": 3,
+      "simulated_body_height": 89.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.21503478565546,
+      "initial_camera": [
+        319.14141845703125,
+        200.5,
+        345.4827575683594
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10100000",
+      "race_fixture": 0,
+      "simulated_body_height": 75.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.2150223673954,
+      "initial_camera": [
+        285.1678771972656,
+        200.5,
+        337.46478271484375
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10100000",
+      "race_fixture": 4,
+      "simulated_body_height": 55.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.2150065980136,
+      "initial_camera": [
+        236.63421630859375,
+        200.5,
+        326.0105285644531
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10100000",
+      "race_fixture": 3,
+      "simulated_body_height": 89.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.21503478565546,
+      "initial_camera": [
+        319.14141845703125,
+        200.5,
+        345.4827575683594
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10340000",
+      "race_fixture": 0,
+      "simulated_body_height": 75.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.2150223673954,
+      "initial_camera": [
+        285.1678771972656,
+        200.5,
+        337.46478271484375
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10340000",
+      "race_fixture": 4,
+      "simulated_body_height": 55.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.2150065980136,
+      "initial_camera": [
+        236.63421630859375,
+        200.5,
+        326.0105285644531
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10340000",
+      "race_fixture": 3,
+      "simulated_body_height": 89.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.21503478565546,
+      "initial_camera": [
+        319.14141845703125,
+        200.5,
+        345.4827575683594
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x33000000",
+      "race_fixture": 0,
+      "simulated_body_height": 75.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.2150223673954,
+      "initial_camera": [
+        285.1678771972656,
+        200.5,
+        337.46478271484375
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x33000000",
+      "race_fixture": 4,
+      "simulated_body_height": 55.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.2150065980136,
+      "initial_camera": [
+        236.63421630859375,
+        200.5,
+        326.0105285644531
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x33000000",
+      "race_fixture": 3,
+      "simulated_body_height": 89.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.21503478565546,
+      "initial_camera": [
+        319.14141845703125,
+        200.5,
+        345.4827575683594
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x6fba0000",
+      "race_fixture": 0,
+      "simulated_body_height": 75.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.2150223673954,
+      "initial_camera": [
+        285.1678771972656,
+        200.5,
+        337.46478271484375
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x6fba0000",
+      "race_fixture": 4,
+      "simulated_body_height": 55.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.2150065980136,
+      "initial_camera": [
+        236.63421630859375,
+        200.5,
+        326.0105285644531
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x6fba0000",
+      "race_fixture": 3,
+      "simulated_body_height": 89.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.21503478565546,
+      "initial_camera": [
+        319.14141845703125,
+        200.5,
+        345.4827575683594
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x500000",
+      "race_fixture": 0,
+      "simulated_body_height": 75.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.2150223673954,
+      "initial_camera": [
+        285.1678771972656,
+        200.5,
+        337.46478271484375
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x500000",
+      "race_fixture": 4,
+      "simulated_body_height": 55.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.2150065980136,
+      "initial_camera": [
+        236.63421630859375,
+        200.5,
+        326.0105285644531
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x500000",
+      "race_fixture": 3,
+      "simulated_body_height": 89.0,
+      "source_is_rendered_actor": true,
+      "world_actor_unchanged": true,
+      "no_appearance_copy_or_pose_override": true,
+      "front_relative_to_actor_facing": true,
+      "feet_pixel": 358.21503478565546,
+      "initial_camera": [
+        319.14141845703125,
+        200.5,
+        345.4827575683594
+      ],
+      "arrow_rotation": true,
+      "actual_relocated_detour": true
+    }
+  ]
+}

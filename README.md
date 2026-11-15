@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 16
+
+[Baixar ZIP](Inventario_Personagem_TESTE16/Milenium_Inventory_Viewr_TESTE16.zip) · [Instruções](Inventario_Personagem_TESTE16/README.md). Segunda vista do ator real, acompanhando pose e equipamentos, conforme o comportamento observado no vídeo. Copie os três arquivos de system; inclui restauração do TESTE 15. Capas, enchant e resultado visual ainda precisam de confirmação no jogo.
+
 ## Inventory Viewr — TESTE 15
 
 [Baixar DLL](Inventario_Personagem_TESTE15/Milenium_Inventory_Viewr_TESTE15.zip) · [Instruções](Inventario_Personagem_TESTE15/README.md). Aproximadamente 7% maior, pés na posição confirmada do TESTE 14. Clique gira 15 graus; segurar acelera o giro. Substitua somente a DLL.
