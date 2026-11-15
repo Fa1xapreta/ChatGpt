@@ -1,0 +1,19 @@
+# Inventory Viewr — TESTE 20: módulos corretos para nomes e anexos
+
+Feche jogo e launcher. Substitua somente system/MileniumPortraitNative.dll no cliente. Mantenha interface.u, interface.xdat, texturas e demais DLLs atuais. O pacote inclui a DLL do TESTE 19 para voltar ao estado com zoom aprovado.
+
+O log R19 enviado contém 2.377 registros: caption=-1 e attach=-1,0,0 em todos eles. Isso confirma que as duas interceptações não foram instaladas; não significa que a lista de anexos tenha sido efetivamente consultada e estivesse vazia.
+
+Foi encontrado um erro concreto no código anterior. No estado privado da DLL original, o campo RVA 0x17dd4 é o módulo Engine e o campo 0x17dd8 é NWindow. A inicialização original confirma essa associação carregando NWindow.dll e guardando o resultado em 0x17dd8. A versão 19 procurava as funções de desenho e verificava as assinaturas em NWindow, embora elas pertençam ao Engine. Os testes anteriores usavam um mesmo endereço fictício para os dois papéis e não verificavam o módulo de GetProcAddress; essa limitação deixou o erro passar.
+
+Esta versão procura DrawTargetName e verifica as funções de desenho dos anexos no Engine correto. A leitura dos dados do jogador continua no NWindow, onde pertence. Core.dll é obtido explicitamente para as funções de nomes/classes. Os testes agora mapeiam Engine e NWindow separadamente e verificam cada argumento de módulo nas consultas de símbolos.
+
+Os nomes e títulos são bloqueados somente durante o desenho da prévia e na mesma thread, preservando a passagem normal do mundo. A passagem dos anexos procura atores com malha na lista Attached, valida o Base, elimina duplicatas e desenha os atores existentes na mesma cena do corpo. Código de Engine incompatível ou previamente interceptado no alvo dos anexos é preservado, com falha registrada. Isso corrige a ativação dessas duas funções; ainda é preciso confirmar que a capa específica está nessa lista e que o resultado visual corresponde ao pedido.
+
+O zoom pela roda, seus limites, a posição dos pés e as setas permanecem. Para impedir que a correção da busca dos ossos altere o tamanho aprovado, a câmera dá prioridade às mesmas dimensões numéricas validadas do TESTE 19. Foram comparadas as coordenadas padrão em 54 cenários, com igualdade; outros 54 cenários verificaram a manutenção desse perfil mesmo com as funções dos ossos disponíveis.
+
+Teste abrindo a prévia: confira se o nome duplicado desapareceu, gire para ver as costas, equipe e retire a capa e confira o zoom. Se algum dos dois continuar falhando, envie system/Inventory_Viewr_R20.log. caption=1 indica o bloqueio instalado; nameCalls conta as chamadas bloqueadas. attach registra estado, quantidade de anexos e quantidade desenhada na passagem anterior. attachPasses informa quantas passagens do personagem chegaram ao callback dos anexos. O log inclui também os módulos e offsets para distinguir falha de ativação de falha em encontrar a capa.
+
+Validação: 18 cenários de personagem/câmera e ciclo do renderer; 18 de bloqueio alternativo, roda, limites, liberação e anexos; 18 de Engine incompatível ou modificado; 54 com dimensões do log sem funções dos ossos e 54 com essas funções disponíveis. Seis bases PE realmente relocadas, módulos Engine/NWindow distintos e verificação de qual módulo atende cada símbolo. PE, exportações, integridade do ZIP e hashes conferidos. As chamadas Engine/Windows são simuladas. O jogo Windows não foi executado neste ambiente; nomes e capa ainda precisam de confirmação no cliente.
+
+Para restaurar, com o jogo fechado copie VOLTAR_TESTE19/system/MileniumPortraitNative.dll para system. A interface não mudou. Nenhum Engine.dll em disco, pacote de capa, aura, textura ou arquivo do servidor é substituído. As interceptações só existem na memória durante a execução do jogo.

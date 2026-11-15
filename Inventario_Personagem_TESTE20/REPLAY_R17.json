@@ -1,0 +1,1627 @@
+{
+  "windows_game_run": false,
+  "engine_api_mocked": true,
+  "measured_bounds_from_user_log": true,
+  "results": [
+    {
+      "base": "0x10000000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82768.1,
+          148088.0,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          148056.98,
+          148119.0
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21399447129573,
+      "top_pixel": 141.91958709694524,
+      "camera": [
+        82926.7734375,
+        148088.0,
+        -3460.142333984375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10000000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82739.04,
+          148081.16,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          148048.16,
+          148115.03
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21260150789436,
+      "top_pixel": 157.6370037667777,
+      "camera": [
+        82910.1484375,
+        148081.59375,
+        -3457.2080078125
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10000000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82514.66,
+          148019.03,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147985.8,
+          148053.36
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21647327284165,
+      "top_pixel": 159.6772238719209,
+      "camera": [
+        82687.5234375,
+        148019.578125,
+        -3456.792724609375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10000000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82449.34,
+          147990.92,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147959.38,
+          148022.34
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2136393625919,
+      "top_pixel": 145.19451301822028,
+      "camera": [
+        82610.453125,
+        147990.859375,
+        -3459.566650390625
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10000000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82449.34,
+          147990.92,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147957.73,
+          148023.5
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2129761606088,
+      "top_pixel": 154.25324118143288,
+      "camera": [
+        82617.609375,
+        147990.625,
+        -3457.8779296875
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10000000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90530.0,
+          147340.0,
+          -3532.55
+        ],
+        "z": [
+          -3523.38,
+          -3513.93
+        ],
+        "y": [
+          147336.02,
+          147343.98
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": false,
+      "feet_pixel": null,
+      "top_pixel": null,
+      "camera": [
+        90644.7734375,
+        147340.0,
+        -3487.550048828125
+      ],
+      "loading_partial_box_rejected": true
+    },
+    {
+      "base": "0x10000000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90288.03,
+          147356.5,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147328.33,
+          147384.67
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21139705677956,
+      "top_pixel": 170.66845330410058,
+      "camera": [
+        90432.1953125,
+        147356.5,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10000000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90127.44,
+          147367.45,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147339.28,
+          147395.63
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2151353468627,
+      "top_pixel": 170.66731313679514,
+      "camera": [
+        90271.6015625,
+        147367.453125,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10000000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90122.93,
+          147367.78,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147339.61,
+          147395.95
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2129546540054,
+      "top_pixel": 170.6679782416008,
+      "camera": [
+        90267.09375,
+        147367.78125,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10100000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82768.1,
+          148088.0,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          148056.98,
+          148119.0
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21399447129573,
+      "top_pixel": 141.91958709694524,
+      "camera": [
+        82926.7734375,
+        148088.0,
+        -3460.142333984375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10100000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82739.04,
+          148081.16,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          148048.16,
+          148115.03
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21260150789436,
+      "top_pixel": 157.6370037667777,
+      "camera": [
+        82910.1484375,
+        148081.59375,
+        -3457.2080078125
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10100000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82514.66,
+          148019.03,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147985.8,
+          148053.36
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21647327284165,
+      "top_pixel": 159.6772238719209,
+      "camera": [
+        82687.5234375,
+        148019.578125,
+        -3456.792724609375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10100000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82449.34,
+          147990.92,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147959.38,
+          148022.34
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2136393625919,
+      "top_pixel": 145.19451301822028,
+      "camera": [
+        82610.453125,
+        147990.859375,
+        -3459.566650390625
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10100000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82449.34,
+          147990.92,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147957.73,
+          148023.5
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2129761606088,
+      "top_pixel": 154.25324118143288,
+      "camera": [
+        82617.609375,
+        147990.625,
+        -3457.8779296875
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10100000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90530.0,
+          147340.0,
+          -3532.55
+        ],
+        "z": [
+          -3523.38,
+          -3513.93
+        ],
+        "y": [
+          147336.02,
+          147343.98
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": false,
+      "feet_pixel": null,
+      "top_pixel": null,
+      "camera": [
+        90644.7734375,
+        147340.0,
+        -3487.550048828125
+      ],
+      "loading_partial_box_rejected": true
+    },
+    {
+      "base": "0x10100000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90288.03,
+          147356.5,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147328.33,
+          147384.67
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21139705677956,
+      "top_pixel": 170.66845330410058,
+      "camera": [
+        90432.1953125,
+        147356.5,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10100000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90127.44,
+          147367.45,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147339.28,
+          147395.63
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2151353468627,
+      "top_pixel": 170.66731313679514,
+      "camera": [
+        90271.6015625,
+        147367.453125,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10100000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90122.93,
+          147367.78,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147339.61,
+          147395.95
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2129546540054,
+      "top_pixel": 170.6679782416008,
+      "camera": [
+        90267.09375,
+        147367.78125,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10340000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82768.1,
+          148088.0,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          148056.98,
+          148119.0
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21399447129573,
+      "top_pixel": 141.91958709694524,
+      "camera": [
+        82926.7734375,
+        148088.0,
+        -3460.142333984375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10340000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82739.04,
+          148081.16,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          148048.16,
+          148115.03
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21260150789436,
+      "top_pixel": 157.6370037667777,
+      "camera": [
+        82910.1484375,
+        148081.59375,
+        -3457.2080078125
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10340000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82514.66,
+          148019.03,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147985.8,
+          148053.36
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21647327284165,
+      "top_pixel": 159.6772238719209,
+      "camera": [
+        82687.5234375,
+        148019.578125,
+        -3456.792724609375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10340000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82449.34,
+          147990.92,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147959.38,
+          148022.34
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2136393625919,
+      "top_pixel": 145.19451301822028,
+      "camera": [
+        82610.453125,
+        147990.859375,
+        -3459.566650390625
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10340000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82449.34,
+          147990.92,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147957.73,
+          148023.5
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2129761606088,
+      "top_pixel": 154.25324118143288,
+      "camera": [
+        82617.609375,
+        147990.625,
+        -3457.8779296875
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10340000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90530.0,
+          147340.0,
+          -3532.55
+        ],
+        "z": [
+          -3523.38,
+          -3513.93
+        ],
+        "y": [
+          147336.02,
+          147343.98
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": false,
+      "feet_pixel": null,
+      "top_pixel": null,
+      "camera": [
+        90644.7734375,
+        147340.0,
+        -3487.550048828125
+      ],
+      "loading_partial_box_rejected": true
+    },
+    {
+      "base": "0x10340000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90288.03,
+          147356.5,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147328.33,
+          147384.67
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21139705677956,
+      "top_pixel": 170.66845330410058,
+      "camera": [
+        90432.1953125,
+        147356.5,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10340000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90127.44,
+          147367.45,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147339.28,
+          147395.63
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2151353468627,
+      "top_pixel": 170.66731313679514,
+      "camera": [
+        90271.6015625,
+        147367.453125,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x10340000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90122.93,
+          147367.78,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147339.61,
+          147395.95
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2129546540054,
+      "top_pixel": 170.6679782416008,
+      "camera": [
+        90267.09375,
+        147367.78125,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x33000000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82768.1,
+          148088.0,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          148056.98,
+          148119.0
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21399447129573,
+      "top_pixel": 141.91958709694524,
+      "camera": [
+        82926.7734375,
+        148088.0,
+        -3460.142333984375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x33000000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82739.04,
+          148081.16,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          148048.16,
+          148115.03
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21260150789436,
+      "top_pixel": 157.6370037667777,
+      "camera": [
+        82910.1484375,
+        148081.59375,
+        -3457.2080078125
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x33000000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82514.66,
+          148019.03,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147985.8,
+          148053.36
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21647327284165,
+      "top_pixel": 159.6772238719209,
+      "camera": [
+        82687.5234375,
+        148019.578125,
+        -3456.792724609375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x33000000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82449.34,
+          147990.92,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147959.38,
+          148022.34
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2136393625919,
+      "top_pixel": 145.19451301822028,
+      "camera": [
+        82610.453125,
+        147990.859375,
+        -3459.566650390625
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x33000000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82449.34,
+          147990.92,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147957.73,
+          148023.5
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2129761606088,
+      "top_pixel": 154.25324118143288,
+      "camera": [
+        82617.609375,
+        147990.625,
+        -3457.8779296875
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x33000000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90530.0,
+          147340.0,
+          -3532.55
+        ],
+        "z": [
+          -3523.38,
+          -3513.93
+        ],
+        "y": [
+          147336.02,
+          147343.98
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": false,
+      "feet_pixel": null,
+      "top_pixel": null,
+      "camera": [
+        90644.7734375,
+        147340.0,
+        -3487.550048828125
+      ],
+      "loading_partial_box_rejected": true
+    },
+    {
+      "base": "0x33000000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90288.03,
+          147356.5,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147328.33,
+          147384.67
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21139705677956,
+      "top_pixel": 170.66845330410058,
+      "camera": [
+        90432.1953125,
+        147356.5,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x33000000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90127.44,
+          147367.45,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147339.28,
+          147395.63
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2151353468627,
+      "top_pixel": 170.66731313679514,
+      "camera": [
+        90271.6015625,
+        147367.453125,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x33000000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90122.93,
+          147367.78,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147339.61,
+          147395.95
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2129546540054,
+      "top_pixel": 170.6679782416008,
+      "camera": [
+        90267.09375,
+        147367.78125,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x6fba0000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82768.1,
+          148088.0,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          148056.98,
+          148119.0
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21399447129573,
+      "top_pixel": 141.91958709694524,
+      "camera": [
+        82926.7734375,
+        148088.0,
+        -3460.142333984375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x6fba0000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82739.04,
+          148081.16,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          148048.16,
+          148115.03
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21260150789436,
+      "top_pixel": 157.6370037667777,
+      "camera": [
+        82910.1484375,
+        148081.59375,
+        -3457.2080078125
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x6fba0000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82514.66,
+          148019.03,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147985.8,
+          148053.36
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21647327284165,
+      "top_pixel": 159.6772238719209,
+      "camera": [
+        82687.5234375,
+        148019.578125,
+        -3456.792724609375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x6fba0000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82449.34,
+          147990.92,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147959.38,
+          148022.34
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2136393625919,
+      "top_pixel": 145.19451301822028,
+      "camera": [
+        82610.453125,
+        147990.859375,
+        -3459.566650390625
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x6fba0000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82449.34,
+          147990.92,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147957.73,
+          148023.5
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2129761606088,
+      "top_pixel": 154.25324118143288,
+      "camera": [
+        82617.609375,
+        147990.625,
+        -3457.8779296875
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x6fba0000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90530.0,
+          147340.0,
+          -3532.55
+        ],
+        "z": [
+          -3523.38,
+          -3513.93
+        ],
+        "y": [
+          147336.02,
+          147343.98
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": false,
+      "feet_pixel": null,
+      "top_pixel": null,
+      "camera": [
+        90644.7734375,
+        147340.0,
+        -3487.550048828125
+      ],
+      "loading_partial_box_rejected": true
+    },
+    {
+      "base": "0x6fba0000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90288.03,
+          147356.5,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147328.33,
+          147384.67
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21139705677956,
+      "top_pixel": 170.66845330410058,
+      "camera": [
+        90432.1953125,
+        147356.5,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x6fba0000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90127.44,
+          147367.45,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147339.28,
+          147395.63
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2151353468627,
+      "top_pixel": 170.66731313679514,
+      "camera": [
+        90271.6015625,
+        147367.453125,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x6fba0000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90122.93,
+          147367.78,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147339.61,
+          147395.95
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2129546540054,
+      "top_pixel": 170.6679782416008,
+      "camera": [
+        90267.09375,
+        147367.78125,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x500000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82768.1,
+          148088.0,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          148056.98,
+          148119.0
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21399447129573,
+      "top_pixel": 141.91958709694524,
+      "camera": [
+        82926.7734375,
+        148088.0,
+        -3460.142333984375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x500000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82739.04,
+          148081.16,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          148048.16,
+          148115.03
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21260150789436,
+      "top_pixel": 157.6370037667777,
+      "camera": [
+        82910.1484375,
+        148081.59375,
+        -3457.2080078125
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x500000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82514.66,
+          148019.03,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147985.8,
+          148053.36
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21647327284165,
+      "top_pixel": 159.6772238719209,
+      "camera": [
+        82687.5234375,
+        148019.578125,
+        -3456.792724609375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x500000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82449.34,
+          147990.92,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147959.38,
+          148022.34
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2136393625919,
+      "top_pixel": 145.19451301822028,
+      "camera": [
+        82610.453125,
+        147990.859375,
+        -3459.566650390625
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x500000",
+      "source_log_sample": {
+        "actor": "267FC400",
+        "loc": [
+          82449.34,
+          147990.92,
+          -3474.6
+        ],
+        "z": [
+          -3497.59,
+          -3441.23
+        ],
+        "y": [
+          147957.73,
+          148023.5
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2129761606088,
+      "top_pixel": 154.25324118143288,
+      "camera": [
+        82617.609375,
+        147990.625,
+        -3457.8779296875
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x500000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90530.0,
+          147340.0,
+          -3532.55
+        ],
+        "z": [
+          -3523.38,
+          -3513.93
+        ],
+        "y": [
+          147336.02,
+          147343.98
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": false,
+      "feet_pixel": null,
+      "top_pixel": null,
+      "camera": [
+        90644.7734375,
+        147340.0,
+        -3487.550048828125
+      ],
+      "loading_partial_box_rejected": true
+    },
+    {
+      "base": "0x500000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90288.03,
+          147356.5,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147328.33,
+          147384.67
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.21139705677956,
+      "top_pixel": 170.66845330410058,
+      "camera": [
+        90432.1953125,
+        147356.5,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x500000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90127.44,
+          147367.45,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147339.28,
+          147395.63
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2151353468627,
+      "top_pixel": 170.66731313679514,
+      "camera": [
+        90271.6015625,
+        147367.453125,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    },
+    {
+      "base": "0x500000",
+      "source_log_sample": {
+        "actor": "29858C00",
+        "loc": [
+          90122.93,
+          147367.78,
+          -3534.65
+        ],
+        "z": [
+          -3560.38,
+          -3515.98
+        ],
+        "y": [
+          147339.61,
+          147395.95
+        ]
+      },
+      "skeletal_exports_unavailable": true,
+      "fbox_flag_zero": true,
+      "framing_ready": true,
+      "feet_pixel": 358.2129546540054,
+      "top_pixel": 170.6679782416008,
+      "camera": [
+        90267.09375,
+        147367.78125,
+        -3526.35693359375
+      ],
+      "loading_partial_box_rejected": false
+    }
+  ]
+}
