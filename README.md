@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 19
+
+[Baixar ZIP](Inventario_Personagem_TESTE19/Milenium_Inventory_Viewr_TESTE19.zip) · [Instruções](Inventario_Personagem_TESTE19/README.md). Mantém o enquadramento aprovado do TESTE 18, acrescenta zoom pela roda dentro do painel, resolução alternativa do bloqueio de nomes e desenho de atores anexados. Substitua somente a DLL. Nome e capa precisam de confirmação no cliente.
+
 ## Inventory Viewr — TESTE 18
 
 [Baixar ZIP](Inventario_Personagem_TESTE18/Milenium_Inventory_Viewr_TESTE18.zip) · [Instruções](Inventario_Personagem_TESTE18/README.md). Enquadramento por dimensões numéricas validadas quando as funções dos ossos não inicializam. Reproduzido com os valores do log R17 em 54 casos simulados. Confirmação visual no cliente ainda necessária.
