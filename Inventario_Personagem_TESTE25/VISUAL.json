@@ -1,0 +1,11 @@
+{
+  "windows_game_run": false,
+  "old_floating_header_removed": true,
+  "strip_inside_preview_at_0_0_270_32": true,
+  "strip_matches_panel_width": true,
+  "title_centered_inside_strip": true,
+  "texture_source_uv_256_32_preserved": true,
+  "all_unrelated_windows_byte_identical": true,
+  "native_parent_geometry_viewport_background_arrows_byte_identical": true,
+  "inventory_button_and_tooltip_preserved": true
+}

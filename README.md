@@ -1,3 +1,7 @@
+## Inventory Viewr — cabeçalho integrado 25
+
+[Baixar ZIP](Inventario_Personagem_TESTE25/Milenium_Inventory_Viewr_TESTE25.zip) · [Instruções](Inventario_Personagem_TESTE25/README.md). Faixa integrada ao topo do próprio painel, com 270x32 e título sobre a textura. Sem janela flutuante. Substitua somente interface.u e interface.xdat.
+
 ## Inventory Viewr — correção visual 24
 
 [Baixar ZIP](Inventario_Personagem_TESTE24/Milenium_Inventory_Viewr_TESTE24.zip) · [Instruções](Inventario_Personagem_TESTE24/README.md). Faixa 256x32 posicionada acima apenas do painel do personagem e tooltip personalizado Inventory Viewr. Substitua somente interface.u e interface.xdat; mantenha a DLL atual.
