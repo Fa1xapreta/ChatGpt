@@ -1,29 +1,15 @@
-# Inventory Viewr — versão final sem faixa
+# Inventory Viewr — final sem faixa, IDs das 34 capas do XML
 
-A faixa TitleViwer foi removida. Personagem, título, tamanho, posição, capas, efeitos, zoom, rotação, botão ADD/DEL de 32x32 e tooltip Inventory Viewr foram preservados. A geração de logs do Inventory Viewr continua desativada pela DLL já instalada.
+Com jogo e launcher fechados, copie system/interface.u e system/interface.xdat para a system do patch/cliente. Mantenha todas as DLLs e texturas atuais. O XDAT não mudou em relação à versão final sem faixa; a mudança está na regra compilada de reconhecimento das capas e no fonte InventoryWnd.uc.
 
-## Atualizar o patch/cliente pronto
+IsBordaItemAllowed aceita somente os IDs contidos no XML enviado: 31300 a 31312, 31346 a 31347 e 31380 a 31398. São 34 itens. Os intervalos antigos 31007 a 31073 e 31100 a 31140 foram substituídos. Os intervalos vazios entre os novos grupos não foram liberados.
 
-Feche jogo e launcher. Copie interface.u e interface.xdat da pasta system para a system do patch/cliente. A interface.u é idêntica à da versão 25; a mudança visual está no XDAT, que remove somente a faixa. Mantenha as DLLs atuais, especialmente Interface.dll e MileniumPortraitNative.dll, e os pacotes L2UI_CH3/L2Devil que já estão funcionando. Nenhuma DLL ou textura é substituída por este pacote.
+A regra é usada para reconhecer as capas e encaminhar as equipadas para InventoryWnd.BordaItem, além dos comportamentos de clique e uso já existentes. O XML do servidor não foi alterado. A permissão real de equipar continua dependendo da definição do item no servidor.
 
-## Classes UC completas para o projeto
+A pasta Classes contém os fontes completos InventoryWnd.uc, MobInformerWnd.uc e MobPreviewNative.uc. Copie esses arquivos para Classes do seu projeto Interface se estiver atualizando os fontes. A única alteração em relação às classes finais anteriores está no retorno de IsBordaItemAllowed de InventoryWnd.uc. As outras duas classes e as declarações nativas são idênticas. Os arquivos UC não substituem os compilados da pasta system; para usar o cliente pronto, utilize os arquivos system incluídos.
 
-A pasta Classes contém:
+Os fontes não foram recompilados com UCC neste ambiente. A interface.u pronta foi atualizada diretamente, mantendo imports, exports e demais objetos compatíveis. O predicado foi lido do bytecode real e executado para todos os 65.536 IDs entre 0 e 65535, além dos extremos de int32. O conjunto aceito coincide exatamente com os 34 IDs do XML e com os intervalos do fonte UC. Os tamanhos de salto de curto-circuito foram conferidos. Também passaram os 64 cenários de ciclo de vida da interface. O XDAT e as outras classes permanecem iguais. ZIPs e hashes conferidos. O jogo Windows não foi executado neste ambiente.
 
-- InventoryWnd.uc: classe completa baseada na enviada por você, com abertura/fechamento da prévia, vínculo ao jogador real, texturas do botão ADD/DEL, tooltip, fundo, setas e limpeza ao reiniciar/fechar o inventário.
-- MobInformerWnd.uc: classe completa, com a limpeza da prévia do inventário ao abrir a janela de monstros que compartilha o renderer.
-- MobPreviewNative.uc: declarações nativas originais, incluídas como dependência. Não foram acrescentadas novas funções nativas.
+Zoom, capas no visor, posição/tamanho do personagem, rotação, botão ADD/DEL de 32x32, tooltip Inventory Viewr, bloqueio de nomes, ausência de faixa e ausência de geração dos logs continuam como estavam. Nenhuma DLL ou textura é substituída.
 
-Atualize esses arquivos na pasta Classes do seu projeto Interface. Os demais fontes do seu projeto permanecem. Os arquivos UC são fontes de interface; não devem substituir os arquivos compilados da pasta system. O funcionamento nativo de câmera, zoom, capas e bloqueio de nomes continua nas DLLs existentes; ele não foi convertido para UnrealScript.
-
-Os fontes foram montados a partir das classes completas que você enviou, preservando propriedades, defaults e todas as funções não envolvidas. Foram alteradas apenas cinco funções de InventoryWnd e OnShow de MobInformerWnd. O helper de tooltip do InventoryWnd já existente é reutilizado. Em MobInformerWnd, a chamada ao helper usa explicitamente o script InventoryWnd. O resultado comportamental corresponde ao da interface compilada incluída, mas uma recompilação gera outro binário e depende do seu projeto, pacotes base e compilador.
-
-As classes UC foram revisadas e comparadas, mas não foram compiladas com UCC neste ambiente. Para usar a versão pronta, não é necessário recompilar: os arquivos da pasta system já estão preparados.
-
-## Verificação
-
-64 cenários de ciclo de vida interpretaram o bytecode da interface. O XDAT foi relido e comparado à versão anterior: somente a textura da faixa foi retirada; os demais dados de janelas e controles permanecem byte a byte iguais. Confirmados ausência de referências à faixa/janela flutuante e interface.u idêntica à versão 25. Nos fontes UC, a restauração das seis funções modificadas reproduz exatamente as classes originais enviadas por você, incluindo defaults e todas as demais funções. MobPreviewNative.uc está byte a byte igual à declaração original. ZIPs e hashes conferidos. O jogo Windows e a compilação UCC dos fontes não foram executados neste ambiente.
-
-## Restaurar
-
-Com o jogo fechado, copie os dois arquivos de VOLTAR_TESTE25/system para system. A pasta contém a interface/XDAT anteriores. Não é necessário mexer nas DLLs.
+Para voltar aos IDs antigos, feche o jogo e copie os dois arquivos de VOLTAR_FINAL26/system para system. Essa pasta contém a versão final anterior à troca da lista de capas.

@@ -1,7 +1,6 @@
 {
-  "only_title_strip_removed": true,
-  "all_remaining_window_and_control_data_byte_identical": true,
-  "compiled_interface_byte_identical_to_25": true,
+  "xdat_byte_identical_to_final26": true,
+  "no_banner": true,
   "native_dll_not_changed": true,
-  "no_decoration_or_header_resource_references": true
+  "only_cloak_filter_and_its_source_changed": true
 }

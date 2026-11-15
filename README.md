@@ -1,3 +1,7 @@
+## Inventory Viewr — FINAL com as 34 capas do XML
+
+[Pacote final](Inventario_Personagem_FINAL/Milenium_Inventory_Viewr_FINAL.zip) · [Somente classes UC](Inventario_Personagem_FINAL/Classes_Inventory_Viewr_FINAL.zip) · [Instruções](Inventario_Personagem_FINAL/README.md). Regra do slot atualizada para os 34 IDs do XML, no fonte UC e na interface compilada. Inclui as três classes completas; layout final sem faixa preservado. Atualize interface.u/interface.xdat e mantenha as DLLs atuais.
+
 ## Inventory Viewr — FINAL sem faixa
 
 [Pacote final](Inventario_Personagem_FINAL/Milenium_Inventory_Viewr_FINAL.zip) · [Somente classes UC](Inventario_Personagem_FINAL/Classes_Inventory_Viewr_FINAL.zip) · [Instruções](Inventario_Personagem_FINAL/README.md). Faixa removida e restante preservado. Inclui as três classes UC completas para o projeto. Atualize interface.u/interface.xdat e mantenha as DLLs atuais.

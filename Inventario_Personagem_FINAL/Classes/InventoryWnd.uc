@@ -3035,8 +3035,9 @@ function CustomTooltip SetTooltipBorda()
 
 function bool IsBordaItemAllowed(ItemInfo Info)
 {
-    return (Info.ClassID >= 31007 && Info.ClassID <= 31073)
-        || (Info.ClassID >= 31100 && Info.ClassID <= 31140);
+    return (Info.ClassID >= 31300 && Info.ClassID <= 31312)
+        || (Info.ClassID >= 31346 && Info.ClassID <= 31347)
+        || (Info.ClassID >= 31380 && Info.ClassID <= 31398);
 }
 
 defaultproperties

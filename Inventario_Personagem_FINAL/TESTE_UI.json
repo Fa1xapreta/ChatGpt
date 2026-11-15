@@ -6,29 +6,33 @@
   "null_actor_does_not_open_preview": true,
   "all_other_objects_unchanged": true,
   "function_checks": {
-    "MobInformerWnd.OnShow": {
-      "runtime_bytes": 371,
-      "jumps": 1
-    },
     "InventoryWnd.OnHide": {
       "runtime_bytes": 545,
       "jumps": 5
-    },
-    "InventoryWnd.OnClickButton": {
-      "runtime_bytes": 2182,
-      "jumps": 41
     },
     "InventoryWnd.OnShow": {
       "runtime_bytes": 437,
       "jumps": 2
     },
-    "InventoryWnd.OnLoad": {
-      "runtime_bytes": 380,
-      "jumps": 0
+    "InventoryWnd.OnClickButton": {
+      "runtime_bytes": 2182,
+      "jumps": 41
     },
     "InventoryWnd.OnEvent": {
       "runtime_bytes": 998,
       "jumps": 30
+    },
+    "InventoryWnd.IsBordaItemAllowed": {
+      "runtime_bytes": 130,
+      "jumps": 0
+    },
+    "InventoryWnd.OnLoad": {
+      "runtime_bytes": 380,
+      "jumps": 0
+    },
+    "MobInformerWnd.OnShow": {
+      "runtime_bytes": 371,
+      "jumps": 1
     }
   },
   "button_add_del_and_tooltips_verified": true,

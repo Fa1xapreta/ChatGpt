@@ -1,0 +1,11 @@
+{
+  "predicate_executed_from_real_bytecode": true,
+  "short_circuit_skip_sizes_checked": true,
+  "ids_checked": 65536,
+  "int32_edge_cases_checked": true,
+  "xml_ids_exactly_match_source_and_binary": true,
+  "allowed_count": 34,
+  "only_source_predicate_changed": true,
+  "xdat_and_other_uc_classes_unchanged": true,
+  "native_dll_unchanged": true
+}
