@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 15
+
+[Baixar DLL](Inventario_Personagem_TESTE15/Milenium_Inventory_Viewr_TESTE15.zip) · [Instruções](Inventario_Personagem_TESTE15/README.md). Aproximadamente 7% maior, pés na posição confirmada do TESTE 14. Clique gira 15 graus; segurar acelera o giro. Substitua somente a DLL.
+
 ## Inventory Viewr — TESTE 14
 
 [Baixar DLL](Inventario_Personagem_TESTE14/Milenium_Inventory_Viewr_TESTE14.zip) · [Instruções](Inventario_Personagem_TESTE14/README.md). Enquadramento pela cabeça/pés da pose, personagem maior e mais alto, vista frontal inicial e setas em passos de 15 graus por clique. Clique independente da disponibilidade do perfil. Substitua somente a DLL; validação visual no cliente ainda necessária.

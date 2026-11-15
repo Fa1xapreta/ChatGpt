@@ -1,0 +1,138 @@
+{
+  "windows_game_run": false,
+  "engine_calls_mocked": true,
+  "results": [
+    {
+      "base": "0x10000000",
+      "fixed_camera": [
+        202.19296264648438,
+        200.0,
+        324.7176513671875
+      ],
+      "projected_feet_y": 343.1999765619114,
+      "projected_head_y": 62.15002503485658,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "feet_anchor_unchanged": true,
+      "equipment_refresh": true,
+      "arrow_click_steps_15_degrees": true,
+      "short_hold_preserves_click_step": true,
+      "holding_accelerates": true,
+      "clicks_processed_without_cached_bounds": true,
+      "explicit_head_and_feet_api": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10100000",
+      "fixed_camera": [
+        202.19296264648438,
+        200.0,
+        324.7176513671875
+      ],
+      "projected_feet_y": 343.1999765619114,
+      "projected_head_y": 62.15002503485658,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "feet_anchor_unchanged": true,
+      "equipment_refresh": true,
+      "arrow_click_steps_15_degrees": true,
+      "short_hold_preserves_click_step": true,
+      "holding_accelerates": true,
+      "clicks_processed_without_cached_bounds": true,
+      "explicit_head_and_feet_api": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10340000",
+      "fixed_camera": [
+        202.19296264648438,
+        200.0,
+        324.7176513671875
+      ],
+      "projected_feet_y": 343.1999765619114,
+      "projected_head_y": 62.15002503485658,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "feet_anchor_unchanged": true,
+      "equipment_refresh": true,
+      "arrow_click_steps_15_degrees": true,
+      "short_hold_preserves_click_step": true,
+      "holding_accelerates": true,
+      "clicks_processed_without_cached_bounds": true,
+      "explicit_head_and_feet_api": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x33000000",
+      "fixed_camera": [
+        202.19296264648438,
+        200.0,
+        324.7176513671875
+      ],
+      "projected_feet_y": 343.1999765619114,
+      "projected_head_y": 62.15002503485658,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "feet_anchor_unchanged": true,
+      "equipment_refresh": true,
+      "arrow_click_steps_15_degrees": true,
+      "short_hold_preserves_click_step": true,
+      "holding_accelerates": true,
+      "clicks_processed_without_cached_bounds": true,
+      "explicit_head_and_feet_api": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x6fba0000",
+      "fixed_camera": [
+        202.19296264648438,
+        200.0,
+        324.7176513671875
+      ],
+      "projected_feet_y": 343.1999765619114,
+      "projected_head_y": 62.15002503485658,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "feet_anchor_unchanged": true,
+      "equipment_refresh": true,
+      "arrow_click_steps_15_degrees": true,
+      "short_hold_preserves_click_step": true,
+      "holding_accelerates": true,
+      "clicks_processed_without_cached_bounds": true,
+      "explicit_head_and_feet_api": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x500000",
+      "fixed_camera": [
+        202.19296264648438,
+        200.0,
+        324.7176513671875
+      ],
+      "projected_feet_y": 343.1999765619114,
+      "projected_head_y": 62.15002503485658,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "feet_anchor_unchanged": true,
+      "equipment_refresh": true,
+      "arrow_click_steps_15_degrees": true,
+      "short_hold_preserves_click_step": true,
+      "holding_accelerates": true,
+      "clicks_processed_without_cached_bounds": true,
+      "explicit_head_and_feet_api": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    }
+  ]
+}
