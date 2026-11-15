@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 17
+
+[Baixar ZIP](Inventario_Personagem_TESTE17/Milenium_Inventory_Viewr_TESTE17.zip) · [Instruções](Inventario_Personagem_TESTE17/README.md). Corrige inicialização do enquadramento e ciclo de abertura; protege troca de personagem e desenho recursivo. Copie os três arquivos. Inclui restauração coerente do TESTE 15. Validação no jogo ainda necessária.
+
 ## Inventory Viewr — TESTE 16
 
 [Baixar ZIP](Inventario_Personagem_TESTE16/Milenium_Inventory_Viewr_TESTE16.zip) · [Instruções](Inventario_Personagem_TESTE16/README.md). Segunda vista do ator real, acompanhando pose e equipamentos, conforme o comportamento observado no vídeo. Copie os três arquivos de system; inclui restauração do TESTE 15. Capas, enchant e resultado visual ainda precisam de confirmação no jogo.

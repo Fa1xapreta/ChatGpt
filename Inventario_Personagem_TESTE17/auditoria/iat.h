@@ -1,0 +1,17 @@
+#define IAT_GetTickCount 0x16fd8
+#define IAT_GetProcAddress 0x16fe0
+#define IAT_GetForegroundWindow 0x170d4
+#define IAT_GetWindowThreadProcessId 0x170d8
+#define IAT_GetCurrentProcessId 0x16fdc
+#define IAT_GetCursorPos 0x170d0
+#define IAT_GetAsyncKeyState 0x170dc
+#define IAT_ScreenToClient 0x170e0
+#define IAT_GetModuleFileNameW 0x16fb4
+#define IAT_CreateFileW 0x16fbc
+#define IAT_WriteFile 0x16fc0
+#define IAT_CloseHandle 0x16fc4
+#define IAT__snprintf 0x17070
+#define IAT_GetCurrentThreadId 0x16fb8
+#define IAT_VirtualProtect 0x16fcc
+#define IAT_GetCurrentProcess 0x16fd0
+#define IAT_FlushInstructionCache 0x16fd4

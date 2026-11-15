@@ -1,0 +1,16 @@
+{
+  "simulated_configuration_consistent_with_runtime_log": true,
+  "actual_missing_runtime_globals_not_measured": true,
+  "results": [
+    {
+      "base": "0x33000000",
+      "shared_pawn_class": 0,
+      "framing_ready": false,
+      "camera": [
+        180.0,
+        200.0,
+        320.0
+      ]
+    }
+  ]
+}

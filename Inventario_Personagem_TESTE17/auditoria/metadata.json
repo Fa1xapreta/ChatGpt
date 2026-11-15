@@ -1,0 +1,28 @@
+{
+  "symbols": {
+    "viewer.c": 0,
+    "root_matches": 270016576,
+    "patch_bytes": 270016752,
+    "diagnostic": 270016880,
+    "diagnostic_lines": 270029044,
+    "diagnostic_last": 270029040,
+    "body_sample": 270029088,
+    "caption_status": 270029048,
+    "caption_scope": 270029056,
+    "caption_base": 270029068,
+    "caption_thread": 270029060,
+    "active_context": 270029064,
+    "caption_attempted": 270029052,
+    "viewer_tick": 270017888,
+    "preview_finish": 270017760,
+    "render_entry_trampoline": 270016512,
+    "preview_nested_block": 270017520,
+    "viewer_state": 270028800,
+    "caption_trampoline": 270016544,
+    "caption_gate": 270016720,
+    "render_entry_gate": 270017840,
+    "preview_caption_block": 270017472
+  },
+  "trampoline": 1587392,
+  "relocations": 1829
+}
