@@ -1,0 +1,517 @@
+{
+  "real_bytecode_interpreted": true,
+  "engine_calls_mocked": true,
+  "no_event_driven_rebind": true,
+  "startup_show_hide_restart_cleanup": true,
+  "null_actor_does_not_open_preview": true,
+  "all_other_objects_unchanged": true,
+  "function_checks": {
+    "InventoryWnd.OnShow": {
+      "runtime_bytes": 488,
+      "jumps": 2
+    },
+    "InventoryWnd.OnClickButton": {
+      "runtime_bytes": 2378,
+      "jumps": 41
+    },
+    "InventoryWnd.OnEvent": {
+      "runtime_bytes": 1100,
+      "jumps": 30
+    },
+    "InventoryWnd.OnHide": {
+      "runtime_bytes": 596,
+      "jumps": 5
+    },
+    "InventoryWnd.OnLoad": {
+      "runtime_bytes": 431,
+      "jumps": 0
+    },
+    "MobInformerWnd.OnShow": {
+      "runtime_bytes": 422,
+      "jumps": 1
+    }
+  },
+  "button_add_del_and_tooltips_verified": true,
+  "cases": [
+    {
+      "function": "click",
+      "key": "btnMileniumPreview",
+      "opened": false,
+      "actor": true,
+      "hud": false
+    },
+    {
+      "function": "click",
+      "key": "btnMileniumPreview",
+      "opened": true,
+      "actor": true,
+      "hud": false
+    },
+    {
+      "function": "click",
+      "key": "unhandled",
+      "opened": false,
+      "actor": true,
+      "hud": false
+    },
+    {
+      "function": "click",
+      "key": "btnMileniumPreview",
+      "opened": false,
+      "actor": false,
+      "hud": false
+    },
+    {
+      "function": "click",
+      "key": "btnMileniumPreview",
+      "opened": false,
+      "actor": true,
+      "hud": true
+    },
+    {
+      "function": "click",
+      "key": "btnMileniumPreview",
+      "opened": true,
+      "actor": true,
+      "hud": true
+    },
+    {
+      "function": "click",
+      "key": "unhandled",
+      "opened": false,
+      "actor": true,
+      "hud": true
+    },
+    {
+      "function": "click",
+      "key": "btnMileniumPreview",
+      "opened": false,
+      "actor": false,
+      "hud": true
+    },
+    {
+      "function": "InventoryWnd.OnLoad",
+      "initially_open": false,
+      "closed_after": true
+    },
+    {
+      "function": "InventoryWnd.OnLoad",
+      "initially_open": true,
+      "closed_after": true
+    },
+    {
+      "function": "InventoryWnd.OnShow",
+      "initially_open": false,
+      "closed_after": true
+    },
+    {
+      "function": "InventoryWnd.OnShow",
+      "initially_open": true,
+      "closed_after": true
+    },
+    {
+      "function": "InventoryWnd.OnHide",
+      "initially_open": false,
+      "closed_after": true
+    },
+    {
+      "function": "InventoryWnd.OnHide",
+      "initially_open": true,
+      "closed_after": true
+    },
+    {
+      "function": "MobInformerWnd.OnShow",
+      "initially_open": false,
+      "closed_after": true
+    },
+    {
+      "function": "MobInformerWnd.OnShow",
+      "initially_open": true,
+      "closed_after": true
+    },
+    {
+      "function": "event",
+      "event": 40,
+      "inventory_visible": false,
+      "preview_visible": false,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 40,
+      "inventory_visible": false,
+      "preview_visible": true,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 40,
+      "inventory_visible": true,
+      "preview_visible": false,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 40,
+      "inventory_visible": true,
+      "preview_visible": true,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 180,
+      "inventory_visible": false,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 180,
+      "inventory_visible": false,
+      "preview_visible": true,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 180,
+      "inventory_visible": true,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 180,
+      "inventory_visible": true,
+      "preview_visible": true,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 650,
+      "inventory_visible": false,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 650,
+      "inventory_visible": false,
+      "preview_visible": true,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 650,
+      "inventory_visible": true,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 650,
+      "inventory_visible": true,
+      "preview_visible": true,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2570,
+      "inventory_visible": false,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2570,
+      "inventory_visible": false,
+      "preview_visible": true,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2570,
+      "inventory_visible": true,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2570,
+      "inventory_visible": true,
+      "preview_visible": true,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2580,
+      "inventory_visible": false,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2580,
+      "inventory_visible": false,
+      "preview_visible": true,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2580,
+      "inventory_visible": true,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2580,
+      "inventory_visible": true,
+      "preview_visible": true,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2590,
+      "inventory_visible": false,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2590,
+      "inventory_visible": false,
+      "preview_visible": true,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2590,
+      "inventory_visible": true,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2590,
+      "inventory_visible": true,
+      "preview_visible": true,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2600,
+      "inventory_visible": false,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2600,
+      "inventory_visible": false,
+      "preview_visible": true,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2600,
+      "inventory_visible": true,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2600,
+      "inventory_visible": true,
+      "preview_visible": true,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2610,
+      "inventory_visible": false,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2610,
+      "inventory_visible": false,
+      "preview_visible": true,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2610,
+      "inventory_visible": true,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2610,
+      "inventory_visible": true,
+      "preview_visible": true,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2620,
+      "inventory_visible": false,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2620,
+      "inventory_visible": false,
+      "preview_visible": true,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2620,
+      "inventory_visible": true,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2620,
+      "inventory_visible": true,
+      "preview_visible": true,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2630,
+      "inventory_visible": false,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2630,
+      "inventory_visible": false,
+      "preview_visible": true,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2630,
+      "inventory_visible": true,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2630,
+      "inventory_visible": true,
+      "preview_visible": true,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2631,
+      "inventory_visible": false,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2631,
+      "inventory_visible": false,
+      "preview_visible": true,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2631,
+      "inventory_visible": true,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 2631,
+      "inventory_visible": true,
+      "preview_visible": true,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 1710,
+      "inventory_visible": false,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 1710,
+      "inventory_visible": false,
+      "preview_visible": true,
+      "cleanup": true,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 1710,
+      "inventory_visible": true,
+      "preview_visible": false,
+      "cleanup": false,
+      "no_rebind": true
+    },
+    {
+      "function": "event",
+      "event": 1710,
+      "inventory_visible": true,
+      "preview_visible": true,
+      "cleanup": false,
+      "no_rebind": true
+    }
+  ]
+}

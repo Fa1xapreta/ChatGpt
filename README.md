@@ -1,3 +1,7 @@
+## Inventory Viewr — correção visual 24
+
+[Baixar ZIP](Inventario_Personagem_TESTE24/Milenium_Inventory_Viewr_TESTE24.zip) · [Instruções](Inventario_Personagem_TESTE24/README.md). Faixa 256x32 posicionada acima apenas do painel do personagem e tooltip personalizado Inventory Viewr. Substitua somente interface.u e interface.xdat; mantenha a DLL atual.
+
 ## Inventory Viewr — atualização visual 23
 
 [Baixar ZIP](Inventario_Personagem_TESTE23/Milenium_Inventory_Viewr_TESTE23.zip) · [Instruções](Inventario_Personagem_TESTE23/README.md). Faixa TitleViwer de 256x32 acima do título, botão ADD/DEL de 32x32 com mouse e descrição, logs do Inventory Viewr desativados. Preserva o funcionamento aprovado do TESTE 22. Copie os três arquivos de system.
