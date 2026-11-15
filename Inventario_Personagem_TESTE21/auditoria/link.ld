@@ -1,0 +1,1 @@
+SECTIONS { . = 0x10182000; .text : { *(.text*) } . = 0x10186000; .rodata : { *(.rodata*) } . = 0x10188000; .data : { *(.data*) } .bss : { *(.bss*) *(COMMON) } /DISCARD/ : { *(.comment) *(.note*) *(.eh_frame*) } }

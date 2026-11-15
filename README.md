@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 21
+
+[Baixar ZIP](Inventario_Personagem_TESTE21/Milenium_Inventory_Viewr_TESTE21.zip) · [Instruções](Inventario_Personagem_TESTE21/README.md). Busca o ator da capa no registro do CapasClassic, validando a versão e evitando desenho duplicado. Preserva zoom, nomes e câmera. Substitua somente a DLL. Capa ainda precisa de confirmação visual.
+
 ## Inventory Viewr — TESTE 20
 
 [Baixar ZIP](Inventario_Personagem_TESTE20/Milenium_Inventory_Viewr_TESTE20.zip) · [Instruções](Inventario_Personagem_TESTE20/README.md). Corrige a referência ao módulo Engine para ativar bloqueio de nomes e desenho de anexos. Mantém o zoom e o enquadramento aprovados. Substitua somente a DLL. Validação visual no cliente ainda necessária.
