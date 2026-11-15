@@ -1,0 +1,62 @@
+from pathlib import Path
+import struct,sys,json,shutil
+R=Path(__file__).resolve().parent;P=R.parent;sys.path[:0]=['/workspace/work/cloak-audit/vendor',str(P)]
+import pefile
+elf=(R/'viewer.elf').read_bytes();shoff=struct.unpack_from('<I',elf,32)[0];_,ents,n,si=struct.unpack_from('<HHHH',elf,44)
+ss=[struct.unpack_from('<10I',elf,shoff+i*ents) for i in range(n)];strings=elf[ss[si][4]:ss[si][4]+ss[si][5]]
+name=lambda a:strings[a:].split(b'\0')[0].decode();sects={name(s[0]):s for s in ss};symbols={}
+for s in ss:
+ if s[1]==2:
+  st=ss[s[6]];strs=elf[st[4]:st[4]+st[5]]
+  for pos in range(s[4],s[4]+s[5],16):
+   nm,v,sz,inf,oth,idx=struct.unpack_from('<IIIBBH',elf,pos);nm=strs[nm:].split(b'\0')[0].decode()
+   if nm:symbols[nm]=v
+code=bytearray(elf[sects['.text'][4]:sects['.text'][4]+sects['.text'][5]])
+while len(code)%16:code+=b'\x90'
+tr=0x182000+len(code)
+# Save all registers; recover actual module base; call C callback and replay instructions.
+t=bytearray(b'\x60\xe8\0\0\0\0\x59\x81\xe9'+struct.pack('<I',tr+6)+b'\x55\x51')
+t+=b'\xe8'+struct.pack('<i',symbols['viewer_tick']-0x10000000-(tr+len(t)+5));t+=b'\x83\xc4\x08\x61\x8b\x45\x08\x83\xc0\x08';t+=b'\xe9'+struct.pack('<i',0x4a26-(tr+len(t)+5));code+=t
+# Clear the per-view name/reentry scope at the renderer's shared exit.
+while len(code)%16:code+=b'\x90'
+exit_rva=0x182000+len(code);e=bytearray(b'\x60\xff\x75\x08')
+e+=b'\xe8'+struct.pack('<i',symbols['preview_finish']-0x10000000-(exit_rva+len(e)+5));e+=b'\x83\xc4\x04\x61\x8b\x45\x08\x83\xc0\x08';e+=b'\xe9'+struct.pack('<i',0x4cbb-(exit_rva+len(e)+5));code+=e
+# Preserve and replay the original prologue for non-recursive views.
+entry_at=symbols['render_entry_trampoline']-0x10182000
+prologue=bytes.fromhex('5589e581ecd8000000');assert len(prologue)==9
+code[entry_at:entry_at+9]=prologue
+code[entry_at+9:entry_at+14]=b'\xe9'+struct.pack('<i',0x40a2-(0x182000+entry_at+14))
+assert len(code)<0x4000
+base=(P/'TESTE5/system/MileniumPortraitNative.dll').read_bytes();pe=pefile.PE(data=base)
+assert pe.get_data(0x4a20,6)==bytes.fromhex('8b450883c008')
+assert pe.get_data(0x4cb5,6)==bytes.fromhex('8b450883c008')
+assert pe.get_data(0x4099,9)==prologue
+rel={e.rva for block in pe.DIRECTORY_ENTRY_BASERELOC for e in block.entries if e.type==3}
+assert not any(0x4a1d<=r<0x4a26 for r in rel)
+for s in ss:
+ if s[1]==9:
+  for pos in range(s[4],s[4]+s[5],8):
+   off,info=struct.unpack_from('<II',elf,pos);typ=info&255
+   assert typ in (1,2),typ
+   if typ==1:rel.add(off-0x10000000)
+blocks=bytearray()
+for page in sorted({r&~4095 for r in rel}):
+ vals=[0x3000|(r&4095) for r in sorted(rel) if r&~4095==page]
+ if len(vals)%2:vals.append(0)
+ blocks+=struct.pack('<II',page,8+2*len(vals))+struct.pack('<'+'H'*len(vals),*vals)
+data=bytearray(0x3000)
+for k in ['.rodata','.data']:
+ s=sects[k];off=s[3]-0x10186000;data[off:off+s[5]]=elf[s[4]:s[4]+s[5]]
+out=bytearray(base[:512]+bytes(512)+base[512:]);fh=pe.DOS_HEADER.e_lfanew+4;opt=fh+20;headers=opt+pe.FILE_HEADER.SizeOfOptionalHeader
+for i,s in enumerate(pe.sections):struct.pack_into('<I',out,headers+i*40+20,s.PointerToRawData+512)
+struct.pack_into('<H',out,fh+2,6);struct.pack_into('<I',out,opt+60,1024)
+for i,(nm,rva,payload,flags) in enumerate([(b'.iview',0x182000,code,0x60000020),(b'.ivdata',0x186000,data,0xc0000040),(b'.ivrel',0x189000,blocks,0x42000040)],3):
+ while len(out)%512:out+=b'\0'
+ raw=len(out);sz=(len(payload)+511)&~511;out+=payload+bytes(sz-len(payload));struct.pack_into('<8sIIIIIIHHI',out,headers+i*40,nm,len(payload),rva,sz,raw,0,0,0,0,flags)
+struct.pack_into('<I',out,headers+3*40+8,0x4000)
+struct.pack_into('<I',out,opt+56,0x189000+((len(blocks)+4095)&~4095));struct.pack_into('<II',out,opt+96+5*8,0x189000,len(blocks));struct.pack_into('<I',out,opt+64,0)
+p=pefile.PE(data=out);off=p.get_offset_from_rva(0x4a20);out[off:off+6]=b'\xe9'+struct.pack('<i',tr-0x4a25)+b'\x90'
+o=p.get_offset_from_rva(0x4cb5);out[o:o+6]=b'\xe9'+struct.pack('<i',exit_rva-0x4cba)+b'\x90'
+o=p.get_offset_from_rva(0x4099);out[o:o+9]=b'\xe9'+struct.pack('<i',symbols['render_entry_gate']-0x10000000-0x409e)+b'\x90'*4
+O=P/'TESTE22/system';O.mkdir(parents=True,exist_ok=True);(O/'MileniumPortraitNative.dll').write_bytes(out);
+(R/'metadata.json').write_text(json.dumps({'symbols':symbols,'trampoline':tr,'relocations':len(rel)},indent=2));print('Built native',len(out))
