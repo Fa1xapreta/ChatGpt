@@ -1,0 +1,9 @@
+Substitua Classes/CompactToolbarWnd.uc no seu projeto e recompile a Interface pelo seu processo habitual.
+
+Ao entrar no jogo: SS, potions e skills recolhidos; montaria visivel.
+Os quatro botoes continuam disponiveis. Clique na montaria para ocultar; a abertura manual existente continua por duplo clique.
+A montaria volta a aparecer no proximo login. Eventos repetidos e atualizacoes de layout nao reabrem a montaria durante a mesma sessao.
+A quantidade de linhas da barra de atalhos continua seguindo sua configuracao atual.
+
+Apenas CompactToolbarWnd.uc foi alterada. Sem mudancas no XDAT, texturas ou outras classes.
+Validacao: revisao do fluxo de inicializacao e alternancia de visibilidade. Compilacao e teste no cliente devem ser feitos no seu ambiente Windows; este pacote contem o fonte, nao uma Interface.u compilada.
