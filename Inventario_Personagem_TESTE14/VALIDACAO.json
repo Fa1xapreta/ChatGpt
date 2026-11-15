@@ -1,0 +1,126 @@
+{
+  "windows_game_run": false,
+  "engine_calls_mocked": true,
+  "results": [
+    {
+      "base": "0x10000000",
+      "fixed_camera": [
+        209.2896728515625,
+        200.0,
+        326.850830078125
+      ],
+      "projected_feet_y": 343.2000372251082,
+      "projected_head_y": 80.40002649390277,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "equipment_refresh": true,
+      "arrow_click_steps_15_degrees": true,
+      "holding_does_not_rotate": true,
+      "clicks_processed_without_cached_bounds": true,
+      "explicit_head_and_feet_api": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10100000",
+      "fixed_camera": [
+        209.2896728515625,
+        200.0,
+        326.850830078125
+      ],
+      "projected_feet_y": 343.2000372251082,
+      "projected_head_y": 80.40002649390277,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "equipment_refresh": true,
+      "arrow_click_steps_15_degrees": true,
+      "holding_does_not_rotate": true,
+      "clicks_processed_without_cached_bounds": true,
+      "explicit_head_and_feet_api": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x10340000",
+      "fixed_camera": [
+        209.2896728515625,
+        200.0,
+        326.850830078125
+      ],
+      "projected_feet_y": 343.2000372251082,
+      "projected_head_y": 80.40002649390277,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "equipment_refresh": true,
+      "arrow_click_steps_15_degrees": true,
+      "holding_does_not_rotate": true,
+      "clicks_processed_without_cached_bounds": true,
+      "explicit_head_and_feet_api": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x33000000",
+      "fixed_camera": [
+        209.2896728515625,
+        200.0,
+        326.850830078125
+      ],
+      "projected_feet_y": 343.2000372251082,
+      "projected_head_y": 80.40002649390277,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "equipment_refresh": true,
+      "arrow_click_steps_15_degrees": true,
+      "holding_does_not_rotate": true,
+      "clicks_processed_without_cached_bounds": true,
+      "explicit_head_and_feet_api": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x6fba0000",
+      "fixed_camera": [
+        209.2896728515625,
+        200.0,
+        326.850830078125
+      ],
+      "projected_feet_y": 343.2000372251082,
+      "projected_head_y": 80.40002649390277,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "equipment_refresh": true,
+      "arrow_click_steps_15_degrees": true,
+      "holding_does_not_rotate": true,
+      "clicks_processed_without_cached_bounds": true,
+      "explicit_head_and_feet_api": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    },
+    {
+      "base": "0x500000",
+      "fixed_camera": [
+        209.2896728515625,
+        200.0,
+        326.850830078125
+      ],
+      "projected_feet_y": 343.2000372251082,
+      "projected_head_y": 80.40002649390277,
+      "warmup_keeps_engine_camera": true,
+      "bone_and_capsule_changes_do_not_affect_framing": true,
+      "equipment_refresh": true,
+      "arrow_click_steps_15_degrees": true,
+      "holding_does_not_rotate": true,
+      "clicks_processed_without_cached_bounds": true,
+      "explicit_head_and_feet_api": true,
+      "body_drag_does_not_rotate": true,
+      "source_untouched": true,
+      "actual_relocated_detour": true
+    }
+  ]
+}

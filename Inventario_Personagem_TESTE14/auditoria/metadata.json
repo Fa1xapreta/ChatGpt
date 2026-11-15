@@ -1,0 +1,14 @@
+{
+  "symbols": {
+    "viewer.c": 0,
+    "diagnostic": 270016512,
+    "diagnostic_lines": 270029008,
+    "diagnostic_last": 270029004,
+    "body_sample": 270029024,
+    "equip_names": 270026080,
+    "viewer_tick": 270017056,
+    "viewer_state": 270028800
+  },
+  "trampoline": 1585568,
+  "relocations": 1766
+}

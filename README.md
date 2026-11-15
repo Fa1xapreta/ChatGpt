@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 14
+
+[Baixar DLL](Inventario_Personagem_TESTE14/Milenium_Inventory_Viewr_TESTE14.zip) · [Instruções](Inventario_Personagem_TESTE14/README.md). Enquadramento pela cabeça/pés da pose, personagem maior e mais alto, vista frontal inicial e setas em passos de 15 graus por clique. Clique independente da disponibilidade do perfil. Substitua somente a DLL; validação visual no cliente ainda necessária.
+
 ## Inventory Viewr — TESTE 13
 
 [Baixar DLL](Inventario_Personagem_TESTE13/Milenium_Inventory_Viewr_TESTE13.zip) · [Instruções](Inventario_Personagem_TESTE13/README.md). O registro confirma que o ator chega ao desenho. Câmera deixa de usar foco de osso/cápsula e passa a usar os limites do modelo após carregar. Mantém layout do TESTE 12; substitua somente a DLL. Confirmação visual ainda necessária.
