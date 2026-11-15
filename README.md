@@ -1,3 +1,7 @@
+## Inventory Viewr — TESTE 18
+
+[Baixar ZIP](Inventario_Personagem_TESTE18/Milenium_Inventory_Viewr_TESTE18.zip) · [Instruções](Inventario_Personagem_TESTE18/README.md). Enquadramento por dimensões numéricas validadas quando as funções dos ossos não inicializam. Reproduzido com os valores do log R17 em 54 casos simulados. Confirmação visual no cliente ainda necessária.
+
 ## Inventory Viewr — TESTE 17
 
 [Baixar ZIP](Inventario_Personagem_TESTE17/Milenium_Inventory_Viewr_TESTE17.zip) · [Instruções](Inventario_Personagem_TESTE17/README.md). Corrige inicialização do enquadramento e ciclo de abertura; protege troca de personagem e desenho recursivo. Copie os três arquivos. Inclui restauração coerente do TESTE 15. Validação no jogo ainda necessária.
