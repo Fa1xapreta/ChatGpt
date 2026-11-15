@@ -1,0 +1,9 @@
+Substitua Classes/StatusWnd.uc no projeto e recompile sua Interface.
+Apenas StatusWnd.uc foi alterada; mantenha as DLLs e demais classes atuais.
+
+Correcao: repetir BindPortrait no timer existente de 150 ms, aproveitando o retorno de cache R10. A tentativa nao depende mais de alterar a aparencia ou alternar o modo do retrato. Reativar explicitamente o timer apos criar o ator e limpar a referencia do personagem anterior na entrada de estado.
+O modo compacto/expandido escolhido pelo jogador continua preservado.
+Sem novos logs.
+
+Validacao estatica do fonte e revisao dos caminhos de repeticao. Nao compilado nem testado no jogo neste ambiente.
+Teste no cliente: entrar repetidas vezes, trocar de personagem, fechar/abrir o retrato e trocar equipamento. Confirmar que o rosto carrega sem alternar o modo.
