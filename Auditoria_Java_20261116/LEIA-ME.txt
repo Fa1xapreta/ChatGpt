@@ -1,0 +1,13 @@
+Auditoria do java.rar enviado em 16/11/2026.
+
+Comece por RELATORIO.md. Ele contém 15 achados priorizados, condições, impacto, referências e os limites de cada conclusão.
+COMO_INVESTIGAR.md descreve como correlacionar os defeitos do fonte com o servidor em execução.
+coverage.csv registra a triagem dos 1.817 fontes e quais tiveram revisão manual focal.
+command-overrides.csv mostra comandos sobrescritos pelo registro de outra classe.
+findings.json, scan-summary.json e test-results.json contêm os resultados estruturados.
+
+Nenhum arquivo original do usuário foi alterado e nenhuma correção foi instalada no servidor.
+PROPOSTA_fila.diff é uma proposta mínima para review/teste integrado. Os testes isolados do caso original falham conforme esperado, e os da proposta passam. Isso não substitui compilar e testar o projeto real.
+
+A pasta TESTES contém fixtures isoladas. Não instale essas classes no gameserver. Elas simulam dependências para reproduzir as falhas. Não são classes de produção.
+Não há Interface.u, executável ou .class de produção neste pacote.

@@ -1,0 +1,58 @@
+[
+  {
+    "test": "QueueRegression",
+    "exit_code": 0,
+    "stdout": "REPRODUCED: burst leaves 1 packet pending without worker; next packet resumes it. Empty-poll/enqueue/unlock race also leaves 1 pending packet. Original execute/run methods, mocked scheduler and stats.",
+    "stderr": "",
+    "method_sources": "metodos do arquivo fornecido, extraidos sem alterar a logica; proposta de fila avaliada em teste separado",
+    "dependencies": "fixtures para motor, transporte, relogio, scheduler e/ou configuracao; nao e o servidor completo"
+  },
+  {
+    "test": "FloodRegression",
+    "exit_code": 0,
+    "stdout": "REPRODUCED: background query at tick 100 blocks distinct manual actions at 101 and 104; tick 105 succeeds. Production method, default interval 5 ticks, mocked clock/config.",
+    "stderr": "",
+    "method_sources": "metodos do arquivo fornecido, extraidos sem alterar a logica; proposta de fila avaliada em teste separado",
+    "dependencies": "fixtures para motor, transporte, relogio, scheduler e/ou configuracao; nao e o servidor completo"
+  },
+  {
+    "test": "HtmlRegression",
+    "exit_code": 0,
+    "stdout": "REPRODUCED: new HTML clears previous whitelist; reopening restores it. objectId placeholder remains in whitelist when scanner runs before serialization. Production scanner and validation methods; transport mocked.",
+    "stderr": "",
+    "method_sources": "metodos do arquivo fornecido, extraidos sem alterar a logica; proposta de fila avaliada em teste separado",
+    "dependencies": "fixtures para motor, transporte, relogio, scheduler e/ou configuracao; nao e o servidor completo"
+  },
+  {
+    "test": "PoolOverflowRegression",
+    "exit_code": 0,
+    "stdout": "REPRODUCED: original pool selection produces a negative array index after int overflow. Scheduling wrappers catch this exception and can return null. No real threads created.",
+    "stderr": "",
+    "method_sources": "metodos do arquivo fornecido, extraidos sem alterar a logica; proposta de fila avaliada em teste separado",
+    "dependencies": "fixtures para motor, transporte, relogio, scheduler e/ou configuracao; nao e o servidor completo"
+  },
+  {
+    "test": "RegistryRegression",
+    "exit_code": 0,
+    "stdout": "REPRODUCED: original registry silently overwrites handlers for shared command names; lookup with args selects the last registration. Source scan confirms AutoFarmSecondary registered after AutoFarm.",
+    "stderr": "",
+    "method_sources": "metodos do arquivo fornecido, extraidos sem alterar a logica; proposta de fila avaliada em teste separado",
+    "dependencies": "fixtures para motor, transporte, relogio, scheduler e/ou configuracao; nao e o servidor completo"
+  },
+  {
+    "test": "QueueFixRegression",
+    "exit_code": 0,
+    "stdout": "PASS: correction drains the burst remainder and handles the empty-poll/enqueue/unlock race without needing another packet. Real method with proposed minimal change; scheduler and stats mocked.",
+    "stderr": "",
+    "method_sources": "metodos do arquivo fornecido, extraidos sem alterar a logica; proposta de fila avaliada em teste separado",
+    "dependencies": "fixtures para motor, transporte, relogio, scheduler e/ou configuracao; nao e o servidor completo"
+  },
+  {
+    "test": "StatsRegression",
+    "exit_code": 0,
+    "stdout": "REPRODUCED: production ClientStats detects a short burst and enables generic packet drops before routing. Test defaults match source; no real client traffic measured.",
+    "stderr": "",
+    "method_sources": "classe ClientStats integral do arquivo enviado, sem alterar sua logica; pacote/import removidos para fixture isolada",
+    "dependencies": "limites iguais aos declarados em Config; tempo de sistema real; sem trafego real"
+  }
+]

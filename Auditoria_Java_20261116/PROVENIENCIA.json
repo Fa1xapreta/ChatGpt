@@ -1,0 +1,10 @@
+{
+  "source_archive_sha256": "cd6d31ef3ab92e5cb336508f09d8a0644457dc5552d95fe158ed10e84f620683",
+  "source_archive_size_bytes": 3133450,
+  "source_java_files": 1817,
+  "source_files_modified": false,
+  "full_server_build_or_run": false,
+  "regression_executables": 7,
+  "findings": 15,
+  "date_utc": "2026-11-16"
+}

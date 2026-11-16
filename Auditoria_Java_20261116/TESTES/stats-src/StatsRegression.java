@@ -1,0 +1,4 @@
+class Config {
+ static final int CLIENT_PACKET_QUEUE_MEASURE_INTERVAL=15,CLIENT_PACKET_QUEUE_MAX_BURST_SIZE=70,CLIENT_PACKET_QUEUE_MAX_UNKNOWN_PER_MIN=25,CLIENT_PACKET_QUEUE_MAX_OVERFLOWS_PER_MIN=5,CLIENT_PACKET_QUEUE_MAX_UNDERFLOWS_PER_MIN=5,CLIENT_PACKET_QUEUE_MAX_FLOODS_PER_MIN=15,CLIENT_PACKET_QUEUE_MAX_AVERAGE_PACKETS_PER_SECOND=120,CLIENT_PACKET_QUEUE_MAX_PACKETS_PER_SECOND=160;
+}
+public class StatsRegression {public static void main(String[] args){ClientStats s=new ClientStats();boolean detected=false;for(int i=0;i<200;i++)detected|=s.countPacket(0);if(!detected||!s.dropPacket())throw new AssertionError();System.out.println("REPRODUCED: production ClientStats detects a short burst and enables generic packet drops before routing. Test defaults match source; no real client traffic measured.");}}

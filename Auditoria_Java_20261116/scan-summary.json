@@ -1,0 +1,207 @@
+{
+  "java_files": 1817,
+  "methods_indexed": 14337,
+  "classes_including_inner_and_anonymous": 2405,
+  "syntax_diagnostics": [],
+  "source_encodings": {
+    "UTF-8": 1767,
+    "windows-1252": 50
+  },
+  "top_level_duplicate_classes": {},
+  "registry_order": [
+    "VoicedMileniumMonsterData",
+    "VoicedStatus",
+    "VoicedCharInfo",
+    "VoicedTradeHistory",
+    "VoicedPremiumServices",
+    "VoicedWeaponTry",
+    "VoicedSkinTry",
+    "VoicedBanking",
+    "VoicedColor",
+    "VoicedMenu",
+    "VoicedRanking",
+    "VoicedPk",
+    "VoicedPvp",
+    "VoicedRanking",
+    "VoicedCastles",
+    "VoicedVotePvpZone",
+    "VoicedBoss",
+    "VoicedAutoGB",
+    "VoicedClanMission",
+    "VoicedDeleteBuffs",
+    "VoicedAutoFarm",
+    "VoicedAutoFarmSecondary",
+    "VoicedCharacterPin",
+    "VoicedEvent",
+    "ShiftClickToNpc",
+    "VoicedMission",
+    "VoicedDonate"
+  ],
+  "registry_overrides": [
+    {
+      "command": "status",
+      "previous_handler": "VoicedStatus",
+      "next_handler": "VoicedCharInfo",
+      "same_class": false
+    },
+    {
+      "command": "inventory",
+      "previous_handler": "VoicedStatus",
+      "next_handler": "VoicedCharInfo",
+      "same_class": false
+    },
+    {
+      "command": "skills",
+      "previous_handler": "VoicedStatus",
+      "next_handler": "VoicedCharInfo",
+      "same_class": false
+    },
+    {
+      "command": "rank",
+      "previous_handler": "VoicedStatus",
+      "next_handler": "VoicedCharInfo",
+      "same_class": false
+    },
+    {
+      "command": "rankingpk",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedPk",
+      "same_class": false
+    },
+    {
+      "command": "rankingpvp",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedPvp",
+      "same_class": false
+    },
+    {
+      "command": "ranking",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedRanking",
+      "same_class": true
+    },
+    {
+      "command": "rankingpvp",
+      "previous_handler": "VoicedPvp",
+      "next_handler": "VoicedRanking",
+      "same_class": false
+    },
+    {
+      "command": "rankingpk",
+      "previous_handler": "VoicedPk",
+      "next_handler": "VoicedRanking",
+      "same_class": false
+    },
+    {
+      "command": "rankingclanPoint",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedRanking",
+      "same_class": true
+    },
+    {
+      "command": "rankingtopenchant",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedRanking",
+      "same_class": true
+    },
+    {
+      "command": "rankingclan",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedRanking",
+      "same_class": true
+    },
+    {
+      "command": "rankingpvpHour",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedRanking",
+      "same_class": true
+    },
+    {
+      "command": "rankingeloPoint",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedRanking",
+      "same_class": true
+    },
+    {
+      "command": "rankingranking",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedRanking",
+      "same_class": true
+    },
+    {
+      "command": "ranking1x1_rank",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedRanking",
+      "same_class": true
+    },
+    {
+      "command": "ranking3x3_rank",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedRanking",
+      "same_class": true
+    },
+    {
+      "command": "ranking5x5_rank",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedRanking",
+      "same_class": true
+    },
+    {
+      "command": "ranking9x9_rank",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedRanking",
+      "same_class": true
+    },
+    {
+      "command": "pvpEvent",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedRanking",
+      "same_class": true
+    },
+    {
+      "command": "pvpevent",
+      "previous_handler": "VoicedRanking",
+      "next_handler": "VoicedRanking",
+      "same_class": true
+    },
+    {
+      "command": "setAutoGoldBar",
+      "previous_handler": "VoicedMenu",
+      "next_handler": "VoicedAutoGB",
+      "same_class": false
+    },
+    {
+      "command": "enableAntiKs",
+      "previous_handler": "VoicedAutoFarm",
+      "next_handler": "VoicedAutoFarmSecondary",
+      "same_class": false
+    },
+    {
+      "command": "enableSummonAttack",
+      "previous_handler": "VoicedAutoFarm",
+      "next_handler": "VoicedAutoFarmSecondary",
+      "same_class": false
+    },
+    {
+      "command": "ctf_mission",
+      "previous_handler": "VoicedMission",
+      "next_handler": "VoicedMission",
+      "same_class": true
+    },
+    {
+      "command": "ctf_mission_reward",
+      "previous_handler": "VoicedMission",
+      "next_handler": "VoicedMission",
+      "same_class": true
+    }
+  ],
+  "hash_collisions_among_declared_registered_commands": [],
+  "conditional_registrations_assumed_enabled_for_scan": true,
+  "registered_distinct_command_strings_in_this_scan": 217,
+  "full_type_checked_build": false,
+  "dynamic_command_handlers_not_fully_resolved": [
+    "VoicedVotePvpZone"
+  ],
+  "manually_reviewed_target_files": 32,
+  "manual_review_scope": "focal, nao todas as linhas de cada arquivo"
+}

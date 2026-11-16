@@ -1,0 +1,19 @@
+Fixtures isoladas - nao instalar no gameserver.
+Necessario JDK com javac e java. Execute a partir da pasta TESTES.
+
+javac -d build/principais src/*.java
+java -cp build/principais QueueRegression
+java -cp build/principais FloodRegression
+java -cp build/principais HtmlRegression
+java -cp build/principais PoolOverflowRegression
+java -cp build/principais RegistryRegression
+
+javac -d build/fila-corrigida fix-src/QueueFixRegression.java
+java -cp build/fila-corrigida QueueFixRegression
+
+javac -d build/stats stats-src/ClientStats.java stats-src/StatsRegression.java
+java -cp build/stats StatsRegression
+
+REPRODUCED significa que o comportamento problematico do metodo original foi reproduzido, conforme as assercoes. PASS indica que a proposta minima da fila passou nos cenarios isolados.
+Dependencias reais de rede, geodata, banco, configuracao e personagens nao foram iniciadas.
+As fixtures contem metodos extraidos dos fontes enviados pelo usuario; preservar a licenca dos fontes de origem. No pacote Java original ha cabecalhos GPL.

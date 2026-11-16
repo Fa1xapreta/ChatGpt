@@ -1,0 +1,422 @@
+[
+  {
+    "id": "F01",
+    "priority": "P1",
+    "status": "reproduzido em teste isolado",
+    "title": "Fila de pacotes pode ficar sem trabalhador até chegar outro pacote",
+    "impact": "Um clique já recebido pode ficar pendente; outro pacote o faz executar. Afeta o cliente inteiro, incluindo HTML e AutoFarm.",
+    "evidence": "execute() não agenda outro trabalhador quando _queueLock está ocupado. run() retorna ao atingir o limite de burst ou encontrar a fila vazia; finally apenas libera o lock. Há uma janela em que chega trabalho e ninguém o agenda. Há também sobra de lote sem reagendamento.",
+    "condition": "Concorrência entre entrada e término do processamento, ou lote que atinge CLIENT_PACKET_QUEUE_MAX_BURST_SIZE. O limite declarado é 70, com fila de 80; ambos vêm do fonte, não de uma medição do processo.",
+    "recommendation": "Reverificar a fila após liberar o lock e agendar a continuação, preservando os limites de burst. A proposta PROPOSTA_fila.diff foi testada isoladamente e não foi aplicada ao servidor.",
+    "test": "QueueRegression reproduz os dois cenários com execute/run extraídos do fonte. QueueFixRegression passa nos dois e verifica cliente desconectado e rota CONNECTED.",
+    "references": [
+      {
+        "file": "java/net/sf/l2j/gameserver/network/L2GameClient.java",
+        "line": 879,
+        "anchor": "public void execute(ReceivablePacket<L2GameClient> packet)"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/network/L2GameClient.java",
+        "line": 932,
+        "anchor": "public void run()\n\t{\n\t\tif (!_queueLock.tryLock())"
+      }
+    ]
+  },
+  {
+    "id": "F02",
+    "priority": "P1",
+    "status": "comportamento reproduzido; incidência depende da configuração real",
+    "title": "Consultas automáticas e botões manuais disputam o mesmo ServerBypass",
+    "impact": "Uma consulta de cabeçalho ou estado pode consumir a janela de tempo e fazer OFF, NPC ou outro HTML ser descartado silenciosamente.",
+    "evidence": "RequestBypassToServer chama getServerBypass().tryPerformAction(_command) antes das rotas NpcHeaderInfo, voiced_ e npc_. FloodProtectorAction usa um único _nextGameTick; não separa por comando. Config usa padrão de 5 ticks, e cada tick vale 100 ms. Rejeições geralmente retornam sem informar o jogador.",
+    "condition": "Se a configuração efetiva mantiver o padrão, a janela é 500 ms. O arquivo config/main/floodprotector.properties não veio no RAR. Classes UC anteriores mostram consultas automáticas NpcHeaderInfo e autoFarmUiStatus2; não se verificou aqui qual versão UC está em execução.",
+    "recommendation": "Medir o contador e o comando que abriu o bloqueio. Separar consultas estritamente de leitura em um limitador próprio, mantendo proteção para ações de inventário, compra e outras mutações. Não remover globalmente a proteção.",
+    "test": "FloodRegression: consulta no tick 100 bloqueia dois comandos diferentes nos ticks 101/104 e permite no tick 105.",
+    "references": [
+      {
+        "file": "java/net/sf/l2j/gameserver/network/clientpackets/RequestBypassToServer.java",
+        "line": 143,
+        "anchor": "if (!getClient().getFloodProtectors().getServerBypass().tryPerformAction(_command))"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/util/FloodProtectorAction.java",
+        "line": 59,
+        "anchor": "public boolean tryPerformAction"
+      },
+      {
+        "file": "java/net/sf/l2j/Config.java",
+        "line": 2083,
+        "anchor": "FLOOD_PROTECTOR_SERVER_BYPASS, \"ServerBypass\", \"5\""
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/GameTimeController.java",
+        "line": 43,
+        "anchor": "public static final int TICKS_PER_SECOND = 10"
+      }
+    ]
+  },
+  {
+    "id": "F03",
+    "priority": "P1",
+    "status": "mismatch reproduzido sob ordem específica; frequência real não medida",
+    "title": "Whitelist de HTML pode ser construída antes da substituição de %objectId%",
+    "impact": "Botões npc_ ou Quest podem ter texto permitido diferente do comando que o cliente envia e ser rejeitados.",
+    "evidence": "NpcHtmlMessage.runImpl() extrai os bypasses de _html. A troca de %objectId% e %playername% só acontece em writeImpl(). L2GameClient.sendPacket() entrega à conexão e depois chama runImpl(), deixando a relação entre serialização e cadastro dependente do transporte. A biblioteca mmocore não veio no RAR.",
+    "condition": "O HTML precisa conter um desses placeholders dentro de uma action e o cadastro precisa ocorrer antes da normalização. Não se afirma que todos os templates usam placeholders nem que essa é a ordem observada em produção.",
+    "recommendation": "Preparar uma versão final e imutável do HTML antes de cadastrar os comandos e antes de enviá-lo. O texto que alimenta a whitelist deve ser exatamente o texto enviado.",
+    "test": "HtmlRegression usa scanner e validateBypass reais: cadastra npc_%objectId%_Chat 1, que não aceita npc_123_Chat 1.",
+    "references": [
+      {
+        "file": "java/net/sf/l2j/gameserver/network/serverpackets/NpcHtmlMessage.java",
+        "line": 47,
+        "anchor": "public void runImpl()"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/network/serverpackets/NpcHtmlMessage.java",
+        "line": 85,
+        "anchor": "protected final void writeImpl()"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/network/L2GameClient.java",
+        "line": 219,
+        "anchor": "getConnection().sendPacket(gsp);"
+      }
+    ]
+  },
+  {
+    "id": "F04",
+    "priority": "P1",
+    "status": "configuração confirmada no fonte; impacto real exige medição",
+    "title": "phantom.task.ThreadPool pré-inicia 750 threads agendadas por processador lógico",
+    "impact": "Consumo muito alto de memória nativa, descritores e escalonamento; pode prejudicar o servidor inteiro ou impedir sua inicialização.",
+    "evidence": "init() cria availableProcessors() pools, cada um com ScheduledThreadPoolExecutor(750), e chama prestartAllCoreThreads() em todos. Também cria/preinicia pools instantâneos com 8 threads por processador. GameServer chama ThreadPool.init(). Este sistema coexiste com ThreadPoolManager.",
+    "condition": "Quantidade depende do número de processadores que a JVM enxerga e de este fonte corresponder ao binário em execução. Exemplo: 8 processadores implicam 6.000 threads agendadas, mais 64 instantâneas deste subsistema, antes dos demais pools.",
+    "recommendation": "Medir threads reais e memória nativa e substituir valores fixos por limites dimensionados para a carga. Não aumentar indiscriminadamente o número de threads.",
+    "test": "Verificação estática da fórmula e do prestart. Não se criaram milhares de threads no ambiente de auditoria.",
+    "references": [
+      {
+        "file": "java/phantom/task/ThreadPool.java",
+        "line": 44,
+        "anchor": "new ScheduledThreadPoolExecutor(750)"
+      },
+      {
+        "file": "java/phantom/task/ThreadPool.java",
+        "line": 57,
+        "anchor": "threadPool.prestartAllCoreThreads()"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/GameServer.java",
+        "line": 229,
+        "anchor": "ThreadPool.init();"
+      }
+    ]
+  },
+  {
+    "id": "F05",
+    "priority": "P1",
+    "status": "reproduzido em teste isolado",
+    "title": "Contador dos pools pode estourar e causar perda silenciosa de agendamentos",
+    "impact": "Após suficiente uso, a seleção pode produzir índice negativo; schedule/scheduleAtFixedRate retornam null e execute ignora a falha.",
+    "evidence": "getPool usa _threadPoolRandomizer++ % threadPools.length. Após Integer.MAX_VALUE o contador fica negativo. Os wrappers capturam Exception e retornam null ou não fazem nada.",
+    "condition": "Depende de ultrapassar o limite do int e de haver mais de um pool; não foi medida a posição atual do contador. Com N=3 o primeiro valor negativo já falha. Uma chamada falha também incrementa o contador, logo não é correto dizer que ele fica permanentemente congelado em um índice.",
+    "recommendation": "Usar seleção com índice não negativo e contador atômico; registrar ou propagar falhas de agendamento em vez de engoli-las.",
+    "test": "PoolOverflowRegression usa o getPool original, contador próximo do limite e 3 pools; reproduz ArrayIndexOutOfBoundsException sem criar threads.",
+    "references": [
+      {
+        "file": "java/phantom/task/ThreadPool.java",
+        "line": 197,
+        "anchor": "return threadPools[_threadPoolRandomizer++ % threadPools.length];"
+      },
+      {
+        "file": "java/phantom/task/ThreadPool.java",
+        "line": 104,
+        "anchor": "public static ScheduledFuture<?> scheduleAtFixedRate"
+      }
+    ]
+  },
+  {
+    "id": "F06",
+    "priority": "P2",
+    "status": "risco de contenção confirmado no desenho; duração não medida",
+    "title": "Todos os bypasses entram no monitor global da mineração antes de verificar o prefixo",
+    "impact": "Um jogador pode esperar por operações de mineração de outros jogadores mesmo clicando em um HTML sem relação com mineração.",
+    "evidence": "RequestBypassToServer chama MiningInteractionManager.handle para toda solicitação antes do flood. handle é synchronized e verifica o prefixo dentro do monitor. tick() também é synchronized e percorre tentativas. O caminho de início/fim alcança TreasureHuntSession, manipulação de inventário e acesso a arquivos de recuperação.",
+    "condition": "Exige mineração em andamento e/ou custo relevante dentro dessas operações. Não há prova de deadlock observado.",
+    "recommendation": "Fazer a seleção barata do prefixo antes do monitor global e reduzir o trabalho protegido ao estado necessário. Medir o tempo de espera e a ordem dos locks antes de mudar a sincronização interna.",
+    "test": "Análise de encadeamento de chamadas e monitores; sem mineração real nesta auditoria.",
+    "references": [
+      {
+        "file": "java/net/sf/l2j/gameserver/network/clientpackets/RequestBypassToServer.java",
+        "line": 135,
+        "anchor": "if (MiningInteractionManager.getInstance().handle("
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/model/entity/events/treasurehunt/MiningInteractionManager.java",
+        "line": 251,
+        "anchor": "public synchronized boolean handle("
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/model/entity/events/treasurehunt/MiningInteractionManager.java",
+        "line": 422,
+        "anchor": "private synchronized void tick()"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/model/entity/events/treasurehunt/TreasureHuntSession.java",
+        "line": 195,
+        "anchor": "private void saveJournal()"
+      }
+    ]
+  },
+  {
+    "id": "F07",
+    "priority": "P2",
+    "status": "risco de contenção confirmado no desenho; duração não medida",
+    "title": "OFF do AutoFarm disputa o monitor do jogador com a rotina completa",
+    "impact": "O comando de parada pode aguardar cálculos de alvo, geodata ou outras ações feitas pela rotina, bloqueando também a fila de pacotes desse jogador.",
+    "evidence": "onUpdate mantém synchronized(player) durante executeRoutine(). stopFarm entra no mesmo monitor. A rotina percorre candidatos e usa PathFinding. A iteração de todos os jogadores ocorre em um único Runnable, sem paralelismo entre as entradas desse mapa.",
+    "condition": "Um cálculo ou chamada dentro da rotina precisa estar lento ou esperando outro lock. O código sozinho não comprova quanto tempo isso ocorre no servidor.",
+    "recommendation": "Medir duração por jogador e espera do monitor; reduzir a região crítica com cancelamento explícito e verificação de rotina obsoleta antes de ações. Não retirar locks cegamente.",
+    "test": "Análise de controle e encadeamento; não foi executada a geodata real.",
+    "references": [
+      {
+        "file": "java/net/sf/l2j/gameserver/instancemanager/autofarmsecondary/AutofarmSecondaryManager.java",
+        "line": 49,
+        "anchor": "routine.executeRoutine();"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/instancemanager/autofarmsecondary/AutofarmSecondaryManager.java",
+        "line": 163,
+        "anchor": "public void stopFarm(L2PcInstance player)"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/instancemanager/autofarmsecondary/AutofarmSecondaryPlayerRoutine.java",
+        "line": 418,
+        "anchor": "getKnownMonstersInRadius("
+      }
+    ]
+  },
+  {
+    "id": "F08",
+    "priority": "P1",
+    "status": "caminho possível confirmado por análise estática",
+    "title": "AutoFarm antigo pode ser iniciado enquanto o secundário está ativo",
+    "impact": "Desligar um motor pode deixar o outro controlando o personagem. Isso pode parecer um OFF que não funciona.",
+    "evidence": "O registro mantém VoicedAutoFarm e VoicedAutoFarmSecondary. O comando enableAutoFarm continua chamando o manager antigo. O início do secundário interrompe o antigo, mas startFarm do antigo não faz a verificação inversa. stopAutoFarm2 para apenas o secundário. UseNewAutoFarm altera a abertura do painel, não elimina a rota antiga.",
+    "condition": "É necessário acionar a rota antiga depois de ligar o secundário, por macro, comando legado ou outro caminho. Não foi confirmado que isso aconteceu com o personagem do usuário.",
+    "recommendation": "Definir exclusão mútua simétrica ou desativar/redirecionar as rotas legadas quando o modo novo estiver selecionado. Conferir ambos os mapas e flags ao diagnosticar a parada.",
+    "test": "Comparação dos caminhos de registro, start e stop dos dois managers.",
+    "references": [
+      {
+        "file": "java/net/sf/l2j/gameserver/handler/VoicedCommandHandler.java",
+        "line": 88,
+        "anchor": "registerHandler(new VoicedAutoFarm());"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/handler/voicedcommandhandlers/VoicedAutoFarm.java",
+        "line": 185,
+        "anchor": "if (command.startsWith(\"enableAutoFarm\"))"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/instancemanager/autofarm/AutofarmManager.java",
+        "line": 79,
+        "anchor": "public void startFarm(L2PcInstance player)"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/instancemanager/autofarmsecondary/AutofarmSecondaryManager.java",
+        "line": 124,
+        "anchor": "AutofarmManager.INSTANCE.stopFarm(player);"
+      }
+    ]
+  },
+  {
+    "id": "F09",
+    "priority": "P2",
+    "status": "sobrescrita reproduzida e nomes reais identificados",
+    "title": "Classes registram nomes de comandos que sobrescrevem outros handlers",
+    "impact": "O código esperado por um botão pode nunca ser chamado, ou pode abrir o painel de outro módulo.",
+    "evidence": "VoicedCommandHandler armazena por hash e faz put sem verificar colisão/sobrescrita. VoicedCharInfo substitui status/inventory/skills/rank de VoicedStatus. AutoFarmSecondary substitui enableAntiKs/enableSummonAttack do antigo. VoicedAutoGB substitui setAutoGoldBar de VoicedMenu. VoicedRanking é registrado duas vezes, fazendo rankingpk/pvp voltar ao handler de ranking depois dos handlers dedicados.",
+    "condition": "Algumas inscrições dependem de Config.ALLOW_MOD_MENU e outras flags. Os valores reais não vieram. Algumas substituições podem ser intencionais e precisam ser documentadas. Não se encontrou colisão de hash entre strings distintas nos comandos estáticos resolvidos; há um handler com nomes dinâmicos dependentes das zonas.",
+    "recommendation": "Definir um dono por comando, dar nomes específicos aos módulos e avisar ao registrar duplicatas. Usar String como chave elimina colisões de hash; isso não resolve duplicatas do mesmo texto sem decidir seu dono.",
+    "test": "RegistryRegression reproduz a semântica de sobrescrita; command-overrides.csv lista todas as ocorrências e sua ordem.",
+    "references": [
+      {
+        "file": "java/net/sf/l2j/gameserver/handler/VoicedCommandHandler.java",
+        "line": 108,
+        "anchor": "_datatable.put(ids[i].hashCode(), handler);"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/handler/VoicedCommandHandler.java",
+        "line": 89,
+        "anchor": "registerHandler(new VoicedAutoFarmSecondary());"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/handler/VoicedCommandHandler.java",
+        "line": 76,
+        "anchor": "registerHandler(new VoicedRanking());"
+      }
+    ]
+  },
+  {
+    "id": "F10",
+    "priority": "P2",
+    "status": "falha de propagação confirmada; integridade concorrente depende do banco",
+    "title": "Reward diário pode entregar item mesmo se a persistência do resgate falhar",
+    "impact": "Banco e inventário podem ficar divergentes; uma falha de gravação não impede a entrega. Resgates em contas distintas compartilhando IP/HWID também precisam de atomicidade.",
+    "evidence": "claimDailyReward chama updateLastReward/insertNewParentOfPlayerIPHWID e depois addItem. Os helpers de gravação capturam Exception, imprimem e retornam void. Não retornam sucesso nem obrigam o chamador a interromper a entrega. A sequência de leituras e gravações usa conexões separadas, sem transação abrangente visível.",
+    "condition": "Exige falha de banco, contenda ou pedidos concorrentes. Os índices/constraints da tabela reward_manager não vieram; não se afirma que uma duplicação ocorreu.",
+    "recommendation": "Fazer a gravação condicional/atômica e retornar resultado verificável antes de entregar. Definir recuperação para falha de entrega após reserva; revisar transação, idempotência e constraints no SQL.",
+    "test": "Análise de fluxo e tratamento de exceções; não se executou banco real nem se testou duplicação de itens.",
+    "references": [
+      {
+        "file": "java/net/sf/l2j/gameserver/model/actor/instance/NewDailyRewardManager.java",
+        "line": 203,
+        "anchor": "public void claimDailyReward(\n        L2PcInstance player,"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/model/actor/instance/NewDailyRewardManager.java",
+        "line": 379,
+        "anchor": "public void updateLastReward("
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/model/actor/instance/NewDailyRewardManager.java",
+        "line": 483,
+        "anchor": "public void insertNewParentOfPlayerIPHWID("
+      }
+    ]
+  },
+  {
+    "id": "F11",
+    "priority": "P2",
+    "status": "espera ilimitada confirmada na configuração do fonte",
+    "title": "Banco sem prazo de checkout pode prender workers de pacotes",
+    "impact": "Um HTML que consulta banco pode ocupar indefinidamente um worker e atrasar outros pedidos, inclusive de jogadores diferentes.",
+    "evidence": "L2DatabaseFactory usa setCheckoutTimeout(0), retentativas ilimitadas e getConnection em while(con == null). Há consultas síncronas em RequestBypassToServer e vários voiced handlers. O pool de pacotes usa fila sem limite.",
+    "condition": "O banco ou o pool de conexões precisa estar lento/indisponível/exaurido. Não há prova de indisponibilidade atual.",
+    "recommendation": "Definir prazos finitos, medir tempo de obtenção e consulta e responder claramente à falha. Tratar consultas caras fora de workers críticos com limites de concorrência.",
+    "test": "Análise de configuração e caminhos síncronos; sem medição de MySQL.",
+    "references": [
+      {
+        "file": "java/net/sf/l2j/L2DatabaseFactory.java",
+        "line": 50,
+        "anchor": "_source.setCheckoutTimeout(0);"
+      },
+      {
+        "file": "java/net/sf/l2j/L2DatabaseFactory.java",
+        "line": 143,
+        "anchor": "while (con == null)"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/ThreadPoolManager.java",
+        "line": 119,
+        "anchor": "_generalPacketsThreadPool = new ThreadPoolExecutor"
+      }
+    ]
+  },
+  {
+    "id": "F12",
+    "priority": "P2",
+    "status": "ausência de controle de ciclo de vida confirmada no fonte",
+    "title": "AutoGoldBar mantém thread por jogador sem saída normal por logout",
+    "impact": "Threads e referências a personagens podem permanecer após a saída; erros e religamento podem deixar flag e mapa divergentes.",
+    "evidence": "Autogb.run usa while(true), com sleep(2000), sem verificar online nem isAutoGB. O mapa static HashMap é acessado pela thread do jogador e pelos workers sem sincronização. A pesquisa global encontrou userGB apenas nessa classe, sem cancelamento no logout. finally remove a chave sem verificar se ainda aponta para aquela thread, podendo remover uma geração nova.",
+    "condition": "É necessário ativar AutoGB; a duração e o número de threads reais não foram medidos. A espera de 2 s acontece em uma thread própria, não é um sleep direto no worker de HTML.",
+    "recommendation": "Usar tarefa cancelável gerenciada por objectId, verificar sessão/online e remover condicionalmente a instância correta. Integrar logout e manter flag e registro consistentes.",
+    "test": "Análise de ciclo de vida e pesquisa de referências no conjunto completo.",
+    "references": [
+      {
+        "file": "java/net/sf/l2j/gameserver/handler/voicedcommandhandlers/VoicedAutoGB.java",
+        "line": 21,
+        "anchor": "static final HashMap<String, Thread> userGB"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/handler/voicedcommandhandlers/VoicedAutoGB.java",
+        "line": 78,
+        "anchor": "while (true)"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/handler/voicedcommandhandlers/VoicedAutoGB.java",
+        "line": 101,
+        "anchor": "userGB.remove(activeChar.toString());"
+      }
+    ]
+  },
+  {
+    "id": "F13",
+    "priority": "P2",
+    "status": "efeito confirmado no código; regra desejada precisa ser confirmada",
+    "title": "Consultas de interface podem remover proteção de spawn",
+    "impact": "Uma consulta automática que deveria apenas ler estado pode retirar proteção do personagem ao entrar/selecionar alvo.",
+    "evidence": "RequestBypassToServer herda triggersOnActionRequest=true. L2GameClientPacket.run chama actor.onActionRequest após runImpl, inclusive se runImpl retornou cedo por flood. L2PcInstance.onActionRequest remove a proteção. As consultas NpcHeaderInfo e autoFarmUiStatus2 passam por essa classe.",
+    "condition": "O personagem precisa estar protegido e a UC enviar uma dessas consultas. A regra de gameplay pode considerar qualquer bypass uma ação; confirmar intenção antes de alterar.",
+    "recommendation": "Separar consultas de leitura das ações que devem cancelar a proteção, com uma lista restrita e testes de gameplay.",
+    "test": "Análise do wrapper de execução e do método do personagem; sem sessão real.",
+    "references": [
+      {
+        "file": "java/net/sf/l2j/gameserver/network/clientpackets/L2GameClientPacket.java",
+        "line": 93,
+        "anchor": "if (triggersOnActionRequest())"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/network/clientpackets/L2GameClientPacket.java",
+        "line": 132,
+        "anchor": "protected boolean triggersOnActionRequest()"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/model/actor/instance/L2PcInstance.java",
+        "line": 10784,
+        "anchor": "public void onActionRequest()"
+      }
+    ]
+  },
+  {
+    "id": "F14",
+    "priority": "P3",
+    "status": "bloqueio de 5 segundos confirmado; caminho específico",
+    "title": "Troca de classe mantém um worker dormindo antes de desconectar",
+    "impact": "Durante esse caminho específico, o jogador não processa novos pacotes e um worker fica ocupado por cinco segundos.",
+    "evidence": "RequestBypassToServer.Finish chama waitSecs(5), que usa Thread.sleep, e depois closeNow. É uma desconexão deliberada após troca de classe.",
+    "condition": "Somente ao executar essa troca de classe; não explica HTMLs genéricos isoladamente.",
+    "recommendation": "Agendar a desconexão sem dormir no worker, preservando o bloqueio necessário da sessão durante a troca.",
+    "test": "Análise direta da chamada e do helper.",
+    "references": [
+      {
+        "file": "java/net/sf/l2j/gameserver/network/clientpackets/RequestBypassToServer.java",
+        "line": 2688,
+        "anchor": "waitSecs(5);"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/network/clientpackets/RequestBypassToServer.java",
+        "line": 2760,
+        "anchor": "Thread.sleep(i * 1000);"
+      }
+    ]
+  },
+  {
+    "id": "F15",
+    "priority": "P2",
+    "status": "proteção global reproduzida; vínculo com tráfego real ainda não medido",
+    "title": "Spam de skills pode fazer a proteção de pacotes descartar até botões de HTML",
+    "impact": "Há um segundo bloqueio, anterior ao ServerBypass: quando o limite global de pacotes é atingido, o tipo de pacote ainda nem foi roteado. Um OFF pode não alcançar RequestBypassToServer.",
+    "evidence": "L2GamePacketHandler chama client.dropPacket antes de ler o opcode. ClientStats detecta excesso de pacotes de qualquer tipo. Os limites declarados são 160 por segundo e média de 120. No Interface.u enviado anteriormente, o bytecode de AutoSkillWnd.xxwemakajjas solicita timer de 10 ms; sua rotina tenta skills/ações em slots e usa a rede do mesmo cliente.",
+    "condition": "A taxa real depende de FPS, guardas da UC, slots configurados e outros pacotes. Timer de 10 ms não prova 100 pacotes efetivos por segundo, nem prova que o limite foi atingido no servidor do usuário.",
+    "recommendation": "Contar pacotes por tipo e observar ClientStats enquanto o farm está ativo. Reduzir tentativas redundantes e respeitar cooldown/estado na UC. Não aumentar ou desativar a proteção global sem medição.",
+    "test": "StatsRegression compila ClientStats e provoca um burst controlado; comprova que o bloqueio genérico fica ativo. A correlação com a rotina UC ainda requer captura de métricas reais.",
+    "references": [
+      {
+        "file": "java/net/sf/l2j/gameserver/network/L2GamePacketHandler.java",
+        "line": 47,
+        "anchor": "if (client.dropPacket())"
+      },
+      {
+        "file": "java/net/sf/l2j/gameserver/network/ClientStats.java",
+        "line": 180,
+        "anchor": "private final synchronized boolean countPacket()"
+      },
+      {
+        "file": "java/net/sf/l2j/Config.java",
+        "line": 1812,
+        "anchor": "CLIENT_PACKET_QUEUE_MAX_PACKETS_PER_SECOND = 160"
+      }
+    ]
+  }
+]
