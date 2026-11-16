@@ -1,0 +1,10 @@
+Substitua Classes/StatusWnd.uc e recompile a Interface no seu projeto.
+
+Base: StatusWnd.uc original de Classes.rar, anterior a correcao que causou o critico.
+Sempre inicia no modo compacto ao carregar a interface e ao entrar no estado de jogo, independentemente do INI ou do uso anterior.
+O botao exibe o retrato ao clicar e muda o tooltip entre "Exibir retrato do personagem" e "Ocultar retrato do personagem".
+O jogador pode alternar durante a sessao; o modo compacto volta na proxima entrada.
+
+A funcao UpdateOptionalPortrait e as chamadas de vinculacao da DLL foram mantidas identicas ao original. Sem novas tentativas periodicas de BindPortrait.
+Nao altera a barra de montaria, inventario, XDAT ou DLLs.
+Fonte revisado; compilacao e teste no cliente pendentes no seu ambiente.
