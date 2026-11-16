@@ -1,0 +1,63 @@
+{
+  "old_version_failure_reproduced": true,
+  "interleavings": [
+    {
+      "initial_state_known": false,
+      "forced_sync": false,
+      "ack_after_start_guard": false,
+      "starts_local_skills": true,
+      "stop_retry_preserved": true
+    },
+    {
+      "initial_state_known": false,
+      "forced_sync": false,
+      "ack_after_start_guard": true,
+      "starts_local_skills": true,
+      "stop_retry_preserved": true
+    },
+    {
+      "initial_state_known": false,
+      "forced_sync": true,
+      "ack_after_start_guard": false,
+      "starts_local_skills": true,
+      "stop_retry_preserved": true
+    },
+    {
+      "initial_state_known": false,
+      "forced_sync": true,
+      "ack_after_start_guard": true,
+      "starts_local_skills": true,
+      "stop_retry_preserved": true
+    },
+    {
+      "initial_state_known": true,
+      "forced_sync": false,
+      "ack_after_start_guard": false,
+      "starts_local_skills": true,
+      "stop_retry_preserved": true
+    },
+    {
+      "initial_state_known": true,
+      "forced_sync": false,
+      "ack_after_start_guard": true,
+      "starts_local_skills": true,
+      "stop_retry_preserved": true
+    },
+    {
+      "initial_state_known": true,
+      "forced_sync": true,
+      "ack_after_start_guard": false,
+      "starts_local_skills": true,
+      "stop_retry_preserved": true
+    },
+    {
+      "initial_state_known": true,
+      "forced_sync": true,
+      "ack_after_start_guard": true,
+      "starts_local_skills": true,
+      "stop_retry_preserved": true
+    }
+  ],
+  "game_executed": false,
+  "engine_calls_mocked": true
+}

@@ -1,0 +1,35 @@
+AutoHunting - correcao do inicio da rotina de ataque
+
+INSTALACAO
+Feche o jogo, guarde seu interface.u e substitua somente system/interface.u.
+Mantenha seu interface.xdat e os arquivos Java atuais.
+O ZIP inclui as tres classes UC correspondentes para atualizar seu projeto.
+Somente AutoHunting.uc mudou em relacao ao pacote AutoHunting_OFF_Confirmacao.
+Para voltar a versao anterior, restaure rollback/interface.u com o jogo fechado.
+
+FALHA REPRODUZIDA
+Na versao anterior, uma sincronizacao disparada durante a ativacao podia marcar
+WaitingResponse enquanto o botao aguardava o intervalo de 400 ms. A resposta de
+estado ativo era entao tratada como se um OFF estivesse pendente: o indicador
+ficava ligado, mas AutoSkillWnd nao iniciava o timer de ataque/skills.
+O teste reproduziu esse estado executando o bytecode da versao anterior.
+Isso demonstra uma falha da interface; nao comprova que seja a unica causa no jogo.
+
+AJUSTE
+Nao sobrepoe consultas de estado nem alteracoes de opcoes enquanto um comando
+explicito START/OFF esta em andamento. Um novo START/OFF cancela o timeout de uma
+consulta anterior. Assim a sincronizacao nao cria uma espera de OFF durante START.
+As funcoes de repeticao do OFF, a confirmacao do servidor e os timers de skills
+permanecem iguais ao pacote anterior.
+Opcoes clicadas durante os 400 ms de ativacao ou durante a espera de OFF sao
+ignoradas; aguarde a liberacao do botao e clique novamente.
+
+VALIDACAO
+- Dois metodos e o texto UC embutido alterados; 14734 exports identicos ao anterior.
+- Nomes, imports e estrutura de propriedades preservados; XDAT sem alteracao.
+- Validacao estrutural de 13 funcoes e dez grupos de regressao de OFF/skills.
+- O caso que falhava antes agora inicia a rotina local no teste de bytecode.
+- Oito combinacoes de estado inicial, sincronizacao forcada e tempo da resposta
+  preservam a ativacao e as novas tentativas de OFF.
+As chamadas do motor foram simuladas. Nao foi executado o jogo nem o compilador UCC.
+Teste perto de monstros: ativar, observar ataque, desativar e repetir.
