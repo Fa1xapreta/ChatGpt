@@ -1,0 +1,71 @@
+--- VoicedAutoFarmSecondary.java.original
++++ VoicedAutoFarmSecondary.java
+@@ -48,6 +48,8 @@
+     {
+         "autofarm2",
+         "enableAutoFarm2",
++        "startAutoFarm2",
++        "stopAutoFarm2",
+         "changeSkillType2",
+         "toggleSkillAutoFarm2",
+         "openSkillPickerAutoFarm2",
+@@ -120,23 +122,35 @@
+                 return false;
+             }
+ 
+-            if (activeChar.isInsideZone(ZoneId.OLYMPIAD))
+-            {
+-                activeChar.sendMessage(
+-                    "Command allowed only in Combat areas."
+-                );
+-                return false;
+-            }
+-
+-            if (command.startsWith("enableAutoFarm2"))
+-            {
+-                if (activeChar.isSecondaryAutoFarm())
++            if ("stopAutoFarm2".equals(command)
++                || "startAutoFarm2".equals(command)
++                || command.startsWith("enableAutoFarm2"))
++            {
++                // Explicit OFF stays OFF, even if the same request is repeated.
++                if ("stopAutoFarm2".equals(command))
++                    AutofarmSecondaryManager.INSTANCE.stopFarm(activeChar);
++                else if ("startAutoFarm2".equals(command))
++                    AutofarmSecondaryManager.INSTANCE.startFarm(activeChar);
++                else if (activeChar.isSecondaryAutoFarm()
++                    || AutofarmSecondaryManager.INSTANCE.isAutofarming(activeChar))
+                     AutofarmSecondaryManager.INSTANCE.stopFarm(activeChar);
+                 else
+                     AutofarmSecondaryManager.INSTANCE.startFarm(activeChar);
+ 
+                 activeChar.broadcastUserInfo();
+                 activeChar.broadcastCharInfo();
++
++                if (!fromUi)
++                    showAutoFarm(activeChar);
++
++                return false;
++            }
++
++            if (activeChar.isInsideZone(ZoneId.OLYMPIAD))
++            {
++                activeChar.sendMessage(
++                    "Command allowed only in Combat areas."
++                );
+                 return false;
+             }
+ 
+@@ -633,6 +647,12 @@
+ 
+         html.setFile("data/html/mods/menu/AutoFarmSecondary.htm");
+ 
++        // Keep the existing HTML template, but make its action idempotent.
++        html.replace(
++            "enableAutoFarm2",
++            activeChar.isSecondaryAutoFarm() ? "stopAutoFarm2" : "startAutoFarm2"
++        );
++
+         html.replace(
+             "%activate%",
+             "<font color=LEVEL>Auto Farm</font>"

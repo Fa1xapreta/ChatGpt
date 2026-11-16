@@ -1,0 +1,12 @@
+{
+  "java_handler_compiled_with_test_fixtures": true,
+  "java_target_major_version": 52,
+  "java_production_classes_included": false,
+  "java_handler_requests_tested": 20,
+  "original_handler_issue_reproduced_with_mocked_manager": true,
+  "client_actual_bytecode_tested_with_mocked_engine": true,
+  "server_first_required": true,
+  "manager_and_routine_not_modified": true,
+  "real_gameserver_and_windows_client_run": false,
+  "client_sha256": "c62da97bcd4f73afc9e432f4a53cee0edd1cc7af7fd80e1396b6f44db81473c1"
+}

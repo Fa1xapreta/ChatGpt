@@ -1,0 +1,98 @@
+{
+  "changed_exports": [
+    "AutoHunting.OnLButtonDown",
+    "AutoHunting.OnTimer",
+    "AutoHunting.SendFarmCommand",
+    "AutoHunting.ResetClientState",
+    "AutoHunting.ScriptText"
+  ],
+  "all_other_exports_unchanged": true,
+  "bytecode_checks": {
+    "AutoHunting.OnLButtonDown": {
+      "memory_size": 2,
+      "jump_targets_checked": 0
+    },
+    "AutoHunting.OnTimer": {
+      "memory_size": 116,
+      "jump_targets_checked": 3
+    },
+    "AutoHunting.SendFarmCommand": {
+      "memory_size": 282,
+      "jump_targets_checked": 6
+    },
+    "AutoHunting.ResetClientState": {
+      "memory_size": 179,
+      "jump_targets_checked": 1
+    }
+  },
+  "real_client_bytecode_with_mocked_engine": [
+    {
+      "active": false,
+      "waiting": false,
+      "known": false,
+      "explicit_action_sent": "voiced_startAutoFarm2 ui",
+      "duplicate_ignored": true,
+      "guard_released_by_timer": true
+    },
+    {
+      "active": false,
+      "waiting": false,
+      "known": true,
+      "explicit_action_sent": "voiced_startAutoFarm2 ui",
+      "duplicate_ignored": true,
+      "guard_released_by_timer": true
+    },
+    {
+      "active": false,
+      "waiting": true,
+      "known": false,
+      "explicit_action_sent": "voiced_startAutoFarm2 ui",
+      "duplicate_ignored": true,
+      "guard_released_by_timer": true
+    },
+    {
+      "active": false,
+      "waiting": true,
+      "known": true,
+      "explicit_action_sent": "voiced_startAutoFarm2 ui",
+      "duplicate_ignored": true,
+      "guard_released_by_timer": true
+    },
+    {
+      "active": true,
+      "waiting": false,
+      "known": false,
+      "explicit_action_sent": "voiced_stopAutoFarm2 ui",
+      "duplicate_ignored": true,
+      "guard_released_by_timer": true
+    },
+    {
+      "active": true,
+      "waiting": false,
+      "known": true,
+      "explicit_action_sent": "voiced_stopAutoFarm2 ui",
+      "duplicate_ignored": true,
+      "guard_released_by_timer": true
+    },
+    {
+      "active": true,
+      "waiting": true,
+      "known": false,
+      "explicit_action_sent": "voiced_stopAutoFarm2 ui",
+      "duplicate_ignored": true,
+      "guard_released_by_timer": true
+    },
+    {
+      "active": true,
+      "waiting": true,
+      "known": true,
+      "explicit_action_sent": "voiced_stopAutoFarm2 ui",
+      "duplicate_ignored": true,
+      "guard_released_by_timer": true
+    }
+  ],
+  "other_setting_cases": 3,
+  "no_mouse_down_command": true,
+  "login_skill_fix_preserved": true,
+  "game_and_real_server_executed": false
+}

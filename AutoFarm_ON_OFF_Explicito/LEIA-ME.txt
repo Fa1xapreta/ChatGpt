@@ -1,0 +1,46 @@
+AutoFarm: acoes explicitas ON/OFF e atualizacao do painel
+
+IMPORTANTE: ESTE AJUSTE TEM UMA PARTE NO SERVIDOR E OUTRA NO CLIENTE.
+Instale o servidor primeiro. Trocar apenas o Interface.u nao resolve, pois o novo cliente utiliza comandos novos.
+
+1. SERVIDOR
+Substitua no seu projeto o fonte:
+net/sf/l2j/gameserver/handler/voicedcommandhandlers/VoicedAutoFarmSecondary.java
+O arquivo esta em SERVIDOR/java neste ZIP.
+Compile o projeto do servidor com suas dependencias reais, publique o resultado pelo seu procedimento habitual e reinicie o gameserver para registrar os comandos novos.
+Nao e necessario alterar o HTML: a classe substitui a acao enableAutoFarm2 por startAutoFarm2 ou stopAutoFarm2 ao carregar o painel.
+Os arquivos AutofarmSecondaryManager.class, AutofarmSecondaryPlayerRoutine.class e AutofarmSecondarySpellType.class enviados foram analisados e NAO foram modificados. Nenhuma classe de teste deve ser instalada no servidor.
+
+2. CLIENTE
+Com o jogo fechado, substitua system/interface.u pelo arquivo de CLIENTE/system.
+Nao e necessario trocar o interface.xdat para esta versao: mantenha o XDAT do ultimo pacote AutoHunting_Clique_Entrada.
+Classes/AutoHunting.uc acompanha o pacote para atualizar os fontes do seu projeto. O Interface.u ja contem a alteracao equivalente aplicada ao bytecode; nao exige recompilacao do cliente para este teste.
+
+COMPORTAMENTO
+- A interface envia voiced_startAutoFarm2 ui quando o estado confirmado esta desligado e voiced_stopAutoFarm2 ui quando esta ligado.
+- Esses comandos expressam o estado desejado: repetir stopAutoFarm2 nao volta a ligar, e repetir startAutoFarm2 nao desliga.
+- O botao bloqueia cliques duplicados por 400 ms e e reabilitado pelo timer ou pela inicializacao da sessao.
+- Ligar/desligar nao e mais descartado pelas flags WaitingResponse/StateKnown usadas na sincronizacao de outras opcoes.
+- O manipulador de pressionar o mouse nao envia mais uma segunda solicitacao. A acao parte de OnClickButton.
+- As animacoes continuam dependendo da confirmacao AutoHuntingState do servidor; nao se simula visualmente uma parada que o servidor ainda nao confirmou.
+- O painel HTML e atualizado apos a acao manual e seu botao passa a chamar explicitamente ON ou OFF.
+- O comando antigo .enableAutoFarm2 continua disponivel como alternancia para compatibilidade. Comandos antigos salvos em macros continuam sendo alternancias; os botoes novos usam as acoes explicitas.
+- OFF e processado antes do bloqueio de configuracao da Olympiad; ON continua passando pelas verificacoes do startFarm do manager.
+- A correcao anterior que fecha AutoSkillWnd no evento de entrada no jogo foi preservada.
+
+O QUE FOI CONFIRMADO
+No handler original enviado, o caminho enableAutoFarm2 retornava antes de showAutoFarm. A confirmacao AutoHuntingState era enviada, mas o HTML nao era atualizado. Em teste do handler original com dependencias simuladas, repetir o mesmo comando desliga e liga novamente.
+Isso explica o problema do painel desatualizado e da alternancia repetida; nao prova que toda falha observada no servidor real tinha essa unica causa.
+
+VALIDACAO
+O handler completo foi compilado para bytecode Java 8 em ambiente de teste, usando fixtures para as dependencias do servidor. Foram executadas 20 solicitacoes com repeticao de OFF/ON, atualizacao do HTML, chamadas UI sem abrir HTML e confirmacao final de estado. O fonte deve ser recompilado no seu projeto real; o ZIP nao inclui classes de producao compiladas contra dependencias simuladas.
+O bytecode real do cliente foi interpretado com as chamadas ao motor simuladas, cobrindo as oito combinacoes de ligado/desligado, esperando resposta e estado conhecido; cliques repetidos; resposta que chega antes dos 400 ms; desbloqueio por timer; reinicializacao; e preservacao das outras opcoes.
+Somente quatro funcoes de AutoHunting e seu ScriptText foram alterados no Interface.u. Todos os demais exports, nomes e imports foram comparados e preservados, incluindo a correcao de AutoSkillWnd.
+Nao foi executado o gameserver real nem o cliente Windows neste ambiente.
+
+TESTE NO JOGO
+Depois de atualizar e reiniciar o servidor, valide os comandos .startAutoFarm2 e .stopAutoFarm2. Repetir .stopAutoFarm2 deve manter o estado desligado.
+Depois teste o botao da interface e o botao OFF do painel. Feche e reabra o painel uma vez apos a atualizacao para nao usar um HTML antigo em cache. Confirme se o personagem para realmente e se o indicador fica desligado. Verifique tambem a janela de skills fechada ao relogar.
+
+RESTAURAR
+A pasta RESTAURAR contem o Interface.u anterior a este ajuste e o fonte Java original enviado pelo usuario. Para reverter o servidor, recompile e publique o fonte original pelo mesmo procedimento utilizado para instalar a correcao.
