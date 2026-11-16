@@ -1,0 +1,34 @@
+AUTO AUGMENT - CORRECAO DO CRITICO AO MARCAR
+
+CAUSA
+O ajuste anterior chamou GetExpandedNode, funcao que nao existe no NWindow do seu
+cliente. A presenca de uma referencia em outra classe nao garantia suporte nativo.
+Essa consulta foi removida do caminho de marcacao dos augments.
+
+INSTALACAO
+Com o jogo fechado, substitua os arquivos da pasta system deste ZIP:
+  interface.u
+  interface.xdat
+Mantenha MUI_AUGM.u da primeira instalacao. Nao troque DLLs.
+O XDAT e identico ao ajuste anterior; esta incluido para manter os textos corretos
+mesmo caso voce tenha restaurado o primeiro pacote para sair do erro.
+
+COMPORTAMENTO
+Marcar ou desmarcar atualiza o quadradinho e mantem a categoria clicada aberta.
+O pai da linha e obtido diretamente do identificador do clique, sem consulta nativa.
+A expansao usa SetExpandedNode, que o sistema original ja utilizava.
+A lista e reconstruida; outras categorias podem retornar recolhidas e a rolagem
+pode retornar ao inicio. A categoria em que voce esta marcando permanece aberta.
+Foram mantidos Lista de Augments, Chance de sucesso: e Auto Augment:.
+O ciclo automatico, os IDs selecionaveis e o AutoFarm permanecem iguais.
+
+Classes/AutoRefineryWnd.uc contem o fonte completo atualizado para seu projeto.
+
+VALIDACAO
+Foram executados oito cenarios com o bytecode real e chamadas do motor simuladas,
+marcando e desmarcando as primeiras e ultimas opcoes de cada categoria. O teste
+rejeita explicitamente qualquer chamada a GetExpandedNode nesse caminho.
+Tambem foram conferidos os saltos, referencias, rotulos e o botao ON/OFF.
+Somente OnClickButton e o texto UC embutido de AutoRefineryWnd mudaram em relacao
+ao ajuste anterior. Nomes, imports, propriedades e outros exports foram preservados.
+O jogo Windows nao foi executado aqui; confirme a marcacao no cliente.

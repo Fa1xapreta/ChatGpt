@@ -1,0 +1,63 @@
+{
+  "changed_exports": [
+    "AutoRefineryWnd.OnClickButton",
+    "AutoRefineryWnd.ScriptText"
+  ],
+  "all_other_exports_byte_identical": true,
+  "labels_xdat_and_textures_preserved": true,
+  "no_new_names_imports_properties": true,
+  "actual_selection_function_calls": [
+    "HideWindow",
+    "xxSetRefToggleTex",
+    "xxSplitString",
+    "xxAddRefineryNodes",
+    "SetExpandedNode",
+    "ListActiveSkills"
+  ],
+  "unsupported_native_query_not_invoked": true,
+  "actual_bytecode_mocked_engine_tests": [
+    {
+      "category": 0,
+      "row": 0,
+      "check_uncheck_keep_clicked_category_open": true
+    },
+    {
+      "category": 0,
+      "row": 16,
+      "check_uncheck_keep_clicked_category_open": true
+    },
+    {
+      "category": 1,
+      "row": 17,
+      "check_uncheck_keep_clicked_category_open": true
+    },
+    {
+      "category": 1,
+      "row": 77,
+      "check_uncheck_keep_clicked_category_open": true
+    },
+    {
+      "category": 2,
+      "row": 78,
+      "check_uncheck_keep_clicked_category_open": true
+    },
+    {
+      "category": 2,
+      "row": 151,
+      "check_uncheck_keep_clicked_category_open": true
+    },
+    {
+      "category": 3,
+      "row": 152,
+      "check_uncheck_keep_clicked_category_open": true
+    },
+    {
+      "category": 3,
+      "row": 155,
+      "check_uncheck_keep_clicked_category_open": true
+    }
+  ],
+  "on_off_toggle_tested": true,
+  "game_executed": false,
+  "sha256": "158472487b3cceaa0a792844d0ddb9eb3e46be41088827a5181f0c411e59988f"
+}
