@@ -1,0 +1,30 @@
+AUTO AUGMENT - CORRECAO DA CHAMADA ESTATICA NA MARCACAO
+
+CAUSA IDENTIFICADA
+A chamada de SetExpandedNode acrescentada ao clique foi gerada como Context (0x19),
+uma chamada de metodo sobre objeto. A API da arvore usa chamada estatica por
+ClassContext (0x12). O metodo original xxExpandRefNodeCat ja usa esse formato.
+A conclusao anterior de que SetExpandedNode nao seria suportado estava incorreta.
+
+ALTERACAO
+Foi corrigido exatamente UM byte do interface.u da versao anterior: 0x19 para 0x12
+na chamada de SetExpandedNode de AutoRefineryWnd.OnClickButton.
+Todos os outros bytes do interface.u foram preservados.
+Nao foi acrescentada consulta GetExpandedNode ao caminho de selecao.
+
+INSTALACAO
+Com o jogo fechado, copie os arquivos da pasta system:
+  interface.u
+  interface.xdat
+Mantenha MUI_AUGM.u e as DLLs que ja utiliza.
+O XDAT e identico ao pacote anterior e mantem todos os textos corrigidos.
+A classe UC incluida ja utiliza class'UIAPI_TREECTRL'.static.SetExpandedNode,
+portanto seu texto e igual ao enviado antes; o erro estava no bytecode gerado.
+
+TESTES
+A nova verificacao distingue ClassContext de Context; ela detecta e rejeita a
+chamada incorreta do pacote anterior, em vez de apenas simular o nome da funcao.
+Foram conferidas 108 funcoes e 15 chamadas estaticas da API da arvore.
+Oito cenarios de marcar/desmarcar mantem a categoria clicada aberta nos testes
+com o bytecode real e chamadas do motor simuladas.
+O jogo Windows nao foi executado aqui; confirme a marcacao no cliente.

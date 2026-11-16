@@ -1,0 +1,13 @@
+{
+  "root_cause": "Object Context was used for a static class API; must be ClassContext",
+  "changed_byte_count": 1,
+  "all_other_bytes_identical_to_previous": true,
+  "xdat_and_uc_source_unchanged": true,
+  "previous_fault_detected_by_static_dispatch_contract": true,
+  "functions_validated": 108,
+  "static_tree_api_calls_validated": 15,
+  "selection_deselection_scenarios": 8,
+  "runtime_engine_mocked": true,
+  "game_executed": false,
+  "sha256": "3aec726203499178d0cf01c84525bff49627e666d828c12eb2e9f8000e8f985e"
+}
