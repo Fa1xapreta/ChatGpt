@@ -1,0 +1,49 @@
+AUTO AUGMENT - ADAPTACAO PARA A INTERFACE MILENIUM
+
+BASE
+Versao AutoHunting_Inicio_Ataque, confirmada pelo usuario como funcionando.
+Janela, controles e imagens extraidos do ultimo Interface.u e interface.xdat do modelo.
+
+INSTALAR
+1. Feche o jogo e guarde seus interface.u e interface.xdat atuais.
+2. Copie os TRES arquivos de system para a pasta system do seu cliente:
+   interface.u
+   interface.xdat
+   MUI_AUGM.u
+3. Mantenha seu L2UI_CH3.u, suas DLLs e seu servidor atuais.
+4. Entre no jogo e abra a janela de augmentacao normalmente pelo NPC/painel do servidor.
+
+USAR
+- Clique na engrenagem pequena ao lado de Augmentar para abrir a lista.
+- Expanda Passiva, Ativa, Chance de sucesso ou Atributos e marque os resultados desejados.
+- Ative o ON na lista e clique em Augmentar na janela principal para iniciar o ciclo.
+- O sistema mantem o resultado quando encontra um ID marcado em um dos dois campos
+  de resultado. Se nao encontrar, solicita a remocao e tenta novamente.
+- Para interromper o ciclo, clique no botao principal novamente ou desative o ON/OFF.
+- Sem opcoes marcadas, nao existe um resultado escolhido para encerrar as tentativas;
+  encerre manualmente. Permanecem os custos e as regras normais do servidor.
+
+FONTES
+Classes contem SETE arquivos UC completos, incluindo os defaultproperties e os IDs.
+MileniumAugmentAPI e um auxiliar isolado; nao substitua UICommonAPI.uc ou L2Util.uc.
+As classes AutoHunting, AutoSkillWnd e AutoSkillSpamWnd desta base foram preservadas.
+O layout XDAT foi integrado: apenas RefineryWnd foi substituida; AutoRefineryWnd e
+L2UITimer foram adicionadas. As demais janelas mantem seus bytes originais.
+
+RESTAURAR
+Com o jogo fechado, copie os dois arquivos de rollback para system.
+MUI_AUGM.u pode ser removido se esta adaptacao for desfeita.
+
+VALIDACAO E LIMITE
+Foram conferidas 108 funcoes de bytecode, referencias, saltos, contextos, a ordem
+real dos parametros e os dados de inicializacao das classes.
+As 156 opcoes e suas 1590 associacoes de IDs foram comparadas com o modelo.
+Foram verificados 293 objetos de textura e os offsets nativos de seus mipmaps.
+Testes com o bytecode real e chamadas do motor simuladas verificam a selecao,
+a correspondencia dos dois campos e oito estados de parada/repeticao automatica.
+Todos os dados existentes fora de RefineryWnd permanecem identicos a base confirmada.
+
+O pacote foi integrado diretamente no formato Unreal; nao foi compilado com UCC.
+O jogo Windows nao foi executado aqui: o aspecto na tela e o ciclo completo com o
+servidor precisam ser confirmados no seu cliente. O layout e as imagens sao os do
+modelo, mas nao ha captura de tela desta adaptacao em execucao.

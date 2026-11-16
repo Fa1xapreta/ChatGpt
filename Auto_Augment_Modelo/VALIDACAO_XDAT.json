@@ -1,0 +1,10 @@
+{
+  "modified_or_added_roots": [
+    "RefineryWnd",
+    "AutoRefineryWnd",
+    "L2UITimer"
+  ],
+  "all_other_roots_byte_identical": true,
+  "tail_preserved": true,
+  "root_count": 192
+}

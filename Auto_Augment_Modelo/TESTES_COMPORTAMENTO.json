@@ -1,0 +1,60 @@
+{
+  "actual_bytecode_executed_with_mocked_engine": true,
+  "cases": [
+    "category 0: all variants selected; either result slot matches; other result rejected",
+    "category 1: all variants selected; either result slot matches; other result rejected",
+    "category 2: all variants selected; either result slot matches; other result rejected",
+    "category 3: all variants selected; either result slot matches; other result rejected",
+    "all 156 rows selected expands to 1590 option ID memberships",
+    {
+      "auto_cycle_running": false,
+      "automatic_option_enabled": false,
+      "desired_result_found": false,
+      "removal_requested": false
+    },
+    {
+      "auto_cycle_running": false,
+      "automatic_option_enabled": false,
+      "desired_result_found": true,
+      "removal_requested": false
+    },
+    {
+      "auto_cycle_running": false,
+      "automatic_option_enabled": true,
+      "desired_result_found": false,
+      "removal_requested": false
+    },
+    {
+      "auto_cycle_running": false,
+      "automatic_option_enabled": true,
+      "desired_result_found": true,
+      "removal_requested": false
+    },
+    {
+      "auto_cycle_running": true,
+      "automatic_option_enabled": false,
+      "desired_result_found": false,
+      "removal_requested": false
+    },
+    {
+      "auto_cycle_running": true,
+      "automatic_option_enabled": false,
+      "desired_result_found": true,
+      "removal_requested": false
+    },
+    {
+      "auto_cycle_running": true,
+      "automatic_option_enabled": true,
+      "desired_result_found": false,
+      "removal_requested": true
+    },
+    {
+      "auto_cycle_running": true,
+      "automatic_option_enabled": true,
+      "desired_result_found": true,
+      "removal_requested": false
+    },
+    "insufficient adena or missing item does not request removal"
+  ],
+  "game_executed": false
+}

@@ -1,0 +1,75 @@
+{
+  "categories": 4,
+  "options": 156,
+  "option_id_memberships": 1590,
+  "all_options_identical_to_model": true,
+  "other_defaults": {
+    "RefineryWnd": {},
+    "TreeHandle": {
+      "TablesPosition": [
+        0
+      ]
+    },
+    "L2UITimer": {},
+    "L2UITimerObject": {},
+    "ToolTipHandle": {},
+    "MileniumAugmentAPI": {
+      "BrightWhite": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "BrightYellow": {
+        "B": 190,
+        "G": 217,
+        "R": 230,
+        "A": 255
+      },
+      "Blue": {
+        "B": 253,
+        "G": 150,
+        "R": 102,
+        "A": 255
+      },
+      "Red": {
+        "B": 0,
+        "G": 50,
+        "R": 250,
+        "A": 255
+      },
+      "RefineryColor": [
+        {
+          "B": 138,
+          "G": 181,
+          "R": 187,
+          "A": 255
+        },
+        {
+          "B": 138,
+          "G": 181,
+          "R": 187,
+          "A": 255
+        },
+        {
+          "B": 216,
+          "G": 174,
+          "R": 132,
+          "A": 255
+        },
+        {
+          "B": 202,
+          "G": 112,
+          "R": 193,
+          "A": 255
+        },
+        {
+          "B": 109,
+          "G": 109,
+          "R": 225,
+          "A": 255
+        }
+      ]
+    }
+  }
+}

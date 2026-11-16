@@ -1,0 +1,606 @@
+{
+  "base": "AutoHunting_Inicio_Ataque confirmed working by user",
+  "modified_existing_exports": [
+    "RefineryWnd.procedure3stat",
+    "RefineryWnd.m_DragBox3",
+    "RefineryWnd.isRepeat",
+    "RefineryWnd.TIMER_REF",
+    "RefineryWnd.REF",
+    "RefineryWnd.OnLoad",
+    "RefineryWnd.OnShow",
+    "RefineryWnd.OnHide",
+    "RefineryWnd.ResetReady",
+    "RefineryWnd.OnWeaponValidationResult",
+    "RefineryWnd.OnLifeStoneValidationResult",
+    "RefineryWnd.OnGemStoneValidationResult",
+    "RefineryWnd.OnRefineryRefineResult",
+    "RefineryWnd.OnEvent",
+    "RefineryWnd.ShowRefineryInterface",
+    "RefineryWnd.OnDropItem",
+    "RefineryWnd.printRefInfo",
+    "RefineryWnd.ValidateWeapon",
+    "RefineryWnd.OnWeaponValidation",
+    "RefineryWnd.ValidateLifeStone",
+    "RefineryWnd.ValidateGemstone",
+    "RefineryWnd.OnLifeStoneValidation",
+    "RefineryWnd.OnClickButton",
+    "RefineryWnd.OnClickCancelButton",
+    "RefineryWnd.OnClickRefineButton",
+    "RefineryWnd.OnTextureAnimEnd",
+    "RefineryWnd.OnTimer",
+    "RefineryWnd.OnResultAnimEnd",
+    "RefineryWnd.OnRefineRequest",
+    "RefineryWnd.StartAnimBS",
+    "RefineryWnd.OnUnRefineRequest",
+    "RefineryWnd.OnUnrefineDoneResult",
+    "RefineryWnd.OnRefineDoneResult",
+    "RefineryWnd.PlayResultAnimation",
+    "RefineryWnd.GetRefineColor",
+    "RefineryWnd.GetAllValidItems",
+    "RefineryWnd.isLifeStone",
+    "RefineryWnd.isGemStone",
+    "RefineryWnd.OnRClickItemWithHandle",
+    "RefineryWnd.OnDBClickItemWithHandle",
+    "RefineryWnd.SetAdenaTooltip",
+    "RefineryWnd.SetTooltipItem",
+    "RefineryWnd.ScriptText",
+    "RefineryWnd"
+  ],
+  "all_unrelated_existing_exports_byte_identical": true,
+  "autofarm_inventory_portrait_mount_preserved": true,
+  "copied_function_count": 108,
+  "bytecode_functions": {
+    "RefineryWnd.OnLoad": {
+      "memory_bytes": 1727,
+      "jump_targets": 0,
+      "context_sizes": 7
+    },
+    "RefineryWnd.OnShow": {
+      "memory_bytes": 84,
+      "jump_targets": 1,
+      "context_sizes": 2
+    },
+    "RefineryWnd.OnHide": {
+      "memory_bytes": 49,
+      "jump_targets": 0,
+      "context_sizes": 1
+    },
+    "RefineryWnd.ResetReady": {
+      "memory_bytes": 727,
+      "jump_targets": 0,
+      "context_sizes": 33
+    },
+    "RefineryWnd.OnWeaponValidationResult": {
+      "memory_bytes": 548,
+      "jump_targets": 2,
+      "context_sizes": 24
+    },
+    "RefineryWnd.OnLifeStoneValidationResult": {
+      "memory_bytes": 591,
+      "jump_targets": 1,
+      "context_sizes": 22
+    },
+    "RefineryWnd.OnGemStoneValidationResult": {
+      "memory_bytes": 378,
+      "jump_targets": 2,
+      "context_sizes": 18
+    },
+    "RefineryWnd.OnRefineryRefineResult": {
+      "memory_bytes": 127,
+      "jump_targets": 0,
+      "context_sizes": 6
+    },
+    "RefineryWnd.OnEvent": {
+      "memory_bytes": 240,
+      "jump_targets": 14,
+      "context_sizes": 0
+    },
+    "RefineryWnd.ShowRefineryInterface": {
+      "memory_bytes": 8,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "RefineryWnd.OnDropItem": {
+      "memory_bytes": 225,
+      "jump_targets": 9,
+      "context_sizes": 0
+    },
+    "RefineryWnd.printRefInfo": {
+      "memory_bytes": 868,
+      "jump_targets": 18,
+      "context_sizes": 14
+    },
+    "RefineryWnd.ValidateWeapon": {
+      "memory_bytes": 65,
+      "jump_targets": 1,
+      "context_sizes": 0
+    },
+    "RefineryWnd.OnWeaponValidation": {
+      "memory_bytes": 85,
+      "jump_targets": 2,
+      "context_sizes": 2
+    },
+    "RefineryWnd.ValidateLifeStone": {
+      "memory_bytes": 72,
+      "jump_targets": 1,
+      "context_sizes": 2
+    },
+    "RefineryWnd.ValidateGemstone": {
+      "memory_bytes": 165,
+      "jump_targets": 3,
+      "context_sizes": 3
+    },
+    "RefineryWnd.OnLifeStoneValidation": {
+      "memory_bytes": 304,
+      "jump_targets": 6,
+      "context_sizes": 2
+    },
+    "RefineryWnd.OnClickButton": {
+      "memory_bytes": 323,
+      "jump_targets": 12,
+      "context_sizes": 3
+    },
+    "RefineryWnd.OnClickCancelButton": {
+      "memory_bytes": 91,
+      "jump_targets": 0,
+      "context_sizes": 1
+    },
+    "RefineryWnd.OnClickRefineButton": {
+      "memory_bytes": 148,
+      "jump_targets": 1,
+      "context_sizes": 7
+    },
+    "RefineryWnd.OnTextureAnimEnd": {
+      "memory_bytes": 189,
+      "jump_targets": 7,
+      "context_sizes": 5
+    },
+    "RefineryWnd.OnTimer": {
+      "memory_bytes": 93,
+      "jump_targets": 2,
+      "context_sizes": 2
+    },
+    "RefineryWnd.OnResultAnimEnd": {
+      "memory_bytes": 47,
+      "jump_targets": 0,
+      "context_sizes": 3
+    },
+    "RefineryWnd.OnRefineRequest": {
+      "memory_bytes": 123,
+      "jump_targets": 1,
+      "context_sizes": 5
+    },
+    "RefineryWnd.StartAnimBS": {
+      "memory_bytes": 154,
+      "jump_targets": 0,
+      "context_sizes": 7
+    },
+    "RefineryWnd.OnUnRefineRequest": {
+      "memory_bytes": 211,
+      "jump_targets": 1,
+      "context_sizes": 6
+    },
+    "RefineryWnd.OnUnrefineDoneResult": {
+      "memory_bytes": 64,
+      "jump_targets": 1,
+      "context_sizes": 1
+    },
+    "RefineryWnd.OnRefineDoneResult": {
+      "memory_bytes": 279,
+      "jump_targets": 8,
+      "context_sizes": 3
+    },
+    "RefineryWnd.PlayResultAnimation": {
+      "memory_bytes": 443,
+      "jump_targets": 8,
+      "context_sizes": 15
+    },
+    "RefineryWnd.GetRefineColor": {
+      "memory_bytes": 247,
+      "jump_targets": 9,
+      "context_sizes": 0
+    },
+    "RefineryWnd.GetAllValidItems": {
+      "memory_bytes": 406,
+      "jump_targets": 13,
+      "context_sizes": 11
+    },
+    "RefineryWnd.isLifeStone": {
+      "memory_bytes": 35,
+      "jump_targets": 1,
+      "context_sizes": 0
+    },
+    "RefineryWnd.isGemStone": {
+      "memory_bytes": 33,
+      "jump_targets": 1,
+      "context_sizes": 0
+    },
+    "RefineryWnd.OnRClickItemWithHandle": {
+      "memory_bytes": 267,
+      "jump_targets": 10,
+      "context_sizes": 1
+    },
+    "RefineryWnd.OnDBClickItemWithHandle": {
+      "memory_bytes": 18,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "RefineryWnd.SetAdenaTooltip": {
+      "memory_bytes": 98,
+      "jump_targets": 0,
+      "context_sizes": 1
+    },
+    "RefineryWnd.SetTooltipItem": {
+      "memory_bytes": 1551,
+      "jump_targets": 2,
+      "context_sizes": 4
+    },
+    "MileniumAugmentAPI.Question_BoolStr": {
+      "memory_bytes": 20,
+      "jump_targets": 1,
+      "context_sizes": 0
+    },
+    "MileniumAugmentAPI.Complement_StrStr": {
+      "memory_bytes": 26,
+      "jump_targets": 1,
+      "context_sizes": 0
+    },
+    "L2UITimerObject._DelegateOnStart": {
+      "memory_bytes": 2,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "L2UITimerObject._DelegateOnTime": {
+      "memory_bytes": 2,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "L2UITimerObject._DelegateOnEnd": {
+      "memory_bytes": 2,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "AutoRefineryWnd.xxMakeRefToolip": {
+      "memory_bytes": 289,
+      "jump_targets": 3,
+      "context_sizes": 11
+    },
+    "AutoRefineryWnd.xxGetAutoRefineryStatus": {
+      "memory_bytes": 9,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "AutoRefineryWnd.xxIsCheckedRefID": {
+      "memory_bytes": 83,
+      "jump_targets": 3,
+      "context_sizes": 0
+    },
+    "AutoRefineryWnd.ListActiveSkills": {
+      "memory_bytes": 161,
+      "jump_targets": 5,
+      "context_sizes": 0
+    },
+    "AutoRefineryWnd.xxSetRefToggleTex": {
+      "memory_bytes": 207,
+      "jump_targets": 2,
+      "context_sizes": 1
+    },
+    "AutoRefineryWnd.OnClickButton": {
+      "memory_bytes": 245,
+      "jump_targets": 9,
+      "context_sizes": 1
+    },
+    "AutoRefineryWnd.xxGetCatName": {
+      "memory_bytes": 79,
+      "jump_targets": 4,
+      "context_sizes": 0
+    },
+    "AutoRefineryWnd.xxExpandRefNodeCat": {
+      "memory_bytes": 90,
+      "jump_targets": 2,
+      "context_sizes": 1
+    },
+    "AutoRefineryWnd.xxInsertRefNode": {
+      "memory_bytes": 460,
+      "jump_targets": 0,
+      "context_sizes": 7
+    },
+    "AutoRefineryWnd.xxInsertRefNodeCat": {
+      "memory_bytes": 318,
+      "jump_targets": 2,
+      "context_sizes": 3
+    },
+    "AutoRefineryWnd.xxAddRefineryNodes": {
+      "memory_bytes": 128,
+      "jump_targets": 3,
+      "context_sizes": 1
+    },
+    "AutoRefineryWnd.OnShow": {
+      "memory_bytes": 9,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "AutoRefineryWnd.OnLoad": {
+      "memory_bytes": 275,
+      "jump_targets": 0,
+      "context_sizes": 4
+    },
+    "RefineryWnd.xxEnableToUnrefinery": {
+      "memory_bytes": 212,
+      "jump_targets": 3,
+      "context_sizes": 5
+    },
+    "RefineryWnd.GetRepeatItemInfo": {
+      "memory_bytes": 329,
+      "jump_targets": 6,
+      "context_sizes": 8
+    },
+    "MileniumAugmentAPI.xxSplitString": {
+      "memory_bytes": 148,
+      "jump_targets": 4,
+      "context_sizes": 0
+    },
+    "MileniumAugmentAPI.getInstanceL2Util": {
+      "memory_bytes": 4,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "MileniumAugmentAPI.xxFindItemPositionByID": {
+      "memory_bytes": 78,
+      "jump_targets": 2,
+      "context_sizes": 2
+    },
+    "MileniumAugmentAPI.xxFindInventoryItem": {
+      "memory_bytes": 321,
+      "jump_targets": 7,
+      "context_sizes": 3
+    },
+    "MileniumAugmentAPI.xxReplace": {
+      "memory_bytes": 147,
+      "jump_targets": 2,
+      "context_sizes": 0
+    },
+    "L2UITimer.Inst": {
+      "memory_bytes": 25,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "L2UITimer._AddTimer": {
+      "memory_bytes": 52,
+      "jump_targets": 0,
+      "context_sizes": 1
+    },
+    "L2UITimer._AddNewTimerObject": {
+      "memory_bytes": 244,
+      "jump_targets": 3,
+      "context_sizes": 7
+    },
+    "L2UITimer._Play": {
+      "memory_bytes": 182,
+      "jump_targets": 3,
+      "context_sizes": 9
+    },
+    "L2UITimer._Pause": {
+      "memory_bytes": 62,
+      "jump_targets": 1,
+      "context_sizes": 2
+    },
+    "L2UITimer._Stop": {
+      "memory_bytes": 84,
+      "jump_targets": 1,
+      "context_sizes": 3
+    },
+    "L2UITimer._Kill": {
+      "memory_bytes": 38,
+      "jump_targets": 1,
+      "context_sizes": 0
+    },
+    "L2UITimer._KillAllTimer": {
+      "memory_bytes": 106,
+      "jump_targets": 2,
+      "context_sizes": 2
+    },
+    "L2UITimer.OnExitState": {
+      "memory_bytes": 189,
+      "jump_targets": 3,
+      "context_sizes": 5
+    },
+    "L2UITimer.OnTimer": {
+      "memory_bytes": 353,
+      "jump_targets": 6,
+      "context_sizes": 18
+    },
+    "L2UITimer.GetEmptyTimerID": {
+      "memory_bytes": 57,
+      "jump_targets": 1,
+      "context_sizes": 0
+    },
+    "L2UITimer.ReturnTimerID": {
+      "memory_bytes": 20,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "L2UITimer.KillWithIndex": {
+      "memory_bytes": 75,
+      "jump_targets": 0,
+      "context_sizes": 3
+    },
+    "L2UITimer.FindIndex": {
+      "memory_bytes": 80,
+      "jump_targets": 3,
+      "context_sizes": 1
+    },
+    "L2UITimer.FindTimerObject": {
+      "memory_bytes": 44,
+      "jump_targets": 1,
+      "context_sizes": 0
+    },
+    "L2UITimerObject._Position": {
+      "memory_bytes": 19,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "L2UITimerObject._Play": {
+      "memory_bytes": 54,
+      "jump_targets": 1,
+      "context_sizes": 2
+    },
+    "L2UITimerObject._Pause": {
+      "memory_bytes": 32,
+      "jump_targets": 0,
+      "context_sizes": 2
+    },
+    "L2UITimerObject._Stop": {
+      "memory_bytes": 32,
+      "jump_targets": 0,
+      "context_sizes": 2
+    },
+    "L2UITimerObject._Kill": {
+      "memory_bytes": 32,
+      "jump_targets": 0,
+      "context_sizes": 2
+    },
+    "L2UITimerObject._Reset": {
+      "memory_bytes": 62,
+      "jump_targets": 0,
+      "context_sizes": 4
+    },
+    "L2UITimerObject.Inst": {
+      "memory_bytes": 12,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "ToolTipHandle.Inst": {
+      "memory_bytes": 12,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "ToolTipHandle.Init": {
+      "memory_bytes": 57,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "ToolTipHandle.DrawText": {
+      "memory_bytes": 172,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "ToolTipHandle.DrawTex": {
+      "memory_bytes": 220,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "ToolTipHandle.DrawBlank": {
+      "memory_bytes": 88,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "ToolTipHandle.DrawLine": {
+      "memory_bytes": 62,
+      "jump_targets": 0,
+      "context_sizes": 2
+    },
+    "ToolTipHandle.GetLength": {
+      "memory_bytes": 19,
+      "jump_targets": 0,
+      "context_sizes": 1
+    },
+    "TreeHandle.Inst": {
+      "memory_bytes": 12,
+      "jump_targets": 0,
+      "context_sizes": 0
+    },
+    "TreeHandle.Init": {
+      "memory_bytes": 108,
+      "jump_targets": 0,
+      "context_sizes": 1
+    },
+    "TreeHandle.Clear": {
+      "memory_bytes": 22,
+      "jump_targets": 0,
+      "context_sizes": 1
+    },
+    "TreeHandle.Reset": {
+      "memory_bytes": 49,
+      "jump_targets": 0,
+      "context_sizes": 2
+    },
+    "TreeHandle.ShowScrollBar": {
+      "memory_bytes": 28,
+      "jump_targets": 0,
+      "context_sizes": 1
+    },
+    "TreeHandle.SetExpandedNode": {
+      "memory_bytes": 43,
+      "jump_targets": 0,
+      "context_sizes": 3
+    },
+    "TreeHandle.InsertNode": {
+      "memory_bytes": 305,
+      "jump_targets": 3,
+      "context_sizes": 3
+    },
+    "TreeHandle.InsertExpandButtonNode": {
+      "memory_bytes": 289,
+      "jump_targets": 0,
+      "context_sizes": 5
+    },
+    "TreeHandle.InsertParentNode": {
+      "memory_bytes": 136,
+      "jump_targets": 0,
+      "context_sizes": 2
+    },
+    "TreeHandle.InsertTexture": {
+      "memory_bytes": 350,
+      "jump_targets": 1,
+      "context_sizes": 2
+    },
+    "TreeHandle.InsertSimpleTexture": {
+      "memory_bytes": 232,
+      "jump_targets": 0,
+      "context_sizes": 2
+    },
+    "TreeHandle.InsertText": {
+      "memory_bytes": 256,
+      "jump_targets": 0,
+      "context_sizes": 2
+    },
+    "TreeHandle.InsertSimpleText": {
+      "memory_bytes": 150,
+      "jump_targets": 0,
+      "context_sizes": 2
+    },
+    "TreeHandle.InsertSimpleButton": {
+      "memory_bytes": 268,
+      "jump_targets": 5,
+      "context_sizes": 2
+    },
+    "TreeHandle.InsertColoredByIndexButton": {
+      "memory_bytes": 134,
+      "jump_targets": 2,
+      "context_sizes": 1
+    },
+    "TreeHandle.GetNodePoint": {
+      "memory_bytes": 618,
+      "jump_targets": 19,
+      "context_sizes": 0
+    },
+    "TreeHandle.GetTexturePoint": {
+      "memory_bytes": 383,
+      "jump_targets": 19,
+      "context_sizes": 0
+    }
+  },
+  "struct_and_function_child_order_preserved": true,
+  "texture_count": 293,
+  "textures_and_native_mip_offsets_validated": true,
+  "texture_references_resolve": true,
+  "new_class_properties_added_by_transplant": true,
+  "ucc_compiler_executed": false,
+  "windows_game_executed": false,
+  "files": {
+    "MUI_AUGM.u": "94962036599c59476eb1bdb68ab30db2cff6c09e789de65b709157fd218ce0c1",
+    "interface.xdat": "c0ae0677923b50ed5d9fd23c11f593dc648a2c75c08440288b32ccf8b29551ee",
+    "interface.u": "100be774244ff19d6c7c3ac36290757f6f4d97d22f31b3b3bb8548b1165b3c50"
+  }
+}
