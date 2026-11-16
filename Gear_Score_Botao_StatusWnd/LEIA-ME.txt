@@ -1,0 +1,20 @@
+GEAR SCORE - BOTAO NO STATUSWND
+
+Com o jogo fechado, faca backup dos arquivos atuais.
+Copie os tres arquivos da pasta system para seu cliente.
+Mantenha MUI_AUGM.u, seu L2UI_CH3.u e suas DLLs atuais.
+
+Botao inserido em StatusWnd.ScoreWnd, abaixo das barras, com clique
+para abrir o ranking. Usa as suas texturas:
+L2UI_CH3.StatusWnd.StatusWnd_Score
+L2UI_CH3.StatusWnd.StatusWnd_Score_down
+L2UI_CH3.StatusWnd.StatusWnd_Score_over
+
+A pontuacao agora atualiza StatusWnd.ScoreWnd.txtScore.
+Sem a integracao Java, fica --. Nenhum valor de exemplo foi fixado.
+O indicador separado do jogador foi removido do XDAT para evitar duplicidade.
+Os demais recursos da etapa anterior foram mantidos.
+
+Validacao estrutural e oito cenarios de recepcao passaram.
+Cliente Windows nao executado neste ambiente; conferir o visual no jogo.
+Classes UC e protocolo Java incluidos.
