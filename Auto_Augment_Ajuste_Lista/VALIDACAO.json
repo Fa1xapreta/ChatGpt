@@ -1,0 +1,82 @@
+{
+  "changed_exports": [
+    "AutoRefineryWnd.OnClickButton",
+    "AutoRefineryWnd.xxGetCatName",
+    "AutoRefineryWnd.ScriptText"
+  ],
+  "all_other_exports_byte_identical": true,
+  "all_other_xdat_windows_byte_identical": true,
+  "tests_with_actual_bytecode_mocked_engine": [
+    {
+      "category": 0,
+      "expanded_nodes": [
+        "tree_skills.tree_btn_passive"
+      ],
+      "check_and_uncheck_preserve_open_nodes": true
+    },
+    {
+      "category": 0,
+      "expanded_nodes": [
+        "tree_skills.tree_btn_passive",
+        "tree_skills.tree_btn_active",
+        "tree_skills.tree_btn_chance"
+      ],
+      "check_and_uncheck_preserve_open_nodes": true
+    },
+    {
+      "category": 1,
+      "expanded_nodes": [
+        "tree_skills.tree_btn_active"
+      ],
+      "check_and_uncheck_preserve_open_nodes": true
+    },
+    {
+      "category": 1,
+      "expanded_nodes": [
+        "tree_skills.tree_btn_passive",
+        "tree_skills.tree_btn_active",
+        "tree_skills.tree_btn_chance"
+      ],
+      "check_and_uncheck_preserve_open_nodes": true
+    },
+    {
+      "category": 2,
+      "expanded_nodes": [
+        "tree_skills.tree_btn_chance"
+      ],
+      "check_and_uncheck_preserve_open_nodes": true
+    },
+    {
+      "category": 2,
+      "expanded_nodes": [
+        "tree_skills.tree_btn_passive",
+        "tree_skills.tree_btn_active",
+        "tree_skills.tree_btn_chance"
+      ],
+      "check_and_uncheck_preserve_open_nodes": true
+    },
+    {
+      "category": 3,
+      "expanded_nodes": [
+        "tree_skills.tree_btn_stats"
+      ],
+      "check_and_uncheck_preserve_open_nodes": true
+    },
+    {
+      "category": 3,
+      "expanded_nodes": [
+        "tree_skills.tree_btn_passive",
+        "tree_skills.tree_btn_active",
+        "tree_skills.tree_btn_chance"
+      ],
+      "check_and_uncheck_preserve_open_nodes": true
+    }
+  ],
+  "literal_labels_verified": true,
+  "names_imports_properties_unchanged": true,
+  "game_executed": false,
+  "files": {
+    "interface.xdat": "562a0958dd42359eba070b103cd9fc60f442ace21f436a4a917b421e35947137",
+    "interface.u": "0cc8f81960c3f62a085294dc0820810e1f5bf32f4674f5eab30f281826c17a94"
+  }
+}

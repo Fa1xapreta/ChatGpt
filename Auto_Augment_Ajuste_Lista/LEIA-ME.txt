@@ -1,0 +1,31 @@
+AUTO AUGMENT - AJUSTE DA LISTA E DOS TEXTOS
+
+Para quem ja instalou Auto_Augment_Milenium e confirmou o funcionamento.
+
+Com o jogo fechado, guarde seus arquivos e substitua somente:
+  system/interface.u
+  system/interface.xdat
+
+Mantenha MUI_AUGM.u da instalacao anterior. Nao ha nova textura neste ajuste.
+Classes/AutoRefineryWnd.uc e o fonte completo atualizado para seu projeto.
+As outras seis classes permanecem iguais ao pacote anterior.
+
+ALTERACOES
+- Marcar ou desmarcar um resultado preserva as categorias abertas na lista.
+- Cabecalho: Lista de Augments.
+- Categorias: Passiva, Ativa, Chance de sucesso: e Basico (com acento no jogo).
+- Texto antes do ON/OFF: Auto Augment:
+- Os textos usam valores diretos, sem depender de SysString ausente ou em ingles.
+
+Apenas dois metodos de AutoRefineryWnd e seu texto-fonte embutido foram alterados.
+No XDAT, apenas os textos da janela AutoRefineryWnd foram ajustados.
+O AutoFarm, o ciclo de augmentacao, as opcoes, as texturas e as demais janelas
+permanecem iguais a versao que voce confirmou funcionando.
+
+Foram testados oito cenarios de marcar/desmarcar, incluindo varias categorias
+abertas ao mesmo tempo, usando o bytecode real com chamadas do motor simuladas.
+Tambem foram conferidos os rotulos, saltos, referencias e a preservacao das outras
+classes/janelas. O jogo nao foi executado aqui; confirme o visual no cliente.
+
+Para desfazer, restaure seus dois arquivos guardados ou reinstale o pacote anterior
+Auto_Augment_Milenium. Aquele pacote permanece disponivel sem alteracoes.
