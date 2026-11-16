@@ -1,0 +1,20 @@
+AUTO AUGMENT - BOTAO DO INVENTARIO
+
+Com o jogo fechado, substitua SOMENTE system/interface.u.
+Mantenha interface.xdat, MUI_AUGM.u e as DLLs da versao anterior.
+Classes/InventoryWnd.uc e a classe atualizada para seu projeto.
+
+O botao InventoryWnd.BtnRefinery enviava o evento antigo 154752, nao tratado
+pela janela nova. Agora ele chama InventoryWnd.Argumentations(), funcao existente
+que abre RefineryWnd com foco e fecha a mesma janela no segundo clique.
+Nao foi criada uma janela diferente nem modificado o fluxo de augmentacao.
+
+Os ajustes da lista, os textos, a correcao ClassContext, o AutoFarm e as demais
+classes foram preservados. Somente InventoryWnd.OnClickButton e o texto-fonte
+embutido da classe foram alterados.
+
+Validacao: bytecode e saltos conferidos; clique abre, segundo clique fecha,
+terceiro clique abre novamente; evento antigo proibido no teste; botao de
+informacoes e controle desconhecido mantem seus comportamentos.
+Os testes interpretam o bytecode real com chamadas do motor simuladas.
+O jogo Windows nao foi executado aqui; confirme a abertura pelo inventario.

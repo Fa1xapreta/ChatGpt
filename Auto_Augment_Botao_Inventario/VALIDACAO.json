@@ -1,0 +1,20 @@
+{
+  "changed_exports": [
+    "InventoryWnd.OnClickButton",
+    "InventoryWnd.ScriptText"
+  ],
+  "all_other_exports_byte_identical": true,
+  "old_event_154752_not_used_by_button": true,
+  "actual_bytecode_tests": [
+    "click opens RefineryWnd with focus",
+    "second click closes the same window",
+    "third click opens again",
+    "information button retains its own action",
+    "unknown control does nothing"
+  ],
+  "existing_xdat_button_routing_validated": true,
+  "xdat_and_textures_not_modified": true,
+  "engine_calls_mocked": true,
+  "game_executed": false,
+  "sha256": "379174d42fbd3d21a8369fd92d49cb0530f3ab85b2e23e78a90fe1e51899ffd6"
+}
