@@ -1,0 +1,8 @@
+Substitua Classes/AutoHunting.uc e Classes/AutoSkillWnd.uc no seu projeto e recompile sua Interface.u. Nao precisa trocar XDAT ou DLLs para este ajuste.
+
+AutoHunting: encaminha o clique nas animacoes que cobrem o botao central, apenas dentro do retangulo do botao. Usa o mesmo comando voiced_enableAutoFarm2 e mantem a confirmacao de estado pelo servidor, incluindo o bloqueio de comandos duplicados enquanto aguarda resposta. As animacoes continuam visiveis.
+AutoSkillWnd: oculta a janela no carregamento, entrada de estado e reinicio. O botao de skills continua abrindo e fechando normalmente. Ocultar a janela nao desativa a rotina de skills.
+
+A causa do clique interceptado e uma hipotese baseada na sobreposicao das janelas no XDAT. Nao ha codigo do servidor para verificar a implementacao do comando nesta entrega.
+Verificacoes: diferencas restritas a um manipulador de clique e tres chamadas HideWindow; chamadas e campos conferidos contra as classes fornecidas. Sem compilacao ou teste no cliente neste ambiente.
+Teste: ligar/desligar pelo centro varias vezes, conferir que o farm realmente parou no servidor, abrir/fechar skills manualmente e relogar. Caso continue ligado, enviar o fonte do handler do comando voiced_enableAutoFarm2 para verificar o lado servidor.
