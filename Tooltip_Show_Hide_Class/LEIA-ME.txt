@@ -1,0 +1,5 @@
+Com o jogo fechado, substitua system/interface.xdat pelo XDAT do pacote. Substitua Classes/StatusWnd.uc no seu projeto e recompile sua Interface.u.
+
+XDAT: somente StatusWnd.PortraitToggle.unk7 (0 para 1) e popupType (undefined para Text) foram alterados. Todos os demais campos e o restante dos dados foram conferidos como identicos.
+UC: somente os textos foram alterados para Show Class (retrato fechado) e Hide Class (retrato aberto), sobre a versao Status_Compacto_Inicial. O modo compacto ao entrar continua mantido.
+Sem mudancas em DLLs ou no carregamento do retrato. Teste no jogo pendente.
