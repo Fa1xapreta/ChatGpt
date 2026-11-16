@@ -1,0 +1,99 @@
+{
+  "changed_exports": [
+    "AutoSkillWnd.xxdawaea23a",
+    "AutoSkillWnd.xxwemakajjas",
+    "AutoSkillWnd.OnEvent",
+    "AutoSkillWnd.OnEnterState",
+    "AutoSkillWnd.OnLoad",
+    "AutoSkillSpamWnd.supaderaskire",
+    "AutoSkillSpamWnd.OnEvent",
+    "AutoHunting.xxOnDie",
+    "AutoHunting.StartVisuals",
+    "AutoHunting.OnTimer",
+    "AutoHunting.HandleFarmState",
+    "AutoHunting.SendFarmCommand",
+    "AutoSkillWnd.ScriptText",
+    "AutoSkillSpamWnd.ScriptText",
+    "AutoHunting.ScriptText"
+  ],
+  "all_other_exports_byte_identical": true,
+  "names_imports_class_layout_unchanged": true,
+  "bytecode_checks": {
+    "AutoSkillWnd.xxdawaea23a": {
+      "runtime_size": 528,
+      "jumps": 11,
+      "contexts": 2
+    },
+    "AutoSkillWnd.xxwemakajjas": {
+      "runtime_size": 46,
+      "jumps": 0,
+      "contexts": 2
+    },
+    "AutoSkillWnd.OnEvent": {
+      "runtime_size": 165,
+      "jumps": 5,
+      "contexts": 2
+    },
+    "AutoSkillWnd.OnEnterState": {
+      "runtime_size": 37,
+      "jumps": 0,
+      "contexts": 1
+    },
+    "AutoSkillWnd.OnLoad": {
+      "runtime_size": 192,
+      "jumps": 2,
+      "contexts": 1
+    },
+    "AutoSkillSpamWnd.supaderaskire": {
+      "runtime_size": 58,
+      "jumps": 0,
+      "contexts": 2
+    },
+    "AutoSkillSpamWnd.OnEvent": {
+      "runtime_size": 52,
+      "jumps": 2,
+      "contexts": 0
+    },
+    "AutoHunting.xxOnDie": {
+      "runtime_size": 313,
+      "jumps": 2,
+      "contexts": 15
+    },
+    "AutoHunting.StartVisuals": {
+      "runtime_size": 248,
+      "jumps": 7,
+      "contexts": 11
+    },
+    "AutoHunting.OnTimer": {
+      "runtime_size": 486,
+      "jumps": 11,
+      "contexts": 15
+    },
+    "AutoHunting.HandleFarmState": {
+      "runtime_size": 682,
+      "jumps": 19,
+      "contexts": 2
+    },
+    "AutoHunting.SendFarmCommand": {
+      "runtime_size": 551,
+      "jumps": 7,
+      "contexts": 17
+    }
+  },
+  "regression_cases": [
+    "OFF pauses local skills before request; duplicate clicks ignored",
+    "lost OFF: initial request plus seven bounded retries",
+    "active snapshot does not restart pending local skills",
+    "timeout releases button without falsely confirming OFF",
+    "confirmed OFF or death cancels all retries",
+    "stale retry after a new START sends no OFF",
+    "normal active confirmation starts local skills",
+    "other settings retain synchronization rules",
+    "ACK gate preserves pending OFF on active snapshots and clears on confirmed OFF",
+    "skill pacing and character-exit lifecycle"
+  ],
+  "actual_bytecode_interpreted_with_mocked_engine": true,
+  "game_executed": false,
+  "uc_compiler_executed": false,
+  "sha256": "d19f446caf7d527e1ba841dd9f9fc278c82129c7d932a77904e35d1230053ced"
+}

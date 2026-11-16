@@ -1,0 +1,25 @@
+Escopo: interface.rar recebido nesta etapa: interface.u, interface.xdat e Classes.rar.
+
+Varredura estatica: 192 classes UC, 3302 funcoes, 537 registros de evento,
+102 chamadas SetTimer e 53 pontos RequestBypassToServer. Nenhuma delimitacao
+incompleta encontrada. Onze arquivos RAR internos nao foram tratados como classes ativas.
+A comparacao de tokens de codigo dos fontes com os textos embutidos coincide em 191
+classes; SystemBarWnd difere e nao foi alterada. Essa comparacao nao prova equivalencia
+entre fonte e bytecode. Os caminhos criticos tambem foram conferidos no bytecode.
+
+Achados relevantes:
+1. O botao atual ja enviava START e STOP separados, mas STOP era enviado uma unica vez.
+   A rotina local continuava ativa ate a confirmacao, mesmo se o pedido fosse perdido.
+2. AutoSkillWnd usava timer de 10 ms tanto para iniciar como para reagendar a rotina.
+3. AutoSkillSpamWnd verificava cinco slots a cada 100 ms e e independente do AutoHunting.
+4. A saida do personagem nao encerrava explicitamente todas essas rotinas locais.
+5. Texturas decorativas do AutoHunting ja deixam o clique passar no XDAT recebido;
+   OnLButtonDown ja nao enviava alternancia duplicada. Nao foram alterados novamente.
+6. O identificador 99982 no estado recebido nao e, por si so, uma colisao com eventos de
+   outros modulos. PCCafeEventWnd ja ignora esse estado.
+
+Foi corrigido o fluxo de OFF com tentativas limitadas e espera pela confirmacao,
+reduzida a frequencia de verificacao das duas rotinas e ajustado o encerramento delas.
+Inventario, capas, zoom, retrato, montaria e demais funcoes foram preservados.
+A varredura estatica nao substitui execucao do cliente/servidor e nao garante ausencia
+de todos os conflitos. VALIDACAO.json registra o alcance dos testes automatizados.

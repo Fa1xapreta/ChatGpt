@@ -1,0 +1,35 @@
+AutoHunting - OFF com confirmacao e controle das rotinas locais
+
+INSTALACAO
+1. Feche o jogo e guarde seu interface.u atual.
+2. Extraia system/interface.u para a pasta system do cliente, substituindo o arquivo.
+3. Mantenha seu interface.xdat atual. Nao ha alteracao de XDAT, servidor ou JAR neste pacote.
+4. Abra o jogo e teste ligar/desligar varias vezes, inclusive durante combate.
+
+As tres classes em Classes sao fontes completos para atualizar seu projeto.
+Para desfazer, restaure rollback/interface.u na pasta system com o jogo fechado.
+
+ALTERACOES
+- Ao pedir OFF, pausa imediatamente a rotina local AutoSkillWnd.
+- Envia OFF explicito; se faltar confirmacao, faz ate sete novas tentativas, uma por segundo.
+- O botao aguarda confirmacao; em ate nove segundos libera uma nova tentativa manual.
+- Uma resposta ativa recebida enquanto OFF esta pendente nao reinicia a rotina local.
+- Confirmacao de OFF ou morte cancela as tentativas pendentes.
+- O indicador continua mostrando o ultimo estado confirmado; timeout nao simula desligamento.
+- AutoSkillWnd: verificacao a cada 200 ms, em vez de 10 ms.
+- AutoSkillSpamWnd: verificacao a cada 500 ms, em vez de 100 ms. Este modulo continua independente do AutoHunting.
+- Limpa timers locais na saida do personagem; configuracao automatica de skills inicia oculta.
+
+VALIDACAO E LIMITES
+Foi editado o bytecode do interface.u fornecido, com fontes correspondentes.
+Nao houve compilacao UCC nem execucao do jogo aqui.
+Foram validados tamanhos, referencias, saltos e contextos das 12 funcoes alteradas.
+Dez grupos de regressao interpretam o bytecode real com chamadas do motor simuladas.
+Os outros 14722 exports permanecem byte a byte iguais ao arquivo recebido.
+Nenhuma propriedade, importacao, nome ou funcao foi adicionada a estrutura das classes.
+O ritmo de verificacao das skills fica menos frequente; teste a resposta das skills em combate.
+
+Nao e uma comprovacao da causa no servidor. Como .stopAutoFarm2 tambem falhou no chat,
+a entrega do pacote, os dois motores de farm e o bloqueio de execucao no servidor ainda
+podem precisar de rastreamento em tempo real se este teste nao eliminar a falha.
+Um modulo independente de AutoSkillSpam ativado pelo jogador continua funcionando.
