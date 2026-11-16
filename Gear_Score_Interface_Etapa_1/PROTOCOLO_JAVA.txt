@@ -1,0 +1,60 @@
+GEAR SCORE - CONTRATO DO CLIENTE (a parte Java sera adaptada depois)
+
+Nao ha calculo de pontuacao no cliente. O servidor envia todos os numeros.
+O calculo original da interface modelo nao foi recuperado nem substituido por uma formula inventada.
+
+TRANSPORTE
+1. Mensagem de tela padrao recebida no evento 140, campo Msg.
+   Texto: CustomEvent=GearScoreV1|...
+   OnScreenMessageWnd atual ja ignora mensagens que contem CustomEvent=.
+2. Alternativa pelo dispatcher de eventos numericos que o patch ja utiliza:
+   evento 94600, campo Payload contendo exatamente a mesma mensagem acima.
+   Exemplo de texto para ExShowScreenMessage:
+   CustomEvent=94600 Payload=CustomEvent=GearScoreV1|Self|268435501|12345
+3. Compativel tambem com evento legado 88857 e parametro Gear=12345 (somente pontuacao propria).
+
+A classe Java enviada depois deve usar o transporte disponivel no servidor/cliente.
+Este pacote nao modifica o Java, o banco, as DLLs nem os pacotes nativos de inventario.
+
+MENSAGENS - separador |; nomes/clans nao podem conter |; valores inteiros com sinal.
+Self|ObjectIDDoProprioJogador|Score
+Target|ObjectIDDoAlvo|Score
+RankBegin|GearOuPvP|Token|MeuRank|MinhaVariacao
+RankRow|GearOuPvP|Token|Variacao|Nome|ClassID|Clan|Score
+RankEnd|GearOuPvP|Token
+InspectBegin|Token|Nome|ClassID|ScoreTotal
+InspectItem|Token|ObjectID|ItemID|Enchant|RefineryOp1|RefineryOp2|SlotBitType|ScoreDoItem
+InspectEnd|Token
+Item|ObjectID|ItemID|Enchant|ScoreDoItem
+ClearItems
+Todas as linhas acima recebem o prefixo CustomEvent=GearScoreV1|.
+
+EXEMPLO
+CustomEvent=GearScoreV1|Self|268435501|12345
+CustomEvent=GearScoreV1|RankBegin|Gear|gs1|4|-1
+CustomEvent=GearScoreV1|RankRow|Gear|gs1|2|Jogador|88|MeuClan|15000
+CustomEvent=GearScoreV1|RankEnd|Gear|gs1
+CustomEvent=GearScoreV1|InspectBegin|in1|Jogador|88|15000
+CustomEvent=GearScoreV1|InspectItem|in1|268440001|7575|16|14729|14730|128|2500
+CustomEvent=GearScoreV1|InspectEnd|in1
+CustomEvent=GearScoreV1|Item|268440001|7575|16|2500
+
+REGRAS DO RECEPTOR
+- Self confere ObjectID com GetPlayerInfo; Target confere o alvo atual e rejeita NPC.
+- Pontuacao negativa nao e exibida; Target antigo e ocultado ao trocar/perder o alvo.
+- Rank: maximo 200 linhas por lista; Gear e PvP sao listas separadas.
+- Inspect: maximo 64 itens recebidos, distribuidos pelos slots originais do modelo.
+- Cache: maximo 2048 registros por personagem, limpo ao sair da conta.
+- Token de Begin deve ser repetido em cada Row/Item e End. Finalizacao invalida ou linhas de outro token sao ignoradas.
+- Item com ObjectID real e a pontuacao exata daquela instancia.
+- ObjectID=0 e reservado a pontuacao de preview por ItemID+Enchant; usado como fallback apenas em tooltips de preview.
+- Nao reutilizar Blessed, Damaged ou RefineryOp2 como transporte de Gear Score.
+- Augments e enchant sao preservados nos itens inspecionados.
+- Campos nao podem conter o separador |. As mensagens sao limitadas a 8192 caracteres.
+
+REQUISICOES DO CLIENTE AO SERVIDOR
+RankingOpen
+InspectPlayer?name=NomeDoJogador
+Sao os comandos usados pela interface modelo. Ainda aguardam handlers no Java.
+O painel de ranking abre localmente, mesmo sem resposta, para permitir testar o visual.
+A lista fica vazia ate receber dados validos.

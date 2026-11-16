@@ -1,0 +1,57 @@
+GEAR SCORE - PRIMEIRA ETAPA: INTERFACE MILENIUM
+
+Base: ultima versao com AutoFarm corrigido e Auto Augment funcionando pelo inventario.
+Esta entrega monta o cliente; a classe Java sera adaptada na proxima etapa, conforme combinado.
+Sem o Java conectado, a pontuacao e as listas aguardam dados reais.
+
+INSTALACAO
+1. Feche o jogo e guarde interface.u e interface.xdat atuais.
+2. Copie os TRES arquivos da pasta system para seu cliente:
+   interface.u
+   interface.xdat
+   MUI_GEAR.u
+3. Mantenha MUI_AUGM.u da augmentacao, seu L2UI_CH3.u e suas DLLs atuais.
+4. Entre no jogo e confira os paineis. O botao de Gear Score abre o ranking do modelo.
+
+INCLUIDO NO CLIENTE
+- Indicador de Gear Score junto ao painel do personagem.
+- Indicador de Gear Score junto ao painel do alvo, atualizado com verificacao do ID.
+- Botao existente na janela de detalhes ligado ao ranking novo.
+- Janela de ranking do modelo, incluindo as abas Gear Score e PvP do modelo.
+- Janela de inspecao dos equipamentos do jogador pesquisado.
+- Recepcao das pontuacoes por item e exibicao em tooltips de itens e previews de multisell.
+- Tipos de dados, callbacks e ponte de recepcao independentes da DLL original.
+- Pacote proprio de imagens MUI_GEAR.u e sete classes UC novas/atualizadas.
+
+A pontuacao ainda nao sera calculada nem os rankings preenchidos so por instalar
+estes arquivos. Os requests RankingOpen e InspectPlayer aguardam a parte Java.
+PROTOCOLO_JAVA.txt documenta os campos que a proxima adaptacao devera enviar.
+A ordenacao e a regra de pontos permanecem responsabilidade do servidor.
+
+PRESERVACAO
+StatusWnd, TargetStatusWnd, TargetHeaderPlayer, DetailStatusWnd, InventoryWnd,
+AutoHunting e as classes de Auto Augment mantem seus dados de classe originais.
+Os indicadores foram colocados em janelas proprias ancoradas aos seus paineis,
+para preservar o retrato e as barras atuais. O unico ajuste em janela existente
+foi o destinatario do clique do botao de Gear Score em DetailStatusWnd.
+ToolTip e MultiSellWnd receberam apenas a chamada para acrescentar a linha de score.
+Os campos de augment, enchant, Blessed e Damaged nao foram usados para armazenar score.
+A DLL de autenticacao/eventos do modelo e seus outros sistemas nao foram copiados.
+Efeitos nativos do modelo sobre a cabeca dos personagens nao estao incluidos nesta etapa.
+
+FONTES
+Classes contem MileniumGearScore, RankingWnd, InspectWnd, dois indicadores e os
+fontes atualizados de ToolTip e MultiSellWnd. A ponte recebe dados, nao calcula pontos.
+Nao substitua UICommonAPI.uc, L2Util.uc ou as classes de augmentacao.
+
+TESTES E LIMITE
+Foram conferidos bytecode, referencias, saltos, parametros, chamadas estaticas,
+listas encadeadas dos campos e offsets nativos de mipmaps das imagens.
+Os testes interpretam bytecode real com chamadas do motor simuladas para pontuacao,
+alvo, transacoes de ranking, inspecao, cache, tooltip e limpeza na saida da conta.
+Nao houve execucao do cliente Windows nem compilacao UCC aqui.
+Confirme o visual no jogo; o preenchimento dos dados sera validado apos integrar o Java.
+
+RESTAURAR
+Com o jogo fechado, restaure seus interface.u e interface.xdat guardados.
+MUI_GEAR.u pode ser removido se desfizer esta etapa. MUI_AUGM.u continua necessario ao augment.
