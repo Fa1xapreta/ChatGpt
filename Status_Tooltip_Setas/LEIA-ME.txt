@@ -1,0 +1,6 @@
+Substitua Classes/StatusWnd.uc e recompile sua Interface.u. Copie system/interface.xdat com o jogo fechado se ainda nao estiver usando o XDAT do pacote Tooltip_Show_Hide_Class. O XDAT aqui e identico ao daquele pacote: PortraitToggle com unk7=1 e popupType=Text.
+
+Tooltip dinamico por SetTooltipCustomType, seguindo o metodo ja usado no botao do Inventory Viewr: Show Class para abrir, Hide Class para ocultar.
+Setas invertidas entre os dois estados (TargetExpandBtn no compacto, TargetContractBtn no expandido), incluindo texturas down e over.
+Modo compacto inicial preservado. Nenhuma mudanca em UpdateOptionalPortrait ou DLLs.
+Fonte revisado; compilacao e verificacao visual no jogo pendentes.
