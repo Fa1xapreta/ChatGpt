@@ -1,0 +1,72 @@
+--- java/net/sf/l2j/gameserver/util/FloodProtectors.java
++++ java/net/sf/l2j/gameserver/util/FloodProtectors.java
+@@ -28,6 +28,9 @@
+ 	private final FloodProtectorAction _subclass;
+ 	private final FloodProtectorAction _dropItem;
+ 	private final FloodProtectorAction _serverBypass;
++    private final FloodProtectorAction _npcHeaderQuery;
++    private final FloodProtectorAction _autoFarmStatusQuery;
++    private final FloodProtectorAction _playerModeStatusQuery;
+ 	private final FloodProtectorAction _multiSell;
+ 	private final FloodProtectorAction _manufacture;
+ 	private final FloodProtectorAction _manor;
+@@ -49,6 +52,13 @@
+ 		_subclass = new FloodProtectorAction(client, Config.FLOOD_PROTECTOR_SUBCLASS);
+ 		_dropItem = new FloodProtectorAction(client, Config.FLOOD_PROTECTOR_DROP_ITEM);
+ 		_serverBypass = new FloodProtectorAction(client, Config.FLOOD_PROTECTOR_SERVER_BYPASS);
++        // Read-only status requests must not consume the manual-action bucket.
++        _npcHeaderQuery = new FloodProtectorAction(client,
++            queryConfig("NpcHeaderQueryFloodProtector"));
++        _autoFarmStatusQuery = new FloodProtectorAction(client,
++            queryConfig("AutoFarmStatusFloodProtector"));
++        _playerModeStatusQuery = new FloodProtectorAction(client,
++            queryConfig("PlayerModeStatusFloodProtector"));
+ 		_multiSell = new FloodProtectorAction(client, Config.FLOOD_PROTECTOR_MULTISELL);
+ 		_manufacture = new FloodProtectorAction(client, Config.FLOOD_PROTECTOR_MANUFACTURE);
+ 		_manor = new FloodProtectorAction(client, Config.FLOOD_PROTECTOR_MANOR);
+@@ -121,4 +131,45 @@
+ 	{
+ 		return _useEnchant;
+ 	}
++
++    private static FloodProtectorConfig queryConfig(String name)
++    {
++        FloodProtectorConfig source = Config.FLOOD_PROTECTOR_SERVER_BYPASS;
++        FloodProtectorConfig copy = new FloodProtectorConfig(name);
++        copy.FLOOD_PROTECTION_INTERVAL = source.FLOOD_PROTECTION_INTERVAL;
++        copy.LOG_FLOODING = source.LOG_FLOODING;
++        copy.PUNISHMENT_LIMIT = source.PUNISHMENT_LIMIT;
++        copy.PUNISHMENT_TYPE = source.PUNISHMENT_TYPE;
++        copy.PUNISHMENT_TIME = source.PUNISHMENT_TIME;
++        return copy;
++    }
++
++    private static int interfaceQueryKind(String command)
++    {
++        if (command == null)
++            return 0;
++        if (command.startsWith("NpcHeaderInfo "))
++            return 1;
++        if ("voiced_autoFarmUiStatus2".equals(command))
++            return 2;
++        if ("voiced_playerModeStatus".equals(command))
++            return 3;
++        return 0;
++    }
++
++    public static boolean isInterfaceStateQuery(String command)
++    {
++        return interfaceQueryKind(command) != 0;
++    }
++
++    public FloodProtectorAction getBypassProtector(String command)
++    {
++        switch (interfaceQueryKind(command))
++        {
++            case 1: return _npcHeaderQuery;
++            case 2: return _autoFarmStatusQuery;
++            case 3: return _playerModeStatusQuery;
++            default: return _serverBypass;
++        }
++    }
+ }

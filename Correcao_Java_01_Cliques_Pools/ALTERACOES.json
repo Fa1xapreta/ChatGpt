@@ -1,0 +1,22 @@
+[
+  {
+    "file": "java/net/sf/l2j/gameserver/network/L2GameClient.java",
+    "before_sha256": "2174dbc5338629783f33376ede43808b627ab91194c3941ec3131f9dff79b3af",
+    "after_sha256": "22ae6a381bc5bdae449f1262cd1d2ca3cdfaba0595b4dcc1cf2a4bf0e78dd7e0"
+  },
+  {
+    "file": "java/net/sf/l2j/gameserver/util/FloodProtectors.java",
+    "before_sha256": "18cee4a41a7cb1d525bcc75ef595a62063408757d5e17abff088de3d18811a97",
+    "after_sha256": "789dec504c680639f6a2964944e1cfb76e0d45aa155d7b006692a42cfe291a9e"
+  },
+  {
+    "file": "java/net/sf/l2j/gameserver/network/clientpackets/RequestBypassToServer.java",
+    "before_sha256": "c70b2f397b9d91bf736bdfb2a9ee1f4e3e7afd7e30a922c93e78c2ace40bd62c",
+    "after_sha256": "ea368495321d7298a4d2f887b6d1e47e68ceddaef380057253a6902d3abfc90d"
+  },
+  {
+    "file": "java/phantom/task/ThreadPool.java",
+    "before_sha256": "66f5e172fe9126e0650ae2d01335b1ece663cff3f31ec0d6b386f50bd36b9024",
+    "after_sha256": "afb7bec7e17ef83228d3693c15b23bc0b3199976b3040e04b3ea1cbdf63e0e70"
+  }
+]

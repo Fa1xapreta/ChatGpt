@@ -1,0 +1,43 @@
+--- java/net/sf/l2j/gameserver/network/clientpackets/RequestBypassToServer.java
++++ java/net/sf/l2j/gameserver/network/clientpackets/RequestBypassToServer.java
+@@ -103,6 +103,7 @@
+ import net.sf.l2j.gameserver.templates.StatsSet;
+ import net.sf.l2j.gameserver.util.CheatLog;
+ import net.sf.l2j.gameserver.util.GMAudit;
++import net.sf.l2j.gameserver.util.FloodProtectors;
+ import net.sf.l2j.util.Rnd;
+ 
+ public final class RequestBypassToServer extends L2GameClientPacket
+@@ -132,7 +133,11 @@
+ 	        return;
+ 	    }
+ 	    
+-	    if (MiningInteractionManager.getInstance().handle(
++	    if (_command != null
++            && (_command.startsWith("MiningStart ")
++                || _command.startsWith("MiningHold ")
++                || _command.startsWith("MiningCancel "))
++            && MiningInteractionManager.getInstance().handle(
+ 	            activeChar,
+ 	            _command))
+ 	        {
+@@ -140,7 +145,7 @@
+ 	        }
+ 	    
+ 
+-	    if (!getClient().getFloodProtectors().getServerBypass().tryPerformAction(_command))
++	    if (!getClient().getFloodProtectors().getBypassProtector(_command).tryPerformAction(_command))
+ 	    {
+ 	        if (_command != null && _command.startsWith("GkGo"))
+ 	        {
+@@ -3394,4 +3399,10 @@
+ 		return false;
+ 	}
+ 	
++
++    @Override
++    protected boolean triggersOnActionRequest()
++    {
++        return !FloodProtectors.isInterfaceStateQuery(_command);
++    }
+ }

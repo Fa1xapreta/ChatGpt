@@ -1,0 +1,27 @@
+--- java/net/sf/l2j/gameserver/network/L2GameClient.java
++++ java/net/sf/l2j/gameserver/network/L2GameClient.java
+@@ -967,6 +967,24 @@
+ 		finally
+ 		{
+ 			_queueLock.unlock();
++            // A packet may arrive while the worker is leaving, or remain
++            // after the burst limit. Resume without waiting for another packet.
++            if (!_isDetached && !_packetQueue.isEmpty())
++            {
++                try
++                {
++                    if (_state == GameClientState.CONNECTED)
++                        ThreadPoolManager.getInstance().executeIOPacket(this);
++                    else
++                        ThreadPoolManager.getInstance().executePacket(this);
++                }
++                catch (RejectedExecutionException e)
++                {
++                    if (!ThreadPoolManager.getInstance().isShutdown())
++                        _log.log(java.util.logging.Level.WARNING,
++                            "Could not resume client packet queue", e);
++                }
++            }
+ 		}
+ 	}
+ 	

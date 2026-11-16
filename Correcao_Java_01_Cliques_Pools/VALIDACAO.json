@@ -1,0 +1,48 @@
+{
+  "syntax_checked_files": 4,
+  "syntax_errors": 0,
+  "full_server_build": false,
+  "production_classes_shipped": false,
+  "tests": [
+    {
+      "name": "QueueFixRegression",
+      "exit_code": 0,
+      "stdout": "PASS: correction drains the burst remainder and handles the empty-poll/enqueue/unlock race without needing another packet. Real method with proposed minimal change; scheduler and stats mocked.",
+      "stderr": "",
+      "full_production_class_with_only_jdk_dependencies": false,
+      "server_and_client_started": false
+    },
+    {
+      "name": "QueueConcurrencyRegression",
+      "exit_code": 0,
+      "stdout": "PASS: capacity=80, 20,000 concurrent attempts; 258 accepted and executed exactly once, single worker per client, no final wakeup packet. Overflow rejections retained by original policy.\nPASS: capacity=25000, 20,000 concurrent attempts; 20000 accepted and executed exactly once, single worker per client, no final wakeup packet. Overflow rejections retained by original policy.",
+      "stderr": "",
+      "full_production_class_with_only_jdk_dependencies": false,
+      "server_and_client_started": false
+    },
+    {
+      "name": "QueryGateRegression",
+      "exit_code": 0,
+      "stdout": "PASS: production query selector and flood classes; 3 independent query categories, rate limits, 9 protected action cases, 2 clients, query-only spawn preservation.",
+      "stderr": "",
+      "full_production_class_with_only_jdk_dependencies": false,
+      "server_and_client_started": false
+    },
+    {
+      "name": "MiningFilterRegression",
+      "exit_code": 0,
+      "stdout": "PASS: production prefix condition skips mining manager for 6 unrelated/malformed requests; 3 mining prefixes still route to it.",
+      "stderr": "",
+      "full_production_class_with_only_jdk_dependencies": false,
+      "server_and_client_started": false
+    },
+    {
+      "name": "ThreadPoolRegression",
+      "exit_code": 0,
+      "stdout": "PASS: actual production ThreadPool compiled and executed; bounded defaults, counter overflow, 12 scheduled tasks, 20 instant tasks and periodic execution.\nThreadPool: Shutting down.",
+      "stderr": "Nov 16, 2026 2:12:29 AM phantom.task.ThreadPool init\nINFO: ThreadPool: Initialized 8 scheduled thread(s) across 2 pool(s), 4 instant thread(s).",
+      "full_production_class_with_only_jdk_dependencies": true,
+      "server_and_client_started": false
+    }
+  ]
+}

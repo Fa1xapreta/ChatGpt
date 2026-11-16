@@ -1,0 +1,57 @@
+CORRECAO 1 - FILA DE PACOTES, CONSULTAS DA INTERFACE E POOLS
+
+Este pacote contem QUATRO FONTES DE PRODUCAO corrigidos. A pasta FONTES/java deve ser aplicada ao projeto que gera o gameserver. Nao e um pacote de .class/JAR pronto para copiar no servidor em execucao.
+
+ARQUIVOS
+1. net/sf/l2j/gameserver/network/L2GameClient.java
+2. net/sf/l2j/gameserver/network/clientpackets/RequestBypassToServer.java
+3. net/sf/l2j/gameserver/util/FloodProtectors.java
+4. phantom/task/ThreadPool.java
+
+INSTALACAO NO PROJETO
+1. Guarde um backup da compilacao atualmente utilizada e do projeto.
+2. Substitua os quatro fontes pelos arquivos correspondentes de FONTES/java.
+3. Compile o projeto inteiro pelo procedimento habitual, com as bibliotecas reais do seu servidor. Os arquivos 2 e 3 precisam ser compilados e publicados juntos, pois ha um novo metodo entre eles.
+4. Pare a instancia de teste, publique a compilacao gerada e inicie o gameserver novamente. Nenhuma alteracao em Interface.u ou XDAT e necessaria para esta etapa.
+5. Valide os testes de uso descritos abaixo antes de publicar em producao.
+
+Se voce trabalha apenas substituindo .class ou um gameserver.jar, para gerar um pacote pronto ainda precisamos do gameserver.jar e das dependencias da pasta lib da mesma versao. O java.rar enviado contem os fontes, mas nao essas bibliotecas. O build completo nao foi executado neste ambiente.
+
+O QUE FOI CORRIGIDO
+- A fila volta a agendar o processamento quando sobra trabalho apos o limite do lote ou quando um pacote chega no fim do trabalhador. Nao depende de outro clique para acordar. Mantem a politica de limite de fila e burst.
+- NpcHeaderInfo, voiced_autoFarmUiStatus2 e voiced_playerModeStatus possuem buckets de flood independentes, separados do bucket das acoes manuais. Cada consulta continua com protecao; nao foi liberada uma familia inteira de comandos. Parametros extras nos dois comandos voiced de consulta nao recebem a classificacao de consulta.
+- Todos os demais comandos, incluindo ON/OFF de AutoFarm, compra, reward, quest, NPC e mudanca de modo continuam usando o ServerBypass manual original. A configuracao e o intervalo desse bucket foram preservados. Isso significa que cliques manuais muito proximos ainda podem ser rejeitados legitimamente pelo intervalo configurado.
+- O codigo de bypass so entra no manager sincronizado da mineracao se o prefixo for MiningStart, MiningHold ou MiningCancel. Demais cliques deixam de esperar por esse lock global. As validacoes e o fluxo interno de mineracao foram preservados.
+- As tres consultas de estado deixam de cancelar a protecao de spawn. As acoes manuais mantem o comportamento anterior.
+- O pool usa AtomicInteger com Math.floorMod para impedir indice negativo apos overflow. Falhas de agendamento deixam de ser engolidas sem log.
+- Foi removido o valor fixo de 750 threads agendadas por processador. O padrao agora usa no maximo 4 pools, cada um com 4 threads agendadas e 2 instantaneas. Em JVMs com 1 ou 2 processadores, o padrao usa 1 ou 2 pools, respectivamente. Esses valores sao uma base inicial e precisam de observacao de carga no servidor real.
+
+AJUSTE OPCIONAL DE CAPACIDADE DO POOL
+Se necessario apos medir carga, o administrador pode definir opcoes da JVM, antes do -jar:
+-Dl2j.phantom.poolCount=4
+-Dl2j.phantom.scheduledThreadsPerPool=4
+-Dl2j.phantom.instantThreadsPerPool=2
+Nao e necessario adicionar essas opcoes para usar os padroes. Os pools de ThreadPoolManager nao foram alterados.
+
+VALIDACAO FEITA
+- Os quatro arquivos passaram por leitura sintatica.
+- A continuacao da fila passou nos cenarios deterministas da auditoria, incluido cliente desconectado e rota de conexao.
+- No teste concorrente com quatro produtores e quatro trabalhadores, cada pacote aceito foi executado exatamente uma vez. Foram verificadas 20 mil tentativas com capacidade 80 (mantendo rejeicoes por fila cheia) e capacidade maior usada apenas no teste, na qual os 20 mil foram aceitos/processados. Nao foi necessario um pacote adicional para retomar a fila.
+- As classes completas de flood/classificacao foram compiladas e testadas com dependencias do jogo simuladas. Foram conferidas as tres categorias de consulta, isolamento entre clientes, nove exemplos de acoes manuais, limites ativos e protecao de spawn.
+- A condicao real do filtro de mineracao foi testada com comandos de mineracao e comandos sem relacao.
+- A classe ThreadPool corrigida depende apenas do JDK: foi compilada para bytecode Java 8 e executada com executores reais, verificando capacidade, overflow do contador, tarefas imediatas, atrasadas e periodicas.
+- Nao foi executado o gameserver completo nem um cliente conectado. A compilacao final das classes de rede ainda depende das bibliotecas reais.
+
+TESTE NO JOGO
+- Abrir um NPC e navegar por alguns HTMLs com cliques separados pelo intervalo configurado; confirmar que nao precisa retornar para o comando executar.
+- Selecionar NPCs e abrir o AutoFarm enquanto ha consultas de estado; verificar que elas nao consomem o limite manual.
+- Ligar/desligar o AutoFarm e confirmar que o personagem realmente para. Se continuar atacando, registrar os estados dos dois motores de farm, pois a exclusao mutua entre eles ainda e outra etapa da auditoria.
+- Minerar normalmente, testando iniciar, manter e cancelar, enquanto outro jogador navega em HTMLs.
+- Observar uso de threads, CPU, fila de tarefas e tempo das rotinas com a carga normal do servidor, ajustando os pools somente com base na medicao.
+- Conferir protecao de spawn e operacoes de compra/reward para confirmar preservacao das regras de acao.
+
+PONTOS QUE CONTINUAM PARA AS PROXIMAS ETAPAS
+Este pacote nao pretende corrigir todos os 15 achados de uma vez. A normalizacao/validacao de HTML precisa considerar o transporte real, que nao veio nos fontes; a integridade do reward depende tambem do SQL; os motores de farm e outros locks precisam de verificacao integrada. Nao se desativou validateBypass, anti-flood, validacao de compra ou validacao de reward.
+
+RESTAURAR
+RESTAURAR/java contem os quatro fontes originais, com bytes preservados. Para reverter, restaure-os e recompile/publique a versao anterior de forma consistente.
