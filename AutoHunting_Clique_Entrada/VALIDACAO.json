@@ -1,0 +1,149 @@
+{
+  "changed_xdat_fields": [
+    {
+      "path": ".AutoHunting.botorizadoExpand",
+      "field": "unk23 / passThrough",
+      "before": -1,
+      "after": 1
+    },
+    {
+      "path": ".AutoHunting.TexCircleBG",
+      "field": "unk23 / passThrough",
+      "before": -1,
+      "after": 1
+    },
+    {
+      "path": ".AutoHunting.Anim1CircleExpand",
+      "field": "unk23 / passThrough",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "path": ".AutoHunting.Anim1CircleExpand.Anim1Expand",
+      "field": "unk23 / passThrough",
+      "before": 0,
+      "after": 1
+    },
+    {
+      "path": ".AutoHunting.Anim2CoreExpand",
+      "field": "unk23 / passThrough",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "path": ".AutoHunting.Anim2CoreExpand.Anim2Expand",
+      "field": "unk23 / passThrough",
+      "before": 0,
+      "after": 1
+    },
+    {
+      "path": ".AutoHunting.DrawerButtons.TexCircleBGDrawer",
+      "field": "unk23 / passThrough",
+      "before": 1,
+      "after": 1
+    }
+  ],
+  "all_other_xdat_fields_unchanged": true,
+  "hidden_flag_already_set": true,
+  "native_property_mapping": {
+    "passThrough": "DefaultProperty.unk23 / XMLUIData+0x64",
+    "hidden": "Window.unk107 / XMLWindowData+0xc4"
+  },
+  "modified_exports": [
+    "AutoSkillWnd.OnLoad",
+    "AutoSkillWnd.OnEvent",
+    "AutoSkillWnd.ScriptText"
+  ],
+  "server_changes": false,
+  "windows_game_run": false,
+  "source_sha256": "dc50bf63243118c6002f3decc4a665e26667d6bee828e5989d6766ba5278b400",
+  "result_sha256": "3024c5e25889f7bc3a49461e533406e6a1f8153122c65e318dbab6c4108cf387",
+  "changed_exports_verified": [
+    "AutoSkillWnd.OnLoad",
+    "AutoSkillWnd.OnEvent",
+    "AutoSkillWnd.ScriptText"
+  ],
+  "bytecode_structure_verified": {
+    "AutoSkillWnd.OnLoad": {
+      "runtime_bytes": 184,
+      "jump_targets": 2
+    },
+    "AutoSkillWnd.OnEvent": {
+      "runtime_bytes": 115,
+      "jump_targets": 9
+    },
+    "AutoSkillWnd.OnEnterState": {
+      "runtime_bytes": 25,
+      "jump_targets": 0
+    },
+    "AutoHunting.OnClickButton": {
+      "runtime_bytes": 1012,
+      "jump_targets": 41
+    },
+    "AutoHunting.HandleFarmState": {
+      "runtime_bytes": 620,
+      "jump_targets": 15
+    }
+  },
+  "event_bytecode_interpreted_with_mocked_engine": [
+    {
+      "event": 150,
+      "calls": [
+        "HideWindow"
+      ]
+    },
+    {
+      "event": 40,
+      "calls": [
+        "HideWindow",
+        "xxmaskdnmauaka"
+      ]
+    },
+    {
+      "event": 968,
+      "calls": [
+        "xxlkamaskia"
+      ]
+    },
+    {
+      "event": 980,
+      "calls": []
+    },
+    {
+      "event": 693,
+      "calls": []
+    },
+    {
+      "event": 0,
+      "calls": []
+    }
+  ],
+  "all_other_export_payloads_byte_identical": true,
+  "names_and_imports_unchanged": true,
+  "actual_xdat_changes": [
+    {
+      "path": ".AutoHunting.botorizadoExpand",
+      "field": "unk23 / passThrough",
+      "before": -1,
+      "after": 1
+    },
+    {
+      "path": ".AutoHunting.TexCircleBG",
+      "field": "unk23 / passThrough",
+      "before": -1,
+      "after": 1
+    },
+    {
+      "path": ".AutoHunting.Anim1CircleExpand.Anim1Expand",
+      "field": "unk23 / passThrough",
+      "before": 0,
+      "after": 1
+    },
+    {
+      "path": ".AutoHunting.Anim2CoreExpand.Anim2Expand",
+      "field": "unk23 / passThrough",
+      "before": 0,
+      "after": 1
+    }
+  ]
+}

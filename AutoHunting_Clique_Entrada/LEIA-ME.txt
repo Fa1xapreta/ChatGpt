@@ -1,0 +1,29 @@
+AutoHunting - clique nas animacoes e janela de skills fechada ao entrar
+
+INSTALACAO
+Com o jogo fechado, faca backup e substitua os dois arquivos da pasta system deste ZIP pelos arquivos no system do cliente:
+- interface.u
+- interface.xdat
+
+Este pacote ja contem o Interface.u ajustado. Nao e necessario recompilar as classes para testar estes dois arquivos. Para manter seu projeto atualizado, Classes/AutoSkillWnd.uc contem a alteracao equivalente de fonte.
+Nao instale apenas a UC: ela so tem efeito quando compilada no projeto.
+
+ALTERACOES
+O XDAT original ja tinha passThrough=1 nas janelas das animacoes, mas as texturas internas Anim1Expand e Anim2Expand tinham passThrough=0. Elas continuavam podendo receber o mouse ao aparecerem. Agora recebem 1. Os fundos botorizadoExpand e TexCircleBG tambem passam o mouse adiante. Apenas esses quatro campos unk23 foram alterados.
+
+AutoSkillWnd ja estava com Hidden=1 e HideWindow em OnLoad/OnEnterState. A alteracao registra EV_GamingStateEnter (150) e chama HideWindow ao receber esse evento. Isso acrescenta o fechamento na etapa de entrada no jogo. A abertura manual pelo botao continua igual.
+
+O comando Java enviado foi revisado: enableAutoFarm2 alterna startFarm/stopFarm e o finally envia AutoHuntingState. O pacote informado pelo usuario corresponde aos campos consumidos pela UC. Nenhuma classe Java foi modificada; nao e necessario alterar o servidor para testar este pacote.
+
+PRESERVACAO E VALIDACAO
+Base: interface.u e interface.xdat enviados em interface.rar nesta solicitacao.
+Todos os exports fora de AutoSkillWnd.OnLoad, AutoSkillWnd.OnEvent e seu ScriptText foram comparados byte a byte e permanecem identicos. Nomes, imports, indices, referencias e desvios foram conferidos.
+O bytecode de eventos foi interpretado com chamadas do motor simuladas: 150, 40, 968, 980, 693 e 0. Os comportamentos anteriores desses eventos foram preservados; 150 passa a ocultar a janela.
+Todos os demais valores do XDAT foram comparados e preservados.
+Nao foi executado o jogo Windows neste ambiente. O clique real, o desligamento no servidor e a ordem de abertura do cliente precisam de validacao no jogo.
+
+TESTE
+Entre no jogo: a janela AutoSkillWnd deve estar fechada. Abra e feche pelo botao de skills. Ligue o farm e, depois da confirmacao visual, clique no mesmo centro para desligar. Confirme que ele realmente parou de atacar. Repita e relogue.
+
+REVERTER
+RESTAURAR contem os dois arquivos originais enviados pelo usuario. Com o jogo fechado, copie-os de volta para system.
