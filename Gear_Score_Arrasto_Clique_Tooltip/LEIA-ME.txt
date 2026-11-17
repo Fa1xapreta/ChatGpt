@@ -1,0 +1,42 @@
+GEAR SCORE - MOLDURA FINA, ARRASTO, UM CLIQUE E TOOLTIP
+
+Com o jogo fechado, guarde seus arquivos atuais e substitua os DOIS da pasta
+system deste ZIP: interface.u e interface.xdat.
+Mantenha MUI_GEAR.u, TTFontInfo.ini, Metropolis.ttf, complex.ttf, demais texturas,
+DLLs e todo o Java atual. As fontes que voce confirmou nao foram alteradas.
+
+MOLDURA
+Retiradas as pecas de cabecalho com relevo. O contorno agora usa uma linha
+fina de 1 pixel da textura FrameNew.FrameTile do proprio modelo, com faixa
+superior de 20 pixels. Titulo Ranking e X funcional mantidos. Sem trocar o MUI.
+
+ARRASTO
+Clique e segure na barra superior do ranking para mover a janela.
+Ao iniciar, a ancora que prendia a janela ao centro e removida sem mudar sua
+posicao inicial. O movimento acompanha o mouse e para ao soltar ou fechar.
+A area do X e o corpo da tabela nao iniciam arrasto. A implementacao reutiliza
+a leitura de mouse nativa ja presente no HUD atual, sem novas DLLs/imports.
+
+BOTAO DO HUD
+O StatusWnd comecava o arrasto do HUD antes de tratar o botao do score.
+Agora o pressionamento desse botao e interceptado primeiro e abre o painel,
+sem iniciar arrasto do HUD ou selecionar o proprio personagem. Clicar no texto
+sobre a textura tambem e tratado pela verificacao da area do botao.
+Os callbacks posteriores continuam protegidos contra abertura duplicada.
+
+TOOLTIP
+No XDAT, btnScoreRank esta com popupType=Text e unk7=1.
+No codigo, SetTooltipType("Text") e SetTooltipText("Gear Score") sao aplicados
+na inicializacao e quando o layout do HUD/retrato e atualizado.
+
+FONTES UC
+StatusWnd.uc, RankingWnd.uc e MileniumGearScore.uc completos e atualizados.
+Mantidos todos os outros metodos do HUD, retrato, ranking, inspecao e AutoFarm.
+
+VALIDACAO
+16 cenarios passaram no interpretador de bytecode, incluindo primeiro
+pressionamento, clique na regiao do texto, preservacao do botao de retrato,
+arrasto com delta exato, liberacao do mouse, exclusao do X/corpo e tooltip.
+Campos do XDAT, fontes, referencias e saltos conferidos. Nenhuma dependencia
+nativa nova foi adicionada. O cliente Windows nao foi executado aqui; confirme
+moldura, arrasto e clique unico no jogo.
