@@ -1,0 +1,49 @@
+GEAR SCORE - FONTE ORIGINAL DO MODELO E MOLDURA SUPERIOR
+
+Feche COMPLETAMENTE o cliente antes de instalar. Faca backup dos arquivos atuais.
+Copie TODOS os cinco arquivos da pasta system deste ZIP para o system do cliente:
+  interface.xdat
+  MUI_GEAR.u
+  TTFontInfo.ini
+  Metropolis.ttf
+  complex.ttf
+Mantenha o interface.u atual, o Java, MUI_AUGM.u, Base.u, L2UI_CH3.u e suas DLLs.
+Inicie o cliente novamente; as fontes sao carregadas na inicializacao.
+Nao basta trocar apenas o XDAT ou copiar so o TTF.
+
+FONTE LOCALIZADA
+O modelo fornece Metropolis.ttf, cujo nome interno e Metropolis, estilo Bold.
+TTFontInfo.ini registra a fonte como broadcast1, tamanho 13 e peso 400
+(o proprio arquivo ja e Bold). benchmark/complex tambem foi copiado do modelo.
+Os titulos do modelo selecionam o estilo 6. Esse valor foi restaurado apenas em:
+- Nome do jogador no topo do ranking.
+- Geral nas abas Gear e PvP.
+- Nome e pontuacao destacada na inspecao.
+As fontes da tabela, classes, abas, HUD e demais janelas nao foram alteradas.
+O estilo 3 da versao que causou DrawNormalText nao foi utilizado.
+
+CONFIGURACAO
+O TTFontInfo.ini pronto foi mesclado sobre o arquivo original do seu patch
+que voce enviou anteriormente. Mantem Font1 e as configuracoes existentes;
+adiciona benchmark e broadcast1 com os arquivos e valores do modelo.
+O formato de criptografia 111 original foi preservado.
+Se voce personalizou esse INI depois, em vez de substitui-lo, mantenha o seu
+arquivo e utilize o mesclador opcional, depois de copiar os TTF e outros arquivos:
+  py Ferramentas\mesclar_fontes.py "C:\Lineage\system"
+Ele cria backup, preserva os demais slots, reconhece INI simples e 111, e
+configura broadcast1 para Metropolis. Requer Python 3 e nao instala fontes no Windows.
+Referencias/TTFontInfo_modelo.ini mostra a configuracao original do modelo.
+
+MOLDURA SUPERIOR
+Adicionadas as pecas originais FrameNew.FrameLeft, FrameTile e FrameRight
+para formar a barra superior de 796 pixels, com titulo Ranking e o X existentes.
+O painel inferior e o alinhamento de 20 pixels da entrega anterior foram mantidos.
+As coordenadas da tabela, abas e inspecao continuam iguais; nenhum codigo UC
+ou Java foi alterado nesta entrega. MUI_GEAR.u inclui as tres pecas de moldura.
+
+VALIDACAO
+Conferidas a origem e a familia/estilo internos do TTF, os valores do INI do
+modelo, os cinco seletores, a largura completa da moldura, os caminhos de
+recursos e os offsets nativos dos mipmaps. Mesclador executado em testes com
+INI simples, INI 111, slots personalizados e reaplicacao sem duplicar entradas.
+Cliente Windows nao executado aqui; conferir a fonte e a moldura no jogo.
