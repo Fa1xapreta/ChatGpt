@@ -1,0 +1,31 @@
+GEAR SCORE - CORRECAO DA ASSINATURA DE COR
+
+Com o jogo fechado, guarde seu interface.u e substitua SOMENTE system/interface.u.
+Mantenha o XDAT da versao do botao clicavel e o Java atual. Nao altere texturas.
+Este interface.u ja inclui os ajustes anteriores de clique, posicao e leitura.
+
+CAUSA LOCALIZADA
+No modelo: GetColor(int R,int G,int B,int A).
+Na sua UICommonAPI: GetColor(string m_Color).
+O codigo portado chamava o nome GetColor com quatro inteiros. A correcao
+anterior mudou a API de aplicacao de cor, mas nao resolveu essa colisao
+de assinaturas; por isso a falha reapareceu na atualizacao recebida do servidor.
+
+CORRECAO
+Criada MileniumGearScore.GearColorRGBA(int R,int G,int B,int A), retornando Color.
+Renomeadas as sete chamadas RGBA: quatro em xxSetSelfScoreRank e tres em
+xxAddPlayerOnList. UICommonAPI.GetColor(string) continua intacta para os outros
+sistemas. Cores e setas mantidas. O bloqueio de abertura repetida foi preservado.
+
+VALIDACAO
+Auditoria do bytecode: zero chamadas a GetColor e sete a GearColorRGBA dentro
+do Gear Score. A outra diferenca de assinatura encontrada, SysDebug, nao e
+chamada pelas classes deste modulo. Doze cenarios passaram no interpretador.
+O teste executa o corpo real do helper RGBA, confirma R=223,G=215,B=200,A=255
+e rejeita qualquer chamada a GetColor(string) nesse caminho. Antes, o teste
+simulava GetColor como se fosse a funcao RGBA do modelo e nao expunha a diferenca.
+Referencias, saltos, chamadas estaticas e parametros/retorno do helper conferidos.
+Cliente Windows nao executado aqui; confirmar abertura, recebimento da lista,
+alternancia Gear/PvP, duplo clique e fechar/reabrir no jogo.
+
+Classes UC atualizadas e relatorios incluidos.
