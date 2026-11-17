@@ -1,0 +1,33 @@
+GEAR SCORE - ALINHAMENTO DO FUNDO E TEXTURAS DO MODELO
+
+Com o jogo fechado, guarde os arquivos atuais e substitua os TRES da pasta system:
+interface.u, interface.xdat e MUI_GEAR.u. Nesta entrega MUI_GEAR.u tambem mudou.
+Mantenha seu Java, MUI_AUGM.u, Base.u, L2UI_CH3.u e as DLLs atuais.
+
+O posicionamento do modelo vem do XDAT e a montagem das linhas esta na UC.
+A textura RankingWnd_BG contem o painel 796x596, sem a area de titulo de 20px.
+O cliente estava desenhando esse fundo desde o topo, fazendo a moldura do
+cabecalho aparecer atras das abas e a borda inferior ficar alta em relacao
+a inspecao. O fundo agora e um controle explicito em y=20, com UV 796x596;
+a faixa de titulo e separada. As coordenadas dos controles foram mantidas.
+Removido o brilho decorativo que produzia um segundo titulo fantasma.
+
+A fonte 6 do modelo aparecia serifada no seu cliente. Os nomes, titulo Geral
+e score de inspecao agora usam o estilo 1, existente na sua interface.
+A aba da inspecao recebe o nome Itens, conforme a referencia; suas texturas
+de selecionado/nao selecionado tambem foram incluidas no pacote proprio.
+
+As linhas de ranking usavam MUI_AUGM.null, que e um PACKAGE, nao uma Texture.
+A textura verdadeira e null.null. Incluida em MUI_GEAR com seu alpha original
+(totalmente transparente); as linhas alternam com etc.GroupBox_df_LineBack.
+O helper do ranking usa os caminhos completos. TreeHandle e Auto Augment
+nao foram modificados.
+
+Mantidas as correcoes de cor RGBA, leitura de cla vazio, clique e pontuacao.
+MileniumGearScore.uc e RankingWnd.uc atualizados incluidos.
+
+Validacao de bytecode e 14 cenarios passaram no interpretador, com chamadas
+do motor simuladas. Recursos, UV, alpha e offsets nativos das texturas conferidos.
+Todos os caminhos MUI_GEAR das janelas e abas apontam a objetos presentes.
+O cliente Windows nao foi executado aqui; conferir alinhamento, fontes,
+alternancia das linhas e inspecao no jogo. Os dados continuam reais do servidor.
