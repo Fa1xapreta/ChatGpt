@@ -1,0 +1,26 @@
+GEAR SCORE - CORRECAO DO PAINEL DO ALVO
+
+Feche o jogo, guarde seus arquivos atuais e copie os tres arquivos da pasta system.
+Mantenha MUI_AUGM.u, L2UI_CH3.u e suas DLLs atuais.
+
+Corrigido: o indicador estava ancorado ao TargetHeaderPlayer (cabecalho que
+acompanha o personagem no cenario). Agora pertence a TargetStatusWnd.ScoreWnd,
+no canto inferior direito do painel expandido, ao lado das informacoes de clan.
+Nao existe mais uma janela raiz separada para o indicador do alvo no XDAT.
+Ao recolher o painel, selecionar NPC ou perder o alvo, o indicador fica oculto.
+Ao trocar de personagem alvo, o score anterior e limpo ate receber os dados novos.
+A classe TargetStatusWnd recebeu somente uma chamada CheckTarget no fim de
+SetExpandMode; os demais metodos permanecem iguais.
+
+StatusWnd.ScoreWnd.btnScoreRank usa:
+normalTex: L2UI_CH3.StatusWnd.StatusWnd_Score
+pushedTex: L2UI_CH3.StatusWnd.StatusWnd_Score_over
+highlightTex: L2UI_CH3.StatusWnd.StatusWnd_Score_over
+
+O botao do jogador continua abrindo o ranking. Pontuacoes reais dependem da
+classe Java, ainda nao integrada. Sem dados, o texto e --.
+Classes UC atualizadas incluidas, inclusive TargetStatusWnd e MileniumGearScore.
+
+Passaram a validacao estrutural e nove cenarios interpretando bytecode,
+com chamadas do motor simuladas. Cliente Windows nao executado aqui;
+confira posicionamento, expansao e recolhimento no jogo.
