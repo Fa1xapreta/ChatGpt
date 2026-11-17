@@ -1,0 +1,54 @@
+GEAR SCORE - FILTRO DO RANKING, SCORE NA COMPRA E CABECALHO DO MODELO
+
+INSTALACAO
+1. Com o jogo fechado, guarde seus arquivos atuais e copie os DOIS arquivos
+   da pasta system deste ZIP: interface.u e interface.xdat.
+2. Substitua no projeto Java a classe completa:
+   java/net/sf/l2j/gameserver/gearscore/GearScoreService.java
+   Recompile o core e reinicie o gameserver.
+3. Mantenha o MUI_GEAR.u e as fontes instaladas na ultima atualizacao.
+   A configuracao continua em gameserver/config/custom/GearScore.properties.
+
+RANKING
+No Java, o filtro e aplicado ANTES de ordenar e atribuir posicoes.
+A aba Gear Score mostra somente pontuacoes de equipamento maiores que zero.
+Na aba PvP, o criterio e a quantidade de PvPs maior que zero.
+O filtro de GM configurado foi preservado. Pontuacao zero continua valida no
+HUD e na inspecao, mas nao ocupa posicao na respectiva lista.
+O cliente tambem rejeita linhas zeradas/negativas recebidas para as duas abas.
+Nao e necessario apagar tabelas SQL nem alterar os scores dos itens.
+
+INFORMACAO DO ITEM NA COMPRA / MULTISELL
+A linha dourada Gear Score: +valor agora e inserida DENTRO do quadro
+Informacao do item, depois dos atributos de ataque/defesa e antes da descricao.
+Nao e apenas um tooltip ao passar o mouse.
+O valor vem do servidor e usa itemId + enchant da oferta: uma arma cuja previa
+recebida vale 800 mostra Gear Score: +800. Nenhum valor e inventado no cliente.
+Itens sem previa recebida ou com score zero nao ganham uma linha vazia/errada.
+As previas continuam usando a integracao ja instalada no MultisellData.
+A definicao nos XML dos itens continua: <set name="score" val="800" />.
+
+CABECALHO
+Removidas as linhas de 1 pixel e as pecas de moldura construidas nas versoes
+anteriores, assim como o botao X adicional.
+Restaurado o Container original do XDAT modelo: propriedades do frame,
+decoracoes originais, titulo Ranking literal e mecanismo nativo de fechar.
+O script garante que esse Container seja exibido com 796 x 20 pixels.
+O fundo e o alinhamento do corpo, as fontes confirmadas, o arrasto, o clique
+unico no botao Gear Score e seu tooltip foram preservados.
+
+VALIDACAO E LIMITES
+GearScoreService compilado para Java 8 com as dependencias do seu core.
+Teste executa os metodos reais sorted, ranks e delta: filtro de zero/negativo,
+GM, desempate, PvP, posicoes consecutivas e lista vazia.
+18 cenarios do bytecode passaram, incluindo a linha +800 no multisell,
+cor dourada, enchant correto, rejeicao de zero e preservacao do item original.
+Saltos, referencias, cadeias de propriedades e arquivos XDAT validados.
+O cliente Windows nao foi executado aqui: a aparencia final da moldura e o
+comportamento nativo do X precisam ser conferidos no jogo. A restauracao usa
+as propriedades reais do modelo, sem prometer uma comparacao visual ja feita.
+
+FONTES
+Incluidos MileniumGearScore.uc, MultiSellWnd.uc e RankingWnd.uc completos,
+a classe Java completa e o patch pequeno para revisao. O interface.u ja
+contem as alteracoes; nao e necessario recompilar as UC para instalar.
