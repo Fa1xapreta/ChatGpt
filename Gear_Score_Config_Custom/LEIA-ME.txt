@@ -1,0 +1,13 @@
+GEAR SCORE - CAMINHO CUSTOM
+
+1. Substitua na source a classe:
+   java/net/sf/l2j/gameserver/gearscore/GearScoreConfig.java
+2. Coloque GearScore.properties em:
+   gameserver/config/custom/GearScore.properties
+   Se ja personalizou os valores, mova seu arquivo atual para essa pasta.
+3. Recompile o core e reinicie o gameserver.
+
+O codigo usa config/custom/GearScore.properties relativo ao diretorio do gameserver,
+seguindo a inicializacao normal do servidor. O aviso de arquivo ausente tambem
+mostra o novo caminho. O restante do modulo permanece igual.
+Compilacao da classe com alvo Java 8 passou.
