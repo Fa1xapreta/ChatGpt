@@ -1,0 +1,24 @@
+GEAR SCORE - BOTAO CLICAVEL
+
+A pontuacao ja esta chegando. Esta correcao e somente do cliente.
+
+Feche o jogo e guarde interface.u e interface.xdat atuais.
+Substitua os DOIS arquivos da pasta system deste ZIP.
+Mantenha MUI_GEAR.u, MUI_AUGM.u, Base.u, L2UI_CH3.u, DLLs e o Java atuais.
+Nao e preciso recompilar nem mudar o gameserver para esta correcao.
+
+CAUSA E CORRECAO
+O botao era desenhado abaixo do limite de mouse do StatusWnd.
+A altura da janela agora inclui o botao: 108 pixels no modo compacto e
+156 com retrato. As barras e o retrato mantem suas dimensoes anteriores.
+A ancora do botao e BottomLeft/TopLeft, x=60, y=-38, ficando totalmente
+dentro da janela; as posicoes visuais continuam y=70 e y=118.
+Os cliques por nome e por handle do StatusWnd agora encaminham btnScoreRank
+a MileniumGearScore.OnClickButton, que abre o ranking e solicita RankingOpen.
+O toggle do retrato foi preservado. O caminho das texturas permanece Base.StatusWnd.
+
+Os dez cenarios de bytecode passaram, incluindo clique simples, nome completo,
+clique por handle, preservacao do retrato e limites nos dois modos do HUD.
+Validacao estrutural passou. Cliente Windows nao executado neste ambiente.
+Teste normal/over/pressionado do botao e a abertura do painel no jogo.
+Classes UC atualizadas incluidas; o Java ja integrado permanece igual.
