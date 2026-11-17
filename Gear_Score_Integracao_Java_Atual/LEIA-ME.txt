@@ -1,0 +1,39 @@
+GEAR SCORE - INTEGRACAO NAS CLASSES JAVA ATUAIS
+
+Base: o java.rar enviado nesta mensagem. As classes gearscore e Item.getScore()
+ja estavam presentes, mas nao havia nenhuma chamada ao GearScoreService fora
+do proprio modulo. Faltavam tres pontos de ligacao com o core.
+
+INSTALAR
+1. Faca backup das tres classes atuais.
+2. Substitua as tres classes COMPLETAS da pasta java nos mesmos caminhos:
+   net/sf/l2j/gameserver/GameServer.java
+   net/sf/l2j/gameserver/network/clientpackets/RequestBypassToServer.java
+   net/sf/l2j/gameserver/datatables/MultisellData.java
+3. Mantenha as cinco classes de gearscore, Item.java, SQL e configuracao anteriores.
+   A pasta correta da configuracao continua gameserver/config/custom.
+4. Faca Project > Clean e compile sua source; instale o JAR resultante e reinicie
+   o gameserver. Nao e preciso trocar o cliente nesta correcao.
+
+ALTERACOES
+- GameServer: inicia o servico depois do carregamento de LuckBoxData.
+- RequestBypassToServer: direciona RankingOpen e InspectPlayer?name=... ao modulo.
+  Os demais comandos, o AutoFarm e as validacoes existentes foram preservados.
+- MultisellData: envia os scores de preview antes das paginas da loja.
+
+O botao do HUD abre o ranking localmente na interface. Sem a ligacao no Java,
+a janela pode abrir vazia e o indicador continuar --; abrir a janela nao comprova
+que o servidor recebeu ou respondeu ao comando.
+
+VERIFICACAO
+A compilacao das tres classes corrigidas junto ao modulo e Item.java do RAR
+recebido passou em Java 8, usando seu JAR e suas bibliotecas.
+Apenas as chamadas documentadas foram acrescentadas. DIFFS permite conferir.
+Nao foi iniciado um gameserver nem um cliente Windows neste ambiente.
+
+TESTE
+O console deve registrar GearScoreV1 initialized; XML score enabled, ranking and
+inspection ready. Entre no jogo e espere ate 10 segundos: sem itens pontuados,
+o HUD deve exibir 0. Com score=5 em um item equipado, deve somar esses 5 pontos.
+Abra o painel e teste ranking, inspecao e tooltip. GM nao aparece no ranking
+com IncludeGm=false; para testar sua conta GM, configure IncludeGm=true e reinicie.
