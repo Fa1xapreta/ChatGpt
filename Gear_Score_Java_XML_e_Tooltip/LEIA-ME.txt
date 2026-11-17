@@ -1,0 +1,89 @@
+GEAR SCORE MILENIUM - CLIENTE + FONTES DO SERVIDOR
+
+Este modulo atende ao protocolo GearScoreV1 da interface adaptada. O Java antigo
+com pacote com.l2jmilenium foi usado como referencia; este fonte usa o pacote
+net.sf.l2j da source atual que voce enviou. Nao substitui seu l2jserver.jar pronto.
+
+1. CLIENTE
+Feche o jogo e guarde interface.u e interface.xdat atuais.
+Copie os tres arquivos de Cliente/system para o system do seu patch.
+Mantenha MUI_AUGM.u, Base.u (com suas texturas), L2UI_CH3.u e suas DLLs atuais.
+Classes_UC contem os fontes atualizados.
+O botao continua em StatusWnd.ScoreWnd. A posicao e reaplicada no OnLoad e
+quando abre/fecha o retrato: abaixo do StatusWnd, x=60 e margem vertical=2.
+O indicador de alvo continua dentro de TargetStatusWnd, sem acompanhar o personagem.
+
+2. BANCO
+Com backup do banco, execute Servidor/sql/gearscore.sql no banco do gameserver.
+Sao duas tabelas novas; o SQL nao altera personagens nem itens originais.
+
+3. SOURCE JAVA - APLICACAO AUTOMATICA
+Guarde sua source atual. Extraia a pasta Servidor inteira, mantendo sua estrutura.
+Com Python 3 instalado, execute apontando para a pasta JAVA da sua source:
+  py install_source.py "C:\MinhaSource\java"
+No Linux:
+  python3 install_source.py /caminho/MinhaSource/java
+Execute dentro de Servidor, onde esta install_source.py.
+O instalador confere os quatro pontos de integracao antes de escrever, cria backup,
+preserva a codificacao dos fontes e copia as cinco classes novas.
+Nao copie fontes de uma versao antiga inteira por cima da sua source atual.
+Se a estrutura divergir, o instalador para na verificacao; DIFFS e INTEGRACAO_MANUAL
+mostram as mesmas mudancas para integrar manualmente.
+
+Copie Servidor/config/GearScore.properties para gameserver/config/GearScore.properties.
+Compile sua source normalmente e instale o resultado pelo seu procedimento habitual.
+Nao ha classes Java prontas para misturar com outro JAR.
+
+4. PONTUACAO NOS XML
+Dentro de cada item, antes de <for>, use exatamente:
+  <set name="score" val="5" />
+O exemplo completo do Titanium Helmet esta em EXEMPLO_ITEM.xml.
+Este item soma 5 pontos quando equipado; fora do equipamento nao soma no total,
+mas o tooltip continua mostrando sua pontuacao individual.
+Item sem score, score=0 ou negativo contribui zero. Use inteiros nao negativos.
+Por padrao, enchant/augment nao acrescentam pontos. Se desejar, configure:
+  EnchantBonusPerLevel = 2
+  AugmentBonus = 10
+Formula: base XML + enchant * bonus por nivel + bonus se tiver augment.
+Os bonus so se aplicam a itens cujo score XML seja maior que zero.
+Nao existe multiplicador oculto de grade. Valores grandes sao limitados a INT_MAX.
+Reinicie o gameserver depois de alterar os XML/config para atualizar as instancias.
+
+5. FUNCOES
+- Total: apenas os itens equipados; pecas que ocupam varios slots contam uma vez.
+- Tooltip: faixa, icone e texto Gear Score: +N, sem reutilizar Blessed/Refinery.
+- Tooltip de multisell: pontuacao prevista, respeitando o enchant do produto.
+- Alvo: total do personagem selecionado; cliente verifica o ID e rejeita NPC.
+- Ranking: Gear Score e PvP (quantidade de PvP kills), ate 200 registros por aba.
+- Desempate: nome e depois ID. Variacao compara a posicao com a referencia de 1 minuto;
+  nao e historico diario e reinicia ao reiniciar o servidor.
+- Inspecao pelo nome/linha: equipamentos, enchant, augment e score individual.
+- Personagens offline: ultimo equipamento registrado pelo mod, salvo em duas tabelas.
+  Personagens antigos entram no registro quando logarem depois da instalacao.
+  Alteracoes de XML nao recalculam snapshots offline ate o proximo login.
+- GMs nao aparecem no ranking por padrao. Para testar no seu GM: IncludeGm = true.
+- Atualizacao a cada 2 segundos por padrao. Persistencia a cada 30 segundos e no
+  encerramento normal; queda abrupta pode perder alteracoes ainda nao salvas.
+  O snapshot de equipamentos reflete a ultima verificacao periodica, nao uma
+  transacao atomica do inventario. Nao realiza consultas SQL em cada clique/tooltip.
+- Limites do cliente: 2048 entradas de score; envio de previews limitado a 512 produtos.
+- Os efeitos nativos sobre a cabeca do personagem, dependentes da DLL do modelo,
+  continuam fora desta entrega. Nao e necessario instalar a DLL do servidor modelo.
+
+6. VALIDACAO
+Compilacao Java 8: cinco classes novas e os quatro pontos de integracao, usando
+seu JAR e suas bibliotecas, passou. Testados XML score=5, bonus/desativacao de bonus,
+overflow, separacao do augment, snapshots imutaveis e formato das mensagens.
+Fixtures Java foram recebidas pelo bytecode real do cliente em um interpretador,
+com chamadas do motor simuladas: total, alvo, ranking Gear/PvP, inspecao e tooltip.
+Validacao estrutural do pacote e nove cenarios do cliente passaram.
+Nao houve inicializacao de gameserver/MySQL nem execucao do cliente Windows aqui.
+O visual, a persistencia MySQL e o funcionamento no servidor precisam do teste real.
+
+7. TESTE NO JOGO
+Atribua score=5 ao capacete de teste, reinicie e entre com ele no inventario.
+Passe o mouse: Gear Score: +5. Equipe: total aumenta 5; remova: diminui 5.
+Abra/feche o retrato: botao fica abaixo. Selecione outro jogador e expanda o alvo.
+Abra ranking, alterne Gear/PvP, procure o jogador e confira enchant/augment.
+Espere a persistencia, deslogue, reinicie normalmente e confira a inspecao offline.
+Se testar com GM, habilite IncludeGm; sem outros itens pontuados, o total sera 5.
