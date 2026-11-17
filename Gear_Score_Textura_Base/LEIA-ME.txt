@@ -1,0 +1,14 @@
+CORRECAO DO CAMINHO DA TEXTURA
+
+Feche o jogo, guarde seu interface.xdat e substitua somente esse arquivo.
+Mantenha interface.u, MUI_GEAR.u e os demais arquivos da entrega anterior.
+
+Os tres caminhos do botao StatusWnd.ScoreWnd.btnScoreRank foram alterados
+para o pacote Base, exatamente como informado no print:
+normalTex=Base.StatusWnd.StatusWnd_score
+pushedTex=Base.StatusWnd.StatusWnd_Score_over
+highlightTex=Base.StatusWnd.StatusWnd_Score_over
+
+O cliente precisa ter o pacote Base com essas texturas na pasta system.
+Todo o restante do XDAT foi preservado semanticamente.
+A textura em si nao foi alterada. Verificacao visual no jogo pendente.
