@@ -1,0 +1,23 @@
+GEAR SCORE - REVERSAO DIRECIONADA AO CRITICO DrawNormalText
+
+Com o jogo FECHADO, guarde o interface.xdat atual e substitua SOMENTE:
+  system/interface.xdat
+Mantenha exatamente o interface.u enviado na sua ultima mensagem, MUI_GEAR.u,
+MUI_AUGM.u, Base.u, demais texturas, DLLs e o Java atual.
+
+Os arquivos enviados conferem com a ultima entrega. A diferenca relacionada
+a renderizacao de texto foi a troca do estilo de cinco titulos de 1 para 3.
+O valor 3 nao aparecia nos TextBoxes da interface base. A falha DrawNormalText
+ocorreu ao desenhar a janela depois dessa alteracao.
+
+Restaurados os cinco campos para 1, iguais a versao anterior que apareceu
+aberta no print: nome no ranking, Geral nas duas abas, nome e score da inspecao.
+Nao foi feita nova tentativa de aumentar a fonte. O restante da apresentacao,
+incluindo os textos das abas e a lupa transparente, foi preservado.
+
+VALIDACAO
+O XDAT foi lido integralmente antes e depois. Somente cinco campos inteiros
+foram alterados; todos os demais bytes estao identicos ao arquivo que voce
+enviou. Os novos valores foram comparados com a entrega anterior que abriu.
+O interface.u e o Java nao foram alterados. Relatorio de hashes incluido.
+O cliente Windows nao foi executado aqui; confirmar a abertura sem critico no jogo.
