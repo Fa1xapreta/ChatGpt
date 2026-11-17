@@ -1,0 +1,27 @@
+GEAR SCORE - ACABAMENTO DAS ABAS E INSPECAO
+
+Com o jogo fechado, guarde seus arquivos atuais e substitua os DOIS da pasta
+system: interface.u e interface.xdat. Mantenha o MUI_GEAR.u da ultima entrega,
+o MUI_AUGM.u, Base.u, L2UI_CH3.u, DLLs e o Java atual.
+
+Mudancas desta entrega:
+- Textos Gear Score, PvP, Geral e Itens em primeiro plano no XDAT, evitando
+  que a arte das abas passe na frente das letras. Letras com cor clara.
+- As quatro legendas do ranking sao habilitadas, recebem alpha 255 e cor
+  explicita quando o painel abre. As abas continuam com o mesmo clique nativo.
+- Nomes do jogador, titulo Geral e score da inspecao usam o estilo 3,
+  para recuperar o destaque maior em relacao ao texto comum da tabela.
+  O resultado da fonte precisa ser conferido no cliente real.
+- A lupa de inspecao nao passa mais textura vazia para TreeHandle.InsertTexture:
+  isso era convertido para o PACKAGE MUI_AUGM.null e gerava o retangulo preto.
+  O novo helper usa MUI_GEAR.null.null (transparente), mantendo a textura
+  RankingWnd_SearchBtn no mouse e a mesma area de clique 28x44.
+
+Mantidos o fundo deslocado abaixo da barra de titulo, o alinhamento das duas
+janelas, os itens inspecionados, a leitura de pontuacao e as correcoes anteriores.
+TreeHandle e Auto Augment nao foram alterados. Fontes UC atualizados incluidos.
+
+Quinze cenarios de bytecode passaram no interpretador, incluindo os argumentos
+reais da lupa e a aplicacao de cores das legendas em OnShow. Referencias,
+parametros, saltos e chamadas estaticas conferidos. O motor do cliente Windows
+nao foi executado aqui: confira fontes, abas, lupa e fechamento no jogo.
