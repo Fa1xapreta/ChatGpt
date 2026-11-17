@@ -1,0 +1,28 @@
+GEAR SCORE - MOLDURA UNICA E INFORMACAO DAS SETAS
+
+Feche o jogo, guarde seu interface.xdat e substitua SOMENTE system/interface.xdat.
+Mantenha interface.u, MUI_GEAR.u, as fontes/configuracao que ja ficaram corretas,
+as demais texturas, DLLs e todo o Java.
+
+MOLDURA
+FrameNew.FrameRight usa 40 pixels de arte dentro de uma textura de 64.
+Corrigidos o recorte e a largura: esquerda 64 + centro 692 + direita 40 = 796.
+O quadro automatico do Container foi desativado, mantendo a moldura explicita,
+o titulo Ranking e o btnClose que ja possui o clique de fechamento ligado.
+Os cinco seletores de fonte nao foram alterados. Demais janelas preservadas.
+
+SETAS E NUMEROS VERMELHOS/AZUIS
+Ja estao implementados no Java e na UC. O servidor envia RankingDiff e o cliente
+desenha seta e numero de acordo com o sinal:
+- Posicao anterior 1, atual 2: delta -1, seta vermelha para baixo.
+- Posicao anterior 5, atual 2: delta +3, seta azul para cima.
+- Mesma posicao: delta 0, mostra traco.
+
+No modulo atual, a referencia e renovada a cada 60 segundos e reinicia com o
+servidor. A comparacao nao e um historico diario persistente. Abra/reabra o
+ranking apos uma mudanca de posicao para receber os valores atuais.
+Nenhuma mudanca foi feita no Java nesta entrega.
+
+Validacao: sete campos do RankingWnd alterados; demais roots do XDAT e fontes
+identicos a entrega anterior. Largura da moldura e preservacao do botao funcional
+conferidas. Cliente Windows nao executado aqui; conferir o acabamento no jogo.
