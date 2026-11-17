@@ -1,0 +1,11 @@
+GEAR SCORE - TEXTURA BASE E POSICAO COM RETRATO
+
+Feche o jogo, guarde seu interface.xdat e substitua somente esse arquivo.
+Mantenha interface.u e os demais arquivos da ultima correcao do target.
+
+Inclui a correcao das tres texturas do botao para Base.StatusWnd.
+ScoreWnd agora acompanha a borda inferior de StatusWnd (BottomLeft para TopLeft,
+x=60, y=2). O StatusWnd ja muda de 68 para 116 pixels quando abre o retrato:
+o botao fica em y=70 no modo compacto e y=118 com o retrato aberto.
+Nenhuma alteracao nas classes UC e necessaria para esse posicionamento.
+Demais janelas e funcoes mantidas. Cliente Windows nao executado aqui.
