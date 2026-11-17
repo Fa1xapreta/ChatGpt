@@ -1,0 +1,25 @@
+GEAR SCORE - CORRECAO DO CRITICO SetTextColor NO CLIQUE
+
+Esta entrega parte da ultima versao do botao clicavel.
+Feche o jogo, guarde seu interface.u atual e substitua SOMENTE system/interface.u.
+Mantenha o interface.xdat da correcao anterior, MUI_GEAR.u, demais texturas e DLLs.
+Nao altere o Java; a pontuacao ja esta chegando.
+
+A chamada de abertura executava xxSetRankingData imediatamente no callback do
+HUD, incluindo SetTextColor em TextBoxHandle armazenado pelo ranking. O historico
+do erro aponta justamente para esse acesso nativo. Esse caminho foi retirado
+do clique: agora abre o painel primeiro, inicializa se necessario e solicita
+os dados ao servidor. Uma nova chamada enquanto o painel estiver aberto retorna
+sem abrir, inicializar ou requisitar novamente. Fechar e reabrir continua permitido.
+As cores dos campos de posicao sao atualizadas pela API estatica UIAPI_TEXTBOX
+com os caminhos completos dos controles do XDAT, sem SetTextColor nesses handles
+armazenados. Cores e setas de subida, descida e posicao neutra foram mantidas.
+
+Classes UC atualizadas: MileniumGearScore e RankingWnd.
+StatusWnd, area de mouse, posicao, leitura do score e Java permanecem iguais.
+
+Onze cenarios de bytecode passaram. Os testes cobrem cliques repetidos, reabertura
+e as seis combinacoes de cor de Gear/PvP, com chamadas do motor simuladas.
+Validacao de referencias, saltos e ClassContext estatico passou.
+Nao houve execucao do cliente Windows neste ambiente. Confirme clique simples,
+duplo clique, fechar/reabrir e alternar abas no jogo.
