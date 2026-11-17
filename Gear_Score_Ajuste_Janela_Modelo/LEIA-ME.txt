@@ -1,0 +1,34 @@
+GEAR SCORE - AJUSTE DA JANELA CONFORME MODELO
+
+Com o jogo fechado, guarde interface.u e interface.xdat atuais e substitua
+os DOIS arquivos da pasta system. Mantenha MUI_GEAR.u, demais texturas, DLLs
+e todo o Java atual. Classes UC atualizadas incluidas.
+
+Comparado RankingWnd.uc e o XDAT do modelo com a adaptacao atual.
+Corrigido:
+- Texturas das abas agora usam MUI_GEAR, inclusive os TabElement internos.
+- Titulo Geral com tamanho automatico para nao recortar a fonte.
+- Textos das abas legiveis; subaba Geral em ambos os modos.
+- Cabecalhos Rank, Personagem, Classe, Cla e Gear Score/PvP Score.
+- Referencias do cabecalho PvP para pvp_score_list e seus proprios controles.
+- Botao fechar explicito, com clique ligado a RankingWnd e fechamento da inspecao.
+- Inicializacao nativa das abas em OnShow e expansao da raiz das listas apos montar.
+- Novo GearSplit exclusivo: preserva campos vazios, especialmente ClanName.
+
+A funcao Split da UICommonAPI usava while(InStr(...)>0). Ao receber || entre
+a classe e o score de um jogador sem cla, ela parava antes de concluir a linha.
+O receptor esperava nove campos e rejeitava a linha, deixando a lista vazia
+mesmo com a posicao propria atualizada. GearSplit usa >=0 e preserva o vazio.
+UICommonAPI.Split e GetColor nao foram alteradas; os demais sistemas mantem
+seu comportamento. A funcao RGBA segura da entrega anterior foi preservada.
+
+Todos os outros roots do XDAT permaneceram byte a byte iguais a versao anterior.
+O tamanho original da janela do modelo e a regra de pontuacao foram mantidos.
+A lista usa jogadores reais registrados no seu servidor; nao inclui os nomes
+e pontos ficticios da imagem de referencia. IncludeGm define a participacao
+de administradores no ranking e nao foi alterado nesta entrega.
+
+Validacao estrutural passou e treze cenarios de bytecode passaram no
+interpretador, incluindo linha sem cla, campos vazios, pontuacao 7500, cores
+e fechamento pelas duas formas de callback. Motor grafico e cliente Windows
+nao executados aqui; conferir abas, linhas, cabecalhos, fechar e inspecao no jogo.
