@@ -1,0 +1,23 @@
+CORRECAO DO ERRO getScore()
+
+Inclui as duas classes COMPLETAS:
+java/net/sf/l2j/gameserver/gearscore/GearScoreService.java
+java/net/sf/l2j/gameserver/model/item/kind/Item.java
+
+O GearScoreService enviado ja usa corretamente getScore(). O erro estava na
+classe Item: faltavam campo _score, leitura do StatsSet e getter getScore().
+Item.java foi montado a partir da source completa que voce enviou anteriormente,
+com essas tres alteracoes. GearScoreService foi mantido igual ao texto recebido.
+
+Faca backup. Substitua as duas classes nos caminhos correspondentes e execute
+Project > Clean / recompilacao completa. Mantenha as outras classes do modulo,
+o SQL, a configuracao e os pontos de integracao da entrega anterior.
+Se seu Item.java recebeu mudancas posteriores, use tambem o diff incluido
+para preservar essas alteracoes, em vez de substituir a classe inteira.
+
+XML: <set name="score" val="5" />
+Itens sem score recebem 0. Nao foi usado valor fixo nem removida a leitura XML.
+
+As duas classes foram compiladas juntas com alvo Java 8, utilizando seu JAR,
+as bibliotecas enviadas e as demais classes do modulo GearScore. Compilacao passou.
+Nao houve execucao do servidor nesta verificacao.
