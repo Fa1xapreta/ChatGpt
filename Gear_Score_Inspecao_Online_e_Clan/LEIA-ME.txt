@@ -1,0 +1,42 @@
+GEAR SCORE - INSPECAO SOMENTE ONLINE E CABECALHO CLAN
+
+INSTALACAO
+1. Com o jogo fechado, substitua system/interface.xdat pelo arquivo deste ZIP.
+   Mantenha interface.u, MUI_GEAR.u, MUI_GSFRAME.u e as fontes atuais.
+2. Substitua no projeto a classe completa incluida:
+   java/net/sf/l2j/gameserver/gearscore/GearScoreService.java
+3. Recompile o core e reinicie o gameserver. A configuracao continua em
+   gameserver/config/custom/GearScore.properties.
+
+JOGADOR OFFLINE
+Ao consultar os equipamentos de um jogador do ranking que esta offline,
+a mensagem no chat e: O jogador NOME esta offline no momento.
+No jogo, "esta" e exibido com o acento correto: "está".
+Nenhum pacote de equipamentos e enviado nesse caso, mesmo havendo um registro
+salvo dos itens. O jogador CONTINUA no ranking: a regra bloqueia somente a
+consulta de equipamentos enquanto ele estiver offline.
+Tambem e tratado o caso de uma sessao ainda estar na lista do mundo, mas com
+isOnline() falso. Jogadores online continuam usando a leitura atual dos itens.
+A restricao de GM configurada e a resposta para nome inexistente foram mantidas.
+Uma inspecao anterior ja aberta permanece mostrando sua consulta anterior;
+a tentativa offline nao abre nem preenche outra inspecao.
+
+CLAN
+Corrigido o texto literal para Clan nas duas abas: Gear Score e PvP.
+Todos os demais campos, controles, fontes e a moldura confirmada foram mantidos.
+O botao que abre/fecha o ranking e as setas da ultima atualizacao permanecem.
+
+CLASSE COMPLETA
+O metodo ranks(boolean pvp), que estava sem uso e voce ja removeu, continua
+removido nesta classe. Os metodos ativos de ordenacao e variacao foram mantidos.
+O acento na mensagem usa escape Unicode Java para evitar problema de encoding.
+
+VALIDACAO
+A classe compilou para Java 8 contra as dependencias do seu core.
+Teste chama o metodo real inspect com mundo e transporte de chat simulados:
+jogador ausente e sessao desconectada recebem o aviso, zero pacotes de itens
+sao enviados e o registro do ranking permanece. Nome inexistente e invalido
+mantem os tratamentos anteriores.
+Os testes da ordenacao, filtro de zero, movimentos, reabertura e atualizacao
+periodica tambem passaram. No XDAT, apenas os dois textos Clan mudaram.
+O gameserver e o cliente Windows nao foram executados aqui.
