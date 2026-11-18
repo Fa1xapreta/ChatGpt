@@ -1,0 +1,101 @@
+RAID BOSS / GRAND BOSS - DOMINIO VISUAL POR DANO ACUMULADO DO CLA
+
+INSTALACAO
+1. Guarde seus fontes atuais. Copie TODOS os arquivos da pasta java do ZIP
+   para os mesmos caminhos do seu projeto.
+   Classes completas alteradas:
+   - net/sf/l2j/gameserver/model/actor/L2Attackable.java
+   - net/sf/l2j/gameserver/model/actor/L2Npc.java
+   - net/sf/l2j/gameserver/model/actor/status/AttackableStatus.java
+   - net/sf/l2j/gameserver/network/serverpackets/AbstractNpcInfo.java
+   Classes NOVAS obrigatorias:
+   - net/sf/l2j/gameserver/bossclan/ClanDamageTracker.java
+   - net/sf/l2j/gameserver/bossclan/BossClanDominance.java
+2. Em gameserver/config/main/npcs.properties, mantenha:
+   ShowBoss_Title_Crest = true
+3. Recompile o core completo e reinicie o gameserver. A opcao e carregada uma
+   vez por inicializacao; alterar o arquivo exige reinicio para este recurso.
+Nao precisa substituir interface.u, XDAT, texturas, DLLs nem alterar SQL.
+O modulo le a chave existente; nao substitui a sua classe Config.java.
+
+COMPORTAMENTO
+Somente bosses com isRaid() verdadeiro e que nao sejam minions participam:
+Raid Bosses e Grand Bosses da pack usam essa identificacao.
+O primeiro cla a causar dano real passa a ser o dominante inicial.
+O titulo acima do boss mostra o nome desse cla e os campos de emblema/alianca
+sao enviados com os dados atuais do cla, da mesma forma visual do Territory War.
+O nome proprio do boss e mantido. O cla precisa ter um emblema cadastrado para
+que sua bandeira apareca; um cla sem emblema continua tendo o nome exibido.
+
+TROCA DE DOMINIO
+O dano de todos os jogadores do mesmo cla e somado por boss.
+Outro cla somente assume ao ULTRAPASSAR o dano acumulado do dominante.
+Em empate, o cla que ja domina continua com a bandeira.
+Exemplo: cla A = 20.000, cla B da um hit de 100: continua A.
+Cla B acumula 20.000: continua A por empate.
+Cla B ultrapassa 20.000: mudam juntos o nome e o emblema para B.
+Um hit isolado nao recebe tratamento especial: se o dano REAL dele for grande
+suficiente para ultrapassar o acumulado, a troca e legitima pela mesma regra.
+Trocar de alvo, provocar/agredir sem tirar HP ou ser o ultimo a atacar nao
+transfere o dominio. Nao ha leitura do cla de quem apenas olha para o boss.
+
+CONTAGEM
+E contado somente o HP efetivamente retirado apos a aplicacao do dano.
+Dano bloqueado por invulnerabilidade nao conta. Overkill conta somente o HP
+restante, e nao o valor exagerado da tentativa. Dano de pets/summons e atribuido
+ao cla do dono via getActingPlayer(). Dano sem jogador/sem cla nao toma dominio.
+As contribuicoes antigas de um jogador continuam no cla ao qual pertenciam
+quando foram registradas; dano futuro usa o cla atual.
+As listas guardam apenas IDs de clas e valores numericos, sem referencias
+persistentes a jogadores, objetos de cla ou caches globais de NPCs.
+
+RESET
+A disputa e zerada no novo spawn, no decay, no retorno para casa/reset de
+retorno ao spawn e ao restaurar todo o HP do boss.
+Apenas limpar hate ou trocar o alvo do boss nao apaga a contagem.
+Depois de resetar, o proximo dano valido inicia uma nova disputa do zero.
+A identificacao nao e herdada pelo proximo respawn nem persistida no banco.
+No cadaver pode permanecer o resultado final ate o decay; nao existe nova
+disputa sobre um boss morto. Cada boss tem sua contagem independente.
+
+ATUALIZACAO VISUAL
+Pacotes extras do modulo sao enviados quando muda o dominante ou o reset
+remove a identificacao, sem anunciar novamente o mesmo cla a cada hit.
+Quem chegar perto depois tambem recebe a identificacao atual pelo NpcInfo.
+Bosses sem movimento passam a receber NpcInfo para permitir o emblema.
+Tambem foi tratado o ramo de NPCs com aparencia de personagem (FakePc).
+O codigo existente do Territory War foi preservado; o dominio de dano tem
+prioridade visual enquanto existir um cla dominante naquele boss.
+
+PRESERVADO
+Loot, prioridade de command channel, recompensas, dano, skills, IA e aggro
+nao recebem novas regras. A disputa implementada aqui e de identificacao visual.
+A edicao anterior de nomes de monstros agressivos foi mantida no pacote e o
+prefixo de nivel fica Lv X, conforme voce pediu. Os titulos dos bosses mostram
+o cla quando dominados e voltam ao titulo normal depois do reset.
+ShowNpcCrest nao precisa ser ligado: esta funcao usa ShowBoss_Title_Crest.
+
+COMO TESTAR NO JOGO
+1. Use dois jogadores de CLAS DIFERENTES, ambos com emblemas cadastrados.
+2. Cla A causa bastante dano; confira o nome e a bandeira acima do boss.
+3. Cla B da um hit pequeno: nao deve trocar. Continue causando dano com B ate
+   ultrapassar o total de A; nome e emblema devem mudar juntos.
+4. A pode assumir de novo se ultrapassar o total de B.
+5. Resete o boss ou restaure todo o HP. Deve desaparecer o dominio anterior.
+6. Depois do reset, um pequeno dano valido pode iniciar a disputa de outro cla.
+7. Aproxime um terceiro jogador para conferir o mesmo dominio no cliente dele.
+No console, o modulo informa:
+BossClanDominance: enabled, ownership by actual accumulated clan damage
+
+VALIDACAO
+As seis classes compilaram para Java 8 contra as dependencias do seu core.
+Teste do contador real cobriu hit isolado, soma, empate, ultrapassagem, retorno
+do antigo dominante, reset, bosses independentes e 16.000 contribuicoes paralelas.
+O AttackableStatus compilado foi executado com fixtures de NPC/sessao e do
+status-pai de HP: dano real, bloqueio, cap de overkill, reset por HP completo,
+exclusao de mob comum/minion e 8.000 deducoes simultaneas sem dupla contagem.
+Ativacao true e false foram testadas em JVMs separadas com npcs.properties.
+Hooks de ciclo de vida, envio para novos observadores e campos do cla foram
+conferidos nos fontes. Fixtures de teste nao sao classes do servidor instalavel.
+O gameserver e o cliente Windows nao foram executados aqui; confirme a
+apresentacao do titulo/emblema com os dois clas no jogo apos instalar.
