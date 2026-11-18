@@ -1,0 +1,8 @@
+NPCS.PROPERTIES - COMENTARIOS EM PORTUGUES
+
+Traduzidas somente linhas de comentarios iniciadas com #.
+Todas as configuracoes, listas, valores e linhas sem comentario foram
+preservados byte a byte, incluindo True/False e ShowEffectSubclasschange.
+
+Arquivo destinado a gameserver/config/main/npcs.properties.
+Nao e necessario recompilar o core para traduzir comentarios.
