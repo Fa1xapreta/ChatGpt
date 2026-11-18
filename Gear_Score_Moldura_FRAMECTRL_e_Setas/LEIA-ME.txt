@@ -1,0 +1,63 @@
+GEAR SCORE - CABECALHO FRAMECTRL ORIGINAL E VARIACAO DO RANKING
+
+INSTALACAO
+1. Feche o jogo e guarde os arquivos atuais.
+2. Copie os TRES arquivos da pasta system deste ZIP para a system do cliente:
+   interface.u, interface.xdat e MUI_GSFRAME.u (este ultimo e NOVO e obrigatorio).
+3. No projeto do core, substitua a classe Java completa incluida:
+   java/net/sf/l2j/gameserver/gearscore/GearScoreService.java
+   Recompile o core e reinicie o gameserver.
+4. Mantenha seu MUI_GEAR.u, as fontes atuais e a configuracao em
+   gameserver/config/custom/GearScore.properties.
+
+MOLDURA: TEXTURAS ORIGINAIS LOCALIZADAS
+A familia usada aqui e FRAMECTRL.FrameBackLeft, FrameBackMid e FrameBackRight,
+com o X de FRAMECTRL.FrameCloseBtn/FrameCloseOnBtn/frameclosebtn_over.
+Essas seis texturas foram copiadas do L2UI_CH3.u do modelo para o novo pacote
+MUI_GSFRAME.u, com pixels e transparencia identicos aos originais.
+Elas substituem as pecas FrameNew e as linhas de cor das tentativas anteriores.
+O cabecalho agora tem 796 x 20 pixels, ancora TopLeft na propria RankingWnd,
+sem a moldura nativa externa que estava projetando o titulo para fora.
+O titulo tem caixa explicita e transparente. Existe apenas um X, que e botao
+real com estados normal, mouse e pressionado e callback RankingWnd.
+Mantidos arrasto, fontes, clique unico no HUD, tooltip e layout interno.
+O interface.u e identico ao da atualizacao 65; ele esta incluido para manter
+o conjunto completo. As mudancas da moldura estao no XDAT e no pacote novo.
+
+SETAS / NUMERO DA VARIACAO
+No seu print, GamePlay continua em primeiro e LaELE em segundo: subir os
+pontos sem trocar a posicao nao cria seta de subida/queda.
+No modelo ORIGINAL, queda e vermelha e subida e AZUL, nao verde.
+As texturas originais dessas setas foram preservadas.
+
+Corrigida a rotina Java que substituia a referencia a cada minuto e fazia a
+variacao desaparecer: agora a ultima mudanca REAL de posicao e guardada na
+sessao do gameserver e permanece enquanto a posicao nao mudar novamente.
+Ao haver outra ultrapassagem, a direcao e o numero sao atualizados.
+Nao sao criadas setas falsas ao entrar no ranking pela primeira vez.
+Gear Score e PvP tem historicos independentes. Ao reiniciar o servidor, uma
+nova referencia e iniciada, sem inventar variacao do periodo anterior.
+
+COMO CONFERIR
+Com dois jogadores em primeiro/segundo, abra o ranking para estabelecer a
+referencia; equipe no segundo um item que faca o score ultrapassar o primeiro.
+Reabra: quem subiu deve receber seta azul +1, e quem caiu seta vermelha -1.
+Reabrir sem nova troca ou aguardar a atualizacao periodica nao apaga as setas.
+Aumentar pontos de quem ja e primeiro, mantendo as posicoes, nao e uma subida.
+
+PRESERVADO
+Filtro de score zero, linha Gear Score: +valor no quadro de compra/multisell,
+inspecao, inventario, Augment, AutoFarm, HUD e demais janelas.
+Nenhuma alteracao de XML dos itens, esquema SQL, texturas Base ou DLLs.
+
+VALIDACAO
+Seis texturas FRAMECTRL conferidas pixel a pixel contra os arquivos do modelo;
+referencias de objetos, mipmaps e referencias do XDAT conferidos.
+19 cenarios interpretam o bytecode real, incluindo RankRow -> RankingDiff ->
+renderizacao da linha que solicita ArrowDown/ArrowUp para valores -1/+1.
+A classe Java compilou para Java 8. Testes executam os metodos reais de
+ordenacao, variacao e atualizacao periodica: ultrapassagens, inversao,
+reabertura, novos jogadores, historicos separados e filtro de zero.
+O cliente Windows nao foi executado aqui; o resultado visual final ainda
+precisa ser conferido no jogo. A imagem de cabecalho em Validacao e apenas
+uma composicao das texturas originais, sem simular captura do cliente.
