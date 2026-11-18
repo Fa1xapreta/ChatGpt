@@ -1,0 +1,73 @@
+CORRECAO DE HP/CP DO JOGADOR SELECIONADO EM TEMPO REAL
+
+FALHA ENCONTRADA NAS CLASSES ENVIADAS
+L2PcInstance.broadcastStatusUpdate() enviava o estado para o proprio jogador,
+party, duelo e Olimpiada, mas nao avisava os status listeners que tinham esse
+jogador no alvo. A interface recebe os eventos 190/200/230/240 e sabe reduzir
+as barras, mas faltava o envio dos valores para o cliente de quem observa.
+A selecao inicial de jogadores tambem nao incluia uma atualizacao completa de
+HP maximo/atual e CP maximo/atual. Isso deixava dados do alvo incompletos.
+Os mods recentes de dominio de boss alteram NPCs/AttackableStatus; esta correcao
+atua no fluxo separado dos jogadores, sem substituir as classes dos bosses.
+A analise dos fontes nao permite afirmar em qual atualizacao essa falha entrou.
+
+INSTALACAO
+Copie os TRES arquivos Java para os mesmos caminhos no projeto:
+1. net/sf/l2j/gameserver/model/actor/instance/L2PcInstance.java (classe completa)
+2. net/sf/l2j/gameserver/util/TargetPlayerStatus.java (NOVA)
+3. net/sf/l2j/gameserver/network/serverpackets/TargetPlayerStatusUpdate.java (NOVA)
+Recompile o core completo e reinicie o gameserver.
+Mantenha interface.u, interface.xdat, texturas e as classes atuais dos bosses.
+Nao e necessario mudar configuracoes ou banco para este ajuste.
+
+CORRECAO
+Ao selecionar outro jogador, o servidor manda HP/CP atuais e maximos completos.
+Quando esse jogador sofre dano, perde CP, recebe cura ou regenera, os valores
+sao enviados a quem CONTINUA com ele selecionado.
+Trocar de alvo impede continuar recebendo a atualizacao do alvo anterior.
+Nao ha consulta periodica nova, timer de polling ou evento de tela extra.
+As rotinas originais de status proprio, party, duelo e Olimpiada foram mantidas.
+
+PACOTE NATIVO E ESCOPO
+O StatusUpdate customizado da pack envia todos os 28 atributos quando recebe
+um objeto jogador, mesmo que so alguns atributos sejam adicionados ao pacote.
+Por isso foi criado um serializador restrito com o MESMO opcode nativo 0x0e,
+contendo somente MAX_HP, CUR_HP, MAX_CP e CUR_CP. Nao e um protocolo novo.
+Assim, o ajuste nao passa MP, experiencia ou outros atributos privados aos
+observadores. A interface existente recebe os eventos nativos de HP/CP.
+A atualizacao e enviada apenas aos status listeners que sao jogadores online
+e continuam com o personagem selecionado; nao e difundida pela regiao inteira.
+
+COMO TESTAR
+1. Use dois jogadores comuns, sem invulnerabilidade ou protecao de GM.
+2. A selecione B. A barra acima de B deve iniciar com os valores reais.
+3. A ataque B. Primeiro o CP deve diminuir; ao acabar, o HP deve diminuir.
+4. Cure/regenere B e confira a recuperacao na barra vista por A.
+5. Troque o alvo de A: as atualizacoes de B nao devem mover a barra do novo alvo.
+6. Confira o painel do proprio B para confirmar que houve perda REAL de HP/CP.
+
+SE O PAINEL DO PROPRIO ALVO TAMBEM NAO DIMINUIR
+Esse e outro caso: pode nao estar havendo perda real de HP/CP no servidor.
+Nesta pack, GMStartupInvulnerable e True por padrao em config/main/admin.properties,
+e EnterWorld aplica invulnerabilidade aos GMs com a permissao correspondente.
+PcStatus bloqueia o dano externo quando isInvul() e verdadeiro.
+O numero flutuante de dano, sozinho, nao prova que o HP/CP foi efetivamente perdido.
+Teste primeiro com personagens sem GM. Este pacote nao desliga protecoes nem
+inventa perda de vida: ele transmite os valores reais que o servidor possui.
+
+PRESERVADO
+Todos os demais trechos de L2PcInstance foram conferidos como iguais ao arquivo
+do java.rar mais recente enviado, exceto os dois pontos de status/alvo e o import.
+Mantidos skills, subclasses, efeito de level na troca, inventario, HUD, GeoData,
+Gear Score, Buff Scheme, boss/clan dominance e outras funcionalidades existentes.
+Nenhum arquivo do cliente foi alterado.
+
+VALIDACAO
+As tres classes compilaram para Java 8 contra as dependencias do seu core.
+O helper e o serializador REAIS foram executados com fixtures de jogador/status
+e transporte: payload nativo de 41 bytes, ID do alvo correto, quatro atributos,
+CP-only, CP zero, dano de HP, cura, mudanca dos maximos e troca de alvo.
+Foi conferida a proporcao da barra de 70 pixels usada na interface (HP 80%=56px).
+Listeners obsoletos, offline, nao jogadores e o proprio alvo foram excluidos.
+O gameserver completo e o cliente Windows nao foram executados aqui; confirme
+as barras no jogo apos instalar e recompilar.
