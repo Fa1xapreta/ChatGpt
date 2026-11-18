@@ -1,0 +1,65 @@
+MENU DO ALVO - CLIQUE DIREITO E INSPECAO DE GEAR SCORE
+
+INSTALACAO
+Com o jogo fechado, guarde seus arquivos atuais e copie os TRES arquivos da
+pasta system deste ZIP: interface.u, interface.xdat e MUI_CONTEXT.u (NOVO).
+Mantenha MUI_GEAR.u, MUI_GSFRAME.u, fontes e as classes Java atuais.
+Nao precisa alterar nem recompilar o core para esta etapa.
+
+ONDE ESTAVA NO MODELO
+O menu e ContextMenuWnd (classe UC e janela no XDAT).
+A abertura fica em TargetStatusWnd.OnRButtonDown(int X,int Y): clique direito
+na BARRA DO ALVO. O modelo tem BTN_COUNT=5 e OnContext4 para inspecionar.
+Na sua interface, as chamadas que mostravam o menu estavam comentadas e o
+menu tinha quatro opcoes. A janela agora usa as cinco linhas do modelo.
+
+USO
+Selecione outro jogador e clique com o botao DIREITO na barra de status dele.
+O menu mostra o icone original do modelo, o nome do jogador e:
+- Convidar: RequestInviteParty(nome), convite para PT.
+- Negociar: comando /trade com o jogador selecionado.
+- PM: prepara a mensagem privada com o nome no campo de chat; nao envia texto.
+- Amigos: comando /friendinvite nome, convite para a lista de amigos.
+- Inspecionar: abre o ranking, se necessario, e consulta os equipamentos do
+  jogador escolhido na mesma janela de inspecao do Gear Score ja instalada.
+O X fecha o menu. As linhas e seus textos sao clicaveis.
+
+INSPECIONAR
+Mantido o fluxo do modelo: ranking aberto e painel de itens ao lado.
+A consulta dos itens espera 1,2 segundo para respeitar o limite de 1 segundo
+entre requisicoes do Java atual. A janela de inspecao e inicializada antes
+da resposta, evitando chamar handles de itens antes de estarem prontos.
+Se fechar o ranking antes desse prazo, a consulta pendente e cancelada.
+A regra de jogador offline da ultima classe Java permanece valendo, com o
+aviso no chat e sem enviar os itens salvos de quem esta offline.
+Nenhum valor de score, item ou equipamento e inventado no cliente.
+
+PROTECOES
+O menu nao abre para o proprio personagem, NPCs, pets ou ausencia de alvo.
+Ele fecha ao trocar/perder o alvo. A acao valida de novo o ID selecionado,
+para nao negociar ou convidar outro jogador se o alvo mudar durante o clique.
+O menu fica dentro dos limites da tela. A consulta pendente e limpa ao sair.
+Os varios eventos do mesmo clique nao repetem a acao depois de fechar o menu.
+
+TEXTURAS E LAYOUT
+As texturas do menu foram extraidas do L2UI_CH3.u do modelo e isoladas no
+MUI_CONTEXT.u: fundo superior/central/inferior, icone e destaque dos botoes.
+O X usa as texturas FRAMECTRL originais do mesmo pacote do modelo.
+A referencia Null foi ajustada para a Texture real null.null.
+As legendas portuguesas sao literais, independentes do SysString do cliente.
+A moldura do ranking, titulo limpo, botao abrir/fechar, Clan, fontes, Augment,
+AutoFarm, HUD e todas as demais janelas foram preservados.
+
+FONTES
+Incluidos ContextMenuWnd.uc, TargetStatusWnd.uc e MileniumGearScore.uc
+completos e atualizados. O interface.u ja contem as alteracoes.
+
+VALIDACAO
+24 cenarios passaram interpretando o bytecode real, com chamadas do motor
+simuladas: clique direito, nome/ID, rejeicao de self/NPC/pet, convite, trade,
+PM, amizade, clique no texto, alvo alterado, timer de inspecao, cancelamento,
+limites da tela e X. Permaneceram passando os testes anteriores do Gear Score.
+66 funcoes novas/modificadas validadas quanto a referencias e saltos.
+Nove texturas reais, seus mipmaps e todas as referencias do menu conferidos.
+No XDAT, somente ContextMenuWnd mudou em relacao a ultima atualizacao Clan.
+O cliente Windows nao foi executado aqui; confirme o menu dentro do jogo.
