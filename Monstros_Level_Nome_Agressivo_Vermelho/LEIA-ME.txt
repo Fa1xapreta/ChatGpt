@@ -1,0 +1,51 @@
+MONSTROS - TITULO LEVEL X E INDICACAO VISUAL DE AGRESSIVIDADE
+
+INSTALACAO
+Guarde a classe atual e substitua no projeto o arquivo completo:
+java/net/sf/l2j/gameserver/network/serverpackets/AbstractNpcInfo.java
+Recompile o core e reinicie o gameserver.
+Em gameserver/config/main/npcs.properties mantenha:
+ShowNpcLevel = true
+Nenhum arquivo da interface ou DLL e substituido nesta etapa.
+
+TITULO
+Monstros comuns que antes mostravam LvL: 45 [A] passam a mostrar Level 45.
+O marcador [A] foi retirado. O titulo fica somente Level X, sem acrescentar
+outros textos ao nivel. As exclusoes de titulo de Raid Boss/Grand Boss foram
+mantidas, assim como os titulos especiais de NPCs de servico e territorio.
+
+NOME AGRESSIVO
+A condicao usa o mesmo criterio do antigo [A]: getAggroRange() > 0.
+Com ShowNpcLevel ativo, o pacote de monstros agressivos envia 1 no campo
+VISUAL de karma do NpcInfo, em vez de 0, para solicitar o nome vermelho nativo.
+Monstros nao agressivos e NPCs de servico continuam com o valor visual normal.
+Este campo NAO muda o karma real do NPC, o karma dos jogadores, o alcance de
+agressividade, o dano, a IA, o indicador de PvP ou as regras de recompensas.
+Nao e enviada aura vermelha: a alteracao fica no campo usado pela cor do nome.
+NPCs com aparencia de personagem (FakePc) tem um campo RGB explicito; nesse
+caso a cor enviada e vermelho claro RGB FF8080, armazenada em BGR 0x8080FF.
+
+LIMITE IMPORTANTE DESTA ENTREGA
+O NpcInfo comum do Interlude nao tem um campo RGB livre para o nome.
+O TOM e a aplicacao do vermelho solicitado pelo indicador visual dependem do
+renderizador do cliente. O cliente Windows nao foi executado aqui.
+Portanto, esta entrega precisa de validacao visual no seu cliente: ela nao
+comprova antecipadamente que o tom sera identico ao da imagem de referencia.
+Se o seu renderizador ignorar esse indicador em monstros, a troca do titulo
+funcionara, mas o nome continuara normal; nesse caso a cor precisa de suporte
+adicional no cliente, em vez de inventar novos campos no pacote do servidor.
+
+COMO CONFERIR
+Compare um monstro com AggroRange maior que zero e outro com AggroRange zero.
+Ambos devem mostrar Level X no titulo; somente o agressivo solicita nome vermelho.
+Reiniciar recria os pacotes dos NPCs. Use ShowNpcLevel=false para manter o
+comportamento normal de titulos e cores sem essa opcao.
+
+VALIDACAO
+Classe completa retirada do java.rar mais recente enviado e compilada para
+Java 8 contra as dependencias do seu core.
+Os tres metodos writeImpl foram comparados com o original: cada chamada de
+serializacao, seu tipo e sua ordem foram preservados. O tamanho do campo e o
+mesmo DWORD ja existente; nenhum campo foi acrescentado ao protocolo.
+Confirmado que nao ha chamadas para alterar karma real ou AggroRange.
+A aparencia final da cor ainda precisa ser conferida no jogo.
