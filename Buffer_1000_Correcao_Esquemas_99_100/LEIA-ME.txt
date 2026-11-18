@@ -1,0 +1,76 @@
+BUFFER 1000 - CORRECAO DA LISTA DE ESQUEMAS / MACROS
+
+CAUSA LOCALIZADA
+O print mostra %schemes% e %max_schemes% literalmente: a pagina estava sendo
+aberta pelo fluxo generico de HTML, sem preencher os dados dos esquemas.
+Alem disso, a classe Java enviada abria ID-1.htm para listar e ID-2.htm para
+editar. Na SUA pack esses arquivos sao paginas normais de buffs; voce confirmou
+que as paginas certas sao 1000-99.htm (lista/criacao) e 1000-100.htm (editor).
+O bypass createscheme $name estava correto. O nome podia ser criado na memoria
+sem aparecer na pagina esperada; ao tentar novamente surgia a mensagem de nome
+existente. O HTML tambem tinha uma tabela aberta sem estrutura/fechamento.
+
+INSTALACAO
+1. Guarde as versoes atuais das classes e dos dois HTMLs.
+2. Substitua a classe completa no projeto:
+   java/net/sf/l2j/gameserver/model/actor/instance/L2BufferInstance.java
+3. Adicione a NOVA classe auxiliar na mesma pasta/pacote:
+   java/net/sf/l2j/gameserver/model/actor/instance/BufferSchemeHtml.java
+   E necessario compilar as DUAS classes no core.
+4. Copie os dois HTMLs para a pasta do gameserver:
+   data/html/mods/buffer/1000-99.htm
+   data/html/mods/buffer/1000-100.htm
+5. Recompile o core e reinicie o gameserver. O reinicio tambem atualiza o cache
+   dos HTMLs. Nenhuma alteracao de banco ou interface.u/interface.xdat e exigida.
+
+PRESERVADO
+1000.htm, 1000-1.htm ate 1000-15.htm e todas as demais paginas normais de buffs.
+XML de buffs, BufferTable, limites configurados, buffs VIP/pagos, pet, cura,
+Gear Score, AutoFarm, Augment e demais classes atuais.
+Os esquemas existentes permanecem; nao e necessario criar o mesmo nome de novo.
+
+O QUE MUDOU
+- Criar, listar, voltar e excluir esquemas usam a pagina dedicada 99.
+- Editar esquemas usa a pagina dedicada 100.
+- Abrir a pagina por Chat 99 ou por Link de arquivo passa a preencher a lista.
+- Paginas reconhecidas pelo marcador %schemes% tambem recebem os dados.
+- Se a pagina principal do Buffer contiver um bloco de esquemas, ele e preenchido.
+- Nome ja existente: avisa e mostra a lista existente, sem substituir seus buffs.
+- Criacao nova: confirma no chat e mostra a lista com o novo nome.
+- Limite de listas atingido: avisa e continua exibindo as listas existentes.
+- HTMLs com tabelas corrigidas e com os campos esperados pelo Java.
+
+BOTAO PARA ENTRAR NA LISTA
+Se quiser usar a chamada direta no painel principal, o action correto e:
+   bypass npc_%objectId%_support
+A chamada existente Chat 99 tambem e tratada por esta correcao.
+O botao Create continua usando:
+   bypass npc_%objectId%_createscheme $name
+%objectId% e o ID interno do objeto NPC, preenchido pelo servidor; mantenha o
+marcador no HTML. Ele nao deve ser trocado manualmente pelo template ID 1000.
+
+COMO TESTAR
+1. Abra a pagina de macros do NPC 1000. Deve aparecer o limite numerico (por
+   exemplo 4), e nao o texto %max_schemes%.
+2. Se Mago ja foi cadastrado, ele deve estar na lista com a quantidade de buffs
+   e os links Use on Me | Use on Pet | Edit | Delete.
+3. Clique em Edit para entrar em 1000-100.htm e selecionar os buffs.
+4. Volte a lista e clique em Use on Me para aplicar todos os buffs do esquema.
+5. Para testar uma criacao nova, use um nome ainda nao cadastrado, ate 14
+   caracteres e sem espacos. Ele deve aparecer inicialmente com zero buffs.
+Criar um nome NAO grava automaticamente os buffs atuais ou os buffs recebidos
+pela tela comum: os buffs sao escolhidos pelo editor do esquema, como no codigo
+original. A persistencia ao desconectar/desligar continua em BufferTable.
+
+DEPENDENCIA DO EDITOR
+As categorias/buffs disponiveis continuam vindo de data/xml/buffer_skills.xml,
+que ja e carregado pela sua pack. Nenhuma lista de skills foi adivinhada ou
+substituida neste pacote.
+
+VALIDACAO
+Classes compiladas para Java 8 contra as dependencias do core enviado.
+Teste executou o renderizador real com os HTMLs empacotados: lista vazia,
+Mago com zero buffs, Fighter com dois buffs, quatro acoes de cada esquema,
+ID interno do NPC nas chamadas e ausencia de campos dinamicos sem preencher.
+Tabelas dos HTMLs conferidas; antigas rotas 1/2 removidas do fluxo de esquemas.
+O gameserver e o cliente Windows nao foram executados aqui.
