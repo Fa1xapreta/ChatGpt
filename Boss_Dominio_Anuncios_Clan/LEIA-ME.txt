@@ -1,0 +1,76 @@
+BOSSES - DOMINIO POR DANO ACUMULADO COM ANUNCIOS DE CLA
+
+INSTALACAO
+Este ZIP e o sistema completo atualizado e substitui o pacote anterior.
+Copie as SEIS classes da pasta java para os mesmos caminhos do projeto,
+incluindo as duas classes da pasta bossclan. Recompile o core e reinicie.
+Em gameserver/config/main/npcs.properties mantenha:
+ShowBoss_Title_Crest = true
+Nao precisa alterar Config.java, banco, HTMLs, interface ou texturas.
+Se o pacote anterior ja foi aplicado, somente L2Attackable.java e
+BossClanDominance.java mudaram; as outras quatro classes estao incluidas
+para manter o conjunto completo e sao identicas as da entrega anterior.
+
+ANUNCIOS NOVOS
+Primeiro cla que domina o boss durante a disputa:
+Clan Alpha dominou o raid boss Ketra Commander.
+
+Quando outro cla ultrapassa o dano acumulado do dominante:
+Clan Beta tomou o raid boss do Clan Alpha.
+A segunda mensagem NAO inclui o nome do boss, conforme solicitado.
+
+Os anuncios sao globais no chat, pelo canal de BossAnnounce ja usado pela pack.
+Cada troca real gera um anuncio. Bater novamente com o mesmo cla, dar hit
+pequeno sem ultrapassar, empatar ou resetar o boss nao gera anuncio extra.
+Depois do reset, o proximo dominio e anunciado novamente como conquista inicial.
+Boss ja morto, evento desatualizado e minion nao geram anuncio de dominio.
+O dominio continua sendo medido pelo dano REAL acumulado por cla, sem trocar
+bandeira simplesmente por mudar alvo/hate ou dar o ultimo hit.
+
+ANUNCIOS DE MORTE EXISTENTES - CONFERIDOS NO SEU JAVA.RAR
+L2RaidBossInstance.doDie e L2GrandBossInstance.doDie ja anunciam:
+- Nome do boss que morreu.
+- Nome do jogador que matou.
+- Nome do cla do jogador, se ele estiver em um cla.
+Os textos originais estao em ingles, no formato:
+BOSS was killed by JOGADOR of the clan CLA
+Sem cla, informam somente boss e jogador.
+Pets/summons usam o jogador dono, pois o matador e obtido por getActingPlayer().
+
+IMPORTANTE PARA TESTAR A MORTE
+Os DOIS anuncios originais ignoram matadores com isGM() verdadeiro.
+Nos Raid Bosses, os templates 50001, 50002, 50003, 50004 e 50005 tambem sao
+excluidos do anuncio de morte. Essas regras existentes foram preservadas.
+Por isso, matar usando um GM pode nao mostrar o anuncio de morte, mesmo que
+os novos anuncios de dominio tenham aparecido durante o combate.
+Os anuncios novos de dominio seguem o sistema visual e nao excluem GMs.
+Nenhuma chamada nova de anuncio de morte foi adicionada: nao ha duplicacao.
+O jogador/clan que da o golpe fatal pode ser diferente do cla com maior dano.
+Os anuncios de morte continuam identificando o matador, sem mudar essa regra.
+
+PRESERVADO
+Contagem por boss, empate estavel, dano de pets/summons, resets e indicacao
+atualizada para novos observadores e bosses sem movimento.
+Emblemas e titulos do cla, regras do Territory War, loot, recompensas e aggro.
+Prefixo de monstros Lv X e a alteracao anterior de nomes agressivos no pacote.
+Nenhum anuncio de perda por reset foi inventado; a mensagem de tomada ocorre
+somente quando outro cla realmente assume a lideranca de dano.
+
+COMO TESTAR
+Use dois clas com emblemas registrados. O primeiro causa bastante dano e deve
+produzir a mensagem de dominio com nome do boss. O segundo da um hit pequeno:
+nao deve anunciar. Ao ultrapassar o total do primeiro, deve anunciar a tomada
+com os dois nomes de cla, sem o boss. Inverta a lideranca para testar a retomada.
+Para testar o anuncio original de morte, use matador sem acesso GM e um boss
+fora da lista de excecoes acima.
+
+VALIDACAO
+Todas as seis classes compilaram para Java 8 contra as dependencias do core.
+Testes executaram contador, hook de HP e metodo de anuncio reais, com fixtures
+para NPCs/sessoes, status-pai de HP, consulta de clas e envio de chat.
+Conferidos textos exatos, captura inicial, ultrapassagem, retomada, repeticao,
+empate, reset, nova disputa, boss morto e eventos desatualizados.
+Configuracao true/false testada em JVMs separadas; testes anteriores de dano
+bloqueado, overkill e ataques concorrentes continuaram passando.
+Anuncios de morte auditados diretamente nas classes Java enviadas e preservados.
+O gameserver e o cliente Windows nao foram executados aqui.
