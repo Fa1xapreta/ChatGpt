@@ -1,0 +1,54 @@
+GEAR SCORE - TITULO SEM FUNDO PRETO E BOTAO ABRIR/FECHAR
+
+INSTALACAO
+Feche o jogo, guarde os arquivos atuais e copie os tres arquivos da pasta
+system do ZIP: interface.u, interface.xdat e MUI_GSFRAME.u.
+Mantenha MUI_GEAR.u, fontes e o Java da atualizacao anterior (FRAMECTRL e Setas).
+Nao precisa alterar nem recompilar o Java para instalar este ajuste do cliente.
+Se removeu o metodo ranks(boolean pvp) sem uso, pode manter essa remocao.
+
+TITULO
+Removido SOMENTE RankingWnd.Container.FrameTextureDecoLight, a decoracao
+central de 128x22 que aparecia como um retangulo preto atras de Ranking.
+A referencia dessa decoracao era MUI_GEAR.FrameNew.SectionLight.
+O titulo Ranking continua; moldura FRAMECTRL, fontes, X, abas e restantes
+controles do cabecalho sao preservados byte a byte.
+
+BOTAO DO HUD
+Janela fechada: clique no icone abre o ranking e solicita os dados.
+Janela aberta: clique no mesmo icone fecha o ranking e a inspecao.
+O arrasto e interrompido ao fechar. O X continua funcionando.
+Os varios callbacks do mesmo clique sao agrupados por uma protecao de 250 ms,
+para nao abrir no pressionamento e fechar novamente ao soltar o mesmo clique.
+Respostas Gear/PvP atrasadas nao reabrem o ranking depois que ele foi fechado.
+
+COMO TESTAR AS SETAS COM OS SEUS VALORES
+Requer o GearScoreService da atualizacao FRAMECTRL e Setas, ja compilado e
+carregado pelo gameserver. Esta atualizacao do cliente nao muda esse Java.
+1. Com GamePlay=7800 e LaELE=7750, abra o ranking para registrar a ordem atual.
+2. Feche pelo mesmo icone.
+3. No LaELE, equipe itens que levem o TOTAL para MAIS de 7800, por exemplo 8000.
+   Verifique a leitura no HUD do proprio LaELE; aguarde a atualizacao (2-3 s
+   com a configuracao padrao). Igualar os pontos pode manter a ordem pelo nome.
+4. Volte ao GamePlay e abra novamente o ranking.
+   LaELE deve estar em primeiro, com seta azul e numero 1.
+   GamePlay deve estar em segundo, com seta vermelha e numero -1.
+5. Para testar o contrario, leve o GamePlay acima do novo total do LaELE,
+   aguarde a leitura atualizada e reabra. As direcoes devem se inverter.
+Nao reinicie o gameserver entre a leitura inicial e a ultrapassagem: a
+referencia e mantida por sessao. Aumentar pontos de quem ja esta em primeiro
+sem mudar a ordem nao gera uma nova subida. No modelo a subida e azul,
+nao verde. A ultima variacao real permanece ate outra mudanca de posicao.
+
+VALIDACAO
+20 cenarios passaram no interpretador de bytecode: sequencia completa de
+pressionar/clicar/clicar com handle, abrir, fechar, reabrir, timer, limpeza
+ao sair, respostas Gear/PvP atrasadas, HUD, inspecao, score de compra e setas.
+57 funcoes novas/modificadas verificadas quanto a saltos e referencias.
+Todas as referencias de textura do RankingWnd resolvem para Texture reais.
+No XDAT foi removido apenas o controle decorativo central. O restante do
+cabecalho e todas as demais janelas foram preservados byte a byte.
+O cliente Windows nao foi executado aqui.
+
+Incluido MileniumGearScore.uc completo e atualizado; o interface.u ja esta
+pronto para instalar, sem necessidade de compilar a UC.
