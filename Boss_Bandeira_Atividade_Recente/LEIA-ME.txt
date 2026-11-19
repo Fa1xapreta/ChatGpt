@@ -1,0 +1,44 @@
+BOSS: BANDEIRA POR ATIVIDADE RECENTE
+
+Instalacao
+1. Copie as seis classes da pasta java para os caminhos correspondentes do seu projeto.
+2. Recompile o gameserver e reinicie. Nao e necessario alterar interface.u, XDAT ou SQL.
+3. Mantenha ShowBoss_Title_Crest = true em gameserver/config/main/npcs.properties.
+   Nao substitua todo o arquivo de configuracao.
+4. O console desta versao mostra:
+   BossClanDominance: enabled, visual ownership by active clan; owner inactivity 2000ms
+
+Regra nova
+- Primeiro cla que causar dano real ao boss assume o nome e o emblema.
+- Cada dano do dono renova sua atividade.
+- Depois de 2 segundos sem dano do dono, o proximo dano real de outro cla transfere a identificacao.
+- Nao soma dano antigo. Um cla que chegou depois nao precisa superar o dano da luta inteira.
+- Se os dois continuam causando dano sem uma pausa de 2 segundos do dono, a identificacao permanece com o dono atual.
+- Nao usa um temporizador: a transferencia ocorre no golpe valido recebido depois da pausa.
+- Sem novos golpes, mantem a ultima identificacao ate uma tomada ou reset.
+- Reset, retorno ao spawn, vida totalmente recuperada e novo spawn limpam o dono.
+- Jogadores sem cla, golpes bloqueados/sem perda real de HP e minions nao tomam o boss.
+- Pets e summons contam para o cla do dono.
+- Cla precisa ter emblema cadastrado para exibir a bandeira.
+- Apenas identificacao visual. Nao concede exclusividade, loot, aggro ou recompensas ao cla.
+
+Anuncios existentes preservados
+Clan Alpha dominou o raid boss Nome do boss.
+Clan Beta tomou o raid boss do Clan Alpha.
+Nao repete anuncio a cada hit. Anuncios originais de morte nao foram alterados.
+
+Como testar
+1. Use um Raid Boss ou Grand Boss e dois personagens de clas diferentes, com emblemas.
+2. Alpha causa dano e aparece como dono. Confirme que o HP do boss realmente diminui.
+3. Alpha para. Espere 2 segundos e Beta causa dano: deve aparecer Beta, sem superar o dano antigo.
+4. Beta para. Espere 2 segundos e Alpha causa dano: Alpha recupera a identificacao.
+5. Com Alpha ativo, um hit isolado de Beta nao deve alternar a bandeira.
+6. Se houver anuncio de troca mas a bandeira nao mudar, relate esse resultado: a troca do servidor ocorreu e faltara investigar a exibicao no cliente.
+
+Validacao
+Seis classes compiladas para Java 8 contra o core disponivel.
+Testes executados: regra com relogio controlado, limite exato de 2 segundos, retomada,
+golpes invalidos, reset, concorrencia, hook real AttackableStatus e anuncios reais.
+Sessao, NPC, lookup de clas, transporte e HP pai simulados nos testes de integracao.
+Gameserver completo e cliente Windows nao foram executados neste ambiente.
+Nao substitui L2PcInstance nem desfaz a correcao separada de HP/CP.
