@@ -70,6 +70,10 @@ As imagens dos quatro exemplos e a barra Time Left usam texturas originais,
 UVs explicitos de 240x196 (recorte da area util de texturas 256x256)
 e Stretch nativo. Icone y=279, nome y=280, valores y=298, acima do Enter.
 Ha Enter/Exit em cada card conforme estado.
+A barra de tempo usa L2UI_CH3.InventoryWnd.GroupBox_DF_Text, com area util
+140x16 e controle 140x16, em vez de esticar a moldura quadrada 128x128.
+Os quatro botoes ? usam popupType=Text e SetTooltipType("Text") antes de
+SetTooltipCustomType, seguindo o tooltip existente do botao PortraitToggle.
 Os outros paineis do XDAT e os exports existentes fora de TimeZoneWnd foram
 verificados como identicos a base anterior: HP/CP, GearScore e sidebar preservados.
 Nao substitua fontes atuais por ScriptText antigo extraido da interface: o novo

@@ -11,6 +11,12 @@ A linha de valores termina antes do botao Enter, sem sobreposicao.
 A imagem agora usa a area util 240x196, sem o preenchimento transparente da
 textura 256x256 que deixava o cenario pequeno e um espaco vazio embaixo.
 
+CORRECAO ADICIONAL: a barra Time Left agora usa o fundo do inventario
+L2UI_CH3.InventoryWnd.GroupBox_DF_Text, com UV e tamanho 140x16. A moldura
+quadrada 128x128 nao e mais usada no controle de tempo.
+Os quatro ? agora usam popupType=Text, flags iguais ao PortraitToggle
+e SetTooltipType("Text") antes de associar o CustomTooltip.
+
 O ? mostra um CustomTooltip nativo ao passar o mouse, com icones, notas de drop
 coloridas e orientacao de entrada. Nao usa HTML nem abre janela ao clicar.
 A lista vem do XML configurado / templates de NPC; os itens de exemplo nao

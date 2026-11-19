@@ -8,8 +8,8 @@
     "Normal": 1
   },
   "timer_bar_source_uv": [
-    128,
-    128
+    140,
+    16
   ],
   "scene_source_uv": [
     240,
@@ -19,20 +19,5 @@
   "four_drop_tooltip_buttons": true,
   "raw_original_scene_art": "MUI_TZART.u",
   "HUD_original_anchor_and_sidebar_preserved": true,
-  "windows_client_executed": false,
-  "scene_texture_storage_size": [
-    256,
-    256
-  ],
-  "scene_visible_region": [
-    240,
-    196
-  ],
-  "cost_icon_y": 279,
-  "cost_name_y": 280,
-  "cost_values_y": 298,
-  "cost_icon_bottom": 313,
-  "cost_values_bottom": 313,
-  "enter_button_top": 319,
-  "cost_controls_do_not_overlap_button": true
+  "windows_client_executed": false
 }

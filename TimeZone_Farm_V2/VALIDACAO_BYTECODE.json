@@ -93,9 +93,9 @@
       "contexts": 0
     },
     "TimeZoneWnd.TZBindCard": {
-      "runtime_size": 1732,
+      "runtime_size": 1801,
       "branch_targets": 6,
-      "contexts": 24
+      "contexts": 25
     },
     "TimeZoneWnd.TZButtons": {
       "runtime_size": 484,
