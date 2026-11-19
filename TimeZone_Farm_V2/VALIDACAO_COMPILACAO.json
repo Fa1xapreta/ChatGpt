@@ -1,0 +1,6 @@
+{
+  "java_target": 8,
+  "compilation": "passed",
+  "real_game_server_run": false,
+  "real_mysql_run": false
+}

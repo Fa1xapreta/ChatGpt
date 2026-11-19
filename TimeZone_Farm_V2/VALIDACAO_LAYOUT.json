@@ -1,0 +1,23 @@
+{
+  "basis": "first donor model structure and supplied reference video",
+  "only_changed_root": "TimeZoneWnd",
+  "unchanged_other_roots": 196,
+  "original_tail_preserved": true,
+  "native_NWindow_texture_enum": {
+    "Stretch": 0,
+    "Normal": 1
+  },
+  "timer_bar_source_uv": [
+    128,
+    128
+  ],
+  "scene_source_uv": [
+    256,
+    256
+  ],
+  "cost_item_uses_native_inventory_tooltip": true,
+  "four_drop_tooltip_buttons": true,
+  "raw_original_scene_art": "MUI_TZART.u",
+  "HUD_original_anchor_and_sidebar_preserved": true,
+  "windows_client_executed": false
+}

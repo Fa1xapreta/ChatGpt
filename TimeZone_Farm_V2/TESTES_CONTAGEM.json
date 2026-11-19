@@ -1,0 +1,6 @@
+{
+  "real_ledger_and_config_executed": true,
+  "injected_wall_and_monotonic_timestamps": true,
+  "result": "PASS: 26 ledger/config assertions; independent budgets, exact pause/reconnect, persistence snapshots, midnight split, rollback, fractional carry, exhaustion, concurrency, fee policy, secure XML, 23 zones",
+  "mysql_and_game_world_not_used_in_this_test": true
+}

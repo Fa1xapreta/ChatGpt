@@ -1,0 +1,133 @@
+{
+  "changed_existing_exports": [
+    "TimeZoneWnd.OnLoad",
+    "TimeZoneWnd.OnShow",
+    "TimeZoneWnd.OnEvent",
+    "TimeZoneWnd.OnClickButton",
+    "TimeZoneWnd",
+    "TimeZoneWnd.OnTimer",
+    "TimeZoneWnd.OnHide",
+    "TimeZoneWnd.OnEnterState",
+    "TimeZoneWnd.TZNativeEvent",
+    "TimeZoneWnd.ShowTimeZoneInfo"
+  ],
+  "functions": {
+    "TimeZoneWnd.OnLoad": {
+      "runtime_size": 253,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "TimeZoneWnd.OnShow": {
+      "runtime_size": 35,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "TimeZoneWnd.OnEvent": {
+      "runtime_size": 18,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "TimeZoneWnd.OnClickButton": {
+      "runtime_size": 1330,
+      "branch_targets": 22,
+      "contexts": 12
+    },
+    "TimeZoneWnd.OnTimer": {
+      "runtime_size": 118,
+      "branch_targets": 2,
+      "contexts": 2
+    },
+    "TimeZoneWnd.OnHide": {
+      "runtime_size": 86,
+      "branch_targets": 0,
+      "contexts": 2
+    },
+    "TimeZoneWnd.OnEnterState": {
+      "runtime_size": 16,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "TimeZoneWnd.TZNativeEvent": {
+      "runtime_size": 255,
+      "branch_targets": 9,
+      "contexts": 1
+    },
+    "TimeZoneWnd.ShowTimeZoneInfo": {
+      "runtime_size": 2,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "TimeZoneWnd.TZAddText": {
+      "runtime_size": 453,
+      "branch_targets": 7,
+      "contexts": 3
+    },
+    "TimeZoneWnd.TZAddIcon": {
+      "runtime_size": 303,
+      "branch_targets": 4,
+      "contexts": 1
+    },
+    "TimeZoneWnd.TZComma": {
+      "runtime_size": 127,
+      "branch_targets": 2,
+      "contexts": 0
+    },
+    "TimeZoneWnd.TZTime": {
+      "runtime_size": 129,
+      "branch_targets": 2,
+      "contexts": 0
+    },
+    "TimeZoneWnd.TZClearPage": {
+      "runtime_size": 513,
+      "branch_targets": 0,
+      "contexts": 5
+    },
+    "TimeZoneWnd.TZReset": {
+      "runtime_size": 205,
+      "branch_targets": 0,
+      "contexts": 3
+    },
+    "TimeZoneWnd.TZModeLabel": {
+      "runtime_size": 73,
+      "branch_targets": 1,
+      "contexts": 0
+    },
+    "TimeZoneWnd.TZBindCard": {
+      "runtime_size": 1672,
+      "branch_targets": 6,
+      "contexts": 24
+    },
+    "TimeZoneWnd.TZButtons": {
+      "runtime_size": 484,
+      "branch_targets": 6,
+      "contexts": 7
+    },
+    "TimeZoneWnd.TZNavigation": {
+      "runtime_size": 909,
+      "branch_targets": 9,
+      "contexts": 16
+    },
+    "TimeZoneWnd.TZRow": {
+      "runtime_size": 664,
+      "branch_targets": 8,
+      "contexts": 0
+    },
+    "TimeZoneWnd.TZDrop": {
+      "runtime_size": 247,
+      "branch_targets": 6,
+      "contexts": 0
+    },
+    "TimeZoneWnd.TZTimer": {
+      "runtime_size": 610,
+      "branch_targets": 9,
+      "contexts": 3
+    },
+    "TimeZoneWnd.TZPacket": {
+      "runtime_size": 1311,
+      "branch_targets": 33,
+      "contexts": 5
+    }
+  },
+  "other_existing_export_payloads_unchanged": true,
+  "real_Windows_engine_run": false
+}

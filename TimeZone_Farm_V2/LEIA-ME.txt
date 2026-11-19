@@ -1,0 +1,93 @@
+TIME ZONE V2 - FARM COM TEMPO DIARIO POR PERSONAGEM E POR ZONA
+
+INSTALACAO
+1. Feche o jogo. Guarde backup do cliente e do core.
+2. Copie todos os arquivos de system para a system do cliente. O pacote inclui
+   interface.u, interface.xdat e as cinco bibliotecas de textura necessarias.
+3. Integre os fontes de java no projeto do servidor, compile o core e instale
+   o JAR gerado pelo seu projeto. Nao basta copiar .java para o servidor rodando.
+   INTEGRACAO_CORE.patch mostra os pontos de integracao nos arquivos existentes.
+   Os fontes completos sao baseados na pack fornecida nesta conversa; se voce
+   alterou algum deles depois, mescle os pontos do patch para preservar suas mudancas.
+4. Copie config/custom para gameserver/config/custom.
+5. Edite TimeZoneZones.xml: coordenadas, limites de cada area, local de saida,
+   item/custo, minutos diarios, nivel, imagem, dificuldade e drops.
+6. Somente depois de ajustar os locais, coloque Enabled = true em TimeZone.properties
+   e reinicie o servidor. O painel pode ser visualizado com Enabled = false,
+   mas os botoes de entrada ficam desativados.
+7. CreateTable = true cria apenas timezone_daily_usage no banco da pack.
+   Se preferir CreateTable = false, execute antes sql/timezone_daily_usage.sql.
+
+IMPORTANTE SOBRE OS EXEMPLOS
+As quatro imagens seguem os cenarios vistos no video. Seus nomes e imagens nao
+criam mapas ou monstros. Os spawns incluidos sao coordenadas de exemplo das quatro
+areas antigas da pack, NAO coordenadas confirmadas de Frost Lord, Primeval etc.
+Troque spawn e area pelos seus locais reais antes de ativar.
+A area e um retangulo X/Y com limite Z. Areas nao podem se sobrepor.
+O spawn deve ficar dentro; o local de saida deve ficar fora de todas as zonas.
+Nao coloque a saida dentro de outra TimeZone. Use IDs estaveis por local: o tempo
+ja salvo e identificado pelo ID, nao pelo nome nem pela posicao na pagina.
+Para adicionar zonas, copie um bloco zone, escolha outro ID e configure o mapa.
+O painel mostra quatro por pagina e calcula automaticamente o total de paginas.
+Reinicie o servidor depois de mudar configuracoes; nao use reload de ZoneManager
+com este modulo carregado.
+
+REGRAS
+- Cada personagem tem um saldo independente em cada zona, salvo no banco.
+- O tempo corre enquanto estiver dentro, inclusive parado/AFK ou morto.
+- Ao sair fisicamente ou desconectar, a contagem para e o relogio desaparece.
+- Ao reconectar dentro da mesma visita e no mesmo dia, retoma sem novo ingresso.
+- Sem admissao valida, entrar andando na area provoca retirada para a saida.
+- Ao acabar o tempo, o jogador e retirado para o exit configurado.
+- Renovacao diaria padrao: 00:00 no fuso America/Sao_Paulo.
+- chargeOnReentry=true cobra a cada entrada normal. false cobra so uma vez por dia.
+- Entrada exige zona de paz por padrao; pode ser configurada globalmente.
+- Restricoes de combate, loja, olimpiada, duelo, prisao e eventos sao verificadas.
+- pvp=true aplica a marcacao de zona PvP; difficulty/displayLabel sao informativos.
+- Sao locais compartilhados do mundo, nao copias privadas de mapa por jogador.
+- Nao migra o saldo unico do TimeZone anterior. A tabela antiga nao e alterada.
+- Entrada/saida/logout salvam imediatamente. Durante a permanencia, salva a cada
+  SaveIntervalMs (padrao 5 segundos). Queda forcada pode restaurar o ultimo saldo
+  salvo com sucesso; nao ha promessa de transacao unica entre inventario e banco.
+
+DROPS E TOOLTIPS
+O ? usa CustomTooltip nativo com icones. A chamada HTML que causou o critico
+NCHtmlViewer::AnalyzeHtml / ShowTimeZoneInfo foi desativada no bytecode ativo.
+Passe o mouse no ? para ver a lista; clicar nao abre navegador/janela HTML.
+<item id="57" min="1" max="1000" note="Drop dos monstros" /> define uma previa.
+<npc id="ID_REAL_DO_MONSTRO" /> le a lista de drops do template existente.
+A previa nao cria recompensas, nao muda taxas/drop real e nao spawna monstros.
+MaxTooltipDrops limita so a lista mostrada, nao os drops reais nem o numero de zonas.
+O item cobrado tem tooltip nativo; custo e quantidade em inventario aparecem no card.
+O tempo informa o limite diario; a etiqueta informa PvP/PvE e dificuldade.
+
+INTERFACE
+O botao original Random Craft do sidebar abre e fecha TimeZone.
+O relogio permanece na posicao original do modelo, somente como contador,
+sem acao de clique. Ele aparece apenas dentro da area.
+As imagens dos quatro exemplos e a barra Time Left usam texturas originais,
+UVs explicitos e Stretch nativo. Ha Enter/Exit em cada card conforme estado.
+Os outros paineis do XDAT e os exports existentes fora de TimeZoneWnd foram
+verificados como identicos a base anterior: HP/CP, GearScore e sidebar preservados.
+Nao substitua fontes atuais por ScriptText antigo extraido da interface: o novo
+bytecode TimeZoneWnd foi produzido pelos geradores em fontes_interface.
+Os arquivos Python entregues sao os fontes usados para construir esta alteracao;
+nao se trata de uma compilacao UCC de um TimeZoneWnd.uc reconstruido.
+
+FONTES E VALIDACAO
+java: fontes do modulo e arquivos integrados da pack.
+INTEGRACAO_CORE.patch: diferencas de integracao para revisao.
+fontes_interface: geradores exatos do bytecode/XDAT e testes. A reconstrucao usa
+   a base da entrega TimeZone_TimeLeft_Paginacao_Ajuda (6c518a7), nao o arquivo
+   ja modificado deste pacote. Nao execute client.py duas vezes na mesma base.
+Os geradores referenciam ferramentas do workspace de desenvolvimento; nao sao
+um instalador standalone para executar no PC do jogador.
+TESTES_CONTAGEM.json: 26 assercoes de contagem/configuracao.
+TESTES_SERVIDOR.json: 34 assercoes com o servico/DAO/zona reais e mundo/JDBC simulados.
+TESTES_CLIENTE.json: seis grupos executando o bytecode com APIs nativas simuladas.
+VALIDACAO_BYTECODE.json: estrutura de funcoes, referencias e destinos de saltos.
+VALIDACAO_LAYOUT.json: alteracao isolada de TimeZoneWnd no XDAT.
+Java compilado para Java 8 contra as classes da pack fornecida.
+Nao foi executado o cliente Windows nem o servidor completo com MySQL real aqui.
+A confirmacao visual final e dos tooltips deve ser feita no jogo com este cliente
+E este core instalados juntos. O protocolo novo e TimeZoneV2; nao misture versoes.
