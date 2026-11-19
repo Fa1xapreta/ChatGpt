@@ -1,0 +1,248 @@
+{
+  "base": "user interface.rar and Classes_Atual.rar",
+  "base_exports_preserved_except": [
+    "SideBarWnd.OnLoad",
+    "SideBarWnd.OnClickButton",
+    "SideBarWnd.ScriptText",
+    "SideBarWnd"
+  ],
+  "GearScore_inventory_autofarm_contextmenu_all_byte_identical": true,
+  "new_and_modified_functions_decoded": {
+    "SideBarWnd.OnLoad": {
+      "runtime_size": 110,
+      "branch_targets": 0,
+      "contexts": 2
+    },
+    "SideBarWnd.OnClickButton": {
+      "runtime_size": 646,
+      "branch_targets": 21,
+      "contexts": 0
+    },
+    "TimeZoneWnd.OnLoad": {
+      "runtime_size": 328,
+      "branch_targets": 0,
+      "contexts": 1
+    },
+    "TimeZoneWnd.OnShow": {
+      "runtime_size": 35,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "TimeZoneWnd.OnEvent": {
+      "runtime_size": 186,
+      "branch_targets": 6,
+      "contexts": 0
+    },
+    "TimeZoneWnd.ApplyRefresh": {
+      "runtime_size": 421,
+      "branch_targets": 8,
+      "contexts": 3
+    },
+    "TimeZoneWnd.SpotTypeLabel": {
+      "runtime_size": 65,
+      "branch_targets": 4,
+      "contexts": 0
+    },
+    "TimeZoneWnd.SetCardCost": {
+      "runtime_size": 411,
+      "branch_targets": 6,
+      "contexts": 6
+    },
+    "TimeZoneWnd.InitStaticCards": {
+      "runtime_size": 246,
+      "branch_targets": 4,
+      "contexts": 2
+    },
+    "TimeZoneWnd.ApplyCardImages": {
+      "runtime_size": 2,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "TimeZoneWnd.RendererPath": {
+      "runtime_size": 53,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "TimeZoneWnd.SetCardName": {
+      "runtime_size": 86,
+      "branch_targets": 1,
+      "contexts": 1
+    },
+    "TimeZoneWnd.SetCardMeta": {
+      "runtime_size": 242,
+      "branch_targets": 3,
+      "contexts": 3
+    },
+    "TimeZoneWnd.SetCardTexts": {
+      "runtime_size": 181,
+      "branch_targets": 2,
+      "contexts": 2
+    },
+    "TimeZoneWnd.UpdateEnterExitButtons": {
+      "runtime_size": 4102,
+      "branch_targets": 8,
+      "contexts": 56
+    },
+    "TimeZoneWnd.MakeSimpleTooltip": {
+      "runtime_size": 81,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "TimeZoneWnd.FormatSeconds": {
+      "runtime_size": 193,
+      "branch_targets": 4,
+      "contexts": 0
+    },
+    "TimeZoneWnd.OnClickButton": {
+      "runtime_size": 1053,
+      "branch_targets": 9,
+      "contexts": 8
+    },
+    "TimeZoneWnd.OnClickButtonWithHandle": {
+      "runtime_size": 34,
+      "branch_targets": 1,
+      "contexts": 1
+    },
+    "TimeZoneWnd.SpotFromRenderer": {
+      "runtime_size": 57,
+      "branch_targets": 1,
+      "contexts": 0
+    },
+    "InstanciasInfoExitWnd.CreateTooltip": {
+      "runtime_size": 68,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "InstanciasInfoExitWnd.OnClickButton": {
+      "runtime_size": 262,
+      "branch_targets": 7,
+      "contexts": 0
+    },
+    "InstanciasInfoExitWnd.SendExitCommand": {
+      "runtime_size": 25,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "InstanciasInfoExitWnd.xxTimeLeft": {
+      "runtime_size": 696,
+      "branch_targets": 13,
+      "contexts": 2
+    },
+    "InstanciasInfoExitWnd.ShowTimeLeft": {
+      "runtime_size": 729,
+      "branch_targets": 13,
+      "contexts": 5
+    },
+    "InstanciasInfoExitWnd.UpdateTimeLeft": {
+      "runtime_size": 264,
+      "branch_targets": 1,
+      "contexts": 4
+    },
+    "InstanciasInfoExitWnd.UpdateInfo": {
+      "runtime_size": 343,
+      "branch_targets": 1,
+      "contexts": 4
+    },
+    "InstanciasInfoExitWnd.UpdateBypass": {
+      "runtime_size": 61,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "InstanciasInfoExitWnd.UpdateTooltip": {
+      "runtime_size": 75,
+      "branch_targets": 0,
+      "contexts": 1
+    },
+    "InstanciasInfoExitWnd.SetEnterExitButton": {
+      "runtime_size": 122,
+      "branch_targets": 2,
+      "contexts": 4
+    },
+    "InstanciasInfoExitWnd.xxButtonMode": {
+      "runtime_size": 45,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "InstanciasInfoExitWnd.OnEvent": {
+      "runtime_size": 61,
+      "branch_targets": 5,
+      "contexts": 0
+    },
+    "InstanciasInfoExitWnd.OnLoad": {
+      "runtime_size": 341,
+      "branch_targets": 0,
+      "contexts": 1
+    },
+    "SideBarWnd.TZOriginalLoad": {
+      "runtime_size": 713,
+      "branch_targets": 0,
+      "contexts": 8
+    },
+    "SideBarWnd.ToggleTimeZone": {
+      "runtime_size": 159,
+      "branch_targets": 1,
+      "contexts": 2
+    },
+    "TimeZoneWnd.OnTimer": {
+      "runtime_size": 59,
+      "branch_targets": 1,
+      "contexts": 1
+    },
+    "TimeZoneWnd.OnHide": {
+      "runtime_size": 44,
+      "branch_targets": 0,
+      "contexts": 1
+    },
+    "TimeZoneWnd.OnReceivedCloseUI": {
+      "runtime_size": 73,
+      "branch_targets": 0,
+      "contexts": 2
+    },
+    "TimeZoneWnd.OnEnterState": {
+      "runtime_size": 70,
+      "branch_targets": 0,
+      "contexts": 2
+    },
+    "TimeZoneWnd.TZNativeEvent": {
+      "runtime_size": 717,
+      "branch_targets": 13,
+      "contexts": 3
+    }
+  },
+  "xdat": {
+    "added_windows": [
+      "TimeZoneWnd",
+      "InstanciasInfoExitWnd"
+    ],
+    "unchanged_other_base_windows": 194,
+    "original_tail_preserved": true,
+    "four_materialized_renderers": true,
+    "eight_unique_enter_exit_buttons": true,
+    "sidebar_slot_and_coordinates_preserved": true,
+    "sidebar_button": "btnRandomCraft",
+    "sidebar_tooltip": "TimeZone"
+  },
+  "resource_packages": {
+    "MUI_TZONE.u": {
+      "textures": 7,
+      "catalog_valid": true
+    },
+    "MUI_TBT.u": {
+      "textures": 1,
+      "catalog_valid": true
+    },
+    "LotusTime.u": {
+      "opaque_protected_original": true,
+      "client_loader_required": true,
+      "sha256": "6c16480465ccb8663d4dcde14304393e1e02d178c18c449656ed98618fb677c5"
+    },
+    "LotusInstance.u": {
+      "opaque_protected_original": true,
+      "client_loader_required": true,
+      "sha256": "764d8a6fcbe884cecab98c8074bf6956bfc11eee50bf908806ad2e9ea8f19537"
+    }
+  },
+  "windows_client_executed": false,
+  "ucc_compiler_executed": false,
+  "method": "compiled donor metadata and bytecode transplanted; callbacks rebuilt and independently decoded"
+}
