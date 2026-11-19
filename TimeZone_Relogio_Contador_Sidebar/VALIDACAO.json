@@ -1,0 +1,67 @@
+{
+  "base": "previous integrated TimeZone delivery timezone77",
+  "base_exports_preserved_except": [
+    "TimeZoneWnd.ScriptText",
+    "InstanciasInfoExitWnd.OnClickButton",
+    "InstanciasInfoExitWnd.SendExitCommand",
+    "InstanciasInfoExitWnd.ScriptText",
+    "InstanciasInfoExitWnd.SetEnterExitButton",
+    "InstanciasInfoExitWnd.OnEvent",
+    "InstanciasInfoExitWnd.OnLoad",
+    "TimeZoneWnd.TZNativeEvent"
+  ],
+  "GearScore_inventory_autofarm_contextmenu_all_byte_identical": true,
+  "new_and_modified_functions_decoded": {
+    "InstanciasInfoExitWnd.OnClickButton": {
+      "runtime_size": 2,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "InstanciasInfoExitWnd.SendExitCommand": {
+      "runtime_size": 2,
+      "branch_targets": 0,
+      "contexts": 0
+    },
+    "InstanciasInfoExitWnd.SetEnterExitButton": {
+      "runtime_size": 159,
+      "branch_targets": 1,
+      "contexts": 3
+    },
+    "InstanciasInfoExitWnd.OnEvent": {
+      "runtime_size": 65,
+      "branch_targets": 3,
+      "contexts": 0
+    },
+    "InstanciasInfoExitWnd.OnLoad": {
+      "runtime_size": 343,
+      "branch_targets": 0,
+      "contexts": 1
+    },
+    "TimeZoneWnd.TZNativeEvent": {
+      "runtime_size": 768,
+      "branch_targets": 15,
+      "contexts": 4
+    }
+  },
+  "xdat": {
+    "restored_original_random_craft_art": true,
+    "original_model_clock_anchor": {
+      "anchor_parent": 3,
+      "anchor_this": 3,
+      "anchor_ctrl": "",
+      "anchor_x": -150,
+      "anchor_y": 0
+    },
+    "unchanged_other_base_windows": 196,
+    "original_tail_preserved": true,
+    "sidebar_button": "btnRandomCraft",
+    "sidebar_tooltip": "TimeZone"
+  },
+  "resource_packages": {
+    "unchanged_from_previous_TimeZone_delivery": true,
+    "not_redistributed_in_this_update": true
+  },
+  "windows_client_executed": false,
+  "ucc_compiler_executed": false,
+  "method": "compiled donor metadata and bytecode transplanted; callbacks rebuilt and independently decoded"
+}

@@ -1,0 +1,121 @@
+TIMEZONE - RANDOM CRAFT ABRE A JANELA / RELOGIO APENAS COMO CONTADOR
+
+AJUSTE DESTA VERSAO
+- Aparencia original do botao Random Craft restaurada no sidebar.
+- O chamado desse botao continua abrindo e fechando TimeZone; tooltip TimeZone.
+- Relogio mantido exatamente na ancora do modelo: canto direito, X=-150 e Y=0.
+- O relogio e somente informativo: clique nao abre janela e nao envia comandos.
+- Botao Enter/Exit do pequeno HUD ocultado. Os botoes dos quatro locais da janela
+  principal continuam funcionando normalmente.
+- Relogio aparece ao receber tempo dentro da instancia e some ao sair/desconectar.
+- Atualizacao de tempo atrasada, recebida depois do modo fora da instancia,
+  nao faz o relogio reaparecer.
+
+SE VOCE JA INSTALOU O PACOTE TIMEZONE ANTERIOR
+Feche o jogo, faca backup e substitua somente system/interface.u e
+system/interface.xdat pelos arquivos deste ZIP. Nao precisa recompilar o servidor
+novamente para esse ajuste. As classes Java e os recursos nao mudaram.
+
+SE AINDA NAO INSTALOU O TIMEZONE
+Este e um pacote completo atualizado. Siga as instrucoes abaixo para cliente
+e servidor. As bibliotecas Lotus continuam com a mesma protecao do modelo.
+
+TESTES DESTA ATUALIZACAO
+Seis funcoes alteradas decodificadas; demais funcoes preservadas.
+Callbacks reais executados em interpretador: acesso pelo sidebar, quatro destinos,
+antiduplo clique, relogio sem acao, modo dentro antes do tempo, ocultacao ao sair,
+timer atrasado, reentrada e logout. Engine e formatador de texto simulados.
+Coordenadas do HUD comparadas com o XDAT original do modelo.
+Cliente Windows nao foi executado neste ambiente.
+
+INSTRUCOES DO PACOTE COMPLETO
+TIMEZONE - INTEGRACAO NA INTERFACE ATUAL
+
+BASE
+Sua interface.rar e Classes_Atual.rar foram usados como base.
+Somente o sidebar existente foi alterado. Gear Score, menu de alvo,
+inventario, autofarm e demais classes/janelas existentes foram preservados.
+As classes do modelo foram transplantadas para sua interface.
+Nao substitua sua interface inteira pela interface.u do modelo.
+
+INSTALACAO DO CLIENTE
+1. Feche o jogo e faca backup da sua pasta system.
+2. Copie os seis arquivos da pasta system deste pacote para a sua system.
+   interface.u, interface.xdat, MUI_TZONE.u, MUI_TBT.u, LotusTime.u, LotusInstance.u.
+3. Os arquivos da pasta Classes sao fontes para manutencao; nao sao necessarios
+   na pasta system para jogar.
+4. O botao que antes era Random Craft/Recompensa Diaria agora abre/fecha o TimeZone
+   e mostra o tooltip TimeZone. Os demais botoes do sidebar foram mantidos.
+
+TEXTURAS PROTEGIDAS - LIMITACAO IDENTIFICADA
+LotusTime.u e LotusInstance.u tem assinatura protegida FFEDFACE e foram preservados
+exatamente como vieram nos seus RARs. Nao sao pacotes Unreal padrao decodificados.
+A leitura deles depende do carregador de protecao usado pelo cliente do modelo.
+Nenhuma DLL do modelo foi copiada para o seu cliente.
+Se aparecer fundo/icone ausente ou erro ao carregar LotusTime/LotusInstance,
+sera necessario fornecer esses dois pacotes sem a protecao, ou confirmar a
+compatibilidade do carregador ja instalado no seu cliente. Nao instale DLLs
+aleatorias. A exibicao desses dois pacotes nao foi validada neste ambiente.
+As sete texturas embutidas na interface do modelo e o icone de TimeZone do
+L2UI_BT foram extraidos em MUI_TZONE.u e MUI_TBT.u, sem substituir L2UI_BT.
+
+INSTALACAO DO SERVIDOR
+1. Copie as quatro classes Java para os caminhos correspondentes do seu projeto:
+   custom/TimeZoneUI.java
+   instancemanager/custom/TimeInstanceManager.java
+   taskmanager/tasks/TimeInstanceRemainTaskManager.java
+   network/clientpackets/RequestBypassToServer.java
+2. Recompile o gameserver e reinicie.
+3. RequestBypassToServer completo usa como base a ultima versao corrigida disponivel
+   aqui, com GearScore e demais integracoes preservados. Se voce alterou essa classe
+   localmente depois, use INTEGRACAO_REQUEST.patch para aplicar somente a chamada
+   TimeZoneUI.handle, depois do controle de flood e antes dos demais comandos.
+4. Mantenha seu arquivo existente gameserver/config/custom/events/timezone.properties.
+   TimeInstanceEnabled precisa estar true para permitir entradas.
+   Sao usados os valores atuais de TimeInstanceAreaLocSpot1 ate Spot4,
+   TimeInstanceItemIdToAcess, TimeInstanceItemIdToAcessCount,
+   TimeInstancePlayerTime e TimeInstanceDailyEnterCount.
+5. As tabelas e as zonas do Time Instance que sua pack ja usa devem existir.
+   Nao foram incluidos SQLs, novos destinos ou novas regras de recompensa.
+   Os quatro destinos precisam estar dentro de zonas TIME_INSTANCE_ZONE existentes.
+
+FUNCIONAMENTO
+- Abrir/fechar pelo sidebar nao cobra ingresso.
+- Quatro botoes distintos entram nos quatro destinos existentes.
+- Ingresso novo usa item e quantidade configurados e conta uma entrada diaria.
+- Um passe com tempo ainda valido pode ser reutilizado sem nova cobranca.
+- Entradas pelo sidebar exigem zona de paz quando o jogador esta fora da instancia.
+- Combate, morte, duelo, olimpiada, observacao, loja e troca bloqueiam teleporte.
+- Sair leva a Giran, nas mesmas coordenadas usadas pela sua pack: 81337,148093,-3473.
+- O tempo e a expiracao continuam sendo controlados pelo TimeInstanceManager existente.
+- O contador e os botoes atualizam pelo pacote padrao ExShowScreenMessage.
+- Uma tarefa por jogador atualiza o HUD; sai da zona ou desconecta e ela para.
+- Nao modifica L2PcInstance, nao remove a correcao de HP/CP e nao altera o sistema de bosses.
+
+AJUSTES FEITOS NO MODELO
+- Caminhos completos dos textos de paginacao, incluindo PageNaviControl.
+- Preview vem do XDAT, sem SetTexture com nome incompleto.
+- Quatro renderers explicitados para ter oito botoes com nomes unicos.
+- Cliques duplicados pelos callbacks nao enviam duas entradas.
+- A ponte original de eventos 77750 continua presente; foi acrescentada ponte
+  pelo evento padrao de mensagens para funcionar sem DLL de eventos customizados.
+
+TESTE NO JOGO
+1. Abra pelo sidebar; confira tooltip, imagens, quatro cards e botao de fechar.
+2. Clique de novo no sidebar para fechar e novamente para abrir.
+3. Em zona de paz, entre separadamente em cada um dos quatro locais.
+4. Confira item cobrado, entrada diaria, contador e botao Exit.
+5. Saia e entre de novo com passe valido: nao deve cobrar outro ingresso.
+6. Confira bloqueio sem item, limite diario e tempo expirado.
+7. Confira Gear Score, inventario e outros botoes do sidebar.
+
+VALIDACAO EXECUTADA
+- XDAT lido novamente: 197 janelas; todas as janelas antigas fora do sidebar e a
+  cauda original ficaram byte a byte iguais.
+- 40 funcoes novas/alteradas decodificadas: referencias, saltos e tamanhos de contexto.
+- Callbacks compilados executados em interpretador com chamadas de engine simuladas:
+  quatro destinos, antiduplo clique, sidebar toggle/tooltip e ponte de mensagens.
+- Quatro fontes Java compiladas para Java 8 contra o core disponivel.
+- Adaptador e tarefa reais executados com banco/core simulados: custo, contador,
+  passe valido, comandos invalidos, reembolso em falha, concorrencia e fim da tarefa.
+- Cliente Windows, banco real e gameserver completo nao foram executados aqui.
