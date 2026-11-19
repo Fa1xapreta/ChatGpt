@@ -58,9 +58,9 @@
       "contexts": 0
     },
     "TimeZoneWnd.TZAddText": {
-      "runtime_size": 453,
-      "branch_targets": 7,
-      "contexts": 3
+      "runtime_size": 720,
+      "branch_targets": 13,
+      "contexts": 6
     },
     "TimeZoneWnd.TZAddIcon": {
       "runtime_size": 303,
@@ -93,7 +93,7 @@
       "contexts": 0
     },
     "TimeZoneWnd.TZBindCard": {
-      "runtime_size": 1672,
+      "runtime_size": 1732,
       "branch_targets": 6,
       "contexts": 24
     },
@@ -113,8 +113,8 @@
       "contexts": 0
     },
     "TimeZoneWnd.TZDrop": {
-      "runtime_size": 247,
-      "branch_targets": 6,
+      "runtime_size": 369,
+      "branch_targets": 9,
       "contexts": 0
     },
     "TimeZoneWnd.TZTimer": {

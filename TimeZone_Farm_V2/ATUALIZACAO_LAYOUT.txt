@@ -1,0 +1,21 @@
+ATUALIZACAO VISUAL
+
+Se voce ja instalou o TimeZone V2 e corrigiu o caminho do XML:
+1. Feche o cliente.
+2. Do ZIP completo, copie somente system/interface.u e system/interface.xdat.
+3. Mantenha suas configuracoes XML/properties e o core ja instalado.
+
+Esta atualizacao nao exige nova compilacao Java.
+O icone foi movido para y=279, nome y=280 e valores y=298 dentro de cada card.
+A linha de valores termina antes do botao Enter, sem sobreposicao.
+A imagem agora usa a area util 240x196, sem o preenchimento transparente da
+textura 256x256 que deixava o cenario pequeno e um espaco vazio embaixo.
+
+O ? mostra um CustomTooltip nativo ao passar o mouse, com icones, notas de drop
+coloridas e orientacao de entrada. Nao usa HTML nem abre janela ao clicar.
+A lista vem do XML configurado / templates de NPC; os itens de exemplo nao
+representam automaticamente todos os drops de sua area.
+
+Validacao: 7 grupos de testes de comportamento do bytecode passaram, com APIs
+nativas simuladas; integridade de funcoes/saltos e alteracao isolada no XDAT
+verificadas. O cliente Windows nao foi executado aqui.

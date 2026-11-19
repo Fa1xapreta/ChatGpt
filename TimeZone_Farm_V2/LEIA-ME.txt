@@ -67,7 +67,9 @@ O botao original Random Craft do sidebar abre e fecha TimeZone.
 O relogio permanece na posicao original do modelo, somente como contador,
 sem acao de clique. Ele aparece apenas dentro da area.
 As imagens dos quatro exemplos e a barra Time Left usam texturas originais,
-UVs explicitos e Stretch nativo. Ha Enter/Exit em cada card conforme estado.
+UVs explicitos de 240x196 (recorte da area util de texturas 256x256)
+e Stretch nativo. Icone y=279, nome y=280, valores y=298, acima do Enter.
+Ha Enter/Exit em cada card conforme estado.
 Os outros paineis do XDAT e os exports existentes fora de TimeZoneWnd foram
 verificados como identicos a base anterior: HP/CP, GearScore e sidebar preservados.
 Nao substitua fontes atuais por ScriptText antigo extraido da interface: o novo
@@ -85,7 +87,7 @@ Os geradores referenciam ferramentas do workspace de desenvolvimento; nao sao
 um instalador standalone para executar no PC do jogador.
 TESTES_CONTAGEM.json: 26 assercoes de contagem/configuracao.
 TESTES_SERVIDOR.json: 34 assercoes com o servico/DAO/zona reais e mundo/JDBC simulados.
-TESTES_CLIENTE.json: seis grupos executando o bytecode com APIs nativas simuladas.
+TESTES_CLIENTE.json: sete grupos executando o bytecode com APIs nativas simuladas.
 VALIDACAO_BYTECODE.json: estrutura de funcoes, referencias e destinos de saltos.
 VALIDACAO_LAYOUT.json: alteracao isolada de TimeZoneWnd no XDAT.
 Java compilado para Java 8 contra as classes da pack fornecida.

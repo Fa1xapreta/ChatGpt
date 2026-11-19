@@ -2,7 +2,8 @@
   "actual_bytecode_interpreted": true,
   "native_engine_inventory_lookups_and_tooltip_renderer_mocked": true,
   "scenarios": [
-    "actual row/drop native structs: four distinct zone ids, original item icons, description and 6 draw entries per tooltip, cost and inventory formatting, no HTML or charge on ?",
+    "actual row/drop native structs: four distinct zone ids, original item icons, description and 7 draw entries per tooltip, cost and inventory formatting, no HTML or charge on ?",
+    "native drop notes use distinct Spoil/Champion/Normal colors and Enter footer",
     "real callbacks use stable server zone IDs rather than visual slot indexes; duplicate callbacks blocked",
     "real pagination: 5 zones -> 2 pages; next request, only final-card renderer visible, boundaries disabled",
     "stale row/drop/end tokens, invalid slots and another character owner are rejected before native rendering",
