@@ -9,7 +9,8 @@ INSTALACAO
    INTEGRACAO_CORE.patch mostra os pontos de integracao nos arquivos existentes.
    Os fontes completos sao baseados na pack fornecida nesta conversa; se voce
    alterou algum deles depois, mescle os pontos do patch para preservar suas mudancas.
-4. Copie config/custom para gameserver/config/custom.
+4. Copie config/custom/TimeZone.properties para gameserver/config/custom.
+   Copie data/xml/TimeZoneZones.xml para gameserver/data/xml.
 5. Edite TimeZoneZones.xml: coordenadas, limites de cada area, local de saida,
    item/custo, minutos diarios, nivel, imagem, dificuldade e drops.
 6. Somente depois de ajustar os locais, coloque Enabled = true em TimeZone.properties
