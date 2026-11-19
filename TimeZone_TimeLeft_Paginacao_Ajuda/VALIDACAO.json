@@ -1,0 +1,72 @@
+{
+  "base": "clock-only TimeZone delivery timezone78",
+  "base_exports_preserved_except": [
+    "TimeZoneWnd.OnLoad",
+    "TimeZoneWnd.ApplyRefresh",
+    "TimeZoneWnd.InitStaticCards",
+    "TimeZoneWnd.OnClickButton",
+    "TimeZoneWnd.ScriptText",
+    "TimeZoneWnd"
+  ],
+  "GearScore_inventory_autofarm_contextmenu_all_byte_identical": true,
+  "new_and_modified_functions_decoded": {
+    "TimeZoneWnd.OnLoad": {
+      "runtime_size": 1182,
+      "branch_targets": 0,
+      "contexts": 13
+    },
+    "TimeZoneWnd.ApplyRefresh": {
+      "runtime_size": 421,
+      "branch_targets": 8,
+      "contexts": 3
+    },
+    "TimeZoneWnd.InitStaticCards": {
+      "runtime_size": 246,
+      "branch_targets": 4,
+      "contexts": 2
+    },
+    "TimeZoneWnd.OnClickButton": {
+      "runtime_size": 1181,
+      "branch_targets": 13,
+      "contexts": 8
+    },
+    "TimeZoneWnd.ShowTimeZoneInfo": {
+      "runtime_size": 711,
+      "branch_targets": 0,
+      "contexts": 1
+    }
+  },
+  "xdat": {
+    "changed_root": "TimeZoneWnd",
+    "other_roots_byte_identical": 196,
+    "original_tail_preserved": true,
+    "time_bar": {
+      "draw_type": "stretch",
+      "source_uv": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "control_size": [
+        140,
+        18
+      ]
+    },
+    "four_unique_help_buttons": true,
+    "main_clock_and_sidebar_preserved": true
+  },
+  "resource_packages": {
+    "unchanged_from_previous_TimeZone_delivery": true,
+    "not_redistributed_in_this_update": true
+  },
+  "comparison_new_model": {
+    "xdat_windows": 155,
+    "TimeZoneWnd_defined_in_new_xdat": false,
+    "compiled_new_interface_protected": true,
+    "basis": "first donor model plus available screenshot"
+  },
+  "windows_client_executed": false,
+  "ucc_compiler_executed": false,
+  "method": "compiled donor metadata and bytecode transplanted; callbacks rebuilt and independently decoded"
+}

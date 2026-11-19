@@ -1,0 +1,64 @@
+TIMEZONE - CORRECAO TIME LEFT / PAGINACAO / AJUDA
+
+INSTALACAO
+Esta atualizacao e para quem ja instalou o TimeZone integrado e o ajuste do relogio.
+Feche o jogo, faca backup e substitua somente system/interface.u e system/interface.xdat.
+Mantenha MUI_TZONE.u, MUI_TBT.u, LotusTime.u e LotusInstance.u do pacote anterior.
+Nao precisa recompilar o Java: o servidor e o protocolo nao mudaram.
+A pasta Classes contem a fonte UC atualizada para manutencao.
+
+TIME LEFT
+O controle estava usando GroupBox_DF_Text, uma textura de 128x128, em uma area de
+140x18, com UVs zerados e desenho normal. Agora o desenho e Stretch, com os limites
+UV explicitos de 0,0 ate 128,128 para caber na barra. A textura original foi preservada.
+Nao foi desenhada uma arte nova nem usado um fundo externo.
+O resultado final deve ser conferido no cliente Windows; nao houve execucao do jogo aqui.
+
+POR QUE APARECIA 4/4
+A classe TimeZoneWnd do primeiro modelo fixava os textos da navegacao em 4 e 4,
+tanto na inicializacao quanto a cada atualizacao do servidor. Quatro cards nao
+significam quatro paginas: os quatro locais sao mostrados juntos na mesma pagina.
+A indicacao agora e 1/1 e as setas de navegacao ficam desativadas.
+
+BOTOES ?
+O modelo definia HelpReward_Button no XDAT, mas sua classe nao tinha tratamento
+para esse clique nem conteudo de ajuda associado.
+Agora cada um dos quatro botoes tem nome proprio e abre HelpHtmlWnd com:
+- numero do local selecionado;
+- tempo restante do passe recebido do servidor;
+- nome e quantidade do ingresso configurado;
+- regras de zona de paz, reutilizacao do passe, limite diario e saida.
+A ajuda e somente informativa: nao cobra ingresso, nao teleporta e nao envia bypass.
+Essas informacoes correspondem a integracao Java entregue anteriormente.
+Nao foram adicionadas tabelas de drops ou monstros especificos de cada local.
+
+COMPARACAO DOS MODELOS
+Primeiro modelo: Interface.rar com Classes/TimeZoneWnd.uc e XDAT com TimeZoneWnd.
+Segundo modelo: as sete partes LotusInterface patch foram reunidas e lidas.
+O XDAT desse segundo pacote possui 155 janelas e nao define TimeZoneWnd nem
+InstanciasInfoExitWnd. Sua Interface.u tem assinatura protegida FFEDFACE e nao
+pode ser inspecionada como um pacote Unreal padrao pelas ferramentas disponiveis.
+O Compilator.rar recebido tem 2600 entradas e nao inclui a classe TimeZoneWnd.
+Portanto, esta correcao usa o TimeZone do primeiro modelo e os problemas visiveis
+no print. Nao e possivel afirmar identidade visual ou funcional com uma implementacao
+protegida do segundo modelo que nao aparece no XDAT enviado.
+Nenhuma DLL ou outra classe desse segundo modelo foi instalada na sua interface.
+
+AJUSTES ANTERIORES PRESERVADOS
+Random Craft mantem sua arte original e abre/fecha TimeZone.
+Relogio segue na posicao do modelo, apenas como contador dentro da instancia,
+sem acao de clique e sem botao Enter/Exit no HUD.
+A janela principal continua com quatro botoes Enter/Exit distintos.
+Gear Score, inventario, sidebar, HUD e as demais janelas ficaram preservados.
+As limitacoes das bibliotecas protegidas LotusTime/LotusInstance permanecem as mesmas.
+
+TESTES
+- Cinco funcoes novas/alteradas decodificadas: referencias, saltos e contextos validos.
+- Todas as janelas fora de TimeZoneWnd e a cauda do XDAT ficaram byte a byte iguais.
+- Callbacks compilados executados em interpretador: quatro entradas, antiduplo clique,
+  sidebar toggle, contador apenas dentro da instancia, modo antes do tempo,
+  atualizacao atrasada, logout e reentrada.
+- OnLoad real atualiza a pagina para 1/1 e desativa as quatro setas.
+- Quatro botoes de ajuda testados com local, custo e tempo diferentes, sem bypass.
+- Chamadas da engine, renderizador HTML e parte dos formatadores simulados.
+- Cliente Windows e gameserver completo nao executados aqui.
