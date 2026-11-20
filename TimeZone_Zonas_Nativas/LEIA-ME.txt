@@ -1,0 +1,75 @@
+TIMEZONE - ZONAS NATIVAS DA PACK
+
+Esta e uma atualizacao de servidor para quem ja instalou TimeZone V2.
+Nao altera interface.u, interface.xdat, banco, tooltip, layout nem sidebar.
+
+INSTALACAO
+1. Integre os fontes de java no projeto atual. Compile o core, instale o JAR
+   gerado e reinicie o servidor. A classe nova L2TimeZoneInterface precisa estar
+   no JAR para ZoneManager reconhecer type="TimeZoneInterface".
+2. Coloque a definicao das zonas em:
+   gameserver/data/xml/zones/TimeZoneInterface.xml
+3. As configuracoes dos cards continuam em:
+   gameserver/data/xml/TimeZoneZones.xml
+4. TimeZone.properties permanece em gameserver/config/custom.
+   Preserve suas propriedades atuais; este pacote nao as substitui.
+5. Adapte as coordenadas e revise as duas XML antes de ligar. Os arquivos incluidos
+   sao exemplos de configuracao; preserve seus custos, minutos e drops ja editados.
+   Nao recarregue ZoneManager com o servidor rodando; reinicie apos mudancas.
+
+COMO AS ZONAS SAO DIFERENCIADAS
+Em TimeZoneZones.xml, cada card tem seu id estavel e zoneName:
+  <zone id="1" name="Frost Lord Hunt" zoneName="Frost Lord Hunt" ...>
+Em zones/TimeZoneInterface.xml, a zona tem o mesmo zoneName:
+  <zone type="TimeZoneInterface" shape="NPoly" ... zoneName="Frost Lord Hunt">
+O nome precisa coincidir exatamente, inclusive maiusculas e espacos internos.
+name e o texto exibido no card; pode ser diferente do zoneName usado na ligacao.
+Nao ligue dois cards a mesma zona. Nomes duplicados ou ausentes impedem o modulo
+carregar, com mensagem no log. Os IDs automaticos de ZoneManager NAO sao usados
+para identificar o saldo diario: continua char_id + id do card no banco.
+Mantenha os IDs atuais para preservar os saldos. Pode adicionar mais cards/zonas.
+
+DOIS SPAWNS COM FUNCOES DISTINTAS
+- TimeZoneZones.xml: <spawn x="..." y="..." z="..." /> e a CHEGADA ao farm.
+  Precisa ficar dentro da forma real da zona.
+- zones/TimeZoneInterface.xml: <spawn X="..." Y="..." Z="..." /> e a SAIDA
+  para a cidade ao clicar Exit ou acabar o tempo. Configure exatamente um.
+  Deve ficar fora de todas as zonas de TimeZone. Nao usa deslocamento aleatorio.
+Use x/y/z minusculos no arquivo de cards; X/Y/Z maiusculos nas zonas nativas,
+conforme os respectivos leitores da pack.
+Retire o <area .../> e o <exit .../> dos cards migrados; os limites e a saida
+agora vem da zona nativa. Compatibilidade com cards antigos sem zoneName foi
+mantida para permitir migracao gradual, mas os exemplos novos usam zonas nativas.
+
+FORMATOS SUPORTADOS PELO ZONEMANAGER DA SUA PACK
+NPoly: tres ou mais nodes em ordem ao redor do contorno. Nao cruze as linhas.
+Cuboid: exatamente dois nodes, cantos opostos de um retangulo.
+Cylinder: um node central e atributo rad com o raio positivo.
+Todos usam minZ e maxZ para limitar a altura.
+Exemplos dos tres formatos estao em zones/TimeZoneInterface.xml.
+Nao desenhe zonas de dois cards sobrepostas. Spawns compartilhados/saidas dentro
+de outra zona sao rejeitados na carga. Se houver sobreposicao em outro trecho,
+o servico nao escolhe um card arbitrariamente: a entrada ambigua e recusada e
+permanecer nesse trecho provoca pausa/retirada na verificacao periodica.
+As formas sao as classes reais ZoneCuboid, ZoneNPoly e ZoneCylinder da sua pack.
+Nenhum retangulo automatico substitui o poligono ou o circulo.
+
+O QUE FOI ALTERADO
+L2TimeZoneInterface.java: novo tipo, herda L2SpawnZone; recebe onEnter/onExit nativos.
+TimeZoneConfig.java: procura a zona carregada por zoneName e valida chegada/saida.
+TimeZoneDefinition.java: testa a forma nativa da zona ao verificar a permanencia.
+TimeZoneFarm.java: reutiliza a zona existente, sem registrar outra por cima.
+TimeZoneLedger, TimeZoneStore e L2TimeZoneFarmZone incluidos para referencia,
+sem alteracao em relacao a entrega anterior.
+Nao e preciso alterar L2ZoneType ou ZoneManager: o leitor existente usa
+Class.forName("net.sf.l2j.gameserver.model.zone.type.L2" + zoneType), aceita
+construtor int, atribui a forma e le spawn quando o tipo herda L2SpawnZone.
+
+VALIDACAO
+Compilacao Java 8 contra as classes fornecidas: passou.
+29 verificacoes de zonas/configuracao com formas reais da pack: passaram.
+26 verificacoes da contagem/configuracao anterior: passaram.
+37 verificacoes do servico/DAO/callbacks com mundo, JDBC e rede simulados: passaram.
+Incluem entrada nativa com cobranca unica, PvP, pausa exata, saida para cidade,
+registro sem duplicacao, nomes invalidos e geometria real de poligono/circulo.
+A carga completa do servidor/ZoneManager e o cliente Windows nao foram executados.

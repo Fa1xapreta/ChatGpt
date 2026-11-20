@@ -1,0 +1,20 @@
+{
+  "INTEGRACAO.patch": "7ac08c1639df2cd53ee1a21d97cb4bccd695db7a8407d1171a8c57e37c622302",
+  "LEIA-ME.txt": "ff9fcb361dcf6e3b3c9d058b937930193993b3475986ba5be70bbe0c7f46ada9",
+  "TESTES_SERVIDOR.json": "df4a13e83d01b280a7dc826640f165e968a9eddc9776c5ce5d68f6d4352661b7",
+  "TESTES_ZONAS.json": "3ccac991dad7916e2131f0501a62b81b0514ba8ccebe909ba826b23c8841b5a8",
+  "VALIDACAO_COMPILACAO.json": "a868a33f5926285ec085dda3bd53d9f75dc1a941ea92f65724ce460990928611",
+  "data/xml/TimeZoneZones.xml": "6a684e809567ba4e69cd06999328057c60e2eca938b9b30593dfb8c609187dde",
+  "data/xml/zones/TimeZoneInterface.xml": "39404a6fa80e9ddc802bcdef1ee8c675eb32520586eb79f2e063726377fd34e7",
+  "fontes_testes/NativeZonesRegression.java": "834d6d9d18f64f2a294f47e85553aaf38d53a630c9eaf8247c99bc94ab712f14",
+  "fontes_testes/compile_server.py": "f50fb44678a90612f54602c57e6a2bedceb92672af8179634ac87ac87ca4225c",
+  "fontes_testes/test_native.py": "ead19188423b144d6fdb0444b892787f3d046ba9fc5f14a8e990f85fdf25bb2a",
+  "fontes_testes/test_service.py": "513194e1b33397da6c16247fd6105c89372cb72840416fb337be7ecf5b112264",
+  "java/net/sf/l2j/gameserver/model/zone/type/L2TimeZoneFarmZone.java": "fd6c1297608ea0c2f712f1d4f661ef1b9f97fa649234c0f4652ecf7c40e2361d",
+  "java/net/sf/l2j/gameserver/model/zone/type/L2TimeZoneInterface.java": "8ee68f3e385900dcc365ed6b53185909aac409e43a89f7ab172d4b0e7f05e7aa",
+  "java/net/sf/l2j/gameserver/timezone/TimeZoneConfig.java": "f92779d0f7ad9659e0d712d4f343d7e2f4d1ac54254c6b2f055062cb8ddc81ca",
+  "java/net/sf/l2j/gameserver/timezone/TimeZoneDefinition.java": "f3c367a88ead7a6e506990497cd37dccd49dee861b1d5848943a77df9ddd3254",
+  "java/net/sf/l2j/gameserver/timezone/TimeZoneFarm.java": "450de1b826db319e2528c44e0866784eee1a699069e4a6c05c0cc7ac1b90f226",
+  "java/net/sf/l2j/gameserver/timezone/TimeZoneLedger.java": "1d11b9da532e4a54b1b67b7675a9448e2ae44215b6e01998acf44de0c6b4eefb",
+  "java/net/sf/l2j/gameserver/timezone/TimeZoneStore.java": "12d4cb10d73c77abb9948da50e7441b6e61cca3548636371ae22a1e3d519aa56"
+}

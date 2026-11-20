@@ -1,0 +1,7 @@
+{
+  "actual_service_ledger_store_and_native_zone_class_executed": true,
+  "JDBC_world_inventory_and_network_transport_mocked": true,
+  "injected_payment_and_teleport_failures_exercised": true,
+  "real_mysql_and_full_gameserver_not_executed": true,
+  "result": "PASS: 37 actual service/DAO/native-zone assertions; tickets, rollback, timeout, concurrent cancellation, exact pause, independent zones, reconnect, forced exhaustion, intruders, PvP, UI pulse ordering and disabled preview (world/JDBC/transport mocked)"
+}

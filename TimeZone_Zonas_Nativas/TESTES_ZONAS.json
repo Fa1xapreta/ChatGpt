@@ -1,0 +1,9 @@
+{
+  "results": [
+    "PASS: 29 native zone/config assertions; real Cuboid/Cylinder/NPoly, named lookup, exact exit, bad config rejection, per-card time",
+    "PASS: 26 ledger/config assertions; independent budgets, exact pause/reconnect, persistence snapshots, midnight split, rollback, fractional carry, exhaustion, concurrency, fee policy, secure XML, 23 zones"
+  ],
+  "actual_pack_zone_forms_executed": true,
+  "full_ZoneManager_bootstrap_not_executed": true,
+  "game_client_unchanged": true
+}

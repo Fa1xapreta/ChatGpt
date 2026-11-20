@@ -1,0 +1,6 @@
+{
+  "target_java": 8,
+  "compilation": "passed",
+  "uses_existing_ZoneManager_reflection_and_shapes": true,
+  "L2ZoneType_and_ZoneManager_edits_required": false
+}
