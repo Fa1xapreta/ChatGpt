@@ -1,0 +1,22 @@
+TIMEZONE - CORRECAO DE ENTRADA DE PERSONAGEM NORMAL
+
+Causa identificada no fonte fornecido de L2PcInstance:
+isInObserverMode() retorna !isInOlympiadMode(), portanto retorna true para
+personagens normais fora da Olimpiada. TimeZone utilizava esse helper errado.
+Agora usa inObserverMode(), que retorna o estado real _observerMode.
+
+Instalacao para quem ja instalou TimeZone_Zonas_Nativas:
+Substitua somente java/net/sf/l2j/gameserver/timezone/TimeZoneFarm.java no projeto,
+recompile o core, instale o JAR atualizado e reinicie o servidor.
+Mantenha os XML, properties e cliente atuais. Nao e preciso alterar L2PcInstance.
+
+As restricoes agora enviam o motivo especifico no chat: morto, teleportando,
+combate, duelo, Olimpiada, loja, observador, prisao, evento, arma amaldicoada,
+karma ou negociacao. A verificacao de zona de paz continua com sua mensagem propria.
+
+Java 8 compilado contra a pack; 40 assercoes de servico/DAO/callbacks passaram,
+incluindo o comportamento defeituoso do helper antigo, entrada normal liberada,
+observador real bloqueado e combate bloqueado antes de cobrar ingresso.
+Tambem passaram 29 verificacoes de formas nativas e 26 da contagem anterior.
+Mundo, inventario, JDBC e rede simulados nos testes do servico; servidor completo
+com banco real nao foi executado aqui.

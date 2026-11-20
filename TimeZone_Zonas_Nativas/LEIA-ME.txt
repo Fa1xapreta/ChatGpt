@@ -69,7 +69,12 @@ VALIDACAO
 Compilacao Java 8 contra as classes fornecidas: passou.
 29 verificacoes de zonas/configuracao com formas reais da pack: passaram.
 26 verificacoes da contagem/configuracao anterior: passaram.
-37 verificacoes do servico/DAO/callbacks com mundo, JDBC e rede simulados: passaram.
+40 verificacoes do servico/DAO/callbacks com mundo, JDBC e rede simulados: passaram.
 Incluem entrada nativa com cobranca unica, PvP, pausa exata, saida para cidade,
 registro sem duplicacao, nomes invalidos e geometria real de poligono/circulo.
 A carga completa do servidor/ZoneManager e o cliente Windows nao foram executados.
+
+CORRECAO DE ENTRADA NORMAL
+TimeZone usa inObserverMode() para ler _observerMode. O helper isInObserverMode()
+da pack retorna !isInOlympiadMode() e nao deve ser usado para este bloqueio.
+Cada restricao agora informa seu motivo especifico no chat.
